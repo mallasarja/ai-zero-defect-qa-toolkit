@@ -92,12 +92,13 @@ Configuration:
 ## Data Format
 
 ### JSON Metrics Format
+Note: Example values below. The live dashboard recomputes these from `public/bug_with_pr_link.csv` and `public/bug_metrics_dashboard.json`, so numbers will change as data updates.
 ```json
 {
-  "total_bugs": 762,
-  "escaped_bugs": 0,
-  "bugs_with_linked_prs": 257,
-  "average_mttr_days": 44.28
+  "total_bugs": 5119,
+  "escaped_bugs": 154,
+  "pr_linked_bugs": 148,
+  "avg_mttr": 49.54
 }
 ```
 
