@@ -1,0 +1,658 @@
+Key,Summary,Component,Created Date,Automation Status,Status,Labels,automated
+IO-33549,Testcases for IO-29969,Core,2023-02-26T20:08:19.638+0530,Manual,Closed,,Yes
+IO-33644,[UI] Test Cases for IO-29969,UI,2023-02-28T10:37:27.320+0530,Manual,Closed,,Yes
+IO-34979,Test Designs for IO-30834,QA,2023-04-03T17:16:43.458+0530,Manual,Closed,Netsuite_Issue,Yes
+IO-34982,Test design for Global Iclient Support,QA,2023-04-03T18:06:02.048+0530,Manual,Closed,,Yes
+IO-35033,Test Designs for IO-34503,QA,2023-04-04T11:58:50.486+0530,Manual,Closed,Netsuite_Issue,Yes
+IO-35089,Functional Testcase - IClient Migration - Existing Apps,Connector framework,2023-04-04T20:53:55.714+0530,Manual,Closed,,Yes
+IO-35110,Functional Testcases - Refining Migration & Linking Logic,Connector framework,2023-04-05T12:21:07.115+0530,Manual,Closed,,Yes
+IO-35128,Test design task :: to come up with Epic level test cases.,QA,2023-04-05T13:33:48.615+0530,Manual,Closed,,Yes
+IO-35137,Test design task :: to come up with Epic level functional test cases.,QA,2023-04-05T14:28:02.949+0530,Manual,Closed,,Yes
+IO-35138,Task to identify existing functional & Load test cases for this Epic testing,QA,2023-04-05T14:37:15.367+0530,Manual,Done,,Yes
+IO-35146,Task to identify existing refresh token test cases for this Epic testing,HTTP Adaptor,2023-04-05T15:50:43.284+0530,Manual,Closed,,Yes
+IO-35168,Functional Test Cases - [IO-27006] Mapper 2.0: To have destination field suggestions like mapper 1.0,QA,2023-04-05T17:24:59.230+0530,Manual,Closed,,Yes
+IO-35169,Test Case Design - [IO-27006] Mapper 2.0: To have destination field suggestions like mapper 1.0,QA,2023-04-05T17:26:13.457+0530,Manual,Closed,,Yes
+IO-35170,Test Case Execution - [IO-27006] Mapper 2.0: To have destination field suggestions like mapper 1.0,QA,2023-04-05T17:26:25.067+0530,Manual,Closed,,Yes
+IO-35171,Test Automation - [IO-27006] Mapper 2.0: To have destination field suggestions like mapper 1.0,QA Automation,2023-04-05T17:26:40.824+0530,Manual,Closed,,Yes
+IO-35188,Functional Test Cases for IO-34679 : Flow Debugger [Phase 2] UI changes,QA,2023-04-05T18:30:15.607+0530,Manual,Done,,Yes
+IO-35224,"Functional test cases : [IO-33921] Allow ""Sign up via Google"" on NA and EU domains",QA,2023-04-06T12:53:57.564+0530,Manual,Closed,,Yes
+IO-35231,Functional testcases for IO-33944,UI,2023-04-06T13:07:20.490+0530,Manual,Closed,,Yes
+IO-35276,Functional Test cases: Pendo - Zendesk integration,UI,2023-04-06T15:56:42.983+0530,Manual,Closed,,Yes
+IO-35319,Functional test cases for IO-34226,UI,2023-04-06T17:54:59.662+0530,Manual,Closed,,Yes
+IO-35498,Functional test cases for IO-35140,UI,2023-04-11T11:54:01.245+0530,Manual,Closed,,Yes
+IO-35554,"Functional Test Cases : [IO-32097] Display flow canceled by information in Run history, dashboard and console",QA,2023-04-11T13:50:01.117+0530,Manual,Closed,,Yes
+IO-35556,Functional Test Cases: [IO-33691] Optimize first time sign up experience by removing need to re-enter credentials,QA,2023-04-11T14:06:16.450+0530,Manual,Closed,,Yes
+IO-35644,Functional Test cases: Virtual exports with empty connectionId,UI,2023-04-11T17:59:34.482+0530,Manual,Closed,,Yes
+IO-35647,Epic test cases: Enable audit logs for feature : Multi factor authentication,Core,2023-04-11T18:53:09.063+0530,Manual,Closed,,Yes
+IO-35782,"Test design for [Transformation 2.0] Toggle behavior among Rules 1.0, Rules 2.0 and Javascript",QA,2023-04-13T18:28:22.711+0530,Manual,Done,,Yes
+IO-35887,Test Cases for Usability Improvements: Delete Actions,UI,2023-04-18T10:39:54.328+0530,Manual,Closed,,Yes
+IO-35888,Test Cases for Usability Improvements: Connections,UI,2023-04-18T10:57:39.588+0530,Manual,Closed,,Yes
+IO-35890,Test Cases for Usability Improvements: Home Page,UI,2023-04-18T11:31:49.958+0530,Manual,Closed,,Yes
+IO-36660,Sentence casing for IO-27006: Mapper 2.0: To have destination field suggestions like mapper 1.0,UI,2023-05-08T10:11:01.782+0530,Manual,Closed,,Yes
+IO-36661,"Sentence casing for IO-32097: Display flow canceled by information in Run history, dashboard and console",UI,2023-05-08T10:12:08.578+0530,Manual,Closed,,Yes
+IO-36663,"Sentence casing for IO-33921: Allow ""Sign up via Google"" on NA and EU domains",UI,2023-05-08T10:13:39.104+0530,Manual,Closed,,Yes
+IO-36664,Sentence casing for IO-33691: Optimize first time sign up experience by removing need to re-enter credentials,UI,2023-05-08T10:14:36.599+0530,Manual,Closed,,Yes
+IO-36931,Functional testcases - GraphQL - Connector Developer User Journey,Connector framework,2023-05-12T11:25:25.591+0530,Manual,Done,,Yes
+IO-36934,QA Test design,Core,2023-05-12T11:51:04.414+0530,Manual,Done,,Yes
+IO-37018,Epic level - Test cases,QA,2023-05-15T13:54:15.045+0530,Manual,Done,,Yes
+IO-37106,Test design for [Amazon connector] Invoke OAuth 2 using external partner's webpage,QA,2023-05-16T19:30:13.476+0530,Manual,Done,,Yes
+IO-37246,"Test Cases for [IO-37016] ""Download retry data"" option in new error view for ""ftp_bridge"" error on FTP imports",UI,2023-05-19T11:14:42.451+0530,Manual,Done,,Yes
+IO-37257,Test Cases for [ IO-34448 ] Error Notification inside File Definition Editor,UI,2023-05-19T12:51:02.581+0530,Manual,Done,,Yes
+IO-37318,Agent testcases for IO-31992,On-Premise Agent,2023-05-22T10:14:26.241+0530,Manual,Done,,Yes
+IO-37323,Test Cases for IO-36833 [ Expose new connection UI for all Shopify DIY users ],UI,2023-05-22T12:12:31.626+0530,Manual,Done,,Yes
+IO-37342,Epic level test cases,UI,2023-05-22T14:44:43.293+0530,Manual,Done,,Yes
+IO-37362,Functional Test cases for IO-36514,UI,2023-05-22T16:40:34.576+0530,Manual,Done,,Yes
+IO-37698,Adaptor -Epic level test cases ,Adaptor,2023-05-25T21:51:32.967+0530,Manual,Done,,Yes
+IO-37838,Functional test cases for IO-36271,UI,2023-05-29T17:31:29.855+0530,Manual,Done,,Yes
+IO-38087,Epic level Test design task for [SP API] Support the use of RDT for the Merchant Fulfillment APIs.,QA,2023-06-06T16:39:14.093+0530,Manual,Done,,Yes
+IO-38101,UI test design for IO-33922,QA,2023-06-06T19:00:21.055+0530,Manual,Done,,Yes
+IO-38102,UI test design for IO-33693,QA,2023-06-06T19:08:10.778+0530,Manual,Done,,Yes
+IO-38541,Epic level test designs:: Generic URL Handling,QA,2023-06-15T23:11:14.675+0530,Manual,Closed,,Yes
+IO-38560,Epic level test cases,QA,2023-06-16T13:21:36.026+0530,Manual,Done,,Yes
+IO-38830,[MsSQL] Test cases Design for Imports ,DB Adaptor,2023-06-21T16:42:10.179+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-38832,[Oracle] Test cases design for Imports [IO-35199],DB Adaptor,2023-06-21T16:44:47.675+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-38833,[Redshift] Test cases design for Imports [IO-33786],DB Adaptor,2023-06-21T16:46:14.924+0530,Manual,Done,2023.9.1;ZETA_QA,Yes
+IO-38834,[BigQuery] Test cases design for BigQuery Metadata [IO-35196],DB Adaptor,2023-06-21T16:48:01.969+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-38837,[MySQL] Test cases design for Imports [IO-35197],DB Adaptor,2023-06-21T16:50:34.879+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-38838,[PgSQL] Test cases design for Imports [IO-35198],DB Adaptor,2023-06-21T16:52:33.075+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-38865,Test case design for IO-31712,EDI,2023-06-22T11:07:09.612+0530,Manual,Done,,Yes
+IO-38870,"[Snowflake Key Pair ]TD & FRD Review ,Test cases Development for SF Key Pair Auth ",DB Adaptor,2023-06-22T11:36:34.907+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-38883,Epic level test designs for IO-36339,Connector framework,2023-06-22T12:25:21.893+0530,Manual,Done,,Yes
+IO-38907,Test case Design for Dataset/ProjectId [BigQuery] [IO-34156],DB Adaptor,2023-06-22T15:36:24.227+0530,Manual,Done,,Yes
+IO-38917,"[Open AI] FRD, TD review and Testcases Design for OpenAI support [IO-38919]",DB Adaptor,2023-06-22T16:10:59.209+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-38927,Test case design for transformation 2.0 with flow debugger,EDI,2023-06-22T17:29:08.728+0530,Manual,Done,,Yes
+IO-38949,[UI] Test designs for OpenAI support for Text to SQL Query [Snowflake],QA,2023-06-23T10:16:02.335+0530,Manual,Done,,Yes
+IO-39040,[Websockets] Testcases Development for IO-37178,DB Adaptor,2023-06-26T19:11:06.932+0530,Manual,Done,,Yes
+IO-39163,Test Case Development | IO-36071 | [Cloud] - Generic JDBC connector,DB Adaptor,2023-06-28T17:08:11.288+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-39167,Test Case Design | IO-36676 [NS JDBC],DB Adaptor,2023-06-28T17:22:53.439+0530,Manual,Done,2023.8.1;ZETA_QA,Yes
+IO-39218,Epic level Test case design Support Content-type: application/octet-stream,UI,2023-06-29T23:04:47.396+0530,Manual,Done,,Yes
+IO-39222,Epic level test case design,UI,2023-06-29T23:10:56.445+0530,Manual,Done,,Yes
+IO-39309,Test Cases for IO-37814,Core,2023-07-03T09:30:56.300+0530,Manual,Done,,Yes
+IO-39322,Epic Test cases for Invalid closing quote [BE],HTTP Adaptor,2023-07-03T11:12:06.684+0530,Manual,Done,,Yes
+IO-39435,"Test Scope, Test Design & Review [IO-38172 End-to-End oAuth, Token, Cookie, JWT specific connections]",Adaptor,2023-07-03T17:01:55.837+0530,Manual,Done,,Yes
+IO-39502,Epic level test case design for IO-37107,UI,2023-07-04T11:07:30.824+0530,Manual,Done,,Yes
+IO-39542,Epic level Test cases for IO-36517,UI,2023-07-04T13:08:40.764+0530,Manual,Done,,Yes
+IO-39794,Epic level test case design for Creation of EDI Profile,EDI,2023-07-05T14:13:29.805+0530,Manual,Done,,Yes
+IO-39796,Epic level test case design for 'Updating an EDI Profile',EDI,2023-07-05T14:14:40.006+0530,Manual,Done,,Yes
+IO-39798,Epic level test case design for 'Deleting an EDI Profile',EDI,2023-07-05T14:15:59.425+0530,Manual,Done,,Yes
+IO-39799,Epic level test case design for 'Execution of EDI Profiles',EDI,2023-07-05T14:16:54.321+0530,Manual,Done,,Yes
+IO-39800,Epic level test case design for 'Cloning & ILM' epic,EDI,2023-07-05T14:19:39.266+0530,Manual,Done,,Yes
+IO-39801,Epic level test design for 'Transfer - Integration and Permissions for EDI Profiles',EDI,2023-07-05T14:21:27.842+0530,Manual,Done,,Yes
+IO-39819,[UI] Test execution for OpenAI support for Text to SQL Query [Snowflake],QA,2023-07-05T16:10:47.080+0530,Manual,Done,,Yes
+IO-39820,[UI] Test automation for OpenAI support for Text to SQL Query [Snowflake],QA Automation,2023-07-05T16:11:21.090+0530,Manual,Done,,Yes
+IO-39963,Epic level test cases for IO-39158,UI,2023-07-07T05:11:26.620+0530,Manual,Done,,Yes
+IO-40132,Epic level test case design for IO-35759,UI,2023-07-11T08:30:26.280+0530,Manual,Done,,Yes
+IO-40186,Functional Testcases,Adaptor,2023-07-11T20:55:37.865+0530,Manual,Closed,,Yes
+IO-40212,"Test Scope, Test Design & Review [IO-38859 HTTP File provider connectivity]",File Adaptor,2023-07-12T11:36:52.363+0530,Manual,Done,,Yes
+IO-40402,Test Designs for IO-40254,QA,2023-07-14T17:59:43.470+0530,Manual,Done,,Yes
+IO-40415,Need to Modify the existing Test cases to run according to v6,Adaptor,2023-07-16T23:59:33.582+0530,Manual,Closed,,Yes
+IO-40419,"Test Scope, Test Design & Review [IO-38188 HTTP Adaptors - Exports - Amazon SP API]",HTTP Adaptor,2023-07-17T09:58:57.455+0530,Manual,Done,,Yes
+IO-40444,"Test Scope, Test Design & Review [IO-38188 MS HTTP Streaming]",HTTP Adaptor,2023-07-17T12:48:16.779+0530,Manual,Done,,Yes
+IO-40506,OpenPGP Decrypt Test with binary files,Files microservice,2023-07-17T22:58:48.998+0530,Manual,Open,,Yes
+IO-40566,Epic level test case design for 'TPCF - Collaboration of components',EDI,2023-07-18T13:49:52.687+0530,Manual,Closed,,Yes
+IO-40567,Epic level test cases for 'Building a Trading partner connector',EDI,2023-07-18T13:50:58.613+0530,Manual,Closed,,Yes
+IO-40675,Epic level test case design for 'Prebuilt Trading Partner',EDI,2023-07-19T11:48:41.717+0530,Manual,Done,,Yes
+IO-40676,Epic level test case design for 'Generic Trading Partner',EDI,2023-07-19T11:49:43.698+0530,Manual,Done,,Yes
+IO-40807,"Test Scope, Test Design & Review [IO-19613 File Filtering options]",File Adaptor,2023-07-21T09:56:43.511+0530,Manual,Done,,Yes
+IO-40818,High level test cases for Integration landscape,QA,2023-07-21T10:46:45.246+0530,Manual,Done,,Yes
+IO-40997,Test Case Design,Dashboard,2023-07-24T16:59:34.700+0530,Manual,Done,,Yes
+IO-41170,Epic level test cases for IO-37743,EDI,2023-07-26T14:44:07.685+0530,Manual,Done,,Yes
+IO-41171,Epic level test cases for IO-37741,EDI,2023-07-26T14:45:09.839+0530,Manual,Closed,,Yes
+IO-41186,Epic level test cases for JobID hooks,QA,2023-07-26T17:28:05.644+0530,Manual,Done,,Yes
+IO-41241,Test components,UI,2023-07-27T13:07:21.239+0530,Manual,Done,,Yes
+IO-41582,QA Task | Test Case Design | Generic JDBC Connector (OnPrem),DB Adaptor,2023-08-02T10:53:27.077+0530,Manual,Done,2023.9.1;ZETA_QA,Yes
+IO-41838,Test Case Design for [NSAW]Oracle ADW Connector,DB Adaptor,2023-08-03T20:13:19.721+0530,Manual,Done,2023.9.1;ZETA_QA,Yes
+IO-41849,Testcases Design for IO-41624 (WS Improvements),DB Adaptor,2023-08-04T08:38:49.816+0530,Manual,Done,,Yes
+IO-41960,Test Design,Core-Workers,2023-08-07T10:59:19.635+0530,Manual,Done,,Yes
+IO-42178,"Test Designs task for Ability to construct a signature with handlebars and include it as a query parameter, in the request body, or in the request header.",QA,2023-08-08T11:08:15.873+0530,Manual,Done,,Yes
+IO-42202,Epic level test cases for IO-37313,UI,2023-08-08T12:12:55.817+0530,Manual,Done,,Yes
+IO-42296,[UI] Data layer and presentation layer test cases ,UI,2023-08-09T12:22:48.795+0530,Manual,Closed,,Yes
+IO-42332,Test cases for Message Builder,Assistant Framework,2023-08-09T14:03:40.392+0530,Manual,Closed,,Yes
+IO-42338,Test Cases for new APIs in GPTverse,Assistant Framework,2023-08-09T14:49:42.394+0530,Manual,Closed,,Yes
+IO-42373,Test Cases for IO-36529 : [UI] Usability Improvements: Left and Top Navigation Bar (Phase 2),UI,2023-08-10T09:34:19.705+0530,Manual,Done,,Yes
+IO-42413,[QA] Test designs for Refactoring of GPTVerse,QA,2023-08-10T12:39:32.323+0530,Manual,Closed,,Yes
+IO-42414,[QA] Test execution for Refactoring of GPTVerse,QA,2023-08-10T12:41:01.275+0530,Manual,Done,,Yes
+IO-42415,[QA] Test automation for Refactoring of GPTVerse,QA,2023-08-10T12:41:44.067+0530,Manual,Done,,Yes
+IO-42416,[QA] Test designs for Create and explain handlebars expression using AI,QA,2023-08-10T12:43:42.079+0530,Manual,Done,,Yes
+IO-42417,[QA] Test execution for Create and explain handlebars expression using AI,QA,2023-08-10T12:44:14.833+0530,Manual,Done,,Yes
+IO-42418,[QA] Test automation for Create and explain handlebars expression using AI,QA,2023-08-10T12:44:49.051+0530,Manual,Done,,Yes
+IO-42451,Test Cases for IO-34008 : [UI] Add sorting/filters to Marketplace home page,UI,2023-08-10T15:02:31.129+0530,Manual,Done,,Yes
+IO-42484,Test Cases for IO-41209 : [UI] UI enhancements,UI,2023-08-10T17:14:26.123+0530,Manual,Done,,Yes
+IO-42524,Test Designs for IO-38558,QA,2023-08-11T07:07:25.198+0530,Manual,Done,,Yes
+IO-42535,Test designs for IO-39122,QA,2023-08-11T07:14:23.502+0530,Manual,Done,,Yes
+IO-42664,Test Designs for IO-41070,UI,2023-08-14T16:55:04.565+0530,Manual,Done,,Yes
+IO-42866,Epic level test design,Adaptor,2023-08-17T11:28:31.635+0530,Manual,Done,,Yes
+IO-43054,Epic Level Test case Design for IO-35091,UI,2023-08-21T11:44:07.760+0530,Manual,Done,,Yes
+IO-43080,Epic level test case design for IO-43046,UI,2023-08-21T16:02:06.527+0530,Manual,Done,,Yes
+IO-43084,Epic Level Test design for JWT Token,Adaptor,2023-08-21T17:19:16.283+0530,Manual,Done,,Yes
+IO-43731,[QA] Test case Designs for MariaDB Parity,DB Adaptor,2023-08-31T10:12:40.892+0530,Manual,Done,,Yes
+IO-44337,EPIC Test Design + Review [IO-39084 || MS: File Adaptor Micro Service],File Adaptor,2023-09-10T23:09:55.892+0530,Manual,Done,,Yes
+IO-44567,Test cases on FTP bridge,FTP Bridge,2023-09-13T10:32:19.447+0530,Manual,Done,,Yes
+IO-44601,Epic level test cases for IO-43338,EDI,2023-09-13T11:20:39.129+0530,Manual,Done,,Yes
+IO-44602,Epic level test cases for IO-43339,EDI,2023-09-13T11:22:40.812+0530,Manual,Done,,Yes
+IO-44689,Epic level test design,Adaptor,2023-09-13T17:51:19.369+0530,Manual,Done,,Yes
+IO-44704,"Test case designs for ""Optimisation of webhook""",Core,2023-09-13T20:16:07.660+0530,Manual,Closed,,Yes
+IO-44705,"Test case designs for ""Having troubles in creating and connecting webhook listener for Onlfeet""",Core,2023-09-13T20:21:23.246+0530,Manual,Done,,Yes
+IO-44709,Test Design for Worker MS Testing,QA,2023-09-13T21:10:43.394+0530,Manual,Done,,Yes
+IO-44757,EPIC FRD / TD Review + TestCase Desgin & Review [IO-43718 || MS: File Adaptor - Metadata export],File Adaptor,2023-09-14T11:38:23.843+0530,Manual,Done,,Yes
+IO-44801,Test Designs for Create and drop-recreate an empty table,DB Adaptor,2023-09-14T14:33:20.782+0530,Manual,In Test Case Development,,Yes
+IO-44937,Test design for IO-39358,Core-Workers,2023-09-15T17:09:12.228+0530,Manual,Done,,Yes
+IO-45090,Epic level test case design for IO-33429,Core,2023-09-19T10:20:51.910+0530,Manual,Closed,,Yes
+IO-45113,Test Designs for IO-41072,QA,2023-09-19T12:21:01.005+0530,Manual,Done,,Yes
+IO-45147,Epic level Test Cases  | System APIs MS,Core,2023-09-19T18:08:21.737+0530,Manual,Done,,Yes
+IO-45220,Epic level Test designs for [HTTP] Parse the downloaded file from the URL before generating pages,QA,2023-09-20T11:19:33.670+0530,Manual,In Test Scope Review,,Yes
+IO-45309,Epic level test designs - [AFE] Update helper text outside of releases,QA,2023-09-20T14:54:20.338+0530,Manual,Done,,Yes
+IO-45339,EPIC level BE Test Cases for IO-45339(Add Tag On Errors),Core,2023-09-20T17:29:10.181+0530,Manual,Done,Core,Yes
+IO-45359,Testcases for IO-43489,Core-Workers,2023-09-20T21:03:06.978+0530,Manual,Done,,Yes
+IO-45366,Test Design,QA,2023-09-21T00:30:25.484+0530,Manual,Done,,Yes
+IO-45367,Test Design,QA,2023-09-21T00:31:05.236+0530,Manual,Done,,Yes
+IO-45448,Epic Level Test Design for IO-43895,UI,2023-09-21T12:09:25.689+0530,Manual,Done,,Yes
+IO-45450,Epic Level Test Case design for IO-35096,UI,2023-09-21T12:15:09.883+0530,Manual,Done,,Yes
+IO-45452,Epic level test case design for IO-35093,UI,2023-09-21T12:21:00.518+0530,Manual,Done,,Yes
+IO-45453,Epic level test case design for IO-35094,UI,2023-09-21T12:23:15.228+0530,Manual,Done,,Yes
+IO-45466,EPIC level BE TCs for IO-38605(Filter errors by tags),Core,2023-09-21T13:26:25.036+0530,Manual,Done,,Yes
+IO-45516,[UI]Epic level test case design ,UI,2023-09-21T17:30:22.195+0530,Manual,Open,,Yes
+IO-45523,Epic level test case design for IO-39078,UI,2023-09-21T17:42:15.660+0530,Manual,Open,,Yes
+IO-45585,Test Design,QA,2023-09-22T11:29:13.845+0530,Manual,Done,,Yes
+IO-45589,"Epic level test designs for ""User to start from scratch if user changes mind to use an existing export/import""",QA,2023-09-22T11:57:44.041+0530,Manual,Done,,Yes
+IO-45593,[QA] Test design: Decouple OpenAI from API route implementation,QA,2023-09-22T12:08:40.972+0530,Manual,Closed,,Yes
+IO-45595,[QA] Test execution: Decouple OpenAI from API route implementation,QA,2023-09-22T12:09:56.373+0530,Manual,Done,,Yes
+IO-45596,[QA] Test Automation: Decouple OpenAI from API route implementation,QA,2023-09-22T12:10:18.277+0530,Manual,Closed,,Yes
+IO-45606,"Epic level test cases for ""Flow name max character error message should be refined""",Core,2023-09-22T12:38:28.956+0530,Manual,Done,,Yes
+IO-45613,Epic level test cases for IO-40959 : [Flow Debugger][UI]: Preview should show data for selected PG in test mode,UI,2023-09-22T13:13:01.420+0530,Manual,Done,,Yes
+IO-45617,"Epic Level Test Designs for  ""Update the Sign-In & Sign-up iframe URLs""",QA,2023-09-22T13:41:37.263+0530,Manual,Done,,Yes
+IO-45682,Epic level test case designs for IO-44842,Core,2023-09-22T16:33:54.171+0530,Manual,Done,,Yes
+IO-45687,"Test Designs for ""Text Management in Integrator-UI""",QA,2023-09-22T16:58:14.596+0530,Manual,Done,,Yes
+IO-45937,Epic level test cases for publishing TP connector,EDI,2023-09-26T22:20:20.836+0530,Manual,Done,,Yes
+IO-45993,Test Case Development | IO-44738,Files microservice,2023-09-27T11:26:09.124+0530,Manual,Done,QA_Planned,Yes
+IO-45994,Test Case Development | IO-23496,Files microservice,2023-09-27T11:29:38.415+0530,Manual,Open,QA_Planned,Yes
+IO-46033,UI-Epic cases,UI,2023-09-27T14:01:30.351+0530,Manual,Done,,Yes
+IO-46034,UI-Epic cases,UI,2023-09-27T14:06:52.829+0530,Manual,Closed,,Yes
+IO-46226,Epic Level Testcases for IO-37373,Core,2023-10-02T22:31:34.380+0530,Manual,Done,,Yes
+IO-46397,"Epic level test designs for ""Update Account Activation Email subject & body""",Core,2023-10-04T17:44:18.710+0530,Manual,Done,,Yes
+IO-46485,FRD/TD review + TestCase Design & Review [IO-44031 Blob export],File Adaptor,2023-10-05T14:53:45.309+0530,Manual,Done,,Yes
+IO-46493,Testcases for Error Classifier-V2,Core,2023-10-05T15:24:36.662+0530,Manual,Done,,Yes
+IO-46686,Test designs for IO-46625 [AFE] Modify default layout,UI,2023-10-09T20:10:52.588+0530,Manual,Done,AI_ML,Yes
+IO-46687,Test execution for IO-46625 [AFE] Modify default layout,UI,2023-10-09T20:11:30.708+0530,Manual,Done,AI_ML,Yes
+IO-46688,Test automation for IO-46625 [AFE] Modify default layout,UI,2023-10-09T20:11:45.658+0530,Manual,Done,AI_ML,Yes
+IO-47181,FRD/TD review + TestCase Design & Review [IO-44040 Record export],File Adaptor,2023-10-16T10:59:02.509+0530,Manual,Done,,Yes
+IO-47957,Test Case Development | Implementing heartbeat for File MicroService,FTP Bridge,2023-10-26T10:17:11.005+0530,Manual,Done,QA_Planned,Yes
+IO-47960,Test Case Development | 2024.1.1 minions bug backlog epic | IO-47769,FTP Bridge,2023-10-26T10:37:29.330+0530,Manual,Done,QA_Planned,Yes
+IO-47979,Test case design for blob Import,File Adaptor,2023-10-26T11:33:10.868+0530,Manual,Done,,Yes
+IO-47980,TCD for Batch Import | Aggregation Import,File Adaptor,2023-10-26T11:35:53.907+0530,Manual,Done,,Yes
+IO-47982,Test design for Password credentials Support: Backend Support,QA,2023-10-26T12:10:57.765+0530,Manual,Done,,Yes
+IO-48177,epic level test design,Adaptor,2023-10-30T19:03:54.809+0530,Manual,Done,,Yes
+IO-48262,"Epic level test designs for ""Generating OpenAPI spec for Listener (Webhook)""",Core,2023-10-31T16:03:37.424+0530,Manual,Done,,Yes
+IO-48346,"Test Designs for ""Unmerge branches icon/UX improvement""",UX,2023-11-01T12:16:44.649+0530,Manual,Done,,Yes
+IO-48348,Epic-Level test case design for IO-47620,UI,2023-11-01T12:18:48.822+0530,Manual,Done,,Yes
+IO-48392,Epic Level Test design for verifying Email notifications for token in agents listing page,Core,2023-11-01T13:56:48.836+0530,Manual,Done,,Yes
+IO-48397,Test Cases for Support Integrator-extension and JSRuntime for Webhook MS,Core,2023-11-01T14:18:33.424+0530,Manual,Done,,Yes
+IO-48398,Test cases for Blob support for flow debugger,Core,2023-11-01T14:22:32.904+0530,Manual,Done,,Yes
+IO-48610,Epic level Test design for 'No error is thrown once we give wrong path to many in the import and run the flow',Flow Builder,2023-11-02T17:54:42.397+0530,Manual,Done,,Yes
+IO-48673,"Test designs for ""Make the Company name mandatory on Sign-up page""",UI,2023-11-03T10:11:13.895+0530,Manual,Done,,Yes
+IO-48822,"Test Designs for ""When a customer fails to give a company name at the time of account setup, add a default one.""",UI,2023-11-06T13:05:17.487+0530,Manual,Done,,Yes
+IO-48906,Test Designs for Add Transformation 2.0 capability in Playground > Transform edition,UI,2023-11-06T17:23:54.104+0530,Manual,Done,,Yes
+IO-48926,Epic level test cases for IO-45369 View resource descriptions,QA,2023-11-06T18:14:17.987+0530,Manual,Done,,Yes
+IO-48927,Epic level test cases for IO-47946 Create and define JS using Open AI,QA,2023-11-06T18:34:02.809+0530,Manual,Done,,Yes
+IO-49096,Testcase - [Debugger]- Add flow step debug logs for test runs,Core,2023-11-07T10:51:06.299+0530,Manual,Done,,Yes
+IO-51237,"Test Designs for Sign-up and ""upgrade tracking for Google Analytics""",UI,2023-11-10T14:04:26.870+0530,Manual,Done,,Yes
+IO-51778,Test designs/Strategy for Blacklist internal domains,QA,2023-11-15T12:57:10.078+0530,Manual,Done,,Yes
+IO-52741,epic level test design,Adaptor,2023-11-16T10:42:03.252+0530,Manual,Done,,Yes
+IO-54574,Epic level test cases for Enable Auto-map for all mappings,QA,2023-11-23T10:59:37.646+0530,Manual,Done,,Yes
+IO-55058,EPIC Test Scope & Test Design & Reviews [IO-53306 || Support for folder prefix on S3 Export],File Adaptor,2023-11-26T21:59:14.929+0530,Manual,Closed,,Yes
+IO-55628,Test Designs for RMS,Core,2023-11-28T15:41:14.065+0530,Manual,Done,,Yes
+IO-56174,Test Design - MS: Endpoint service - Preview,Adaptor,2023-12-05T10:20:49.074+0530,Manual,Done,,Yes
+IO-56227,Epic level test design review for Flow-execution MS,Core,2023-12-05T12:31:05.930+0530,Manual,Done,,Yes
+IO-56563,Testing Seller X Performance issue,Core,2023-12-06T14:12:28.549+0530,Manual,Open,,Yes
+IO-57029,epic level test design,Adaptor,2023-12-11T12:00:35.716+0530,Manual,Done,,Yes
+IO-57738,Epic level test designs,QA,2023-12-18T11:06:12.517+0530,Manual,Done,,Yes
+IO-57783,Test Design - MS: Endpoint service - OAuth 2.0,Adaptor,2023-12-18T13:15:13.454+0530,Manual,Done,,Yes
+IO-57784,Test Design Assistance - MS: Endpoint service - Preview,Adaptor,2023-12-18T13:18:56.543+0530,Manual,Done,,Yes
+IO-58198,Epic Level design for passing _exportID to flow.run(),QA,2023-12-20T10:12:30.072+0530,Manual,Done,,Yes
+IO-58200,Epic level design : Sheets parser HTTP Universal,QA,2023-12-20T10:20:06.632+0530,Manual,Done,,Yes
+IO-58201,Epic level test cases,QA,2023-12-20T10:25:14.313+0530,Manual,Closed,,Yes
+IO-58868,Epic test cases for Single sign on to APIM from Celigo,API management,2023-12-27T15:24:51.303+0530,Manual,Done,,Yes
+IO-58932,EPIC testcase for Push OAS compliant Exports and Imports invoke APIs from IO into APIM,Core,2023-12-28T10:24:42.167+0530,Manual,Done,,Yes
+IO-59061,Epic test cases for Request for Trial and Purchasing of license from Celigo (Manual provisioning),Core,2023-12-28T18:30:17.096+0530,Manual,Done,,Yes
+IO-59062,Epic test cases for Push My APIs & IO Listener from IO into APIM,Core,2023-12-28T18:43:38.008+0530,Manual,Done,,Yes
+IO-59063,epic test design for Email notification to devops for organisation and environment provisioning,Core,2023-12-28T18:50:56.271+0530,Manual,Done,,Yes
+IO-59422,EPIC Test Design and Review || IO-43891 [NSFP Connectivity],File Adaptor,2024-01-02T23:02:54.887+0530,Manual,Done,,Yes
+IO-59437,epic level test design,Adaptor,2024-01-03T10:20:10.657+0530,Manual,Done,,Yes
+IO-59692,Test Case designs,Core,2024-01-03T18:21:41.352+0530,Manual,Done,,Yes
+IO-59913,IO-57570 | Test Case Design,Core,2024-01-05T09:27:51.524+0530,Manual,Done,,Yes
+IO-60071,Epic level test case design,UI,2024-01-08T10:24:00.127+0530,Manual,Done,,Yes
+IO-60101,[UI] High Level Test Case Designs on the epic level,UI,2024-01-08T11:01:46.090+0530,Manual,Done,,Yes
+IO-60143,High Level Test Case Designs on the epic level,UI,2024-01-08T11:28:29.061+0530,Manual,Done,,Yes
+IO-60164,[UI] High Level Test Case Designs on the epic level,UI,2024-01-08T11:39:36.152+0530,Manual,Done,,Yes
+IO-60293,Test case design for IO-36128,EDI,2024-01-08T15:40:58.244+0530,Manual,Done,,Yes
+IO-60294,Test case design for IO-36130,EDI,2024-01-08T15:43:11.893+0530,Manual,Done,,Yes
+IO-60295,Test case design for IO-46279,EDI,2024-01-08T15:45:43.062+0530,Manual,Done,,Yes
+IO-60296,Test case design for IO-44805,EDI,2024-01-08T15:47:08.546+0530,Manual,Done,,Yes
+IO-60297,Test case design for IO-36129,EDI,2024-01-08T15:48:49.796+0530,Manual,Done,,Yes
+IO-60393,Test Designs,QA,2024-01-09T07:30:13.211+0530,Manual,Done,,Yes
+IO-60400,Test Designs,QA,2024-01-09T07:51:46.262+0530,Manual,Done,,Yes
+IO-60402,Test designs,QA,2024-01-09T07:53:23.245+0530,Manual,Done,,Yes
+IO-60404,[BE] Test Design for NS-JDBC Metadata support,DB Adaptor,2024-01-09T07:56:49.387+0530,Manual,Done,,Yes
+IO-60406,[BE] Testdesigns for IBM Db2,DB Adaptor,2024-01-09T07:59:08.703+0530,Manual,Done,,Yes
+IO-60407,[BE] Testdesign for Oracle openjdk support,DB Adaptor,2024-01-09T08:02:11.771+0530,Manual,Done,,Yes
+IO-60475,Test designs for Notify users when errors assigned,Core,2024-01-09T12:02:03.370+0530,Manual,Done,,Yes
+IO-60494,understanding the feature and customer use case,UI,2024-01-09T13:43:59.355+0530,Manual,Done,,Yes
+IO-60538,TestCaseDesign[UI]-Filter assigned errors,UI,2024-01-10T10:19:42.044+0530,Manual,Done,,Yes
+IO-60653,Epic level test designs,QA,2024-01-10T19:03:59.593+0530,Manual,Done,,Yes
+IO-60706,Test designs for Enable or disable invitations,Errors / Dashboard,2024-01-11T11:31:19.730+0530,Manual,Done,,Yes
+IO-60709,Test Case Design ,Core,2024-01-11T11:38:12.003+0530,Manual,Done,,Yes
+IO-60712,Test Design[UI] - Assign errors to users,UI,2024-01-11T12:04:51.493+0530,Manual,Done,,Yes
+IO-60772,Epic level test case design for IO-48941,Core,2024-01-11T15:11:24.387+0530,Manual,Done,,Yes
+IO-60776,Testcases for IO-38602,API (api.integrator.io),2024-01-11T15:36:00.635+0530,Manual,Done,,Yes
+IO-60787,Testcases for IO-38600,API (api.integrator.io),2024-01-11T15:40:50.868+0530,Manual,Done,,Yes
+IO-60873,Test Case Design | [Sharepoint] - Exports,File Adaptor,2024-01-12T10:01:04.930+0530,Manual,In PM Review,QA_Planned,Yes
+IO-60874,Test Case Design | [Sharepoint] - Lookup,File Adaptor,2024-01-12T10:15:21.672+0530,Manual,Pending QA Lead Review,QA_Planned,Yes
+IO-60875,Test Case Design | [Sharepoint] - Imports,File Adaptor,2024-01-12T10:17:26.810+0530,Manual,Pending QA Lead Review,QA_Planned,Yes
+IO-60883,Test design for Response time slow for APIs,Core,2024-01-12T10:37:51.179+0530,Manual,Done,,Yes
+IO-61014,IO-56742| Test Case Design,UI,2024-01-12T16:15:57.703+0530,Manual,Done,,Yes
+IO-61175,Test Design & Review IO-59690 [EDI support for file-adaptor],File Adaptor,2024-01-16T09:29:37.062+0530,Manual,Done,,Yes
+IO-61427,Test Case Design & Review || IO-57810 [2024.3.1 Sudo Bugs EPIC],DB Adaptor,2024-01-17T10:57:22.000+0530,Manual,Closed,,Yes
+IO-61435,Test Design & Review IO-50165 [Streaming for Websockets],Adaptor,2024-01-17T11:46:15.564+0530,Manual,Closed,,Yes
+IO-62870,Test Designs for NoSQL mapper,DB Adaptor,2024-01-19T16:55:49.392+0530,Manual,Done,,Yes
+IO-63032,Integration Test Cases,AI/ML - BE,2024-01-22T12:54:02.780+0530,Manual,Done,AI_ML,Yes
+IO-63271,Test designs for Enable AI chatbot label in user profile,QA,2024-01-23T16:55:08.073+0530,Manual,Closed,,Yes
+IO-63282,Getting '/aiDescription/summary is not a whitelisted property' error on staging,AI/ML - BE,2024-01-23T17:53:01.873+0530,Manual,Closed,AI_ML,Yes
+IO-63925,Test Cases for irrelevant backend fields and boolean fields,AI/ML - BE,2024-01-30T09:50:13.204+0530,Manual,Closed,AI_ML,Yes
+IO-63950,BE test cases,AI/ML - BE,2024-01-30T10:49:17.284+0530,Manual,Done,AI_ML,Yes
+IO-64102,Test Designs for IO-63243,QA,2024-01-30T19:43:47.762+0530,Manual,Done,,Yes
+IO-64382,Test Case Development | 2024.3.1 Minions bug epic,File Adaptor,2024-02-01T10:01:58.836+0530,Manual,Done,QA_Planned,Yes
+IO-64514,Test Designs for Implementing Feature Flags in Netsuite and Designing License Schema,Core,2024-02-01T17:44:45.801+0530,Manual,Done,,Yes
+IO-64692,Test Designs for Update license schema to sync the changes to integrator.io,Core,2024-02-02T14:05:37.463+0530,Manual,Done,,Yes
+IO-64725,Test design for Allow users to exceed their license entitlements,Core,2024-02-02T16:24:15.679+0530,Manual,Closed,,Yes
+IO-65466,High level Epic cases,UI,2024-02-07T12:11:59.693+0530,Manual,Done,,Yes
+IO-67614,Test Designs for IO-43844,QA,2024-02-19T16:03:54.079+0530,Manual,Done,,Yes
+IO-67615,Test Designs for IO-43843,QA,2024-02-19T16:05:00.860+0530,Manual,Done,,Yes
+IO-67801,Testcase design for flow step delay.,Core,2024-02-20T12:24:30.011+0530,Manual,Open,,Yes
+IO-67810,Testcase design -Configure delay setting after a flow step,Core,2024-02-20T12:29:45.113+0530,Manual,Open,,Yes
+IO-68203,[BE]Test case design,Connector framework,2024-02-21T15:00:53.805+0530,Manual,Done,,Yes
+IO-68364,Testcase Designs for MIME type ,File Adaptor,2024-02-22T10:36:48.359+0530,Manual,Done,,Yes
+IO-68369,Epic level test case design for IO-64825,UI,2024-02-22T10:37:14.757+0530,Manual,Done,,Yes
+IO-68405,Test design for Salesforce Metadata retrieval ,DB Adaptor,2024-02-22T11:19:32.119+0530,Manual,Done,,Yes
+IO-68426,Epic level test case design for IO-46269,UI,2024-02-22T11:53:03.883+0530,Manual,Done,,Yes
+IO-68456,Test Design Snowflake Target schema generator,DB Adaptor,2024-02-22T12:28:54.787+0530,Manual,Done,,Yes
+IO-68480,Test Design Generic Interface for DBS Schema Updates,DB Adaptor,2024-02-22T12:56:56.724+0530,Manual,Done,,Yes
+IO-68486, Test Design Run time management,DB Adaptor,2024-02-22T13:00:14.838+0530,Manual,Done,,Yes
+IO-68499,Test Design Onboard Sources - Salesforce - Data,DB Adaptor,2024-02-22T13:02:40.291+0530,Manual,Done,,Yes
+IO-68505,Test Design DataHub modelling & integration,DB Adaptor,2024-02-22T13:04:41.510+0530,Manual,Done,,Yes
+IO-68544,Test Design Generate mappings from source to S3 data file,DB Adaptor,2024-02-22T14:58:39.495+0530,Manual,Done,,Yes
+IO-68558,Test Design Supporting Microservice APIs as bubbles,DB Adaptor,2024-02-22T15:18:13.458+0530,Manual,Done,,Yes
+IO-69217,Test Strategy Document,DB Adaptor,2024-02-27T16:44:39.733+0530,Manual,Done,,Yes
+IO-69596,Test design for IO-64783,EDI,2024-02-29T20:33:52.377+0530,Manual,Done,,Yes
+IO-69750,Epic level Test design,Adaptor,2024-03-03T15:59:21.686+0530,Manual,Done,,Yes
+IO-69871,Epic level Test designs,QA,2024-03-04T17:37:16.232+0530,Manual,Done,,Yes
+IO-69873,Epic level test designs,QA,2024-03-04T17:43:10.698+0530,Manual,Closed,,Yes
+IO-70696,EPIC Test Design + Reviews IO-63625 [DI Dependency] [S3] Generate chunks of file based on size/no. of records,File Adaptor,2024-03-08T22:24:55.873+0530,Manual,Done,,Yes
+IO-70953,Epic level test designs,QA,2024-03-12T12:08:01.024+0530,Manual,Done,,Yes
+IO-71054,Epic Level Test Design,QA,2024-03-12T16:34:49.301+0530,Manual,Done,,Yes
+IO-72195,Epic level test cases for EDI dashboard,UI,2024-03-18T19:13:50.976+0530,Manual,Done,,Yes
+IO-72462,Test Design Validations/ Post CRUD ,DB Adaptor,2024-03-20T12:17:20.559+0530,Manual,Done,,Yes
+IO-72470,Test Design Flow Skeleton Management,DB Adaptor,2024-03-20T12:40:21.218+0530,Manual,Closed,,Yes
+IO-73609,Test Design- Automate APIM provisioning of organization & environments,Core,2024-03-28T10:51:24.485+0530,Manual,Done,,Yes
+IO-73695,Test Design - Request access to APIM from multiple pages,Core,2024-03-28T15:33:17.853+0530,Manual,Done,,Yes
+IO-73851,[QA] Test case design for body-params support in Exports,Connector framework,2024-04-01T16:16:46.469+0530,Manual,Done,,Yes
+IO-73857,End to End Test Design ,DB Adaptor,2024-04-01T16:54:16.110+0530,Manual,Done,,Yes
+IO-73899,Epic level test designs,UI - AI/ML,2024-04-01T22:29:40.542+0530,Manual,Done,,Yes
+IO-74015,[UI] Epic level test case design for IO-47926,UI,2024-04-02T16:02:44.590+0530,Manual,Done,,Yes
+IO-74132,Test Case Design - Exports,File Adaptor,2024-04-03T10:42:46.797+0530,Manual,In Test Case Development,,Yes
+IO-74154,Test Case Design - Imports,File Adaptor,2024-04-03T10:50:38.799+0530,Manual,In Test Case Development,,Yes
+IO-74171,Test Case Design | [Azure files] - Lookup,File Adaptor,2024-04-03T11:15:47.725+0530,Manual,In Test Case Development,QA_Planned,Yes
+IO-74310,[UI] Epic level test case design for IO-47924,UI,2024-04-03T19:29:40.577+0530,Manual,Done,,Yes
+IO-74544,Epic level test designs for New brand rollout - logo changes,QA,2024-04-04T16:23:06.014+0530,Manual,Done,,Yes
+IO-74545,UI Epic Level Test case Designs,UI,2024-04-04T16:26:02.666+0530,Manual,In PM Review,UIQA,Yes
+IO-74547,Epic level test designs for New brand rollout - template changes,QA,2024-04-04T16:33:42.285+0530,Manual,Done,,Yes
+IO-74549,Epic level test cases New brand rollout - favicon changes,QA,2024-04-04T16:37:18.088+0530,Manual,Done,,Yes
+IO-74550,Epic level test cases New brand rollout - left navigation changes,QA,2024-04-04T16:39:13.653+0530,Manual,Done,,Yes
+IO-74558,Epic level test cases for New brand rollout - IO connector changes,QA,2024-04-04T16:41:05.299+0530,Manual,Done,,Yes
+IO-74560,Epic level test cases for Google app reverification process for logo change in Sign in / Sign up with Google,QA,2024-04-04T16:42:03.446+0530,Manual,Done,,Yes
+IO-74664,Test Designs - Azure synapse connector,DB Adaptor,2024-04-05T10:43:54.751+0530,Manual,Done,,Yes
+IO-75254,Test Designs for IO-72165,QA,2024-04-09T15:47:36.812+0530,Manual,Done,,Yes
+IO-75377,Test Scope & High Level Test Designs IO-68074 [Snowflake] - Bulk Load - Load from local file,DB Adaptor,2024-04-10T05:21:23.709+0530,Manual,Done,,Yes
+IO-75402,[BE]API TestCase Designs for SF Bulk API2.0,Salesforce Adaptor (Apex),2024-04-10T10:06:47.129+0530,Manual,Done,,Yes
+IO-75466,Test Design for Parsing Error for Missing Segment,EDI,2024-04-10T11:37:04.785+0530,Manual,Done,,Yes
+IO-75688,Test Designs for IO-35739,QA,2024-04-14T10:54:23.926+0530,Manual,Done,,Yes
+IO-75791,Test Designs for IO-70295,QA,2024-04-15T14:55:05.805+0530,Manual,Done,,Yes
+IO-76080,[BE] Test Designs - Azure synapse connector,DB Adaptor,2024-04-16T18:44:58.186+0530,Manual,Done,,Yes
+IO-76362,Epic test designs,UI,2024-04-17T19:21:00.402+0530,Manual,Done,,Yes
+IO-76746,Test design for Route AS2 calls through File-Adaptor (GFS) epic,AS2,2024-04-22T12:16:21.375+0530,Manual,Done,,Yes
+IO-76906,NFR Test Design,DB Adaptor,2024-04-23T13:00:07.910+0530,Manual,Done,,Yes
+IO-77652,Epic Level Test Designs for IO-59195,QA,2024-04-29T11:25:45.786+0530,Manual,Done,,Yes
+IO-78105,Test Designs to improve the coverage,QA,2024-05-01T14:09:42.078+0530,Manual,Done,,Yes
+IO-78866,Prepare Datasets for Sync Integration,DB Adaptor,2024-05-07T11:48:23.281+0530,Manual,Done,,Yes
+IO-78867,Publish and Fetch DataHub Integration,DB Adaptor,2024-05-07T11:51:42.040+0530,Manual,Done,,Yes
+IO-78868,Publish and SchemaDriftDataHub  Integration,DB Adaptor,2024-05-07T11:53:43.751+0530,Manual,Done,,Yes
+IO-78869,Prepare DataElements Integration,DB Adaptor,2024-05-07T11:56:03.897+0530,Manual,Done,,Yes
+IO-78870,Dataset to Target Schema Integration,DB Adaptor,2024-05-07T11:57:20.187+0530,Manual,Done,,Yes
+IO-78882,EPIC Test Designs IO-76647,Adaptor,2024-05-07T12:23:11.802+0530,Manual,Done,,Yes
+IO-78888,Target Schema update to DataWarehouse Integration,DB Adaptor,2024-05-07T12:31:23.707+0530,Manual,Done,,Yes
+IO-78890,SourceConstraints to flow configuration Integration,DB Adaptor,2024-05-07T12:33:22.899+0530,Manual,Done,,Yes
+IO-78891,Salesforce to Snowflake Data Integration,DB Adaptor,2024-05-07T12:34:36.544+0530,Manual,Done,,Yes
+IO-79047,"Test Designs for IO-76800, load data into my NSAW table using files",DB Adaptor,2024-05-08T11:29:02.031+0530,Manual,Done,,Yes
+IO-79485,Test case design for IO-46280,EDI,2024-05-12T16:16:24.248+0530,Manual,Done,,Yes
+IO-79486,Test case design for IO-46281,EDI,2024-05-12T16:18:10.867+0530,Manual,Done,,Yes
+IO-79495,Test Designs for IO-77230,QA,2024-05-14T07:30:50.857+0530,Manual,Done,,Yes
+IO-79771,Test case design for Bugs epic,DB Adaptor,2024-05-15T10:06:07.694+0530,Manual,Done,,Yes
+IO-79824,[UI]High-level test case designs for IO-38393,UI,2024-05-15T11:00:20.147+0530,Manual,Done,,Yes
+IO-79967,API builder Phase 0 Test design,Core,2024-05-15T15:07:46.425+0530,Manual,Done,,Yes
+IO-80100,Test cases for [UX] Merge Help and Resource Centre,UX,2024-05-16T11:01:39.144+0530,Manual,Done,,Yes
+IO-80109,Test Plan for IO-64877(CPU spike),UI,2024-05-16T11:15:23.601+0530,Manual,Done,,Yes
+IO-80145,Marketplace feedback epic test cases,UI,2024-05-16T12:18:10.465+0530,Manual,Done,,Yes
+IO-80389,Epic level test designs for Celigo AI for transformation 2.0.,UI - AI/ML,2024-05-17T15:31:26.755+0530,Manual,Done,AI/ML;UI,Yes
+IO-80401,"Test Designs - Filter ""Your existing flow steps"" via connection and Label changes",UI,2024-05-17T18:26:27.666+0530,Manual,Done,,Yes
+IO-80772,Epic level test case designs for DI IO Account Design,Core,2024-05-21T09:51:48.846+0530,Manual,Done,,Yes
+IO-80857,Epic level test case design for IO-38393,API (api.integrator.io),2024-05-21T13:43:57.785+0530,Manual,Done,,Yes
+IO-81840,Epic level test designs,QA,2024-05-28T17:50:11.512+0530,Manual,Done,,Yes
+IO-81841,Epic level Test designs,QA,2024-05-28T17:51:11.197+0530,Manual,Done,,Yes
+IO-81842,Epic level Test designs,QA,2024-05-28T17:51:49.435+0530,Manual,Done,,Yes
+IO-82039,Test Design,QA,2024-05-29T18:34:21.709+0530,Manual,Done,,Yes
+IO-82291,TestDesign-APIM support for multiple non-prod environments,Core,2024-05-31T15:28:13.612+0530,Manual,Done,,Yes
+IO-82733,Test Design for Response time slow for APIs - Phase 2,Core,2024-06-05T11:28:36.917+0530,Manual,In Test Case Development,,Yes
+IO-82933,Epic level test case design - IO-81633,UI,2024-06-06T12:20:55.264+0530,Manual,Done,,Yes
+IO-83418,E2E test cases design for FA Reconciliation,EDI,2024-06-10T17:41:46.546+0530,Manual,Done,,Yes
+IO-84337,Edit sync TCD,DI,2024-06-19T12:23:56.296+0530,Manual,Done,DI-Milestone-3,Yes
+IO-84339,TCD for Cancellation of the Pipeline.,DI,2024-06-19T12:25:38.678+0530,Manual,Pending QA Lead Review,DI-Milestone-3,Yes
+IO-84341,TCD for Delete Sync,DI,2024-06-19T12:26:39.945+0530,Manual,Done,DI-Milestone-3,Yes
+IO-84347,Epic level test designs: IO-63125,DI,2024-06-19T12:29:48.383+0530,Manual,Done,Test_Design_Doc,Yes
+IO-84349,TCD  accurately describe the schema in the extracted data,DI,2024-06-19T12:31:28.290+0530,Manual,Open,DI-Milestone-3,Yes
+IO-84355,TCD to ensure no precision is lost during delta load,DI,2024-06-19T12:56:01.397+0530,Manual,Open,DI-Milestone-3,Yes
+IO-85503,EPIC Test Design [IO-77569] ,Adaptor,2024-06-26T11:20:54.783+0530,Manual,Done,,Yes
+IO-85562,Epic level Test cases to Create Salesforce SOQL query for exports/ imports,UI - AI/ML,2024-06-26T12:35:29.763+0530,Manual,Done,AI/ML;UI,Yes
+IO-85719,[UI]Epic level test case designs for [IO-77569],UI,2024-06-26T17:53:20.859+0530,Manual,Done,,Yes
+IO-86285,EPIC level test cases for Celigo AI support for Netsuite JDBC connector.,UI - AI/ML,2024-07-01T15:40:22.376+0530,Manual,Done,AI/ML;UI,Yes
+IO-86981,Test Design for IO-86600,Adaptor,2024-07-04T12:53:46.329+0530,Manual,Closed,,Yes
+IO-87133,Test designs for migration of orchestration flow to branching flow,Core,2024-07-05T19:03:15.748+0530,Manual,Done,,Yes
+IO-87205,EPIC Test Scope + Test Case Design IO-79253 Support to override Insert / Merge Query. ,DB Adaptor,2024-07-08T14:54:56.444+0530,Manual,Done,,Yes
+IO-87607,Epic level test designs: IO-63121,QA,2024-07-11T16:33:21.669+0530,Manual,In PM Review,Test_Design_Doc,Yes
+IO-87928,[IO-67541] Epic level test designs,QA,2024-07-16T12:19:12.766+0530,Manual,Done,DI-Milestone-3;UI,Yes
+IO-87959,[IO-67545] Epic level test designs,QA,2024-07-16T12:38:03.103+0530,Manual,In PM Review,DI-Milestone-3;UI,Yes
+IO-88068,[BE] Test Cases,Core,2024-07-16T15:13:02.754+0530,Manual,Done,,Yes
+IO-88141,Epic Test case design,QA,2024-07-16T21:56:07.026+0530,Manual,Done,,Yes
+IO-88190,[IO-67546] Epic level test designs,QA,2024-07-17T11:26:31.240+0530,Manual,In PM Review,DI-Milestone-3;UI,Yes
+IO-88232,Epic level test design for IO-85710,EDI,2024-07-17T13:15:11.988+0530,Manual,Done,,Yes
+IO-88233,Test Designs for IO-69555,QA,2024-07-17T13:40:08.414+0530,Manual,Done,,Yes
+IO-88402,[IO-67547] Epic level test designs,QA,2024-07-18T12:00:20.644+0530,Manual,Done,DI-Milestone-3;UI,Yes
+IO-88405,[IO-67554] Epic level test designs,QA,2024-07-18T12:11:53.748+0530,Manual,Done,DI-Milestone-3;UI,Yes
+IO-88623,Epic level test design for IO-86604,Core,2024-07-19T13:27:56.539+0530,Manual,Closed,,Yes
+IO-88705,Test Design & Review IO-85747 [File Parser Level Changes],File Adaptor,2024-07-22T11:08:52.522+0530,Manual,Done,,Yes
+IO-88756,Epic level test designs: IO-63124,QA,2024-07-22T13:35:25.099+0530,Manual,In PM Review,Test_Design_Doc,Yes
+IO-88918,[IO-67523] Epic level test designs,QA,2024-07-23T17:41:36.197+0530,Manual,In PM Review,DI-Milestone-3;UI,Yes
+IO-88936,[IO-63123] Epic level test designs,QA,2024-07-23T17:56:05.625+0530,Manual,Done,DI-Milestone-3;UI,Yes
+IO-89180,[UI] Epic level test case design tracker for IO-69550,UI,2024-07-25T09:15:10.394+0530,Manual,Done,,Yes
+IO-89181,[UI]Epic level test case design for IO-69551,UI,2024-07-25T09:16:53.101+0530,Manual,Done,,Yes
+IO-89182,[UI]Epic level test case design for IO-69552,UI,2024-07-25T09:18:23.125+0530,Manual,Done,,Yes
+IO-89183,[UI]Epic level test case design for IO-69554,UI,2024-07-25T09:19:49.154+0530,Manual,Done,,Yes
+IO-89184,[UI]Epic level test case design for IO-86603,UI,2024-07-25T09:22:01.075+0530,Manual,Done,,Yes
+IO-89185,[UI]Epic level test case design for IO-86604,UI,2024-07-25T09:23:42.766+0530,Manual,Done,,Yes
+IO-89186,[UI]Epic level test case design for IO-86606,UI,2024-07-25T09:25:25.158+0530,Manual,Done,,Yes
+IO-89187,[UI]Epic level test case design for IO-86607,UI,2024-07-25T09:27:05.291+0530,Manual,Done,,Yes
+IO-89199,Epic level test design for IO-87067,QA,2024-07-25T10:07:32.853+0530,Manual,Done,,Yes
+IO-89328,Test Design For IO-78076,Core,2024-07-25T19:10:42.435+0530,Manual,Done,,Yes
+IO-89370,Test Design for IO-38108,Core,2024-07-25T21:56:44.129+0530,Manual,Done,,Yes
+IO-89372,Test Design for IO-26468,Core,2024-07-25T22:00:13.840+0530,Manual,Done,,Yes
+IO-89886,[IO-83770] Epic level test designs,QA,2024-07-30T20:25:34.635+0530,Manual,Done,DI-Milestone-3,Yes
+IO-90127,[BE ]Test cases,Core,2024-08-01T00:22:00.442+0530,Manual,Done,,Yes
+IO-90140,Tier 2 - Test Designs for the delta,HTTP Adaptor,2024-08-01T10:20:43.604+0530,Manual,Done,,Yes
+IO-90198,Epic Level Test Designs,UI - AI/ML,2024-08-01T11:46:23.100+0530,Manual,In Test Case Development,AI/ML;UI,Yes
+IO-90224,[IO-87263] Epic level test designs,QA,2024-08-01T12:59:40.075+0530,Manual,Done,DI-Milestone-3,Yes
+IO-90698,Epic level test cases,UI,2024-08-05T12:43:55.641+0530,Manual,Done,,Yes
+IO-90986,[UI] Epic level test case designs,UI,2024-08-06T17:22:25.155+0530,Manual,Done,,Yes
+IO-91016,Epic level test case designs for IO-89151,UI,2024-08-07T10:36:53.342+0530,Manual,Done,,Yes
+IO-91027,Create User Description Test Cases[UI],UI - AI/ML,2024-08-07T11:15:50.492+0530,Manual,Done,,Yes
+IO-91266,Testcases for Improve performance of streaming exports,HTTP Adaptor,2024-08-08T12:03:43.488+0530,Manual,Done,,Yes
+IO-91331,Test designs for A/B test : Place Celigo University in Left Navigation,UI,2024-08-08T13:25:53.112+0530,Manual,Done,,Yes
+IO-91355,Epic level test designs[UI],UI - AI/ML,2024-08-08T15:33:20.735+0530,Manual,Done,AI/ML;UI,Yes
+IO-91565,Epic level Test Designs - Breakdown new endpoints for rate limiting changes,HTTP Adaptor,2024-08-12T11:15:28.157+0530,Manual,Done,,Yes
+IO-91581,Epic test cases -Ability to filter transactions presented on the EDI dashboard ,UI,2024-08-12T12:33:14.475+0530,Manual,Done,,Yes
+IO-91671,Epic cases-Brand alignment ,UI,2024-08-12T19:54:27.231+0530,Manual,Done,,Yes
+IO-92197,Epic level Test cases,Core,2024-08-16T09:56:52.731+0530,Manual,Done,,Yes
+IO-92207,Tier 1 - Test Designs for the delta,HTTP Adaptor,2024-08-16T12:16:31.266+0530,Manual,Done,,Yes
+IO-92458,Epic level test designs for IO-78956,QA,2024-08-20T12:39:28.512+0530,Manual,Done,,Yes
+IO-92460,Epic Test Designs for IO-51219,QA,2024-08-20T12:42:32.489+0530,Manual,Done,,Yes
+IO-92564,Epic level test cases for IO-85723,EDI,2024-08-21T09:25:44.084+0530,Manual,Done,,Yes
+IO-92676,Epic Level Test Designs[UI],UI - AI/ML,2024-08-21T19:41:36.634+0530,Manual,Done,,Yes
+IO-92777,Complete Test Designs - All Components,HTTP Adaptor,2024-08-22T14:06:28.524+0530,Manual,Done,,Yes
+IO-93823,Test Case Design,Core,2024-08-29T16:17:10.808+0530,Manual,Done,,Yes
+IO-94168,[IO-70281] Epic level test designs,QA,2024-09-02T21:00:57.615+0530,Manual,PENDING FINAL REVIEW,DI-Milestone-3;UI,Yes
+IO-94404,Epic level test designs for IO-79619,EDI,2024-09-04T12:28:05.506+0530,Manual,Done,,Yes
+IO-94559,Epic level test designs for IO-86267,EDI,2024-09-05T12:03:14.916+0530,Manual,Done,,Yes
+IO-94648,[IO-69620] Epic level test designs,QA,2024-09-05T20:13:26.914+0530,Manual,Done,DI-Milestone-3,Yes
+IO-94874,Epic level test designs for IO-86363,EDI,2024-09-09T16:19:00.760+0530,Manual,Done,,Yes
+IO-94875,Epic level test designs for IO-79622,EDI,2024-09-09T16:24:53.245+0530,Manual,Done,,Yes
+IO-94876,Epic level test designs for IO-79623,EDI,2024-09-09T16:25:44.438+0530,Manual,Done,,Yes
+IO-94877,Epic level test cases for IO-79624,EDI,2024-09-09T16:28:02.339+0530,Manual,Done,,Yes
+IO-94878,Epic level test designs for IO-79625,EDI,2024-09-09T16:28:56.229+0530,Manual,Done,,Yes
+IO-94945,[TestCase Design] Sudo 2024.11.1 Bugs EPIC ,DB Adaptor,2024-09-10T09:40:58.356+0530,Manual,Done,,Yes
+IO-94949,Testcase Design 2024.11.1 Gryffindor Bugs EPIC,File Adaptor,2024-09-10T10:15:49.916+0530,Manual,Closed,,Yes
+IO-94955,TestDesign Changes as per new scope [IO-79313 GDrive Global iClient],File Adaptor,2024-09-10T10:42:44.654+0530,Manual,Done,,Yes
+IO-94974,Testcase Design 2024.11.1 Gryffindor Standalone Stories EPIC,File Adaptor,2024-09-10T11:13:53.273+0530,Manual,Closed,,Yes
+IO-95094,TestDesign's IO-63678 & IO-63641 [Support for Body Params on Lookups & Exports],Adaptor,2024-09-10T15:56:12.818+0530,Manual,Done,,Yes
+IO-96062,Epic level test design for IO-85724,EDI,2024-09-16T22:25:07.395+0530,Manual,Done,,Yes
+IO-96063,Epic level test designs for IO-85423,EDI,2024-09-16T23:02:02.865+0530,Manual,Done,,Yes
+IO-96340,Test case Design,Core,2024-09-18T11:33:03.495+0530,Manual,Done,,Yes
+IO-96581,Test Design Review,HTTP Adaptor,2024-09-19T12:58:11.888+0530,Manual,Done,,Yes
+IO-96618,Epic level test designs for IO-86264,EDI,2024-09-19T14:26:06.783+0530,Manual,Done,,Yes
+IO-96621,Epic level test designs for IO-86268,EDI,2024-09-19T14:32:21.485+0530,Manual,Done,,Yes
+IO-96622,Epic level test designs for IO-86269,EDI,2024-09-19T14:33:12.984+0530,Manual,Done,,Yes
+IO-96634,IO-86043 Epic level test cases,UI,2024-09-19T16:14:47.534+0530,Manual,Done,,Yes
+IO-96686,IO-80246 Epic level test cases,QA,2024-09-20T09:20:51.077+0530,Manual,Done,,Yes
+IO-96719,Epic Level Test Designs_UI_for Reset Button functionality.,UI - AI/ML,2024-09-20T11:27:26.020+0530,Manual,Done,AI/ML;UI,Yes
+IO-96749,Test Cases design,Core,2024-09-20T13:51:21.069+0530,Manual,Done,,Yes
+IO-96917,Test Cases Design ,Core,2024-09-24T09:33:02.622+0530,Manual,Done,,Yes
+IO-96976,Test Design Shopify,DI,2024-09-24T13:37:44.237+0530,Manual,Done,DI-Milestone-3,Yes
+IO-96978,Test Design Netsuite saved search,DI,2024-09-24T13:45:49.671+0530,Manual,Done,DI-Milestone-3,Yes
+IO-96981,Test Design NSAW,DI,2024-09-24T13:57:43.722+0530,Manual,Done,DI-Milestone-3,Yes
+IO-96984,Test Design Schema Inferencing,DI,2024-09-24T14:07:08.048+0530,Manual,Done,DI-Milestone-3,Yes
+IO-97023,[IO-63087] Epic level test designs,QA,2024-09-24T17:33:06.264+0530,Manual,Done,DI-Milestone-3,Yes
+IO-98612,Test case design,Core,2024-10-08T10:26:46.381+0530,Manual,Done,,Yes
+IO-100591,Test case designs for IO-80242,Core,2024-10-22T10:58:23.161+0530,Manual,Done,,Yes
+IO-100691,Test Design - Data Sync Assistant - Design Sync (Phase 2),DI,2024-10-22T13:31:46.371+0530,Manual,Done,DI-Milestone-3,Yes
+IO-100692,M3 - Test Design Data Sync Monitor - Phase 1,DI,2024-10-22T13:32:21.599+0530,Manual,Done,DI-Milestone-3,Yes
+IO-101493,Epic Level Test Designs,AI/ML - BE,2024-10-28T11:00:49.916+0530,Manual,Done,AI/ML,Yes
+IO-101494,Epic Level Test Cases,UI - AI/ML,2024-10-28T11:04:13.302+0530,Manual,Done,AI/ML;UI,Yes
+IO-101615,Epic level test designs for IO-85725,EDI,2024-10-29T08:49:23.993+0530,Manual,Done,,Yes
+IO-101762,EPIC Level Test Scope & Test Design [IO-50960 Authentication to ActiveDirectory],DB Adaptor,2024-10-30T09:32:59.680+0530,Manual,Done,,Yes
+IO-101877,Test Designs ,Core,2024-11-01T10:30:25.452+0530,Manual,Done,,Yes
+IO-101883,Epic Test design,QA Automation,2024-11-01T11:32:55.361+0530,Manual,Done,,Yes
+IO-102483,Epic Level Test Case Designs,UI - AI/ML,2024-11-06T12:14:02.846+0530,Manual,Done,AI/ML;UI,Yes
+IO-102582,IO-63641 Epic level test designs,QA,2024-11-06T19:27:51.943+0530,Manual,Done,,Yes
+IO-102702,IO-100803 Epic level test cases,UI,2024-11-07T15:52:28.246+0530,Manual,Done,,Yes
+IO-102787,Test Design,QA,2024-11-08T11:18:07.337+0530,Manual,Done,,Yes
+IO-102815,IO-100119 Epic level test cases,UI,2024-11-08T13:11:53.922+0530,Manual,Done,,Yes
+IO-103012,DI QA : Test-case Design: Any Celigo Export,DI,2024-11-11T17:16:34.005+0530,Manual,Done,DI-Milestone-3,Yes
+IO-103679,Test design for Node22 migration,Core,2024-11-18T13:22:31.936+0530,Manual,Done,,Yes
+IO-103865,NFR Test Design,DI,2024-11-19T11:54:24.040+0530,Manual,PENDING FINAL REVIEW,DI-Milestone-3,Yes
+IO-103869,DI M3: NFR Test-design,DI,2024-11-19T12:09:04.146+0530,Manual,Done,DI-Milestone-3,Yes
+IO-104081,Test Case Designs,Core,2024-11-20T10:33:53.929+0530,Manual,Done,,Yes
+IO-104303,Epic level test Designs for IO-78953,QA,2024-11-20T18:50:26.001+0530,Manual,Pending QA Lead Review,,Yes
+IO-104346,Epic level Test Design,HTTP Adaptor,2024-11-21T08:43:32.141+0530,Manual,Done,,Yes
+IO-104407,Test Design for IO-78950,QA,2024-11-21T12:49:17.053+0530,Manual,Done,,Yes
+IO-104408,Test Design for IO-101427,QA,2024-11-21T12:53:26.043+0530,Manual,Done,,Yes
+IO-104635, API Builder phase 0 test design -complete epic level,Core,2024-11-23T14:14:44.179+0530,Manual,Done,,Yes
+IO-104967,Epic level - Test Design- user journey 5,Adaptor,2024-11-26T15:08:52.650+0530,Manual,Done,,Yes
+IO-104968,Epic level test Designs,Adaptor,2024-11-26T15:14:28.623+0530,Manual,Closed,,Yes
+IO-104969,Epic level -Test Design,Adaptor,2024-11-26T15:16:30.159+0530,Manual,Closed,,Yes
+IO-104971,Epic level -Test Design,Adaptor,2024-11-26T15:27:31.369+0530,Manual,Open,,Yes
+IO-105072,Test designs for IO-41020,QA,2024-11-27T11:56:15.233+0530,Manual,Done,,Yes
+IO-105250,Test Design - Auto recovery hardening,QA,2024-11-28T16:18:38.209+0530,Manual,Done,,Yes
+IO-105865,Test design for IO-101617,QA,2024-12-04T10:40:36.916+0530,Manual,Done,,Yes
+IO-106585,Epic level test designs for IO-101290,EDI,2024-12-10T15:29:31.030+0530,Manual,Done,,Yes
+IO-106788,Epic Level Test Case designs ,Core,2024-12-11T16:06:55.552+0530,Manual,Done,,Yes
+IO-107438,Test Design for IO-101293,EDI,2024-12-17T11:01:53.407+0530,Manual,Done,,Yes
+IO-107931,API builder test design,Core,2024-12-18T15:35:12.707+0530,Manual,Done,,Yes
+IO-107932,API builder test design ,Core,2024-12-18T15:38:15.210+0530,Manual,Done,,Yes
+IO-107933,API builder testcase design phase 0,Core,2024-12-18T15:41:00.898+0530,Manual,Done,,Yes
+IO-107934,API builder testcase design phase 0,Core,2024-12-18T15:42:43.980+0530,Manual,Done,,Yes
+IO-107935,API builder testcase design phase 0,Core,2024-12-18T15:45:49.471+0530,Manual,Done,,Yes
+IO-108014,API builder test design ,Core,2024-12-19T13:09:29.931+0530,Manual,Done,,Yes
+IO-108017,API builder test design,Core,2024-12-19T13:15:39.322+0530,Manual,Done,,Yes
+IO-108040,Test Case Design,QA,2024-12-19T20:45:24.341+0530,Manual,Done,,Yes
+IO-108297,Epic level test design for IO-108149,Adaptor,2024-12-23T16:03:03.619+0530,Manual,Done,,Yes
+IO-108306,Test Design,QA,2024-12-23T16:18:34.438+0530,Manual,Done,,Yes
+IO-108336,Test Design,QA,2024-12-24T11:54:39.171+0530,Manual,PENDING FINAL REVIEW,,Yes
+IO-108707,Epic level test designs for IO-78076,QA,2025-01-02T14:57:26.338+0530,Manual,Done,,Yes
+IO-109280,[UI] Changes in Push to APIM drawer and API settings,Core,2025-01-07T11:48:37.394+0530,Manual,Closed,,Yes
+IO-109892,Testcase design for IO-101291,QA,2025-01-10T10:46:01.117+0530,Manual,Done,,Yes
+IO-110039,Epic level test scenerios,UI - AI/ML,2025-01-13T10:40:38.448+0530,Manual,Done,AI_ML;UI,Yes
+IO-110060,Epic level test designs,AI/ML - BE,2025-01-13T11:44:52.932+0530,Manual,Done,AI_ML,Yes
+IO-110102,Test case designs for IO-94184,QA,2025-01-13T15:47:24.502+0530,Manual,Done,,Yes
+IO-110212,Test case designs for IO-100279,Core,2025-01-13T20:19:40.144+0530,Manual,Done,,Yes
+IO-110388,Test Case Designs,Core,2025-01-15T13:38:14.034+0530,Manual,Done,,Yes
+IO-110396,[UI]High level Test case designs for IO-35753,UI,2025-01-15T14:12:45.613+0530,Manual,Done,,Yes
+IO-110599,"Test designs for ""IO-103915""",Core,2025-01-16T10:33:50.476+0530,Manual,Done,,Yes
+IO-110633,Epic Level test designs.,AI/ML - BE,2025-01-16T12:22:29.338+0530,Manual,Done,,Yes
+IO-110694,[UI]High level test case scenarios for IO-104677,UI,2025-01-16T16:09:48.296+0530,Manual,Done,,Yes
+IO-111177,[UI]High level test case designs for IO-103908,UI,2025-01-21T12:20:57.327+0530,Manual,Done,,Yes
+IO-111405,Epic Level Test Cases for IO-100022,QA,2025-01-23T11:20:59.756+0530,Manual,Done,,Yes
+IO-111540,epic level test design,HTTP Adaptor,2025-01-24T11:16:40.291+0530,Manual,Done,,Yes
+IO-112205,Epic level Test Design,QA,2025-01-30T08:40:58.814+0530,Manual,Done,,Yes
+IO-113804,Test scenarios,Core,2025-02-12T10:49:20.420+0530,Manual,Done,,Yes
+IO-114300,TCD for IO-109211,Core,2025-02-17T11:04:26.259+0530,Manual,Done,,Yes
+IO-114344,TCD for IO-114342,Core,2025-02-17T13:09:12.731+0530,Manual,Done,,Yes
+IO-114444,Test Scenario's for Canary Deployment,QA,2025-02-17T19:44:59.338+0530,Manual,Done,,Yes
+IO-114703,epic level test scenario's,HTTP Adaptor,2025-02-18T15:54:54.743+0530,Manual,Done,,Yes
+IO-114932,Epic level test design for IO-102523,QA,2025-02-19T10:45:23.691+0530,Manual,Done,,Yes
+IO-114933,Epic level test design for IO-102524,QA,2025-02-19T10:47:54.514+0530,Manual,Done,,Yes
+IO-115051,Test design,API (api.integrator.io),2025-02-19T16:39:46.903+0530,Manual,Done,,Yes
+IO-115384,[IO-93124] Epic level test designs,QA,2025-02-21T11:59:09.216+0530,Manual,Done,,Yes
+IO-115614,Test case design,UI,2025-02-24T12:12:50.847+0530,Manual,Done,,Yes
+IO-115616,IO-112862: Epic test case,UI,2025-02-24T12:13:49.155+0530,Manual,Done,,Yes
+IO-115618,Testcase design,UI,2025-02-24T12:14:11.970+0530,Manual,Done,,Yes
+IO-115638,Epic level test case designs,Core,2025-02-24T13:13:28.889+0530,Manual,Closed,,Yes
+IO-115646,Epic level test case designs,Core,2025-02-24T13:21:40.310+0530,Manual,Closed,,Yes
+IO-115683,Epic Test Designs,QA,2025-02-24T16:13:14.238+0530,Manual,Done,,Yes
+IO-115788,Test case designs for IO-115523,Core,2025-02-25T10:30:04.920+0530,Manual,Done,,Yes
+IO-117087,Epic level test cases,UI,2025-03-06T12:40:45.700+0530,Manual,Done,,Yes
+IO-117119,Epic level test designs,AI/ML - BE,2025-03-06T17:40:15.595+0530,Manual,Done,AI/ML,Yes
+IO-117139,Test design [April] Stakeholder feedback and UX enhancements,UI,2025-03-06T21:47:08.883+0530,Manual,Done,,Yes
+IO-118121,TestDesigns: Graphql Query support in Shopify Connectors,AI/ML - BE,2025-03-13T10:52:54.382+0530,Manual,Done,,Yes
+IO-118122,[Text2SQL] OpenAI is generating queries with generic column names instead of the actual column names.,AI/ML - BE,2025-03-13T10:58:49.194+0530,Manual,Closed,,Yes
+IO-118259,High-level test case designs for IO-116735,UI,2025-03-17T12:27:18.483+0530,Manual,Done,,Yes
+IO-118944,Test Designs for IO-118886,QA,2025-03-21T12:40:30.608+0530,Manual,Open,,Yes
+IO-119932,Test Designs for Usage Restriction,QA,2025-03-26T09:05:45.900+0530,Manual,Open,,Yes
+IO-120886,Epic level test designs for IO-86270,EDI,2025-04-01T16:08:13.546+0530,Manual,Done,,Yes
+IO-121232,Epic level test cases,QA,2025-04-03T11:39:56.108+0530,Manual,Done,,Yes
+IO-121393,Epic Level test designs,UI,2025-04-04T10:59:03.604+0530,Manual,Done,,Yes
+IO-121530,"EPIC TestDesigns for IO-35832 Support of ""Inventory Detail"" subrecord for ""Inventory Status Change"" record",QA,2025-04-07T08:40:21.235+0530,Manual,Done,,Yes
+IO-121619,Epic level test case design for IO-120580,UI,2025-04-07T15:40:54.534+0530,Manual,Done,,Yes
+IO-121620,Epic level test case design for IO-105230,UI,2025-04-07T15:42:14.095+0530,Manual,Done,,Yes
+IO-121621,Epic level test case design for IO-120690,UI,2025-04-07T15:43:23.807+0530,Manual,Done,,Yes
+IO-121625,Test Design for IO-118270 (Show line numbers and support expand/collapse functionality in the editor) ,UI,2025-04-07T15:49:18.670+0530,Manual,Done,,Yes
+IO-121627,Test Designs for IO-117236,AI/ML - BE,2025-04-07T15:54:58.054+0530,Manual,Done,,Yes
+IO-121635,Test Designs for IO-94030 (Implement Canary release support for frontend.),UI,2025-04-07T16:02:32.737+0530,Manual,Done,,Yes
+IO-121662,Test Design for IO-109878 ([Connectivity] Workday Text to SQL AI),AI/ML - BE,2025-04-07T17:06:58.454+0530,Manual,Done,,Yes
+IO-121821,Epic Level Test Cases,UI,2025-04-08T11:23:41.698+0530,Manual,Done,,Yes
+IO-121842,Epic Level test Cases,UI,2025-04-08T11:48:02.944+0530,Manual,Done,,Yes
+IO-122187,Epic level test case designs for IO-114089,Core,2025-04-08T19:51:05.871+0530,Manual,Done,,Yes
+IO-122471,Epic level test cases,UI,2025-04-10T12:34:23.507+0530,Manual,Done,,Yes
+IO-122517,"Test design - [May] Customer requests, stakeholder feedback, enhancements, bugs",Core,2025-04-10T15:50:31.943+0530,Manual,Done,,Yes
+IO-123469,EPIC TestDesigns,Adaptor,2025-04-21T23:28:55.650+0530,Manual,Open,,Yes
+IO-123470,"Outputting empty object, in case the object has only 1 node with empty value and mapped to one of the array field",Adaptor,2025-04-21T23:57:56.613+0530,Manual,Open,GoldenDataSet,Yes
+IO-123474,"Incorrect mappings output data when mapping an extract field enclosed in [], same key is present in another array. Mappings being executed based on the array field",Adaptor,2025-04-22T08:39:19.583+0530,Manual,Open,GoldenDataSet,Yes
+IO-123610,High-level test case designs for IO-123360,UI,2025-04-22T13:33:50.684+0530,Manual,Done,,Yes
+IO-126322,[UI]Epic level test case designs,UI,2025-05-06T17:32:50.436+0530,Manual,Done,,Yes
+IO-126326,[UI]Epic level test case designs ,UI,2025-05-06T17:34:28.381+0530,Manual,Done,,Yes
+IO-126328,[UI]Epic level test case designs ,UI,2025-05-06T17:35:25.004+0530,Manual,Done,,Yes
+IO-126329,[UI] Epic Level Test Designs,UI,2025-05-06T17:36:16.965+0530,Manual,Open,,Yes
+IO-126619,TestDesign for Expose text to SQL as a framework for platform team consumption,AI/ML - BE,2025-05-07T15:56:53.494+0530,Manual,Pending QA Lead Scope Review,,Yes
+IO-126633,Test Plan/Design for [Punch list] [Branching/Filters] UX overhaul to make it easier for users to use Rules,UI,2025-05-07T16:47:41.423+0530,Manual,Done,,Yes
+IO-126634,Test Design/ Test Plan Develop an AI/ML-based utility for automated notification of API Changes to Track and Notify,AI/ML - BE,2025-05-07T16:55:24.849+0530,Manual,Done,,Yes
+IO-126635,TestPlan for Configure environment variables yml for gpt-verse service,AI/ML - BE,2025-05-07T16:59:21.093+0530,Manual,Done,,Yes
+IO-126784,IO-125088: Epic test case,UI,2025-05-08T11:42:41.303+0530,Manual,Done,,Yes
+IO-127338,IO-122196 Test Design,EDI,2025-05-13T10:53:48.221+0530,Manual,Done,,Yes
+IO-127373,IO-63753 Test Design,AS2,2025-05-13T13:23:06.047+0530,Manual,Done,,Yes
+IO-127532,Test Design SI,DI,2025-05-14T12:20:47.099+0530,Manual,Done,,Yes
+IO-127644,Epic level test case designs - IO-114090,Core,2025-05-14T19:19:59.316+0530,Manual,Done,,Yes
+IO-127646,[BE] Epic level test case designs,Core,2025-05-14T19:21:47.958+0530,Manual,Done,,Yes
+IO-127818,Test Case Designs,Core,2025-05-15T13:10:05.876+0530,Manual,Done,,Yes
+IO-128370,Epic level test cases,Core,2025-05-19T11:59:05.778+0530,Manual,Done,,Yes
+IO-128372,Test case design - BullHorn authentication,Adaptor,2025-05-19T12:06:19.032+0530,Manual,Done,,Yes
+IO-128531,Epic Level test cases,Core-API-Builder,2025-05-19T15:50:55.353+0530,Manual,Done,,Yes
+IO-128609,IO-127441: Epic level test cases,QA,2025-05-20T09:22:48.253+0530,Manual,Done,,Yes
+IO-129028,Schema inferencing Test Design,DI,2025-05-20T16:51:23.951+0530,Manual,Done,,Yes
+IO-129274,Epic level test designs,Adaptor,2025-05-21T09:29:53.980+0530,Manual,Done,,Yes
+IO-129516,Reduce logs in api-gateway,Core,2025-05-22T16:20:14.579+0530,Manual,Done,,Yes
+IO-129973,TestDesign for Workday Imports,AI/ML - BE,2025-05-28T10:07:56.156+0530,Manual,Done,,Yes
+IO-131097,Epic level test designs,JS Runtime,2025-06-04T20:57:38.713+0530,Manual,Done,,Yes
+IO-131248,EPIC Level Test case design for Add support for Workday per_page,DB Adaptor,2025-06-05T15:22:45.782+0530,Manual,Done,,Yes
+IO-131655,[IO-116797] EPIC Level TCs - Connection form on On-Prem Files Connector,File Adaptor,2025-06-09T14:25:42.077+0530,Manual,Done,,Yes
+IO-132319,Load Test plan for KEDA Autoscaling,Adaptor,2025-06-13T10:26:53.930+0530,Manual,Done,,Yes
+IO-132880,Test Designs for IO-121898,Adaptor,2025-06-17T11:02:39.153+0530,Manual,Done,,Yes
+IO-133029,Epic Level test cases,QA,2025-06-17T13:02:35.384+0530,Manual,Done,,Yes
+IO-133053,Epic level test case,QA,2025-06-17T13:19:51.494+0530,Manual,Done,,Yes
+IO-133387,Test strategy for IO-119067,Adaptor,2025-06-17T18:44:08.383+0530,Manual,Done,,Yes
+IO-133438,Test case design,UI,2025-06-17T23:59:30.362+0530,Manual,Done,,Yes
+IO-134275,Epic Test Designs,Salesforce Adaptor (Node.js),2025-06-23T17:59:12.217+0530,Manual,Closed,,Yes
+IO-134276,"FRD Review, Test Designs for Context Awareness for Copilot",AI/ML - BE,2025-06-23T18:19:47.960+0530,Manual,Done,,Yes
+IO-134278,Epic level test design - IO-126929,Adaptor,2025-06-23T20:44:38.109+0530,Manual,Done,,Yes
+IO-134518,[BE] EPIC Level Test Designs,Core,2025-06-24T19:26:40.910+0530,Manual,Open,,Yes
+IO-134563,Test Case Design,EDI,2025-06-25T10:40:47.972+0530,Manual,Done,,Yes
+IO-134695,Test designs,Adaptor,2025-06-25T15:55:30.976+0530,Manual,Done,,Yes
+IO-135203,Epic Level Test scenarios design,EDI,2025-06-27T13:34:17.408+0530,Manual,Done,,Yes
+IO-135394,Epic leve test designs,EDI,2025-06-30T15:41:24.403+0530,Manual,Done,,Yes
+IO-135743,Epic level design,AS2,2025-07-01T11:34:29.998+0530,Manual,Closed,,Yes
+IO-135794,Epic level testcases,UI,2025-07-01T12:00:06.141+0530,Manual,Done,,Yes
+IO-135805,Epic level testcases,UI,2025-07-01T12:06:44.501+0530,Manual,Done,,Yes
+IO-135936,Re-do impact analysis of the change ,Adaptor,2025-07-01T13:22:17.820+0530,Manual,Done,,Yes
+IO-136130,Epic level test case designs,UI,2025-07-01T15:16:08.173+0530,Manual,Done,,Yes
+IO-136528,EPIC_level_test_cases,QA,2025-07-01T21:04:54.738+0530,Manual,Done,,Yes
+IO-136547,Epic level test cases,UI,2025-07-02T05:14:40.304+0530,Manual,Done,,Yes
+IO-136673,EPic Level Test Cases,Core,2025-07-02T11:43:10.210+0530,Manual,Done,,Yes
+IO-136868,Epic level test case designs for IO-109808 and IO-109807,QA,2025-07-04T11:16:52.677+0530,Manual,Done,scope_change,Yes
+IO-137311,Epic test cases for new User Sign-Up and Account Creation Enhancements,UI,2025-07-10T10:36:26.336+0530,Manual,Done,,Yes
+IO-137314,[UI]Epic test cases for new User Sign-Up and Account Creation Enhancements,UI,2025-07-10T10:49:58.884+0530,Manual,Done,,Yes
+IO-138330,EPIC level Test cases,QA,2025-07-15T20:16:30.930+0530,Manual,Done,,Yes
+IO-138332,EPIC Test cases,QA,2025-07-15T20:19:20.749+0530,Manual,In Test Scope Review,,Yes
+IO-138333,Epic level Test cases,QA,2025-07-15T20:21:02.831+0530,Manual,Done,,Yes
+IO-138508,Test design for NS Distributed Enterprise Logging,NetSuite Adaptor (Node.js),2025-07-16T12:56:53.097+0530,Manual,Done,,Yes
+IO-138936,Epic level test designs for IO-80569,Adaptor,2025-07-21T16:05:41.242+0530,Manual,Done,Epic-Test-Case,Yes
+IO-139456,Test design for NS web services and real-time exports,NetSuite Adaptor (Node.js),2025-07-24T21:55:06.283+0530,Manual,Done,,Yes
+IO-139938,[BE]: Epic Level Test-case design: New User Sign-Up and Account creation,Core,2025-07-29T11:14:05.270+0530,Manual,Done,,Yes
+IO-140372,test cases design,EDI,2025-07-29T16:58:07.470+0530,Manual,Done,,Yes
+IO-140546,UI Test-Designs,UI,2025-07-29T19:28:56.352+0530,Manual,PENDING FINAL REVIEW,,Yes
+IO-140549,UI-Test Designs,UI,2025-07-29T19:30:23.421+0530,Manual,PENDING FINAL REVIEW,,Yes
+IO-140657,Epic level test designs,UI - Usability,2025-07-30T10:54:16.722+0530,Manual,Done,,Yes
+IO-140660,Test Case Designs,Core,2025-07-30T10:56:33.415+0530,Manual,Done,,Yes
+IO-140666,"New application type - ""Celigo APIs""",Core-API-Builder,2025-07-30T11:06:06.743+0530,Manual,Done,,Yes
+IO-140685,Epic Level Test design IO-129419,HTTP Adaptor,2025-07-30T11:54:35.478+0530,Manual,Done,,Yes
+IO-141299,Epic level test case design,Adaptor,2025-08-05T14:34:10.121+0530,Manual,Done,,Yes
+IO-141314,Test Designs and FRD Review ,UI,2025-08-05T16:04:10.831+0530,Manual,Done,,Yes
+IO-141516,Test Cases Design,Core,2025-08-06T18:12:19.920+0530,Manual,Pending QA Lead Review,,Yes
+IO-141859,[UI]Epic level test case designs,UI,2025-08-10T22:09:44.391+0530,Manual,Done,,Yes
+IO-141861,[UI]Epic level test case designs,UI,2025-08-10T22:12:16.544+0530,Manual,Done,,Yes
+IO-141863,[UI] epic level test case designs,UI,2025-08-10T22:14:09.419+0530,Manual,Done,,Yes
+IO-141865,[UI]epic level test case designs,UI,2025-08-10T22:15:50.467+0530,Manual,In PM Review,,Yes
+IO-141867,[UI]epic level test case designs,UI,2025-08-10T22:17:35.945+0530,Manual,In Test Case Development,,Yes
+IO-141869,[UI] epic level test case designs,UI,2025-08-10T22:19:09.878+0530,Manual,Done,,Yes
+IO-141871,[UI] epic level test case designs,UI,2025-08-10T22:20:44.874+0530,Manual,Done,,Yes
+IO-141873,[UI]epic level test case designs,UI,2025-08-10T22:22:36.109+0530,Manual,Done,,Yes
+IO-141942,IO-128576 Epic level test design,Core,2025-08-11T11:50:48.984+0530,Manual,Pending QA Lead Review,,Yes
+IO-141964,[UI]epic level test case designs,UI,2025-08-11T13:38:21.591+0530,Manual,Done,,Yes
+IO-142050,[UI]epic level test case designs,UI,2025-08-11T15:24:09.127+0530,Manual,Done,,Yes
+IO-142205,QA Strategy Document: IO-63124,QA,2025-08-11T18:10:04.165+0530,Manual,Pending QA Lead Review,QA_Strategy_Doc,Yes
+IO-142206,QA Strategy Document: IO-63121,QA,2025-08-11T18:11:52.278+0530,Manual,Pending QA Lead Review,QA_Strategy_Doc,Yes
+IO-142207,QA Strategy Document: IO-63125,QA,2025-08-11T18:13:05.300+0530,Manual,Pending QA Lead Review,QA_Strategy_Doc,Yes
+IO-142208,QA Strategy Document: IO-138921,QA,2025-08-11T18:14:42.027+0530,Manual,Pending QA Lead Review,QA_Strategy_Doc,Yes
+IO-142209,QA Strategy Document: IO-138920,QA,2025-08-11T18:16:57.802+0530,Manual,Pending QA Lead Review,QA_Strategy_Doc,Yes
+IO-142211,Epic level test designs: IO-138921,QA,2025-08-11T18:21:26.135+0530,Manual,Done,Test_Design_Doc,Yes
+IO-142212,Epic level test designs: IO-138920,QA,2025-08-11T18:22:14.429+0530,Manual,Done,Test_Design_Doc,Yes
+IO-142223,QA Strategy Document: IO-87198,QA,2025-08-11T19:03:07.424+0530,Manual,Pending QA Lead Review,QA_Strategy_Doc,Yes
+IO-142253,[UI]Epic level test case designs ,UI,2025-08-11T19:55:19.484+0530,Manual,Done,,Yes
+IO-142375,Test Design,EDI,2025-08-12T10:18:37.147+0530,Manual,Done,,Yes
+IO-142498,Epic level test cases,UI,2025-08-12T12:24:15.373+0530,Manual,In Test Case Development,,Yes
+IO-142732,Epic level test cases,UI,2025-08-12T16:31:52.658+0530,Manual,Done,,Yes
+IO-142764,UI-Test designs,UI,2025-08-12T16:51:09.677+0530,Manual,PENDING FINAL REVIEW,,Yes
+IO-142766,UI-Test designs,UI,2025-08-12T16:52:01.904+0530,Manual,PENDING FINAL REVIEW,,Yes
+IO-142875,Epic strategy and cases,Core,2025-08-12T18:18:50.320+0530,Manual,Open,,Yes
+IO-142923,Epic level test case designs,Core,2025-08-12T19:20:59.743+0530,Manual,Pending QA Lead Review,,Yes
+IO-142924,Epic level test case designs,Core,2025-08-12T19:22:16.878+0530,Manual,Open,,Yes
+IO-142925,Epic level test case designs,Core,2025-08-12T19:23:21.993+0530,Manual,Open,,Yes
+IO-142926,Epic level test case designs,Core,2025-08-12T19:24:52.761+0530,Manual,Open,,Yes
+IO-143072,Test Design for EFS Component,Adaptor,2025-08-13T15:26:33.581+0530,Manual,In Test Case Development,,Yes
+IO-143432,Test design,Adaptor,2025-08-19T10:16:15.634+0530,Manual,Open,,Yes
+IO-143433,HLD to put cleanup as part of stitcher service,Adaptor,2025-08-19T10:16:54.281+0530,Manual,Open,,Yes
+IO-143449,Test cases designs,Lookup MS,2025-08-19T11:20:13.201+0530,Manual,Open,,Yes
+IO-143541,UI Test designs,UI,2025-08-19T18:06:06.110+0530,Manual,Pending QA Lead Review,,Yes

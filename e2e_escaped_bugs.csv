@@ -1,0 +1,174 @@
+JIRA ID,Priority,Summary,Main Release,Affected Version,Scrum Team,Team,Number of customers impacted (via linked ZD),Component/Feature,Type of bug,Type of Miss,Depedency on MS,Reason for the regression/Escape bug?,Test Case ,Automation Status,"Internal 
+RCA 
+Available 
+/ Not","External 
+RCA 
+Available 
+/ Not",What is the learning?,Comments ,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3
+IO-61750,P2,[Customer Issue] - Flow is being blacklisted due to a Stack connecting to http://internal-tech-services-2109885720.us-east-1.elb.amazonaws.com,2024.1.1,2024.1.1,Falcon,platform,1,HTTP,Escaped bug,,Yes,"Earlier, only one eTail stack URL was whitelisted using the environment variable ETAIL_STACK_HOST_NAME. However, the customer was encountering a blacklisting error. A fix was made to enhance the code to support multiple stack URLs using the WHITELIST_STACK_HOST_NAMES environment variable",New Test Case,Newly Automated,No,No,"After every story or defect fix, it's important to identify the impacted areas and test them thoroughly",,,,,
+IO-62952,P2,mdn signature verification error when we are receiving empty mdn message,2024.1.1,2024.1.2,Ganges,platform,2,AS2,Escaped bug,,No,"fixed a rare case of hard to reproduce server crash bug in our AS2 connector, while fixing the bug  ended up having a regression which affected MDN verification",New Test Case,Newly Automated,Yes,Yes,"This was an edge case that was hard to reproduce from QA’s end.
+For such scenarios, the Dev team should ensure more comprehensive unit test coverage and perform Dev-side testing to avoid regression issue.",RCA,,,,
+IO-63422,P2,Include script definitions for exports/imports while generating ai description,2024.1.1,2024.1.1,Hercules (UI),UI,0,Scripts AI/ML,Internal Bug,,Yes,"This is not a bug and this is feedback.this is fixed by another tracker
+https://celigo.atlassian.net/browse/IO-64344",New Test Case,Newly Automated,No,No,Not applicable as this an enhancement request,,,,,
+IO-63415,P2,Irrelevant fields need to be ignored while generating the description,2024.1.1,2024.1.1,Velocity,Platform,0, AI/ML ,Internal Bug,,Yes,This is not a bug and this is feedback.,New Test Case,Newly Automated,No,No,Not applicable as this an enhancement request,,,,,
+IO-62995,P1,Getting error with Flow Description when restricted the Tile Access to manage level,2024.1.1,2024.1.1,Tintin,core,0,Account Management,Internal Bug,,No,"issue with Flows patch call, for Custom manage access only",Test Case Not Available,Not Automated,No,No,"Every defect should have test case added/attached 
+and automated as well, to avoid regression issue",,,,,
+IO-63437,P2,AI generated the description for XML though there’s no specific XML configuration present in the UI,2024.1.1,2024.1.1,Velocity,Platform,0, AI/ML,Internal Bug,,No,This is not a bug and this is feedback.,New Test Case,Newly Automated,No,No,Not applicable as this an enhancement request,,,,,
+IO-63696,P1,Encountering an error with Flow Description when there are numerous bubbles in the flow,2024.1.1,2024.1.1,Velocity,Platform,0, AI/ML,Internal Bug,,No,"This is a performance issue,specific to few flows",New Test Case,Newly Automated,No,No,"After every story or defect fix, it's important to identify the impacted areas and test them thoroughly",,,,,
+IO-64809,P1,"Agent installation is not working on QA staging env and ""Bearer Authentication Failed"" is coming when RMS is enabled",2024.1.1,2024.1.1,Avengers,Platform,0,On_Premis Agent,Internal Bug,,Yes,Env variables were missed by Dev team as part of RMS.since agent extension calls go via RMS route if RMS is enabled,Existing Case,Not Automated,Yes,No,"As a prerequisite, ensure that all environment variables are added","RCA
+Core team is working on it to automate the test cases",,,,
+IO-61581,P1,Flow management and resource management service restarting due to redis error,2024.1.1,2024.1.1,Avengers,API,0,API,Escaped bug,,Yes,This issue happens when a service is idle and not receiving any traffic. Its not identified in testing as there was continous traffic while testing and restarts didn’t happen,Test Case Not Available,Not Automated,No,No,Such scenarios are challenging to cover through test cases and are not easily automatable,,,,,
+IO-67126,P1,FM MS | Retrying errors are landing into stuck state when FM MS is enabled for an user,2024.1.1,2024.1.1,Minions,Core,0,Error Management,Internal Bug,,Yes,This happened due to FM MS enabled,Test Case Not Available,Not Automated,No,No,"This happened wrt FM microservice enabled accounts, MS dependency could have been tested with retry errors case","Going forward this may not occur, which are related MS specific as soon, all the users will be routed to MS 100%",,,,
+IO-67058,P2,[FMS] : Retry error is showing all retry jobs as successful and not updating the error fields in case retry failed,2024.1.1,2024.1.3,Tintin,Core,0,Error Management,Internal Bug,,Yes,"This is same as IO-67126, mentioned above",Test Case Not Available,Not Automated,No,No,"This is same as IO-67126, mentioned above","This is same as IO-67126, mentioned above",,,,
+IO-66398,P1,[flow-management] - pageGenerator.toObject is not a function,2024.1.1,2024.1.4,Minions,Platform,0,MongoDB Optimization,Internal Bug,,Yes,This is an MongoDB Optimization,Test Case Not Available,Not Automated,No,No,This a DB optimization tracker,,,,,
+IO-66120,P1,Travis | [integrator-adaptor] | JOB=Salesforce-ClassificationEngine,2024.3.1,2024.3.1,Aliens,Core,0,Error Classifier,Internal Bug,,Yes,"This is a error classifier, reported by Travis",New Test Case,Newly Automated,No,No,"Nothing here, Issue related to error classifier, related to Travis.",,,,,
+CS-8064,P2,"[Spike] RCA - AmazonAWS error: ""statusCode"": 400 - Bad Request",2023.11.1,2023.11.6,Stark,Platform,1,HTTP Connectors,Escaped bug,,Yes,The AWS-related resources like SQS endpoints used with HTTP connector is not working with HTTP-MS as it was working with the monolith.,New Test Case,Newly Automated,Yes,Yes,There is a formatting issue while encoding baseURL,https://docs.google.com/document/d/1-aMTcoiXs40hpZwlEM1f0nSIP03LGnJg/edit?tab=t.0,,,,
+IO-67899,P2,No updates are upserts are going onto SF,2024.1.1,2024.1.1,Titans,Platform,2,Salesforce adaptor,Escaped bug,,Yes,Imports which use dynamic lookups not working as expected even if oneToMany is true.,New Test Case,Newly Automated,No,No,oneToMany feature needs to be tested in all cases,"Dev mentioned requiredRCA is set to none, so RCA is not done yet",,,,
+IO-74034,P1,[EU] user is not able to create the Google Sheet exports from marketplace,2024.3.1,2024.3.4,Eirene, UI,1,Marketplace,Escaped bug,,No,a corner case which happens when useAsPrimaryInterface is set to true on custom settings,New Test Case,Newly Automated,Yes,Yes,Ensure to have more corner cases,RCA -https://docs.google.com/document/d/1KSoOAwLI5r4yRGDICqv8rCswOMYeAkifnBu33yklY7U/edit?tab=t.0,,,,
+CS-8210,P3,Flows Stuck and very slow performance. ,2024.4.1,2024.4.1,Stark,Platform,34,Infrastructure,Escaped bug,,No,"Celigo observed that multiple jobs were stuck in the waiting queue and with additional data from monitoring tools(splunk), Celigo identified that the issue was being caused by unexpected process kills(called SIGSEGV) and was caused by a specific script.",Test Case Not Available,Not Automated,Yes,Yes,"This is related to infrastructure issue, we need to make sure it wont ffct CPU usage limit"," Internal RCA: https://docs.google.com/document/d/1hty72X6V8OkWgAQ0XXs2MzwMa3Jka6JI/edit
+
+Customer facing RCA : https://docs.google.com/document/d/1GCylRBAf3szU73r1H6l3KMuBT1MWiLX7/edit#heading=h.1fob9te",,,,
+IO-75848,P1,HTTP - run virtual export || April code changes base we are seeing the parseOutput is giving as an object instead of an array [2D to 1D],2024.4.1,2024.4.3,Falcon,Platform,,HTTP Preview,Escaped bug,,No,Virtual routes were not considered during backward compatibility,New Test Case,Newly Automated,No,No,"Ensure backward compatibility is a standard checklist item for any test planning—especially after major refactors or backend changes.
+Adding process where any backward-incompatible change must be flagged clearly to QA with test scenarios to cover.",,,,,
+IO-82121,P2,On-Premise Agent Crashing,2024.8.1,2024.8.1,Dexter,Core,6,Agents,Escaped bug,,No,"Since affected users were running Windows Server 2012 R2 (based on Windows 8), it was suspected as the root cause",New Test Case,,Yes,Yes,"Always include testing on all supported OS versions, especially older ones, which are still widely used.
+Maintain an OS compatibility matrix and ensure automation/sanity runs are included for these variants.","RCA Internal: https://docs.google.com/document/d/1F8fllTiYY3Aa6xAUJXqbOGAPuzb2skbatlwNuBOQbwM/edit?tab=t.0#heading=h.j54n67ngobij
+
+RCA by Customer: https://docs.google.com/document/d/1lybaYI_SCz5XL6PNiZRoPorSdFuZ9bnGu5vcY1YZXBs/edit?tab=t.0#heading=h.4qgq6qr26qf",,,,
+IO-87619,P2,[UX] The connection caret/Search icon is overflowing in the Firefox browser,2024.8.1,2024.8.1,Eirene,UI,,Connections,Escaped bug,,No,The connection filter not overflowing and aligning with flow steps was not tested in Firefox,New Test Case,Newly Automated,No,No,"Browser compatibility of 
+firefox and other most used 
+browsers should be tested",,,,,
+IO-87646,P1,[FMS enabled] Observing 400 bad request when we are trying to create ebay(XML) export,2024.7.1,2024.7.4,Tintin,Core,,FMS,Escaped bug,,Yes,Mismatch between UI and backend validation was missed in E2E testing,Test Case Not Available,Not Automated,No,No,"Mismatch between UI and backend validation was missed in E2E testing. In production, with 900-1000 eBay(XML) connections, enabling this backend validation suddenly impacted existing connections, causing server restarts.",,,,,
+IO-94270,P1,WebSocket Client : Graceful closure in case of termination,2024.9.1,2024.9.1,,Platform,,Websocket,Escaped bug,,No,"Using ws.terminate() closed the WebSocket connection and typically results in code 1006, indicating an abnormal closure that is not gracefully handled by server.
+
+",Test Case Not Available,Not Automated,No,No,"Miss from dev team.
+
+To ensure a proper shutdown of the connection, we should have used ws.close(1000), which initiates a clean, graceful close handshake with a normal closure status.
+
+The above ensures tests reflect real client behavior and avoid 1006 codes.",,,,,
+IO-94891,P1,HTTP MS disable cpu profiler flags,2024.8.1,2024.8.3,Indus,Platform,,HTTP MS,Escaped bug,,Yes,"Production level load was 
+not tested in lower environments",Test Case Not Available,Not Automated,No,No,"HTTP MS slowness analysis
+was done and analysis was recorded. 
+here https://celigo.atlassian.net/wiki/spaces/PE/pages/925040732/Learnings+and+Observations+HTTP+Slowness+Analysis",,,,,
+IO-94454,P1,"Incorrect response is being returned for /api/integrations/:id/ashares route in ""sharedWithUser"" field when RMS is enabled",2024.9.1,2024.9.1,Skywalker,Core,,RMS,Escaped bug,,Yes,"Scenario was not tested 
+with RMS enabled shared user. 
+This was an integration testing miss. ",New Test Case,Newly Automated,No,No,"Deeper Access-Level Testing was required. Always validate key flows like ashares, users, permissions under RMS ON/OFF toggles to catch integration mismatches.
+This was an integration testing miss. 
+
+This bug caused UI breakage due to backend API returning incorrect data. It’s crucial to ensure API returns all expected fields (even if empty/null) so that UI doesn’t break. Schema validation at API level can prevent this.",,,,,
+CS-8757,P1,Flows taking time to complete than the normal duration,2024.9.1,2024.9.1.1,Indus ,Platform,52,HTTP MS,Escaped bug,,Yes,"Caused due to overload on certain pods due to changes.
+Performance degradation and slower response times. Enabling consistent hashing led to multiple liveness configuration failures in the HTTP MS.
+Change in liveness configuration caused the pods to fail more frequently, led to more and more connections on one particular pod.
+
+The slowness affected ability to process key operations relying on HTTP connections, disrupting business workflows. The specific overloaded server component impacted all HTTP connections and impact was shown in high especially in high workload endpoints like Shopify, Magento & Salesforce which use HTTP connections.
+",Test Case Not Available,Not Automated,Yes,Yes,"HTTP MS slowness analysis
+was done and analysis was recorded. 
+here https://celigo.atlassian.net/wiki/spaces/PE/pages/925040732/Learnings+and+Observations+HTTP+Slowness+Analysis
+
+There needs to be proper visibility into connection-based resource saturation.
+Connection-level issues (like increasing open connections or queued requests) needs to be effectively monitored.
+
+Simulating realistic high-concurrency import/export workloads in testing env would be helpful. Using chaos testing or resiliency testing to simulate pod failures and ensure traffic rerouting works as expected.","RCA doc is here 
+
+COE doc is here",,,,
+IO-97813,P1,Redirection is not happening as expected when we enable the MFA for the shared users,2024.11.1,2024.11.1,Skywalker ,Core,3,MFA / RMS,Escaped bug,,Yes,"Gap in E2E test coverage involving MFA, shared users and RMS service configuration. 
+Limited validation for RMS impact on MFA.
+
+The test strategy likely didn't account for different RMS states (enabled/disabled) affecting behavior differently for new vs existing users that is backward compatibility.",New Test Case,Newly Automated,No,No,"Scenario based E2E tests would help.
+
+Exploratory testing with customer-configured settings would be useful.
+
+Ensure E2E tests cover complex user flows like shared user login with MFA under different backend configurations (RMS enabled/disabled).",RCA in Progress,,,,
+IO-102861,P1,error: api /v1/connections/:connectionId/proxy WebSocketClientError: The connection to the server was closed unexpectedly.,2024.11.1,2024.11.1,Stark ,Platform,0,HTTP,Escaped bug,,Yes,Spike in connection drops because HTTP adaptor was unable to accept requests due to CPU block,Test Case Not Available,Not Automated,No,No,"Sanity on websockets and endpoint-service ( specially in /proxy route ) is done and performed well. When a websocket server has high load ( http-adaptor in this case ), sometimes it is not able to process websocket connection requests. The connection is left in hanging state and dropped after an idle timeout of 1 min on the websocket client side ( endpoint-service ). When connection is dropped, /proxy endpoint call is returned with 500 response code.",RCA Not Available,,,,
+IO-112193,P1,Unable to create Shopify OAuth Connection in Multi Environments,2025.1.1,2025.1.1,Chipmunks ,Core,8,Multi- env,Escaped bug,,Yes,"The root cause was identified as an unintended behavior in a newly introduced middleware, designed to enhance multi-environment authentication support. The middleware, which aimed to streamline and improve connection handling, inadvertently misprocessed OAuth headers, causing authentication failures.",Test Case Not Available,Not Automated,Yes,Yes,Enhance Test coverage and find the impacted areas which can only be tested in production and find an alternative way to test those scenarios.   https://docs.google.com/document/d/18B4hwOUKkSUtQxPy-vQgOXAumzcruHveCJ7jg-0RZzY/edit?tab=t.0,RCA : https://docs.google.com/document/d/1C31Tp3XDxDXS9xq--43oHE2B0Ctz_x7v/edit?tab=t.0#heading=h.gjdgxs,,,,
+IO-112349,P1,Not able to Download the connection debug logs in the multi env accounts,2025.1.1,2025.1.1,Chipmunks ,Core,3,Connection,Escaped bug,,Yes,Caused due to January release changes.,Test Case Not Available,Not Automated,No,No,E2E tests cover complex user flows like shared user login with MFA under different backend configurations,RCA is in Progress,,,,
+IO-105919,P1,[BE] The corresponding ashares are not created in the non-prod envs when an existing user is invited from a prod env.,2024.11.1,2024.11.1.1,Chipmunks ,Core,0,Manage access,Escaped bug,,No,Caused due to January release changes.,Test Case Not Available,Not Automated,No,No,Caused due to January release changes.Basic sanity testing with customer-configured settings would be useful.,RCA is in Progress,,,,
+IO-61750,,,,,,,,,,,,"Earlier, only one eTail stack URL was whitelisted using the environment variable ETAIL_STACK_HOST_NAME. However, the customer was encountering a blacklisting error. A fix was made to enhance the code to support multiple stack URLs using the WHITELIST_STACK_HOST_NAMES environment variable",New Test Case,Newly Automated,,,"After every story or defect fix, it's important to identify the impacted areas and test them thoroughly",,,,,
+IO-62952,,,,,,,,,,,,"fixed a rare case of hard to reproduce server crash bug in our AS2 connector, while fixing the bug  ended up having a regression which affected MDN verification",New Test Case,Newly Automated,,,"This was an edge case that was hard to reproduce from QA’s end.
+For such scenarios, the Dev team should ensure more comprehensive unit test coverage and perform Dev-side testing to avoid regression issue.",RCA,,,,
+IO-63422,,,,,,,,,,,,"This is not a bug and this is feedback.this is fixed by another tracker
+https://celigo.atlassian.net/browse/IO-64344",New Test Case,Newly Automated,,,Not applicable as this an enhancement request,,,,,
+IO-63415,,,,,,,,,,,,This is not a bug and this is feedback.,New Test Case,Newly Automated,,,Not applicable as this an enhancement request,,,,,
+IO-62995,,,,,,,,,,,,"issue with Flows patch call, for Custom manage access only",Test Case Not Available,Not Automated,,,"Every defect should have test case added/attached 
+and automated as well, to avoid regression issue",,,,,
+IO-63437,,,,,,,,,,,,This is not a bug and this is feedback.,New Test Case,Newly Automated,,,Not applicable as this an enhancement request,,,,,
+IO-63696,,,,,,,,,,,,"This is a performance issue,specific to few flows",New Test Case,Newly Automated,,,"After every story or defect fix, it's important to identify the impacted areas and test them thoroughly",,,,,
+IO-64809,,,,,,,,,,,,Env variables were missed by Dev team as part of RMS.since agent extension calls go via RMS route if RMS is enabled,Existing Case,Not Automated,,,"As a prerequisite, ensure that all environment variables are added","RCA
+Core team is working on it to automate the test cases",,,,
+IO-61581,,,,,,,,,,,,This issue happens when a service is idle and not receiving any traffic. Its not identified in testing as there was continous traffic while testing and restarts didn’t happen,Test Case Not Available,Not Automated,,,Such scenarios are challenging to cover through test cases and are not easily automatable,,,,,
+IO-67126,,,,,,,,,,,,This happened due to FM MS enabled,Test Case Not Available,Not Automated,,,"This happened wrt FM microservice enabled accounts, MS dependency could have been tested with retry errors case","Going forward this may not occur, which are related MS specific as soon, all the users will be routed to MS 100%",,,,
+IO-67058,,,,,,,,,,,,"This is same as IO-67126, mentioned above",Test Case Not Available,Not Automated,,,"This is same as IO-67126, mentioned above","This is same as IO-67126, mentioned above",,,,
+IO-66398,,,,,,,,,,,,This is an MongoDB Optimization,Test Case Not Available,Not Automated,,,This a DB optimization tracker,,,,,
+IO-66120,,,,,,,,,,,,"This is a error classifier, reported by Travis",New Test Case,Newly Automated,,,"Nothing here, Issue related to error classifier, related to Travis.",,,,,
+CS-8064,,,,,,,,,,,,The AWS-related resources like SQS endpoints used with HTTP connector is not working with HTTP-MS as it was working with the monolith.,New Test Case,Newly Automated,,,There is a formatting issue while encoding baseURL,https://docs.google.com/document/d/1-aMTcoiXs40hpZwlEM1f0nSIP03LGnJg/edit?tab=t.0,,,,
+IO-67899,,,,,,,,,,,,Imports which use dynamic lookups not working as expected even if oneToMany is true.,New Test Case,Newly Automated,,,oneToMany feature needs to be tested in all cases,pinged Nithin Gollapally for RCA details. yet to get update,,,,
+IO-74034,,,,,,,,,,,,a corner case which happens when useAsPrimaryInterface is set to true on custom settings,New Test Case,Newly Automated,,,Ensure to have more corner cases,RCA -https://docs.google.com/document/d/1KSoOAwLI5r4yRGDICqv8rCswOMYeAkifnBu33yklY7U/edit?tab=t.0,,,,
+CS-8210,,,,,,,,,,,,"Celigo observed that multiple jobs were stuck in the waiting queue and with additional data from monitoring tools(splunk), Celigo identified that the issue was being caused by unexpected process kills(called SIGSEGV) and was caused by a specific script.",Test Case Not Available,Not Automated,,,"This is related to infrastructure issue, we need to make sure it wont ffct CPU usage limit"," Internal RCA: https://docs.google.com/document/d/1hty72X6V8OkWgAQ0XXs2MzwMa3Jka6JI/edit
+
+Customer facing RCA : https://docs.google.com/document/d/1GCylRBAf3szU73r1H6l3KMuBT1MWiLX7/edit#heading=h.1fob9te",,,,
+IO-75848,,,,,,,,,,,,Virtual routes were not considered during backward compatibility,New Test Case,Newly Automated,,,"Ensure backward compatibility is a standard checklist item for any test planning—especially after major refactors or backend changes.
+Adding process where any backward-incompatible change must be flagged clearly to QA with test scenarios to cover.",,,,,
+IO-82121,,,,,,,,,,,,"Since affected users were running Windows Server 2012 R2 (based on Windows 8), it was suspected as the root cause",New Test Case,,,,"Always include testing on all supported OS versions, especially older ones, which are still widely used.
+Maintain an OS compatibility matrix and ensure automation/sanity runs are included for these variants.","RCA Internal: https://docs.google.com/document/d/1F8fllTiYY3Aa6xAUJXqbOGAPuzb2skbatlwNuBOQbwM/edit?tab=t.0#heading=h.j54n67ngobij
+
+RCA by Customer: https://docs.google.com/document/d/1lybaYI_SCz5XL6PNiZRoPorSdFuZ9bnGu5vcY1YZXBs/edit?tab=t.0#heading=h.4qgq6qr26qf",,,,
+IO-87619,,,,,,,,,,,,The connection filter not overflowing and aligning with flow steps was not tested in Firefox,New Test Case,Newly Automated,,,"Browser compatibility of 
+firefox and other most used 
+browsers should be tested",,,,,
+IO-87646,,,,,,,,,,,,Mismatch between UI and backend validation was missed in E2E testing,Test Case Not Available,Not Automated,,,"Mismatch between UI and backend validation was missed in E2E testing. In production, with 900-1000 eBay(XML) connections, enabling this backend validation suddenly impacted existing connections, causing server restarts.",,,,,
+IO-94270,,,,,,,,,,,,"Using ws.terminate() closed the WebSocket connection and typically results in code 1006, indicating an abnormal closure that is not gracefully handled by server.
+
+",Test Case Not Available,Not Automated,,,"Miss from dev team.
+
+To ensure a proper shutdown of the connection, we should have used ws.close(1000), which initiates a clean, graceful close handshake with a normal closure status.
+
+The above ensures tests reflect real client behavior and avoid 1006 codes.",,,,,
+IO-94891,,,,,,,,,,,,"Production level load was 
+not tested in lower environments",Test Case Not Available,Not Automated,,,"HTTP MS slowness analysis
+was done and analysis was recorded. 
+here https://celigo.atlassian.net/wiki/spaces/PE/pages/925040732/Learnings+and+Observations+HTTP+Slowness+Analysis",,,,,
+IO-94454,,,,,,,,,,,,"Scenario was not tested 
+with RMS enabled shared user. 
+This was an integration testing miss. ",New Test Case,Newly Automated,,,"Deeper Access-Level Testing was required. Always validate key flows like ashares, users, permissions under RMS ON/OFF toggles to catch integration mismatches.
+This was an integration testing miss. 
+
+This bug caused UI breakage due to backend API returning incorrect data. It’s crucial to ensure API returns all expected fields (even if empty/null) so that UI doesn’t break. Schema validation at API level can prevent this.",,,,,
+CS-8757,,,,,,,,,,,,"Caused due to overload on certain pods due to changes.
+Performance degradation and slower response times. Enabling consistent hashing led to multiple liveness configuration failures in the HTTP MS.
+Change in liveness configuration caused the pods to fail more frequently, led to more and more connections on one particular pod.
+
+The slowness affected ability to process key operations relying on HTTP connections, disrupting business workflows. The specific overloaded server component impacted all HTTP connections and impact was shown in high especially in high workload endpoints like Shopify, Magento & Salesforce which use HTTP connections.
+",Test Case Not Available,Not Automated,,,"HTTP MS slowness analysis
+was done and analysis was recorded. 
+here https://celigo.atlassian.net/wiki/spaces/PE/pages/925040732/Learnings+and+Observations+HTTP+Slowness+Analysis
+
+There needs to be proper visibility into connection-based resource saturation.
+Connection-level issues (like increasing open connections or queued requests) needs to be effectively monitored.
+
+Simulating realistic high-concurrency import/export workloads in testing env would be helpful. Using chaos testing or resiliency testing to simulate pod failures and ensure traffic rerouting works as expected.","RCA doc is here 
+
+COE doc is here",,,,
+IO-97813,,,,,,,,,,,,"Gap in E2E test coverage involving MFA, shared users and RMS service configuration. 
+Limited validation for RMS impact on MFA.
+
+The test strategy likely didn't account for different RMS states (enabled/disabled) affecting behavior differently for new vs existing users that is backward compatibility.",New Test Case,Newly Automated,,,"Scenario based E2E tests would help.
+
+Exploratory testing with customer-configured settings would be useful.
+
+Ensure E2E tests cover complex user flows like shared user login with MFA under different backend configurations (RMS enabled/disabled).",RCA in Progress,,,,
+IO-102861,,,,,,,,,,,,Spike in connection drops because HTTP adaptor was unable to accept requests due to CPU block,Test Case Not Available,Not Automated,,,"Sanity on websockets and endpoint-service ( specially in /proxy route ) is done and performed well. When a websocket server has high load ( http-adaptor in this case ), sometimes it is not able to process websocket connection requests. The connection is left in hanging state and dropped after an idle timeout of 1 min on the websocket client side ( endpoint-service ). When connection is dropped, /proxy endpoint call is returned with 500 response code.",RCA Not Available,,,,
+IO-112193,,,,,,,,,,,,"The root cause was identified as an unintended behavior in a newly introduced middleware, designed to enhance multi-environment authentication support. The middleware, which aimed to streamline and improve connection handling, inadvertently misprocessed OAuth headers, causing authentication failures.",Test Case Not Available,Not Automated,,,Enhance Test coverage and find the impacted areas which can only be tested in production and find an alternative way to test those scenarios.   https://docs.google.com/document/d/18B4hwOUKkSUtQxPy-vQgOXAumzcruHveCJ7jg-0RZzY/edit?tab=t.0,RCA : https://docs.google.com/document/d/1C31Tp3XDxDXS9xq--43oHE2B0Ctz_x7v/edit?tab=t.0#heading=h.gjdgxs,,,,
+IO-112349,,,,,,,,,,,,Caused due to January release changes.,Test Case Not Available,Not Automated,,,E2E tests cover complex user flows like shared user login with MFA under different backend configurations,RCA is in Progress,,,,
+IO-105919,,,,,,,,,,,,Caused due to January release changes.,Test Case Not Available,Not Automated,,,Caused due to January release changes.Basic sanity testing with customer-configured settings would be useful.,RCA is in Progress,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Root Causes of Defects,Regression Issues,"Multiple defects emerged due to changes or fixes that inadvertently introduced new problems. For instance, in IO-64096, addressing one issue led to another because the new scenario wasn't tested post-fix.​"
+,,,,,,,,,,,,,,,,,,,,,Missed Test Scenarios,"Certain defects arose from not testing specific scenarios. In IO-63706, while Mapper2 was tested with over 1,000 mappings, Mapper1 wasn't, leading to scrolling issues.​"
+,,,,,,,,,,,,,,,,,,,,,Third-Party Updates,"Upgrades to external libraries, like the Mongoose update in IO-65655, introduced unexpected behaviors due to changes in library processes.​"
+,,,,,,,,,,,,,,,,,,,,,Technical Debt,"Accumulated technical debt led to defects, as seen in IO-71585, where component-level testing didn't reveal issues that arose at the page level."
+,,,,,,,,,,,,,,,,,,,,Testing Gaps,Absence of Test Cases,"Some defects, such as in IO-71815, were linked to the lack of existing test cases, leading to missed scenarios during regression testing.​"
+,,,,,,,,,,,,,,,,,,,,,Non-Automated Test Cases,"Certain scenarios weren't automated due to their complexity, like the 1,000+ mappings in IO-63706, making consistent validation challenging.​"
+,,,,,,,,,,,,,,,,,,,,,UI vs. API Testing,"Some issues were missed because existing automated tests focused on APIs, while the defects were UI-related, as in IO-71585."
+,,,,,,,,,,,,,,,,,,,,Recommendations for Improvement,Comprehensive Impact Analysis,"After every fix or feature addition, conduct thorough impact assessments to identify and test all potentially affected areas, preventing unintended side effects.​"
+,,,,,,,,,,,,,,,,,,,,,Enhanced Regression Testing,"Develop a robust regression testing strategy that includes both manual and automated tests, ensuring coverage of both common and edge cases."
+,,,,,,,,,,,,,,,,,,,,,Prioritize Test Automation,Focus on automating complex and critical test scenarios to ensure consistent validation across different environments and reduce manual testing errors.​
+,,,,,,,,,,,,,,,,,,,,,Regular Review of Technical Debt,Periodically assess and address technical debt to prevent it from leading to defects and to maintain codebase health.​
+,,,,,,,,,,,,,,,,,,,,,Cross-Functional Collaboration,"Foster collaboration between development and QA teams to ensure shared understanding of changes, facilitating more effective testing and early detection of potential issues."

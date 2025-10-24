@@ -1,0 +1,989 @@
+pr_number,title,body,merged_at,matched_issue_key
+13674,Bug automation - IO-138947,,2025-07-31T04:55:44Z,IO-138947
+13668,Automation for IO-108953,https://celigo.atlassian.net/browse/IO-108953,2025-07-31T14:44:41Z,IO-108953
+13644,Bug automation - IO-138856,,2025-07-29T13:02:38Z,IO-138856
+13622,Rest api aut,"## Summary
+This PR standardizes and improves email notification content across the test automation suite, making email validations more concise and maintainable while removing outdated test identifiers.
+
+## 🔄 **Key Changes Made**
+
+### **Email Content Standardization**
+- **Security Alerts**: Simplified verbose security alert messages to concise, user-friendly text
+  - `""You are receiving this email as a security precaution...""` → `""New API token created""`
+  - `""API token was displayed in clear text""` → `""viewed the following API token in clear text""`
+  - `""following API token was modified""` → `""API token updated""`
+  - `""Agent access token was displayed in clear""` → `""viewed the following agent token in clear text""`
+
+### **Email Subject Line Updates**  
+- **Password Reset**: `""Reset your password""` → `""Request to reset your password""`
+- **Agent Token Alerts**: Standardized agent token security alert subjects
+- **Account Invitations**: Updated invitation email content for clarity
+
+### **Account & Access Management**
+- **User Invitations**: 
+  - `""You have been invited by...""` → `""has invited you to join their Celigo account""`
+  - `""confirm your new account""` → `""has invited you to join Celigo. Click Sign up to start building integrations""`
+- **Access Changes**: 
+  - `""Your administrator access has been disabled by...""` → `""Access revoked""`
+  - `""Your administrator access has been enabled by...""` → `""Access restored""`
+- **Account Transfers**: Updated transfer notification language for better clarity
+- **Data Retention**: `""Your account's data retention period has been changed""` → `""Data retention period updated""`
+
+### **Test Case Cleanup**
+- **Removed** trailing `""banti""` identifiers from 15+ test titles across multiple files
+- **Added** consistent spacing in test titles  
+- **Maintained** all Zephyr test case references (@Zephyr-IO-T*)
+- **Preserved** all test functionality while improving readability
+
+## 📁 **Files Modified** (30+ test configuration files)
+- **Account Level Access**: `TC_C22968.json`, `ZZTC_C22965_C22966_C22967_C25782.json`
+- **AshareId Related**: `Z_Admin_TC_C55912_C62762.json`, `TC_C62767.json`, and more
+- **Authentication Service**: User signup and invitation flows
+- **Error Notifications**: Security alerts and system notifications (6 files)
+- **Multi-Environment**: Environment management notifications (3 files)  
+- **Resource Management**: Transfer ownership and access control (4 files)
+- **Performance Tests**: Webhook and huge records testing (3 files)
+- **Webhooks**: `IO-65486.json`
+
+## ✅ **Testing Validation**
+- **All tests passing**: Recent execution shows 3/3 tests passed (1281s runtime)
+- **Email validations updated**: Gmail-based email verification maintained across all scenarios
+- **Error notifications working**: TC_C62762 email notification tests completed successfully
+- **CSRF token management**: Maintained across all updated test cases
+
+## 🎯 **Benefits**
+- **Improved Maintainability**: Consistent email content patterns across 30+ test files
+- **Better User Experience**: Clearer, more concise notification messages match actual product emails
+- **Easier Testing**: Simplified email validation assertions reduce flakiness
+- **Code Cleanliness**: Removed outdated ""banti"" identifiers improving code readability
+- **Standardization**: Unified approach to email notifications across the entire platform
+
+## 🔍 **Quality Assurance**
+- Verified all Zephyr test case mappings remain intact
+- Confirmed email subject and body validations align with current platform behavior  
+- Maintained backward compatibility for existing test workflows
+- All security alert patterns updated consistently across test suites
+
+---
+
+This PR ensures that email notification testing remains robust while improving the clarity and consistency of email content validation across the entire test automation suite.",2025-07-28T10:25:08Z,IO-65486
+13545,"""IO-129953""","Test cases link : 
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T47588
+
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T47589
+
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T47590
+
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jul_23_2025_12_16_rest_api_RESTAPI/",2025-07-24T17:01:04Z,IO-129953
+13472,Adding Testcases for IO-114638 Bug,"Zephyr links:
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T47140
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T47141
+Report
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jul_16_2025_18_03_rest_api_RESTAPI/",2025-07-17T07:29:37Z,IO-114638
+13376,Bug-IO-130097 - August release,,2025-07-09T09:41:34Z,IO-130097
+13313,Update date format in validation JSON responses,"Updating Test for JIRA Bug: [https://celigo.atlassian.net/browse/IO-92671](url)
+Updated Tests are for mariadb, where the date handling change is in the attached JIRA.
+
+Failed Suite link: 
+  rdbms-adaptor -> mariadb: [https://reporting-portal.qa.staging.integrator.io/rdbms-adaptor/staging/Jul_03_2025_23_49_rdbms-adaptor_893/MariaDB/index.html](url)
+  jdbc-bridge -> OracleADW: [https://reporting-portal.qa.staging.integrator.io/jdbc-bridge/staging/Jul_02_2025_23_22_jdbc-bridge_8725/OracleADW/index.html](url)
+  
+Report: 
+ oracleADW: [https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Jul_04_2025_15_32_rest_api_RESTAPI/](url)
+ mariadb: [https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Jul_04_2025_15_42_rest_api_RESTAPI/](url)
+
+This pull request updates JSON test data files to simplify the format of the `joining` field by removing the time component, leaving only the date. The changes ensure consistency across test datasets.
+
+### Changes to JSON test data:
+
+* [`test-data/MariaDB/responses/TC_GR_002_Validation.json`](diffhunk://#diff-3921e414b9d8039a48e6bfc3f547ada1e548d3d20571704a6cfab5f21f5cef4aL10-R10): Updated the `joining` field to exclude the time component, changing `""2024-08-01T00:00:00.000Z""` to `""2024-08-01""`.
+
+* `test-data/OracleADW/responses/TC_DataValidation_response_011_Mariadb.json`: 
+  - Updated multiple entries to remove the time component from the `joining` field:
+    - `""2021-05-15T00:00:00.000Z""` to `""2021-05-15""`.
+    - `""2020-08-10T00:00:00.000Z""` to `""2020-08-10""`.
+    - `""2019-12-01T00:00:00.000Z""` to `""2019-12-01""`.
+    - `""2018-06-20T00:00:00.000Z""` to `""2018-06-20""`.
+    - `""2021-03-15T00:00:00.000Z""` to `""2021-03-15""`.",2025-07-08T05:04:06Z,IO-92671
+13139,"""IO-124696""",Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Jul_08_2025_22_05_rest_api_RESTAPI/,2025-07-22T11:51:04Z,IO-124696
+13082,Input Payload update with removing _id field as _id field was added with wrong values,"Purpose: Input Payload update with removing _id field as _id field was added with wrong values
+There is one middleware has been added which validates the given _id is valid or not. If the _id is valid then it proceeds otherwise returns 400 status code.
+Bug fix: https://celigo.atlassian.net/browse/IO-132977
+",2025-06-19T10:34:29Z,IO-132977
+12967,Automated_IO-130265_TC's,"Hi @aniketpurandare23,
+
+Automated the testcases for IO-130265 bug, please review- 
+Zephyr Id's-  https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T46446
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T46447
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T46517
+
+Report- https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Jun_13_2025_17_28_rest_api_RESTAPI/
+
+Thanks",2025-06-30T10:46:37Z,IO-130265
+12880,updated changes,"https://celigo.atlassian.net/browse/IO-122884
+https://celigo.atlassian.net/browse/IO-118105
+https://celigo.atlassian.net/browse/IO-129643",2025-07-02T08:54:14Z,IO-118105
+12880,updated changes,"https://celigo.atlassian.net/browse/IO-122884
+https://celigo.atlassian.net/browse/IO-118105
+https://celigo.atlassian.net/browse/IO-129643",2025-07-02T08:54:14Z,IO-122884
+12880,updated changes,"https://celigo.atlassian.net/browse/IO-122884
+https://celigo.atlassian.net/browse/IO-118105
+https://celigo.atlassian.net/browse/IO-129643",2025-07-02T08:54:14Z,IO-129643
+12791,Prefix test_title with @skip in usability cases: Codex,"To unskip: https://celigo.atlassian.net/browse/IO-130473
+
+
+Last succesfull build: https://reporting-portal.qa.staging.integrator.io/resource-management/staging/May_27_2025_17_31_resource-management_333/Usability/index.html",2025-06-03T12:12:55Z,IO-130473
+12773,IO-106268,"Test cases - https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T45984
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T45983
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T45988
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T46199
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jun_03_2025_12_50_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jun_03_2025_12_47_rest_api_RESTAPI/",2025-06-05T11:30:00Z,IO-106268
+12730,"""IO-129300""",Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_29_2025_15_52_rest_api_RESTAPI/,2025-05-30T13:07:04Z,IO-129300
+12656,New test cases for IO-129320,"Report: 
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_26_2025_23_45_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_26_2025_23_46_rest_api_RESTAPI/",2025-06-03T09:04:45Z,IO-129320
+12556,skipping Tcs,"Staging report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_22_2025_15_54_rest_api_RESTAPI/
+
+TC_C2711 to be unskipped after resolving https://celigo.atlassian.net/browse/IO-126508",2025-05-23T06:48:13Z,IO-126508
+12345,IO-116917 cases,,2025-05-26T15:58:54Z,IO-116917
+12312,Making fixes in tests due to IO-115495 and IO-126860,,2025-05-11T14:43:30Z,IO-126860
+12298,IO-123566 automation modifications,,2025-05-08T15:23:45Z,IO-123566
+12292,IO-125308,https://celigo.atlassian.net/browse/IO-125308,2025-05-12T06:32:31Z,IO-125308
+12282,"IO-122086, IO-80870, IO-105630-Test case Automation","Jira: https://celigo.atlassian.net/browse/IO-122086
+Report:IO-T45733,T45733- https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_07_2025_20_05_rest_api_RESTAPI/
+IO-T40833,IO-T40834 - https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_13_2025_19_09_rest_api_RESTAPI/
+IO-T44844 - https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_13_2025_13_32_rest_api_RESTAPI/
+
+Jira: https://celigo.atlassian.net/browse/IO-80874
+Report IO-T45699: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_02_2025_23_05_rest_api_RESTAPI/
+
+Reports: T41173, T41174
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_14_2025_16_24_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_14_2025_16_28_rest_api_RESTAPI/",2025-05-14T14:32:27Z,IO-80870
+12263,IO-120675,https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_05_2025_20_06_rest_api_RESTAPI,2025-05-05T16:14:16Z,IO-120675
+12178,diCore2-fixes-01,"**Report on staging:** https://jenkins.qa.staging.integrator.io/job/COMPONENTS/job/PRE-COMMIT/job/celigo-qa-automation-fb-dev/12313/CI_5fTest_5fReport/
+
+QA/IAQA: https://celigo.atlassian.net/browse/IO-124472 due to this bug report would have inconsistent results so not attaching the reports",2025-04-28T09:33:36Z,IO-124472
+12155,IO-119403,,2025-04-24T05:07:08Z,IO-119403
+11835,IO-115211 flow execution tests,,2025-04-23T07:23:47Z,IO-115211
+11831,IO-115211 mapper preview,,2025-04-23T07:21:41Z,IO-115211
+11828,IO-115211 aut tests,,2025-04-21T05:32:43Z,IO-115211
+11727,Bug:IO-116554 Bug End-to-End automation,"Jira: https://celigo.atlassian.net/browse/IO-116554
+
+Env: QA.staging
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Mar_24_2025_12_25_rest_api_Email_Signup_Validation/",2025-03-24T07:19:59Z,IO-116554
+11643,IO-100259 & IO-108314 cases,,2025-04-02T06:06:08Z,IO-100259
+11643,IO-100259 & IO-108314 cases,,2025-04-02T06:06:08Z,IO-108314
+11545,"IO-113202, IO-114233 test cases","Jira: https://celigo.atlassian.net/browse/IO-116810
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Mar_05_2025_00_38_rest_api_RESTAPI/
+
+Jira: https://celigo.atlassian.net/browse/IO-115676
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Mar_04_2025_21_39_rest_api_RESTAPI/",2025-03-05T05:55:48Z,IO-113202
+11545,"IO-113202, IO-114233 test cases","Jira: https://celigo.atlassian.net/browse/IO-116810
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Mar_05_2025_00_38_rest_api_RESTAPI/
+
+Jira: https://celigo.atlassian.net/browse/IO-115676
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Mar_04_2025_21_39_rest_api_RESTAPI/",2025-03-05T05:55:48Z,IO-114233
+11499,IO-99999 test cases,,2025-03-03T16:23:49Z,IO-99999
+11491,Bug- IO-111607 and fixes,,2025-03-04T17:13:55Z,IO-111607
+11489,IO-111377,,2025-02-26T11:52:58Z,IO-111377
+11474,Dynamic lookup option cases,"(mapper2.0_2) QA: 
+1. http://3.108.169.54/job/PLAYWRIGHT_UI/22168/allure/
+2. http://3.108.169.54/job/PLAYWRIGHT_UI/21579/allure/ 
+IAQA:
+http://3.108.169.54/job/PLAYWRIGHT_UI/22171/allure/
+http://3.108.169.54/job/PLAYWRIGHT_UI/22170/allure/(this is failing because of BE tracker [IO-112469](https://celigo.atlassian.net/browse/IO-112469))
+Staging:
+
+HTTP2.0 -QA: 
+http://3.108.169.54/job/PLAYWRIGHT_UI/22194/allure/
+IAQA:
+
+Staging:
+
+manage - QA: 
+http://3.108.169.54/job/PLAYWRIGHT_UI/22189/allure/
+IAQA:
+
+Staging:
+
+custom- QA: 
+http://3.108.169.54/job/PLAYWRIGHT_UI/22191/allure/
+IAQA
+Staging:
+
+monitor - QA: 
+http://3.108.169.54/job/PLAYWRIGHT_UI/22188/allure/
+IAQA
+Staging:
+
+
+[IO-112469]: https://celigo.atlassian.net/browse/IO-112469?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",2025-03-25T05:58:06Z,IO-112469
+11444,IO-102874,Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Feb_20_2025_17_51_rest_api_RESTAPI/,2025-02-28T07:50:24Z,IO-102874
+11407,IO-107201,,2025-02-19T07:24:12Z,IO-107201
+11124,API Builder UI Automation ,"Trackers link:-
+
+https://celigo.atlassian.net/browse/IO-110983
+https://celigo.atlassian.net/browse/IO-80825
+https://celigo.atlassian.net/browse/IO-109411
+https://celigo.atlassian.net/browse/IO-109397
+
+Report Link:-
+
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Jan_24_2025_09_09_platform_undefined_dev
+
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Jan_29_2025_13_42_platform_undefined_dev
+
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Jan_30_2025_17_14_platform_undefined_dev
+
+Note:- This test case will work only in Core.Dev environment and APIM should be enabled for the account.",2025-04-16T08:49:06Z,IO-110983
+10719,IO-101788,report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Dec_24_2024_16_32_rest_api_RESTAPI/,2024-12-24T13:42:28Z,IO-101788
+10694,IO-96884,Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Dec_23_2024_14_54_rest_api_RESTAPI,2024-12-23T12:04:53Z,IO-96884
+10649,IO-107412 test cases fixed,"Reports:
+[QA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/ILM_INTEGRATION/Dec_18_2024_17_18_platform_ILM_INTEGRATION_QA)
+[IAQA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/ILM_INTEGRATION/Dec_18_2024_17_28_platform_ILM_INTEGRATION_IAQA)
+[STAGING](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/STAGING/ILM_INTEGRATION/Dec_18_2024_17_24_platform_ILM_INTEGRATION_STAGING)
+[PF5](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/ILM_INTEGRATION/Dec_18_2024_17_21_platform_ILM_INTEGRATION_PLATFORMFIVE)
+
+**Note :- In QA test cases are failing as QA is down. Ref :- https://celigo.atlassian.net/browse/IO-107914**
+
+Zephyr Link:- 
+[IO-T406](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T406)
+[IO-T407](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T407)",2024-12-19T04:46:59Z,IO-107914
+10579,IO-95435,reports : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Dec_17_2024_10_56_rest_api_RESTAPI,2024-12-17T16:11:59Z,IO-95435
+10459,IO-106524,"**Tracker:** https://celigo.atlassian.net/browse/IO-106524
+**Test cases:**
+C42073 ([IO-T547](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T547))
+C42080 ([IO-T554](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T554))
+C42082 ([IO-T556](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T556))
+C42083 ([IO-T557](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T557))
+
+**Reports:**
+[QA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/ILM_INTEGRATION/Dec_10_2024_12_53_platform_ILM_INTEGRATION_QA), [QA-Allure](http://3.108.169.54/job/WD_TO_PW/7929/allure/) [Failing due to bug https://celigo.atlassian.net/browse/IO-106356]
+[STAGING](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/STAGING/ILM_INTEGRATION/Dec_10_2024_12_42_platform_ILM_INTEGRATION_STAGING), [STAGING-Allure](http://3.108.169.54/job/WD_TO_PW/7932/allure/) [Failing due to unavailability of latest selectors]
+[IAQA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/ILM_INTEGRATION/Dec_10_2024_12_52_platform_ILM_INTEGRATION_IAQA), [IAQA-Allure](http://3.108.169.54/job/WD_TO_PW/7930/allure/) [Failing due to bug https://celigo.atlassian.net/browse/IO-106356]
+[P5](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/ILM_INTEGRATION/Dec_10_2024_13_01_platform_ILM_INTEGRATION_PLATFORMFIVE), [P5-Allure](http://3.108.169.54/job/WD_TO_PW/7944/allure/)",2024-12-10T14:08:00Z,IO-106356
+10458,Automation PR Related to NS-HTTP Staticlookup,"Jira tracker : https://celigo.atlassian.net/browse/IO-98258
+[Build](https://mk2fyshp.r.us-east-1.awstrack.me/L0/https:%2F%2Fjenkins.qa.staging.integrator.io%2Fjob%2FCOMPONENTS%2Fjob%2FPRE-COMMIT%2Fjob%2Fceligo-qa-automation-fb-dev%2F7495%2F/1/01000193b0c68003-e31964a3-a4a2-4d2a-97ed-f06492333127-000000/2lnDSCMBVbKo7Mz77HaquQEgZLM=404)
+CC: @KhaisarS ",2024-12-18T13:29:19Z,IO-98258
+10435,IO-106307,"**Tracker:** https://celigo.atlassian.net/browse/IO-106307
+**Test cases:**
+C42075 ([IO-T549](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T549))
+C42096 ([IO-T570](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T570))
+C42076 ([IO-T550](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T550))
+C42098 ([IO-T552](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T552))
+
+**Reports:**
+[QA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/ILM_INTEGRATION/Dec_09_2024_14_02_platform_ILM_INTEGRATION_QA), [QA-Allure](http://3.108.169.54/job/PLAYWRIGHT_UI/15255/allure/)  [Failing due to bug https://celigo.atlassian.net/browse/IO-106356]
+[STAGING](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/STAGING/ILM_INTEGRATION/Dec_09_2024_13_45_platform_ILM_INTEGRATION_STAGING), [STAGING-Allure](http://3.108.169.54/job/PLAYWRIGHT_UI/15253/allure/) [Failing due to unavailability of locators in the env]
+[IAQA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/ILM_INTEGRATION/Dec_09_2024_14_02_platform_ILM_INTEGRATION_IAQA), [IAQA-Allure](http://3.108.169.54/job/PLAYWRIGHT_UI/15256/allure/)  [Failing due to bug https://celigo.atlassian.net/browse/IO-106356]
+[P5](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/ILM_INTEGRATION/Dec_09_2024_13_42_platform_ILM_INTEGRATION_PLATFORMFIVE), [P5-Allure](http://3.108.169.54/job/PLAYWRIGHT_UI/15254/allure/)",2024-12-10T08:24:04Z,IO-106356
+10418,IO-106159,"**Tracker:** https://celigo.atlassian.net/browse/IO-106159
+**Test cases:**
+C42070 ([IO-T544](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T544))
+C42071 ([IO-T545](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T545))
+C42072 ([IO-T546](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T546))
+
+**Reports:**
+[QA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/ILM_INTEGRATION/Dec_09_2024_05_05_platform_ILM_INTEGRATION_QA), [QA-Allure](http://3.108.169.54/job/WD_TO_PW/7793/allure/) [Failing due to bug https://celigo.atlassian.net/browse/IO-106356]
+[STAGING](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/STAGING/ILM_INTEGRATION/Dec_06_2024_12_48_platform_ILM_INTEGRATION_STAGING), [STAGING-Allure](http://3.108.169.54/job/WD_TO_PW/7769/allure/) [Test cases are failing as the new locators are not available yet]
+[IAQA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/ILM_INTEGRATION/Dec_06_2024_13_37_platform_ILM_INTEGRATION_IAQA), [IAQA-Allure](http://3.108.169.54/job/WD_TO_PW/7778/allure/)  [Failing due to bug https://celigo.atlassian.net/browse/IO-106356]
+[P5](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/ILM_INTEGRATION/Dec_06_2024_13_16_platform_ILM_INTEGRATION_PLATFORMFIVE), [P5-Allure](http://3.108.169.54/job/WD_TO_PW/7777/allure/)",2024-12-10T08:23:51Z,IO-106356
+10250,https://celigo.atlassian.net/browse/IO-102635 Automation,Report:- https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Nov_28_2024_10_51_rest_api_RMS_Bugs,2024-11-28T05:39:35Z,IO-102635
+10222,RMS bugs Automation ,"Tracker:- https://celigo.atlassian.net/browse/IO-100425
+Report:- https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Nov_27_2024_12_57_rest_api_RMS_Bugs",2024-11-27T12:53:54Z,IO-100425
+10163,IO-98441 Test Cases,"Jira: https://celigo.atlassian.net/browse/IO-103446
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Nov_25_2024_01_41_rest_api_RESTAPI/",2024-11-28T04:47:40Z,IO-98441
+9979,IO-100341-test case,"Jira: https://celigo.atlassian.net/browse/IO-101115
+Report: 
+QA: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Nov_13_2024_01_01_rest_api_RESTAPI/
+IAQA: https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Nov_13_2024_11_27_rest_api_RESTAPI/
+Qaprod: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qaprod/Nov_13_2024_11_54_rest_api_RESTAPI/
+Staging:  https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Nov_13_2024_12_02_rest_api_RESTAPI/",2024-11-19T16:12:17Z,IO-100341
+9895,FormulaFields: IO-98526,,2024-11-12T06:50:46Z,IO-98526
+9878,IO-102662: Automation task 22,"Code: https://celigo.atlassian.net/browse/IO-102662
+
+Trackers:
+[C30448](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T2211)
+[C32542](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T2272)
+
+Reports:
+30448 will fail in all the envs except QA as it is recently fixed as part of latest bug: [101664](https://celigo.atlassian.net/browse/IO-101664)
+
+QA: http://3.108.169.54/job/WD_TO_PW/5235/allure/
+STAGING: http://3.108.169.54/job/WD_TO_PW/5237/allure/
+PLATFORMFIVE: http://3.108.169.54/job/WD_TO_PW/5236/allure/
+IAQA: http://3.108.169.54/job/WD_TO_PW/5238/allure/",2024-11-07T10:26:19Z,IO-101664
+9781,IO-97244 Bug automation,"QA:http://3.108.169.54/job/PLAYWRIGHT_UI/12877/allure/
+IAQA:http://3.108.169.54/job/PLAYWRIGHT_UI/12878/allure/
+
+Bug: https://celigo.atlassian.net/browse/IO-97244",2024-11-04T05:04:43Z,IO-97244
+9764,IO-101633 test cases fixed,"Reports:
+Standalone 1
+[QA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/standalone/Oct_29_2024_12_33_platform_standalone_QA)
+[IAQA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/standalone/Oct_29_2024_12_37_platform_standalone_IAQA)
+[STAGING](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/STAGING/standalone/Oct_29_2024_12_37_platform_standalone_STAGING)
+[PF5](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/standalone/Oct_29_2024_12_37_platform_standalone_PLATFORMFIVE)
+
+Standalone 2
+[QA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/standalone/Oct_29_2024_12_37_platform_standalone_QA)
+[IAQA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/standalone/Oct_29_2024_13_06_platform_standalone_IAQA)
+[STAGING](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/STAGING/standalone/Oct_29_2024_12_43_platform_standalone_STAGING)
+[PF5](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/standalone/Oct_29_2024_13_46_platform_standalone_PLATFORMFIVE)
+
+**Note:- One test cases is failing standalone2 due to the bug https://celigo.atlassian.net/browse/IO-101711 and in P5 one test case failes as flow not running**
+
+Zephyr Link:-
+[IO-T4383](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T4383)
+[IO-T9534](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T9534)
+[IO-T9550](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T9550)
+[IO-T9620](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T9620)
+[IO-T11408](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T11408)
+[IO-T9339](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/IO-T9339)",2024-10-29T14:49:06Z,IO-101711
+9628,Bug automation - IO-98693,"Zephyr: https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCase/195315285
+
+QA: http://3.108.169.54/job/PLAYWRIGHT_UI/12348/allure/",2024-10-21T12:10:40Z,IO-98693
+9613,ILM HOTFIX [IO-99870],"JIRA: https://celigo.atlassian.net/browse/IO-99870
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Oct_18_2024_19_00_rest_api_RESTAPI",2024-10-23T07:31:51Z,IO-99870
+9571,IO-89317,"@vamsirayapati ,
+Please review the PR
+for the bug tracker
+https://celigo.atlassian.net/browse/IO-89317
+TypeError: Cannot set properties of undefined (setting 'rulesTwoDotZero')",2024-10-22T09:33:31Z,IO-89317
+9539,DiscountType:NeSuite:IO-93025,,2024-11-08T07:22:06Z,IO-93025
+9496,added 1 more account switching case,"QA: Unable to setup test data due to https://celigo.atlassian.net/browse/IO-97406
+IAQA: http://3.108.169.54/job/PLAYWRIGHT_UI/11706/allure/
+STAGING: http://3.108.169.54/job/PLAYWRIGHT_UI/11708/allure/
+PF5: http://3.108.169.54/job/PLAYWRIGHT_UI/11707/allure/",2024-10-09T13:10:41Z,IO-97406
+9487,Account Switching case POC,"STAGING: http://3.108.169.54/job/PLAYWRIGHT_UI/11695/allure/
+IAQA: http://3.108.169.54/job/PLAYWRIGHT_UI/11694/allure/
+PF5: http://3.108.169.54/job/PLAYWRIGHT_UI/11697/allure/
+QA: Invite emails not working (Bug: https://celigo.atlassian.net/browse/IO-97406)",2024-10-09T09:13:28Z,IO-97406
+9454,"Assign errors issues fix, with csrf token , Adding users to account in various env","This PR corrected almost 30 failing test cases when compared to previous [here](https://reporting-portal.qa.staging.integrator.io/flow-management/qa/Oct_05_2024_21_11_flow-management_2451/Assign_Errors_To_Users/index.html) 
+Did following to fix the test cases . 
+Added admin accounts , Deleted few accounts which should not be there , Moved few flows to integerations which are previously in standalone flows (which is reason why it was failing), Added script to use CSRF token
+
+
+
+Staging : https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Oct_15_2024_23_32_rest_api_Assign_Errors_To_Users/
+QA Reporting is pending because of this [issue](https://celigo.atlassian.net/browse/IO-97406) 
+Will create one more PR to fix failing test cases",2024-10-17T12:59:46Z,IO-97406
+9390,specialOrder - [IO-96449],Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Oct_08_2024_17_25_rest_api_RESTAPI/,2024-10-09T11:15:45Z,IO-96449
+9290,Automation for https://celigo.atlassian.net/browse/IO-96781 and Backlog Automation,"Report:
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Sep_24_2024_18_34_rest_api_standalone/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Oct_08_2024_14_05_rest_api_Agents/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Oct_08_2024_15_49_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Oct_08_2024_16_06_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Oct_08_2024_17_03_rest_api_RESTAPI/
+
+Jira:
+https://celigo.atlassian.net/browse/IO-98322
+",2024-10-09T06:22:58Z,IO-96781
+9187,IO-96022 Bug automation,"PF5: Bug fix is not yet deployed
+QA:http://3.108.169.54/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/10543/allure/
+IAQA: http://3.108.169.54/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/10539/allure/
+STAGING: Failed due to selector change in Sept",2024-09-18T11:13:51Z,IO-96022
+9049,IO-92904 Automation,,2024-09-11T12:00:14Z,IO-92904
+9021,onetomany route,"@KhaisarS please review
+Tracker: https://celigo.atlassian.net/browse/IO-86812
+https://celigo.atlassian.net/browse/IO-86814
+
+Mssql port connection: https://celigo.atlassian.net/browse/IO-91884",2024-09-18T06:51:05Z,IO-86812
+9021,onetomany route,"@KhaisarS please review
+Tracker: https://celigo.atlassian.net/browse/IO-86812
+https://celigo.atlassian.net/browse/IO-86814
+
+Mssql port connection: https://celigo.atlassian.net/browse/IO-91884",2024-09-18T06:51:05Z,IO-86814
+9021,onetomany route,"@KhaisarS please review
+Tracker: https://celigo.atlassian.net/browse/IO-86812
+https://celigo.atlassian.net/browse/IO-86814
+
+Mssql port connection: https://celigo.atlassian.net/browse/IO-91884",2024-09-18T06:51:05Z,IO-91884
+9009, IO-88377 & IO-88447,"@KhaisarS please review
+Trackers:https://celigo.atlassian.net/browse/IO-88377
+https://celigo.atlassian.net/browse/IO-88447",2024-09-18T10:39:14Z,IO-88377
+9009, IO-88377 & IO-88447,"@KhaisarS please review
+Trackers:https://celigo.atlassian.net/browse/IO-88377
+https://celigo.atlassian.net/browse/IO-88447",2024-09-18T10:39:14Z,IO-88447
+8955,automated two celigoAITestcases,"Report Link
+ https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Sep_05_2024_13_24_platform_undefined_dev
+BugLink https://celigo.atlassian.net/browse/IO-92589
+Story Link: https://celigo.atlassian.net/browse/IO-92658",2024-09-06T08:02:07Z,IO-92589
+8921,IO-94189,"Reports:
+[QA](http://3.108.169.54/job/WD_TO_PW/1766/allure/)
+[STAGING](http://3.108.169.54/job/WD_TO_PW/1767/allure/): env down
+[IAQA](http://3.108.169.54/job/WD_TO_PW/1769/allure/)
+[PF5](http://3.108.169.54/job/WD_TO_PW/1770/allure/): report failing due to connection issue.
+
+Zephyr:
+C51269 ([IO-T23320](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T23320))
+C51668 ([IO-T19820](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19820))
+C51666 ([IO-T19818](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19818))
+C51665 ([IO-T19817](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19817))
+
+[IO-91479]: https://celigo.atlassian.net/browse/IO-91479?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",2024-09-09T05:40:54Z,IO-91479
+8914,IO-94191 test cases fixed,"Reports:
+[QA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/flowbranching/Sep_03_2024_12_41_platform_flowbranching_QA)
+[IAQA](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/flowbranching/Sep_03_2024_12_45_platform_flowbranching_IAQA)
+[STAGING](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/STAGING/flowbranching/Sep_03_2024_13_13_platform_flowbranching_STAGING)
+[PF5](https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/flowbranching/Sep_03_2024_12_46_platform_flowbranching_PLATFORMFIVE)
+
+**Note for 1 test case P5 report failed as the bug https://celigo.atlassian.net/browse/IO-93615 is not there in P5**
+
+Zephyr Link:-
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T17517
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T17519
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T17522",2024-09-03T13:29:07Z,IO-93615
+8908,IO-90333 Cases,,2024-09-12T12:48:56Z,IO-90333
+8902,IO-94046,"Reports:
+[QA](http://3.108.169.54/job/WD_TO_PW/1299/allure/)
+[STAGING](http://3.108.169.54/job/WD_TO_PW/1302/allure/)
+[IAQA](http://3.108.169.54/job/WD_TO_PW/1304/allure/)
+[PF5](http://3.108.169.54/job/WD_TO_PW/1305/allure/) : Failing due to bug. [O-91479](https://celigo.atlassian.net/browse/IO-91479)
+
+Zephyr:
+C51634 ([IO-T19786](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19786))
+C51636 ([IO-T19787](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19787))
+C51276 ([IO-T23326](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T23326))
+C51278 ([IO-T23328](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T23328))",2024-09-03T06:24:32Z,IO-91479
+8886,IO-93878,"Reports:
+[QA](http://3.108.169.54/job/WD_TO_PW/1180/allure/)
+[STAGING](http://3.108.169.54/job/WD_TO_PW/1181/allure/)
+[IAQA](http://3.108.169.54/job/WD_TO_PW/1182/allure/)
+[PF5](http://3.108.169.54/job/WD_TO_PW/1184/allure/): failing due to bug. [IO-91479](https://celigo.atlassian.net/browse/IO-91479)
+
+Zephyr:
+C51275 ([IO-T23325](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T23325))
+
+[IO-91479]: https://celigo.atlassian.net/browse/IO-91479?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",2024-09-02T06:30:29Z,IO-91479
+8869,IO-83437 cases,JIRA: https://celigo.atlassian.net/browse/IO-83437,2024-09-03T04:55:42Z,IO-83437
+8864,IO-93680,"Reports:
+[QA](http://3.108.169.54/job/WD_TO_PW/1042/allure/)
+[STAGING](http://3.108.169.54/job/WD_TO_PW/1043/allure/)
+[IAQA](http://3.108.169.54/job/WD_TO_PW/1044/allure/)
+[PF5](http://3.108.169.54/job/WD_TO_PW/1045/allure/): Failing due to db connectors bug. [IO-93628](https://celigo.atlassian.net/browse/IO-93628)
+
+Zephyr:
+C51268 ([IO-T23319](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T23319))
+C51270 ([IO-T23321](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T23321))
+C51633 ([IO-T19785](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19785))
+C51632 ([IO-T19784](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19784))
+C51615 ([IO-T19767](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19767))
+
+[IO-93628]: https://celigo.atlassian.net/browse/IO-93628?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",2024-08-30T07:30:28Z,IO-93628
+8856,Locator and validation fixes after Sept deployement,"QA: https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/assignErrors/Aug_29_2024_11_57_platform_assignErrors_QA
+IAQA: https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/IAQA/assignErrors/Aug_29_2024_11_56_platform_assignErrors_IAQA
+PF5 - https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/PLATFORMFIVE/assignErrors/Aug_29_2024_12_13_platform_assignErrors_PLATFORMFIVE (Open bug - https://celigo.atlassian.net/browse/IO-91479)
+",2024-08-29T15:48:59Z,IO-91479
+8842,IO-93417,"Reports:
+[QA](http://3.108.169.54/job/WD_TO_PW/1204/allure/)
+[STAGING](http://3.108.169.54/job/WD_TO_PW/1206/allure/)
+[IAQA](http://3.108.169.54/job/WD_TO_PW/1207/allure/)
+[PF5](http://3.108.169.54/job/WD_TO_PW/1208/allure/): Failing due to db connectors bug. [IO-93628](https://celigo.atlassian.net/browse/IO-93628)
+
+Zephyr:
+C51675 ([IO-T19826](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19826))
+C24491 ([IO-T7211](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T7211))
+C24079 ([IO-T7192](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T7192))
+C51635 ([IO-T19787](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19787))
+C51663 ([IO-T19815](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19815))
+
+[IO-90383]: https://celigo.atlassian.net/browse/IO-90383?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ
+
+[IO-93628]: https://celigo.atlassian.net/browse/IO-93628?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",2024-09-02T06:06:06Z,IO-90383
+8842,IO-93417,"Reports:
+[QA](http://3.108.169.54/job/WD_TO_PW/1204/allure/)
+[STAGING](http://3.108.169.54/job/WD_TO_PW/1206/allure/)
+[IAQA](http://3.108.169.54/job/WD_TO_PW/1207/allure/)
+[PF5](http://3.108.169.54/job/WD_TO_PW/1208/allure/): Failing due to db connectors bug. [IO-93628](https://celigo.atlassian.net/browse/IO-93628)
+
+Zephyr:
+C51675 ([IO-T19826](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19826))
+C24491 ([IO-T7211](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T7211))
+C24079 ([IO-T7192](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T7192))
+C51635 ([IO-T19787](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19787))
+C51663 ([IO-T19815](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T19815))
+
+[IO-90383]: https://celigo.atlassian.net/browse/IO-90383?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ
+
+[IO-93628]: https://celigo.atlassian.net/browse/IO-93628?atlOrigin=eyJpIjoiNWRkNTljNzYxNjVmNDY3MDlhMDU5Y2ZhYzA5YTRkZjUiLCJwIjoiZ2l0aHViLWNvbS1KU1cifQ",2024-09-02T06:06:06Z,IO-93628
+8797,IO-80073 Mapper2.0 - Do Nothing for Static lookup throws error,,2024-08-27T10:41:24Z,IO-80073
+8722,IO-87446 cloning and template cases,"JIRA: https://celigo.atlassian.net/browse/IO-87446
+
+--------------------
+**Cloning Suite Cases:** https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Aug_27_2024_17_24_rest_api_RESTAPI 
+**Template Suite Cases:**  https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Aug_27_2024_19_03_rest_api_RESTAPI 
+**IAF2.0 Suite Cases:** https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Aug_27_2024_16_19_rest_api_RESTAPI ",2024-08-28T09:16:50Z,IO-87446
+8659,Mssql fixes,"Mssql report In platform3: https://reporting-portal.qa.staging.integrator.io/RESTAPI/platform3/Aug_06_2024_12_44_rest_api_MsSQL_FLAKY_FAILED_ADDRESSED/
+IAQA:https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Aug_06_2024_13_38_rest_api_MsSQL_FLAKY_FAILED_ADDRESSED/
+
+In IAQA the failures are due to time out issue and one failure due to https://celigo.atlassian.net/browse/IO-90894
+
+@KhaisarS please review",2024-08-08T07:03:55Z,IO-90894
+8633,Bug automation - IO-88645,"Zephyr: https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T37293
+
+QA: http://3.108.169.54/job/PLAYWRIGHT_UI/8125/allure/#",2024-08-02T07:22:22Z,IO-88645
+8629,Suite fixes,"suite fixes for Mysql,MariaDB,Postgres
+The Mysql failure got fixed by https://celigo.atlassian.net/browse/IO-79432.",2024-08-02T12:43:46Z,IO-79432
+8600,IO-79723 Test Cases,"Jira: https://celigo.atlassian.net/browse/IO-79727
+Report: 
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jul_30_2024_14_48_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jul_29_2024_20_17_rest_api_RESTAPI/",2024-08-20T08:28:21Z,IO-79723
+8544, Bug validation,"Tracker:https://celigo.atlassian.net/browse/IO-77998
+@KhaisarS please review",2025-01-28T09:54:47Z,IO-77998
+8481,IO-84547_testcases,"Hello @KhaisarS,
+
+Please review the IO-84547 tracker test cases.
+Automation report- https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Jul_20_2024_00_48_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Jul_20_2024_00_34_rest_api_RESTAPI/
+
+Thanks",2024-08-11T18:18:36Z,IO-84547
+8427,Invalid error message,https://celigo.atlassian.net/browse/IO-77404,2024-07-25T07:18:44Z,IO-77404
+8406,Making fixes for tracker IO-85717,Making fixes for tracker IO-85717,2024-07-16T11:25:16Z,IO-85717
+8376,Disabling CI for edi_suite due to an open bug for admin accounts,"Bug:
+https://celigo.atlassian.net/browse/IO-85722",2024-07-15T06:12:36Z,IO-85722
+8361,"Add IO-62305, IO-62304, IO-62306","Jira:
+https://celigo.atlassian.net/browse/IO-62305
+https://celigo.atlassian.net/browse/IO-62304
+https://celigo.atlassian.net/browse/IO-62306
+
+Zephyr:
+[T17370](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T17370?projectId=11700)
+[T17358](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T17358?projectId=11700)
+[T17387](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T17387?projectId=11700)
+
+Reports:
+Staging: http://3.108.169.54/job/PLAYWRIGHT_UI/5950/allure/
+QA: http://3.108.169.54/job/PLAYWRIGHT_UI/5948/allure/
+IAQA: http://3.108.169.54/job/PLAYWRIGHT_UI/5951/allure/
+Platform5: http://3.108.169.54/job/PLAYWRIGHT_UI/5954/allure/
+
+Note: Platform5 is failing due to the preview panel issue - https://celigo.atlassian.net/browse/IO-87398",2024-07-16T06:30:31Z,IO-87398
+8321,IO-81720 & IO-82898 Automation,"@Sathishkumar-Duraimuthu Pls Merge 
+Jira : https://celigo.atlassian.net/browse/IO-81720
+Test report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jul_09_2024_17_21_rest_api_RESTAPI/
+Test case:
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T34793?projectId=11700
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T34794?projectId=11700",2024-07-11T13:52:41Z,IO-81720
+8321,IO-81720 & IO-82898 Automation,"@Sathishkumar-Duraimuthu Pls Merge 
+Jira : https://celigo.atlassian.net/browse/IO-81720
+Test report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jul_09_2024_17_21_rest_api_RESTAPI/
+Test case:
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T34793?projectId=11700
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T34794?projectId=11700",2024-07-11T13:52:41Z,IO-82898
+8274,IO-80441 Automation,"@Sathishkumar-Duraimuthu Pls Merge
+Report Link : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jul_02_2024_09_04_rest_api_RESTAPI
+Jira: https://celigo.atlassian.net/browse/IO-80441
+Test Case : https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T34230?projectId=11700",2024-07-02T03:44:46Z,IO-80441
+8252,Rest api aut,"
+[IO-83782, Virtyal export and import]
+
+https://celigo.atlassian.net/browse/IO-82276",2024-06-27T16:08:37Z,IO-82276
+8235,changed the name from “Create from scratch ” to “create flow step”,"APIM-
+QA-http://3.108.169.54/job/PLAYWRIGHT_UI/4831/allure/#suites/36c900977e1d8b81a2c6893cc82bfc01
+Staging- Confirmed with Gaurav sharma value should be automation-notification-user in staging  and apim-ui  in qa
+http://3.108.169.54/job/PLAYWRIGHT_UI/4815/allure/#suites/e65b6b0b374103bdb3b586e557d281e0/bafffa0843e2d274/
+
+Onprem-
+QA-http://3.108.169.54/job/PLAYWRIGHT_UI/4830/allure/
+Staging-http://3.108.169.54/job/PLAYWRIGHT_UI/4849/allure/
+http://3.108.169.54/job/PLAYWRIGHT_UI/4857/allure
+IAQA-http://3.108.169.54/job/PLAYWRIGHT_UI/4856/allure/
+
+Pricing model-
+Staging-http://3.108.169.54/job/PLAYWRIGHT_UI/4767/allure/#suites/36c900977e1d8b81a2c6893cc82bfc01
+bug-https://celigo.atlassian.net/browse/IO-85717
+IAQA-http://3.108.169.54/job/PLAYWRIGHT_UI/4853/allure/#suites/36c900977e1d8b81a2c6893cc82bfc01
+QA-http://3.108.169.54/job/PLAYWRIGHT_UI/4855/allure/",2024-06-26T14:04:27Z,IO-85717
+8183,CeligoAI," https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Jun_13_2024_15_51_platform_undefined_dev
+https://celigo.atlassian.net/browse/IO-78505 - BugID
+Allure - report http://3.108.169.54/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/4093/allure/#suites/58619d01762b8801393d502cd2b8bd14/76471cc8d38f48c4/
+
+https://celigo.atlassian.net/browse/IO-80345 - StoryID - Transformation2.0
+Allure report - http://3.108.169.54/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/4091/allure/#suites
+
+https://celigo.atlassian.net/browse/IO-82077 -StoryID - Azure Synapse Support for text to SQL for Celigo AI
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/QA/CeligoAI/Jun_18_2024_06_03_platform_CeligoAI_QA
+Allure Report http://3.108.169.54/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/4083/allure/#behaviors
+
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Jul_17_2024_16_48_platform_undefined_dev",2024-07-19T07:29:04Z,IO-78505
+8149,IO-82736,"https://celigo.atlassian.net/browse/IO-81378
+
+report 
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jun_10_2024_14_48_rest_api_RESTAPI ",2024-06-24T08:51:42Z,IO-81378
+8120,Bug automation - July release,"Tracker- https://celigo.atlassian.net/browse/IO-79115
+Zephyr- https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/161502435
+
+QA Report - http://3.108.169.54/job/PLAYWRIGHT_UI/3816/allure/",2024-06-05T07:13:43Z,IO-79115
+8119,Bug automation,"Bug: https://celigo.atlassian.net/browse/IO-79128
+Zephyr: https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/161121109
+
+
+QA Report - http://3.108.169.54/job/PLAYWRIGHT_UI/3811/allure/",2024-06-05T05:50:08Z,IO-79128
+8086,"""IO-57408 pageIndex test cases""","Tracker : https://celigo.atlassian.net/browse/IO-57408 
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_31_2024_12_42_rest_api_JSRT_Invoke_route/",2024-05-31T09:19:33Z,IO-57408
+8073,"""IO-78332""","Tracker : https://celigo.atlassian.net/browse/IO-78332
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_30_2024_16_46_rest_api_JSRT_Invoke_route/",2024-05-30T13:56:00Z,IO-78332
+8062,"""IO-78939 JSRT Patch test cases 2024.5.2""","Tracker : https://celigo.atlassian.net/browse/IO-78939
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_29_2024_14_12_rest_api_RESTAPI/",2024-05-29T10:12:45Z,IO-78939
+8052,"""added test case for IO-48746""","Tracker : https://celigo.atlassian.net/browse/IO-48746
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_27_2024_20_38_rest_api_RESTAPI/",2024-05-28T05:10:38Z,IO-48746
+8046,IO-78677 & IO-78746 NetSuite preSend and preMap Error,"
+
+
+- Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_25_2024_01_07_rest_api_RESTAPI/
+- JIRA:
+- https://celigo.atlassian.net/browse/IO-78677
+
+- Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_29_2024_19_57_rest_api_RESTAPI/
+- Jira:
+- https://celigo.atlassian.net/browse/IO-78746
+
+Zephyr project ID:
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCases?projectId=11700",2024-06-03T15:08:30Z,IO-78677
+8046,IO-78677 & IO-78746 NetSuite preSend and preMap Error,"
+
+
+- Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_25_2024_01_07_rest_api_RESTAPI/
+- JIRA:
+- https://celigo.atlassian.net/browse/IO-78677
+
+- Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_29_2024_19_57_rest_api_RESTAPI/
+- Jira:
+- https://celigo.atlassian.net/browse/IO-78746
+
+Zephyr project ID:
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCases?projectId=11700",2024-06-03T15:08:30Z,IO-78746
+8039,IO-77631 Automation,"Test Case : https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T31803?projectId=11700
+Test Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/May_24_2024_18_39_rest_api_RESTAPI/",2024-05-30T05:09:32Z,IO-77631
+7999,Automation Coverage - IO-68000,"JIRA : https://celigo.atlassian.net/browse/IO-75932
+Report : 
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_21_2024_16_18_rest_api_RESTAPI/",2024-07-01T05:34:06Z,IO-68000
+7964,Playwright ts,"EDi_suite(bugs)
+Bug-IO-75581
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3242/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3243/allure/
+
+
+FlowBuiilder02
+Bug-IO-75590
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3246/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3247/allure/
+
+UIUX_Suite02
+Bug-IO-73700
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3249/allure/
+STAGING - 
+
+EDI_Suite(dashboard)
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3294/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3288/allure/
+",2024-05-20T06:24:54Z,IO-73700
+7964,Playwright ts,"EDi_suite(bugs)
+Bug-IO-75581
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3242/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3243/allure/
+
+
+FlowBuiilder02
+Bug-IO-75590
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3246/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3247/allure/
+
+UIUX_Suite02
+Bug-IO-73700
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3249/allure/
+STAGING - 
+
+EDI_Suite(dashboard)
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3294/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3288/allure/
+",2024-05-20T06:24:54Z,IO-75581
+7964,Playwright ts,"EDi_suite(bugs)
+Bug-IO-75581
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3242/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3243/allure/
+
+
+FlowBuiilder02
+Bug-IO-75590
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3246/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3247/allure/
+
+UIUX_Suite02
+Bug-IO-73700
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3249/allure/
+STAGING - 
+
+EDI_Suite(dashboard)
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/3294/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3288/allure/
+",2024-05-20T06:24:54Z,IO-75590
+7960,Bug Automation - IO-72773,"QA- http://3.108.169.54/job/PLAYWRIGHT_UI/3228/allure/
+IAQA- http://3.108.169.54/job/PLAYWRIGHT_UI/3229/allure/
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/3230/allure/",2024-05-17T11:31:35Z,IO-72773
+7901,Bug automation,"Report: https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/May_08_2024_18_06_platform_undefined_dev/
+Bug :-  https://celigo.atlassian.net/browse/IO-74286
+Zephyr link :- https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/157213065
+
+
+This is a IA scenario so will work only in IA environment , so added tag as only IAQA",2024-05-09T10:15:38Z,IO-74286
+7894,Automation coverage for IO-68971,"JIRA : https://celigo.atlassian.net/browse/IO-72596
+Report : 
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_07_2024_19_20_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_07_2024_19_41_rest_api_RESTAPI/
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_07_2024_19_58_rest_api_RESTAPI/",2024-05-14T09:49:05Z,IO-68971
+7892,Adding automation for a bug IO-75191,Adding automation for a bug IO-75191,2024-05-09T11:32:18Z,IO-75191
+7889,Automation coverage IO-73900,"JIRA : https://celigo.atlassian.net/browse/IO-75933
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_07_2024_16_45_rest_api_RESTAPI/",2024-05-08T05:42:18Z,IO-73900
+7865,"""IO-77027""","Tracker : https://celigo.atlassian.net/browse/IO-77027
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/May_03_2024_18_02_rest_api_Splunk/",2024-05-03T13:48:18Z,IO-77027
+7850,"""IO-72427 webhook test case""","report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Apr_30_2024_19_24_rest_api_Splunk/
+Tracker : IO-72427
+Test case ID : IO-T29123",2024-04-30T14:08:48Z,IO-72427
+7839,Validation changes needed due to bug IO-44834,Validation changes needed due to bug IO-44834,2024-04-29T15:50:41Z,IO-44834
+7825,Bug Automation -IO-69050,"QA - http://3.108.169.54/job/PLAYWRIGHT_UI/2638/allure/#
+STAGING - http://3.108.169.54/job/PLAYWRIGHT_UI/2639/allure/#
+IAQA - http://3.108.169.54/job/PLAYWRIGHT_UI/2640/allure/#
+
+
+Zephyr- https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/project/11700/testCase?issueKeys=IO-69050",2024-04-25T10:33:31Z,IO-69050
+7813,IO-74327-Access Token related Test Cases,"Jira: https://celigo.atlassian.net/browse/IO-74331
+report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Apr_24_2024_15_12_rest_api_RESTAPI/",2024-05-09T06:20:23Z,IO-74327
+7811,Automated Bug IO-74713,"Report Link for QA:
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Apr_24_2024_13_47_platform_undefined_dev
+Bug Link : https://celigo.atlassian.net/browse/IO-74713
+Zephyr Link : 
+[IO-T29359 (1.0)](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T29359)
+
+
+Pending Azure Synapse Test Cases 
+Report Link QA
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Apr_24_2024_16_21_platform_undefined_dev
+Story Link : https://celigo.atlassian.net/browse/IO-75274
+Zephyr Link
+ [IO-T29343 (1.0)](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/154859214)
+[IO-T29345 (1.0)](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T29345)
+
+
+**Updated Azure Connector Stories**
+Report Link : https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/May_02_2024_15_26_platform_undefined_dev
+
+Zephyr Link : https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T29337
+
+Report Link :  https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/May_02_2024_15_34_platform_undefined_dev
+
+Zephyr Link https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T29344?projectId=11700
+
+Report Link: https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/May_02_2024_15_40_platform_undefined_dev
+
+Zephyr Link : [IO-T29342 (1.0)](https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T29342)
+
+Report Link: https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/May_02_2024_15_46_platform_undefined_dev
+
+Zephyr : https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T29347
+
+**Added Imports Stories for Azure Synapse-**
+Report Link : https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/May_02_2024_16_12_platform_undefined_dev
+
+Report Link : https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/May_02_2024_16_17_platform_undefined_dev
+
+Below Zephyr IDs considered for Imports: 
+  ""IO-T29698_IO-T29699_IO-T29703_IO-T29705_IO-T29706_IO-T29707"",
+  ""IO-T29708_T29709_IO-T29700_IO-T29701_IO-T29702"",
+  ""IO-T29711_IO-T29712_IO-T29704"",
+  ""IO-T29713_IO-T29712"",
+  ""IO-T29714"",
+  ""IO-T29716"",
+  ""IO-T29717"",
+  ""IO-T29719"",
+  ""IO-T29720""
+
+
+",2024-05-06T06:11:50Z,IO-74713
+7810,https://celigo.atlassian.net/browse/IO-65486,"https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Apr_24_2024_13_18_rest_api_Webhook
+
+",2024-04-24T09:19:30Z,IO-65486
+7802,Bug - https://celigo.atlassian.net/browse/IO-75581,"Qa Report - http://3.108.169.54/job/PLAYWRIGHT_UI/2530/allure/
+
+Zephyr - https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/154860248",2024-04-24T07:45:45Z,IO-75581
+7794,Automated Bug IO-73222,"Bug ID - https://celigo.atlassian.net/browse/IO-73222
+
+Zephyr ID - 
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/154306247
+
+Report URL : 
+QA 
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Apr_22_2024_12_12_platform_undefined_dev",2024-04-23T07:47:13Z,IO-73222
+7792,Bug Automation IO-75567,"QA Report - http://3.108.169.54/job/PLAYWRIGHT_UI/2408/allure/
+
+Zephyr - https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/project/11700/testCase?issueKeys=IO-75567",2024-04-19T14:48:34Z,IO-75567
+7779,Bug Automation - IO-73700,"Jenkins Report - http://3.108.169.54/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/2328/allure/#
+
+Zephyr - https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/154238828",2024-04-18T06:21:50Z,IO-73700
+7770,Bug Automation -IO-75590,"QA Report - http://3.108.169.54/job/PLAYWRIGHT_UI/2275/allure/#
+Zephyr - https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/154192953",2024-04-17T11:21:28Z,IO-75590
+7738,Automated IO-74199,"Bug Id https://celigo.atlassian.net/browse/IO-74199
+Zephyr Link -
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T28943
+Report Links:
+
+Staging
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Apr_09_2024_14_52_platform_undefined_dev
+
+IAQA
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Apr_09_2024_14_56_platform_undefined_dev
+
+QA
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Apr_09_2024_15_04_platform_undefined_dev
+
+
+",2024-04-10T05:39:21Z,IO-74199
+7705,IO-T28667,"Report:
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Apr_02_2024_17_13_rest_api_Assign_Errors_To_Users/
+
+Jira:
+https://celigo.atlassian.net/browse/IO-73178
+
+Zephyr:
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/149827242",2024-04-17T10:24:39Z,IO-73178
+7685,Automation for IO-73285,"QA - http://13.232.154.166/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/827/allure/
+
+IAQA - http://13.232.154.166/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/829/allure/#
+
+Staging - http://13.232.154.166/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/828/allure/
+
+Zephyr - https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/149166408",2024-03-27T12:33:00Z,IO-73285
+7668,IO-67635 Bug tracker,Tracker:https://celigo.atlassian.net/browse/IO-69487,2024-03-26T17:56:01Z,IO-67635
+7665,Bug automation IO-68728,Jenkins Report -http://13.232.154.166/view/AUTOMATION-HUB/job/PLAYWRIGHT_UI/812/allure/#,2024-03-26T10:28:35Z,IO-68728
+7660,IO-57243 Automation,"Test Cases : https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T28496
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T28497
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T28498
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T28499
+
+Report Link : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Mar_26_2024_10_58_rest_api_RESTAPI/",2024-04-01T11:41:26Z,IO-57243
+7639,Bug-IO-70825,"Report- https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Mar_22_2024_19_34_platform_undefined_dev
+
+https://celigo.atlassian.net/browse/IO-70825
+
+https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/145832140",2024-03-22T14:22:43Z,IO-70825
+7602,IO-66989 Automation,"Test cases : 
+1. https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T28267
+2. https://celigo.atlassian.net/projects/IO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/IO-T28268
+
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Mar_19_2024_15_58_rest_api_RESTAPI/
+
+Report for Change in apicalls.ts
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Mar_19_2024_16_11_rest_api_RESTAPI/
+
+@phani1123 Pls review. 
+@Anusha47 Pls merge.",2024-03-19T14:54:15Z,IO-66989
+7374,IO-62795 TC,"https://celigo.atlassian.net/browse/IO-62795
+
+report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa.staging/Feb_20_2024_18_42_rest_api_RESTAPI
+
+As this is not deployed in staging, it is failing - https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Feb_20_2024_18_56_rest_api_RESTAPI",2024-02-22T05:46:59Z,IO-62795
+7339,IO-53584 Automation,"Tracker : https://celigo.atlassian.net/browse/IO-53584
+Test case : https://celigo.testrail.io/index.php?/cases/view/120843&group_by=cases:section_id&group_order=asc&display_deleted_cases=0&group_id=3297
+
+report link : https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Feb_13_2024_22_22_rest_api_RESTAPI/
+
+@Anusha47 Pls Merge",2024-02-16T04:57:20Z,IO-53584
+7331,Bug tracker 57511,"Tracker:https://celigo.atlassian.net/browse/IO-57511
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Feb_13_2024_10_54_rest_api_RESTAPI/
+
+MYSQL SUITE FIXES REPORT: https://reporting-portal.qa.staging.integrator.io/RESTAPI/iaqa/Feb_19_2024_21_23_rest_api_RESTAPI/",2024-02-26T16:00:42Z,IO-57511
+7305,"""IO-62859""","Tracker : https://celigo.atlassian.net/browse/IO-62863
+Report : https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Feb_08_2024_19_22_rest_api_RESTAPI/",2024-03-12T07:58:16Z,IO-62859
+7292,PATCH Bug IO-64096,"Bug link : https://celigo.atlassian.net/browse/IO-64096
+Report link : https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Feb_07_2024_22_03_platform_Playwright_UI_dev/
+Test case : 
+https://celigo.testrail.io/index.php?/cases/view/119818
+
+@phani1123 Pls review",2024-02-16T04:58:04Z,IO-64096
+7263,PATCH Bugs,"JIRA:
+
+- https://celigo.atlassian.net/browse/IO-59906
+- https://celigo.atlassian.net/browse/IO-59019
+
+Report:
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Feb_04_2024_20_06_rest_api_RESTAPI/",2024-02-12T04:45:08Z,IO-59019
+7263,PATCH Bugs,"JIRA:
+
+- https://celigo.atlassian.net/browse/IO-59906
+- https://celigo.atlassian.net/browse/IO-59019
+
+Report:
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Feb_04_2024_20_06_rest_api_RESTAPI/",2024-02-12T04:45:08Z,IO-59906
+7247,Blacklist Test domain Patch Automation,"Bug Links: 
+https://celigo.atlassian.net/browse/IO-61750 
+https://celigo.atlassian.net/browse/IO-60618
+Test cases link:
+https://celigo.testrail.io//index.php?/cases/view/119398
+https://celigo.testrail.io//index.php?/cases/view/119399
+https://celigo.testrail.io//index.php?/cases/view/119427
+
+Test Report Link : https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Jan_31_2024_23_27_rest_api_RESTAPI/",2024-02-07T10:36:51Z,IO-60618
+7247,Blacklist Test domain Patch Automation,"Bug Links: 
+https://celigo.atlassian.net/browse/IO-61750 
+https://celigo.atlassian.net/browse/IO-60618
+Test cases link:
+https://celigo.testrail.io//index.php?/cases/view/119398
+https://celigo.testrail.io//index.php?/cases/view/119399
+https://celigo.testrail.io//index.php?/cases/view/119427
+
+Test Report Link : https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Jan_31_2024_23_27_rest_api_RESTAPI/",2024-02-07T10:36:51Z,IO-61750
+7060,IO-54781,"jira - https://celigo.atlassian.net/browse/IO-54781
+test rail - https://celigo.testrail.io/index.php?/cases/view/109381
+
+Report:
+
+
+couldn't add other env because of this bug - https://celigo.atlassian.net/browse/IO-46724",2024-03-14T06:40:15Z,IO-46724
+6974,IO-54787,"jira - https://celigo.atlassian.net/browse/IO-54787
+test rail - https://celigo.testrail.io/index.php?/cases/view/109378
+
+Report:
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Jan_09_2024_12_40_rest_api_RESTAPI
+
+
+couldn't add other env because of this bug - https://celigo.atlassian.net/browse/IO-46724",2024-01-12T11:45:36Z,IO-46724
+6585,IO-115864 Testcases,"https://celigo.atlassian.net/browse/IO-52442
+Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/qa/Dec_15_2023_12_42_rest_api_HTTP2.0",2023-12-19T16:37:39Z,IO-52442
+6394,Bug automation - IO-55940,Test report - https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Dec_05_2023_18_10_platform_Playwright_UI_dev,2023-12-05T12:44:00Z,IO-55940
+6389,Automation for Jan release epics,"Test Report for IO-48354:
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Dec_05_2023_15_21_platform_Playwright_UI_dev/
+
+Test Report for IO-43691:
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Dec_04_2023_13_54_platform_Playwright_UI_dev/
+
+Test Report for IO-48005:
+https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Dec_05_2023_12_28_platform_Playwright_UI_dev/",2023-12-05T10:11:10Z,IO-48005
+6381,IO-51804 Testcases,Report: https://reporting-portal.qa.staging.integrator.io/RESTAPI/staging/Dec_05_2023_09_52_rest_api_End_To_End_Flows,2023-12-06T12:21:01Z,IO-51804
+6343,Signup Email ratelimit error of bug IO-47750,"Testrail:
+https://celigo.testrail.io/index.php?/cases/view/113427
+Jira:
+https://reporting-portal.qa.staging.integrator.io/RESTAPI/dev/Nov_28_2023_17_35_rest_api_RESTAPI",2023-11-29T06:27:53Z,IO-47750
+6324,Bug#IO-48090 Automation,Test Report: https://reporting-portal.qa.staging.integrator.io/IO/Playwright_UI/dev/Nov_27_2023_11_35_platform_Playwright_UI_dev/,2023-11-27T06:32:21Z,IO-48090
+6307,IO-50777 Automation,"Jira Bug: https://celigo.atlassian.net/browse/IO-50777
+
+Test Cases Link: 
+https://celigo.testrail.io//index.php?/cases/view/112690
+https://celigo.testrail.io//index.php?/cases/view/112691
+
+Test Report Link: https://reporting-portal.qa.staging.integrator.io/RESTAPI/dev/Nov_23_2023_16_32_rest_api_RESTAPI/ 
+@vamsirayapati Pls review.
+@Anusha47 Pls Merge.
+",2023-11-28T15:06:49Z,IO-50777
+6296,Once hotfix IO-50992,,2023-11-29T08:46:39Z,IO-50992
+6141,"IO-47025 In security tab Style is not applied for ""Enable MFA""","https://celigo.atlassian.net/browse/IO-47025[](url)
+<img width=""1709"" alt=""Screenshot 2023-10-23 at 4 17 00 PM"" src=""https://github.com/celigo/celigo-qa-automation/assets/146952834/383d495f-5755-40d4-88fc-df5f11dd7819"">
+",2023-10-26T13:33:52Z,IO-47025
+6115,[IO-45242] edit flow branching,"https://celigo.testrail.io/index.php?/cases/view/107972
+
+<img width=""1728"" alt=""Screenshot 2023-10-18 at 7 25 25 PM"" src=""https://github.com/celigo/celigo-qa-automation/assets/146952834/0e3fc3d2-fc80-4bc6-9797-4ddbdcf80453"">
+",2023-10-20T12:28:24Z,IO-45242
+6114,IO-43979 Testcases,"JIRA:
+https://celigo.atlassian.net/browse/IO-43979
+https://celigo.atlassian.net/browse/IO-44315",2023-10-23T11:03:03Z,IO-43979

@@ -1,0 +1,41 @@
+{
+  "total_zendesk_tickets": 0,
+  "total_linked_tickets": 0,
+  "total_escaped_bugs": 154,
+  "monthly_trend": [
+    {
+      "month": "2024-08",
+      "zendesk_tickets": 0,
+      "linked_tickets": 0,
+      "escaped_bugs": 1
+    },
+    {
+      "month": "2025-05",
+      "zendesk_tickets": 0,
+      "linked_tickets": 0,
+      "escaped_bugs": 20
+    },
+    {
+      "month": "2025-06",
+      "zendesk_tickets": 0,
+      "linked_tickets": 0,
+      "escaped_bugs": 38
+    },
+    {
+      "month": "2025-07",
+      "zendesk_tickets": 0,
+      "linked_tickets": 0,
+      "escaped_bugs": 36
+    },
+    {
+      "month": "2025-08",
+      "zendesk_tickets": 0,
+      "linked_tickets": 0,
+      "escaped_bugs": 59
+    }
+  ],
+  "linked_breakdown": {
+    "by_priority": [],
+    "by_severity": []
+  }
+}

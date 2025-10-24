@@ -1,0 +1,1686 @@
+S.No,Date,Channel,Slack link,Reporter,Concerned Team,Assignee,Issue type,Priority,Status,Bug Id / Enhancement Id,Comments,Scrum Team,Component/Feature,Subcategory,Is Test case available?,"If test case availble, why did we miss?",Are we able to replicate on current code base?,Microservice(Yes/No),Is Test Cases Added Now,Test Case reference,Caused by,is_escaped_defect,linked_pr_number,is_e2e_failure
+1,2025-01-21,ui_ux,Link,Brent,UI,Mahesh,Bug,P1,Done / Jan Patch,https://celigo.atlassian.net/browse/IO-111665,,Phoenix (UI),UI,,Yes,,,No,,,,False,,False
+2,2025-02-08,ui_ux,link,"Tyler Lamparter
+ ",UI,Vikram Waman Thakre,Bug,P3,Released / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-113351,,Helios (UI),Error,,No,,,No,,,,False,13541.0,True
+3,2025-01-02,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-108807 https://celigo.atlassian.net/browse/IO-103025,,Iris (UI),AFE,,No,,,No,,,,False,,True
+4,2025-01-02,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+bhanu.prakash.reddy.adapala",Bug,P2,Released / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-108978,,Zeta,Handlebars ,,No,,,No,,,,False,,False
+5,2025-01-02,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Dileep Krishna Sai Madamanchi,Bug,P2,Pending deployment,https://celigo.atlassian.net/browse/IO-111234,,Avengers,Flow runtime,,No,,,No,,,,False,13738.0,False
+6,2025-01-04,io_qa_pm,link,"Tyler Lamparter
+ ",Core,"
+Pydichetti Sushma",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-110996,,Zeta,BigQuery,,No,,,No,,,,False,,True
+7,2025-01-09,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Sai Phanindra Godavarthi,Bug,P2,On Hold,https://celigo.atlassian.net/browse/IO-111192,,Avengers,Errors,,No,,,No,,,,False,13247.0,True
+8,2025-01-10,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Pydichetti Sushma,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-111226,,Zeta,Snowflake,,No,,,No,,,,False,13300.0,False
+9,2025-01-10,io_qa_pm,link,"Sandeep Gaddam
+",Platform,Priya Vanteru,FRD,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-88949,,,HTTP,,No,,,No,,,,False,13514.0,True
+10,2025-01-15,io_qa_pm,link,"Tyler Lamparter
+ ",UI,sagna.perala,Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-111185,,Phoenix (UI),AFE,,No,,,No,,,,False,,True
+11,2025-01-15,io_qa_pm,link,"Sandeep Gaddam
+",Platform,Kratika Singhal,Bug,P3,Open,https://celigo.atlassian.net/browse/IO-110394,,Apollo (Platform),Transformation 2.0,,No,,,No,,,,False,,False
+12,2025-01-16,io_qa_pm,link,"Youssef Zouhairi
+",PBI (Connectors),"
+sri priya vytla",Enhancement,P1,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-110591    https://celigo.atlassian.net/browse/CON-11777 ,,Iris (UI),HTTP 2.0,,No,,,No,,,,False,,True
+13,2025-01-17,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P1,Pending Release / 2025.1.2 release,https://celigo.atlassian.net/browse/IO-111016,,Phoenix (UI),Transformation 2.0,,Yes,,,No,,,,False,,False
+14,2025-01-18,io_qa_pm,link,Tyler Lamparter,Platform,Tharuni Sai Idupulapati,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-113914,,Apollo (Platform),"GraphQL, Handlebars",,No,,,No,,,,False,,False
+15,2025-01-22,io_qa_pm,link,"Scott Henderson
+ ",Platform,"
+Shiva Sai Kiran Kadari",Bug,P1,Pending Release / 2025.1.2 release,https://celigo.atlassian.net/browse/IO-102874,,Apollo (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+16,2025-01-22,io_qa_pm,link,"Scott Henderson
+ ",Platform,"
+Anjani Kumar Pandey",Bug,P2,Pending Release / 2025.4.1 release,https://celigo.atlassian.net/browse/IO-111406,,Zeta,Snowflake ,,No,,,No,,,,False,13300.0,False
+17,2025-01-23,io_qa_pm,link,"Scott Henderson
+ ",Platform,Shubham Kumar Singh,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-111408,,Zeta,Snowflake ,,No,,,No,,,,False,13300.0,False
+18,2025-01-24,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Rohit Prasad,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-111609,,Falcon (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+19,2025-01-24,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Rohit Prasad,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-111578,,Falcon (Platform),Amazon Seller Central,,No,,,No,,,,False,,False
+20,2025-01-24,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Prerana Chaduvu,Bug,P3,QA Validation,https://celigo.atlassian.net/browse/IO-111607,,Transformers,Errors,,No,,,No,,,,False,13247.0,True
+21,2025-01-24,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+sagna.perala",Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-112354,,Phoenix (UI),Custom Settings,,No,,,No,,,,False,,False
+22,2025-01-25,io_qa_pm,link,"Mark Rublico
+ ",Platform,"
+SHIVAM RAI",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-111807,,Zeta,MSSQL,,No,,,No,,,,False,,False
+23,2025-01-25,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Subarna Ghatak,Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-111691,,Hercules (UI),UI,,No,,,No,,,,False,,False
+24,2025-01-28,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Ankur Kumar,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-112150,,Titans (Platform), Salesforce,,No,,,No,,,,False,,True
+25,2025-01-28,io_qa_pm,link,Sandeep Gaddam,UI,"
+Hardik Jain",Bug,P2,On hold,https://celigo.atlassian.net/browse/IO-112851,,Stark (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+26,2025-01-28,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+sagna.perala",Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-112190,,Hercules (UI),Handlebars ,,No,,,No,,,,False,,False
+27,2025-01-29,io_qa_pm,link,"Tyler Lamparter
+ ",Core,"
+Naveen Reddy G",Bug,P1,Pending Release / 2025.1.2 release,https://celigo.atlassian.net/browse/IO-105919,,Chipmunks (Core),multi-env ,,No,,,No,,,,False,13233.0,True
+28,2025-01-29,io_qa_pm,link,"Tyler Lamparter
+ ",Core,"
+sagna.perala",Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-112369,,Chipmunks (Core),multi-env,,No,,,No,,,,False,13233.0,True
+29,2025-01-29,io_qa_pm,link,"Tyler Lamparter
+ ",UI,sagna.perala,Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-112116,,Helios (UI),multi-env,,No,,,No,,,,False,13233.0,True
+30,2025-01-29,io_qa_pm,link,Bhavik ShahBhavik Shah,Platform,"
+Arpit Gupta",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-112954,,Falcon (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+31,2025-01-29,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Ladi Manish,Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-113066,,Hercules (UI),UI,,No,,,No,,,,False,,False
+32,2025-01-29,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Abhijith Madhav,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-112353,,Avengers,HTTP 2.0,,No,,,No,,,,False,,True
+33,2025-01-30,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Shubham Kumar Singh,Bug,P3,Open,https://celigo.atlassian.net/browse/IO-112342,,Zeta,NSAW bulk load,,No,,,No,,,,False,,False
+34,2025-01-30,io_qa_pm,link,"Tyler Lamparter
+ ",Core,"
+bhanu.prakash.reddy.adapala",Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-99755,,Zeta, NSAW,,No,,,No,,,,False,13633.0,False
+35,2025-01-30,io_qa_pm,link,"Tyler Lamparter
+ ",,sagna.perala,Enhancement,P4,Done /  2025.3.1 release,https://celigo.atlassian.net/browse/IO-109631,,Phoenix (UI),HTTP 2.0,,No,,,No,,,,False,,True
+36,2025-01-30,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+satya.darsh",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-112368,,Stark (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+37,2025-01-31,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Sowmya Bura,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-112366,,Stark (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+38,2025-02-01,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Ekansh Khandelwal,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-112742,,Enigma (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+39,2025-02-01,io_qa_pm,link,"Tyler Lamparter
+ ",Core,"
+shravan kumar reddy malla",Bug,P2,In progress,https://celigo.atlassian.net/browse/IO-112628,,Avengers,HTTP 2.0,,No,,,No,,,,False,,True
+40,2025-02-01,io_qa_pm,link,"Scott Henderson
+  ",UI,Vikram Waman Thakre,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-113602,,Phoenix (UI),UI,,No,,,No,,,,False,,False
+41,2025-02-02,io_qa_pm,link,"Scott Henderson
+  ",Core,"
+Sai Teja Konda",Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-111538,,,HTTP 2.0,,No,,,No,,,,False,,True
+42,2025-02-02,io_qa_pm,link,"Scott Henderson
+  ",Platform,"
+Shubham Kumar Singh",Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-111408,,Zeta,Snowflake ,,No,,,No,,,,False,13300.0,False
+43,2025-02-02,io_qa_pm,link,"Scott Henderson
+  ",Core,Hiren Gandhi,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-113075,,Aliens,HTTP 2.0,,No,,,No,,,,False,,True
+44,2025-02-02,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Dileep Krishna Sai Madamanchi,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-113291,,Avengers, errors ,,No,,,No,,,,False,13247.0,True
+45,2025-02-04,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Mayank Omar,Enhancement,P2,Ready for Developement,https://celigo.atlassian.net/browse/IO-112862,,Phoenix (UI),Multi Environment feature,,No,,,No,,,,False,,True
+46,2025-02-04,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Akshit,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-113064,,Chipmunks (Core),Manage access,,No,,,No,,,,False,13215.0,True
+47,2025-02-04,io_qa_pm,link,"Anirudh Sundaram
+ ",UI,"
+Vikram Waman Thakre",Bug,P1,Released / 2025.1.2 release,https://celigo.atlassian.net/browse/IO-112565,,Iris (UI),HTTP 2.0,,No,,,No,,,,False,,True
+48,2025-02-04,io_qa_pm,link,"Tyler Lamparter
+ ",Core,sagna.perala,Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-112369,,Chipmunks (Core),multi-env,,No,,,No,,,,False,13233.0,True
+49,2025-02-04,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Sai Phanindra Godavarthi,Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-112686,,Helios (UI), Form Builder.,,No,,,No,,,,False,13738.0,False
+50,2025-02-04,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Pydichetti Sushma,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-112764,,Zeta,snowflake,,No,,,No,,,,False,13300.0,False
+51,2025-02-05,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Subarna Ghatak",Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-112951,,Phoenix (UI),Mapper 2.0,,No,,,No,,,,False,,False
+52,2025-02-06,io_qa_pm,link,"Nate Briant
+ ",Core,"
+sagna.perala",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-113082,,Chipmunks (Core),Manage access,,No,,,No,,,,False,13215.0,True
+53,2025-02-08,io_qa_pm,link,"Scott Henderson
+ 
+ ",Core,Dileep Krishna Sai Madamanchi,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-113899,,Avengers,lookup,,No,,,No,,,,False,13643.0,False
+54,2025-02-08,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Vikram Waman Thakre",Bug,P3,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-113351,,Helios (UI),Error,,No,,,No,,,,False,13541.0,True
+55,2025-02-08,io_qa_pm,link,"Tyler Lamparter
+ ",Core,"
+Raghuvamsi Chandrabhatla",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-113336,,Phoenix (UI),SSO,,No,,,No,,,,False,13608.0,False
+56,2025-02-09,io_qa_pm,link,"Sandeep Gaddam
+ ",Platform,"
+Nageshwar Dev Yadav",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-114130,,,data wrapper,,No,,,No,,,,False,,False
+57,2025-02-09,io_qa_pm,link,"Sandeep Gaddam
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-113783,,Eirene (UI),Preview Panel,,No,,,No,,,,False,,False
+58,2025-02-10,io_qa_pm,link,"Sandeep Gaddam
+ ",UI,"
+Bhumesh Domala",Bug,P3,Pending Release / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-113750 https://celigo.atlassian.net/browse/IO-113753 ,,Helios (UI),UI ,,No,,,No,,,,False,,False
+59,2025-02-10,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Priya Vanteru",Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-114000,,Falcon (Platform),Connection,,No,,,No,,,,False,13639.0,True
+60,2025-02-13,io_qa_pm,link,"Sandeep Gaddam
+ ",Core,"
+Dileep Krishna Sai Madamanchi",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-113291,,Avengers,error message,,No,,,No,,,,False,13293.0,True
+61,2025-02-13,io_qa_pm,link,"Sandeep Gaddam
+ ",UI,"
+Raghuvamsi Chandrabhatla",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-114140,,Phoenix (UI),flow branche,,No,,,No,,,,False,13603.0,False
+62,2025-02-14,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P3,QA Validation,https://celigo.atlassian.net/browse/IO-114166,,Hercules (UI),Templates,,yes,,,No,,,,False,,False
+63,2025-02-14,io_qa_pm,link,"Sandeep Gaddam
+ ",Core,Abhijith Madhav,Enhancement,P1,Open,https://celigo.atlassian.net/browse/IO-101448,,Avengers,"flow execution,",,No,,,No,,,,False,13738.0,False
+64,2025-02-15,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Priya Vanteru",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-114487,,Indus (Platform),multipart-form-data,,No,,,No,,,,False,,False
+65,2025-02-15,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Priya Vanteru",Bug,P1,Open,https://celigo.atlassian.net/browse/IO-114719,,Indus (Platform),blob import,,No,,,No,,,,False,,False
+66,2025-02-15,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Praveen Kumar Reddy Basani,FRD,NAN,Open,https://celigo.atlassian.net/browse/IO-23478,,none,Salesforce ,,No,,,No,,,,False,,True
+67,2025-02-16,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Vamsi Rayapati",Enhancement,P2,Released / 2025.1.1 release,https://celigo.atlassian.net/browse/IO-51219,,none,response header,,No,,,No,,,,False,,False
+68,2025-02-17,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Priya Vanteru",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-115136,,Falcon (Platform), multipart/form-data,,No,,,No,,,,False,,False
+69,2025-02-18,io_qa_pm,link,"Bhavik Shah
+ ",UI,"
+Apoorv Kautilya",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-114795,,UI,lookupcache,,No,,,No,,,,False,13500.0,False
+70,2025-02-20,io_qa_pm,link,"Bennett Van Soelen
+ ",Core,Vineet Panwar,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-115353,,,iclient,,No,,,No,,,,False,,False
+71,2025-02-27,io_qa_pm,link,"
+Anirudh Sundaram",UI,"
+Mayank Omar",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-116171,,Phoenix (UI),NetSuite ,,No,,,No,,,,False,13462.0,False
+72,2025-02-27,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Akshit,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-113064,,Chipmunks (Core),Manage access,,No,,,No,,,,False,13215.0,True
+73,2025-02-27,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Snigdha Rani Panigrahy,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-116540,,Iris (UI),lookup mapping,,No,,,No,,,,False,,False
+74,2025-02-27,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Mayank Katare,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-116480,,Apollo (Platform), Preview,,No,,,No,,,,False,,False
+75,2025-01-07,integrator,link,"Alexandre Serre
+  ",Core,Unassigned,Enhancement,P3,Open,https://celigo.atlassian.net/browse/IO-108055,,,AS2 and VAN connection,,No,,,No,,,,False,,True
+76,2025-01-08,integrator,link,"Tyler Lamparter
+ ",Core,"
+Hiren Gandhi",Enhancement,P3,Released / 2025.1.1 release,https://celigo.atlassian.net/browse/IO-95941,,Skywalker (Core),Flowbuilder,,No,,,No,,,,False,13475.0,False
+77,2025-01-11,integrator,link,"Ritch Manulid
+ ",Platform,"""
+Muneswara Thotakura""",FRD,P3,"Approved
+
+
+",https://celigo.atlassian.net/browse/IO-51217,,Enigma (Platform),transformation 2.0,,No,,,No,,,,False,,False
+78,2025-01-16,integrator,link,"Ritch Manulid
+ ",Platform,Anitha Banothu,Bug,P2,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-110956,,Enigma (Platform),Netsuite,,No,,,No,,,,False,13462.0,False
+79,2025-01-30,integrator,link,"Norman Libres
+",Core,"
+Deepak Jain",Bug,P1,Released / 2025.1.1.2 release,https://celigo.atlassian.net/browse/IO-108390,,Echo (Core),Error Classification,,No,,,No,,,,False,13541.0,True
+80,2025-02-01,integrator,link,"RJ Bueno
+",UI,"
+Vikram Waman Thakre",Bug,P1,Released / 2025.1.2 release,https://celigo.atlassian.net/browse/IO-112565,,Iris (UI),HTTP 2.0,,No,,,No,,,,False,,True
+81,2025-02-01,integrator,link,"Lan Reyes
+",Platform,Shiva Sai Kiran Kadari,Bug,P2,Released / 2025.1.1 release,https://celigo.atlassian.net/browse/IO-93506,,Stark (Platform),jsrt-ms,,No,,,No,,,,False,,False
+82,2025-02-02,integrator,link,"Bernie San Pedro
+ ",Platform,Naveen Reddy G,Bug,P1,Released / 2025.1.2 release,https://celigo.atlassian.net/browse/IO-112349,,Chipmunks (Core),multi env accounts,,No,,,No,,,,False,13233.0,True
+83,2025-02-05,integrator,link,"Bernie San Pedro
+ ",PBI (Connectors),"
+sri priya vytla",Enhancement,P2,IN Sprint testing,https://celigo.atlassian.net/browse/CON-11831,,Phi (PBI Connectors),NetSuite ,,No,,,No,,,,False,13462.0,False
+84,2025-02-06,integrator,link,"Kethan Cherukuri
+ ",Core,Akhil Nair,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-105379,,Chipmunks (Core),Workers,,No,,,No,,,,False,,False
+85,2025-02-11,integrator,link,"Armina Grajo
+ ",UI,Apoorv Kautilya,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-113620,,Iris (UI),Handlebars,,No,,,No,,,,False,,False
+87,2025-02-20,integrator,link,"
+Dhazle de Vera",UI,"
+Vikram Waman Thakre",Bug,P1,Pending Release / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-114240,,Iris (UI),Amazon,,No,,,No,,,,False,,False
+88,2025-02-27,io_qa_pm,link,"
+Anirudh Sundaram",UI,"
+Mayank Omar",Bug,P2,Pending Release / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-116171,,Phoenix (UI),NetSuite,,No,,,No,,,,False,13462.0,False
+89,2025-02-27,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Akshit,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-113064,,Chipmunks (Core),UI,,No,,,No,,,,False,,False
+90,2025-02-27,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Snigdha Rani Panigrahy,Bug,P2,Released / 2025.3.1 release,https://celigo.atlassian.net/browse/IO-111755,,Iris (UI),Page Processor,,No,,,No,,,,False,,False
+91,2025-02-27,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,Mayank Katare,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-116480,,Phoenix (UI),Transformation 2.0,,No,,,No,,,,False,,False
+92,2025-03-03,integrator,link,"Jed Sangco
+",Core,"
+Akshit",Bug,P1,Ready for QA / 2025.4.1 release,https://celigo.atlassian.net/browse/IO-116999,,Chipmunks (Core), DIY flows,,No,,,No,,,,False,13315.0,False
+93,2025-03-04,integrator,link,Lan ReyesLan Reyes,Platform,Om Mishra,FRD,P2,Approved,https://celigo.atlassian.net/browse/IO-47804,,Falcon (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+94,2025-03-04,io_qa_pm,link,"Anirudh Sundaram
+ ",Platform,"
+Priya Vanteru",Bug,P2,In Progress / 2025.4.1 release,https://celigo.atlassian.net/browse/IO-116900,,Falcon (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+95,2025-03-04,io_qa_pm,link,"Priyanka Koundal
+",UI,Ashok Kumar Dantham,Bug,P2,In Progress,https://celigo.atlassian.net/browse/IO-116896,,Hercules (UI),Flow Builder,,No,,,No,,,,False,13738.0,False
+96,2025-03-04,ui_ux,link,Lan Reyes,UI,Selvakumar Thiyagarajan,Bug,P2,In Progress / 2025.5.1 release,https://celigo.atlassian.net/browse/IO-116909,,Chloris (UI),UI,,No,,,No,,,,False,,False
+97,2025-03-05,io_qa_pm,link,"Scott Henderson
+ 
+ ",Platform,Raman Soni,Enhancement,P1,In Progress / 2025.4.1 release,https://celigo.atlassian.net/browse/IO-100539,,Stark (Platform),error,,No,,,No,,,,False,13541.0,True
+98,2025-03-05,ui_ux,link,"Tyler Lamparter
+ ",UI,Chandra Sekhar Kusupati,Bug,P3,Ready for QA / 2025.4.1 release,https://celigo.atlassian.net/browse/IO-117020,,Phoenix (UI),Manage access,,No,,,No,,,,False,13215.0,True
+99,2025-03-05,ui_ux,link,"Scott Henderson
+ ",Platform,Unassigned,FRD,P3,Open,https://celigo.atlassian.net/browse/IO-111403,,none,audit logs,,No,,,No,,,,False,,False
+100,2025-03-06,io_qa_pm,link,Scott HendersonScott Henderson,UI,Harish Aseri,Bug,P2,Pending Release / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-117044,,Velocity,Celigo AI ,,No,,,No,,,,False,,True
+101,2025-03-07,io_qa_pm,link,Sree Vani Amara,Core,Abhijith Madhav,Bug,P4,Pending Deployment / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-117217,,Avengers,SSO,,No,,,No,,,,False,13608.0,False
+102,2025-03-07,io_qa_pm,link,Bennett Van Soelen,Core,Gautham S,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-117259,,Dexter(Core),error,,No,,,No,,,,False,13541.0,True
+103,2025-03-07,ui_ux,link,Bennett Van Soelen,UI,Sravan,Bug,P2,In Review,https://celigo.atlassian.net/browse/IO-118474,,Hercules (UI),flow branche,,No,,,No,,,,False,13603.0,False
+104,2025-03-11,ui_ux,link,Kelly Izer,UI,Vikram Waman Thakre,Bug,P2,Blocked,https://celigo.atlassian.net/browse/IO-78544,,,Manage access,,No,,,No,,,,False,13215.0,True
+105,2025-03-11,integrator,link,Norman Libres,Platform,Anitha Banothu,Bug,P2,In progress,https://celigo.atlassian.net/browse/IO-117758,,Stark (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+106,2025-03-12,io_qa_pm,link,Tyler Lamparter,Platform Extn,Sushma Pydichetti,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-117889,,Zeta,Snowflake,,No,,,No,,,,False,13300.0,False
+107,2025-03-13,io_qa_pm,link,Sandeep Gaddam,UI,sagna.perala,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-118302,,Hercules (UI),hooks,,No,,,No,,,,False,,False
+108,2025-03-13,integrator,link,Norman Libres,Platform,Khaisar,Bug,P3,Open,https://celigo.atlassian.net/browse/CS-9184,,,Error,,No,,,No,,,,False,13541.0,True
+109,2025-03-15,ui_ux,link,Aila Marie Villamor,UI,Sai Phanindra Godavarthi,Bug,P1,Analysis,https://celigo.atlassian.net/browse/CS-9178,,, AS2,,No,,,No,,,,False,,True
+110,2025-03-17,io_qa_pm,link,Ravi Singh,UI,Revathi,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-118444,,Tintin,Audit logs,,No,,,No,,,,False,,False
+111,2025-03-17,integrator,link,"
+Norman Libres",Core,"
+Divyam Kapoor",CS (Customer support),P4,Open,https://celigo.atlassian.net/browse/CS-9181,,,Amazon - NetSuite IA (SS),,No,,,No,,,,False,,False
+112,2025-03-17,io_qa_pm,link,Ravi Singh,UI,Gautham Raj Sykam,Bug,P2,Pending released,https://celigo.atlassian.net/browse/IO-118444,,Tintin,audit logs,,No,,,No,,,,False,,False
+113,2025-03-18,io_qa_pm,link,"Mike Flores
+",Core,"
+Deepak Jain",Bug,P2,Released / 2024.11.1 release,https://celigo.atlassian.net/browse/IO-97448 https://celigo.atlassian.net/browse/CS-9189,,Dexter(Core),Agents,,No,,,No,,,,False,,True
+114,2025-03-18,integrator,link,"Simon Ding
+ ",Core,"
+Prakalp Shakya",Bug,P2,on hold,https://celigo.atlassian.net/browse/IO-106210,,Avengers,Error,,No,,,No,,,,False,13541.0,True
+115,2025-03-18,integrator,link,"Manideep Komuravelly
+ ",Core,"
+Shubham Kumar Singh",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-118515,,Zeta,Snowflake,,No,,,No,,,,False,13300.0,False
+116,2025-03-19,integrator,link,"Jemaiah Kathlene Wakat
+ ",UI,"
+Gautham Raj Sykam",Bug,P2,Pending released,https://celigo.atlassian.net/browse/IO-118582,,Chloris (UI),UI,,No,,,No,,,,False,,False
+117,2025-03-20,integrator,link,Nil Tapiador,UI,Ashok Kumar Dantham,Bug,P2,Pending deployments,https://celigo.atlassian.net/browse/IO-120332,,Iris (UI),HTTP 2.0,,No,,,No,,,,False,,True
+118,2025-03-20,integrator,link,"Norman Libres
+ ",Platform,"
+Thirumalai Raj R",CS (Customer support),P3,Pending investigation,https://celigo.atlassian.net/browse/CS-9219,,,HTTP 2.0,,No,,,No,,,,False,,True
+119,2025-03-24,integrator,link,"
+Alexandre Serre
+ ",Platform,"
+Thirumalai Raj R",CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-9208,,,HTTP 2.0,,No,,,No,,,,False,,True
+120,2025-03-27,integrator,link,"
+Lan Reyes",Platform,"
+Vinay Sharma",Bug,P2,open,https://celigo.atlassian.net/browse/IO-120603,,Enigma (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+121,2025-03-28,integrator,link,"Mark Rublico
+ ",Platform,"
+Mandeep Singh",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-120682,,Indus (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+122,2025-03-28,integrator,link,"Mark Rublico
+ ",Platform,Boreddy Shivakanth Reddy,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-120636,,Falcon (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+123,2025-04-01,integrator,link,"
+Kelly Izer
+ ",Core,"
+Randeep Reddy Bazaru",Bug,P2,Pending released,https://celigo.atlassian.net/issues/IO-117044?filter=-2,,Velocity,HTTP 2.0,,No,,,No,,,,False,,True
+124,2025-04-04,integrator,link,"Simon Ding
+ ",UI,Thirumalai Raj R,CS (Customer support),P1,under investigation,https://celigo.atlassian.net/browse/CS-9249,,,VAN,,No,,,No,,,,False,,False
+125,2025-04-04,integrator,link,Platform,Platform,Thirumalai Raj R,CS (Customer support),P3,open,https://celigo.atlassian.net/browse/CS-9254,,,HTTP 2.0,,No,,,No,,,,False,,True
+126,2025-04-08,integrator,link,"Jason Steib
+ ",Core,Sai Teja Konda,FRD,P3,Tech design,https://celigo.atlassian.net/browse/IO-69556,,Platform,Accounts and licenses,,No,,,No,,,,False,,False
+127,2025-04-08,integrator,link,"Lan Reyes
+ ",UI,"
+Ritumoni Sarma",Bug,P2,open,https://celigo.atlassian.net/browse/IO-122237,,,UI,,No,,,No,,,,False,,False
+126,2025-03-18,io_qa_pm,link,"Simon Ding
+ ",Core,Prakalp Shakya,Bug,P2,on hold,https://celigo.atlassian.net/browse/IO-106210,,Avengers,Errors,,No,,,No,,,,False,13247.0,True
+127,2025-03-18,io_qa_pm,link,"Manideep Komuravelly
+ ",Core,"
+Shubham Kumar Singh",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-118515,,Zeta,Snowflake,,No,,,No,,,,False,13300.0,False
+128,2025-03-19,io_qa_pm,link,"
+Jemaiah Kathlene Wakat",UI,"
+JGautham Raj Sykam",Bug,P2,Pending released,https://celigo.atlassian.net/browse/IO-118582,,Chloris (UI),UI,,No,,,No,,,,False,,False
+129,2025-03-20,io_qa_pm,link,"Nil Tapiador
+",UI,"
+Ashok Kumar Dantham",Bug,P2,Pending deployments,https://celigo.atlassian.net/browse/IO-120332,,Iris (UI),HTTP 2.0,,No,,,No,,,,False,,True
+130,2025-03-24,io_qa_pm,link,"Sree Vani Amara
+ 
+  ",UI,"
+Sai Phanindra Godavarthi",Bug,P3,Pending released,https://celigo.atlassian.net/browse/IO-119174,,Phoenix (UI),Transformation 2.0,,No,,,No,,,,False,,False
+131,2025-03-26,io_qa_pm,link,"Tyler Lamparter
+",Core,"
+Ashwatha A M",Bug,P2,Pending released,https://celigo.atlassian.net/browse/IO-101554,,Transformers,Manage access,,No,,,No,,,,False,13215.0,True
+132,2025-03-28,io_qa_pm,link,"Youssef Zouhairi
+",Core,"
+Mandeep Singh",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-120682,,Indus (Platform),HTTP 2.0,,No,,,No,,,,False,,True
+133,2025-03-28,io_qa_pm,link,"Tyler Lamparter
+",UI,"
+Ashu Gupta",Bug,P2,open,https://celigo.atlassian.net/browse/IO-120685,,Phoenix (UI),Mapper 2.0,,No,,,No,,,,False,,False
+134,2025-03-31,io_qa_pm,link,"Tyler Lamparter
+",UI,"
+Abhignya Bulusu",Bug,P2,open,https://celigo.atlassian.net/browse/IO-120909,,Iris (UI),Transformation 2.0,,No,,,No,,,,False,,False
+135,2025-03-31,io_qa_pm,link,"Tyler Lamparter
+",UI,"
+Pratham Singh",Bug,P2,in progress,https://celigo.atlassian.net/browse/IO-120726,,Iris (UI),Transformation 2.0,,No,,,No,,,,False,,False
+136,2025-04-02,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Raman Soni",Bug,P2,open,https://celigo.atlassian.net/browse/IO-34577,,Apollo (Platform),Flowbranching,,No,,,No,,,,False,13488.0,False
+137,2025-04-02,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Abhijith Madhav,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-121327,,Avengers,HTTP 2.0,,No,,,No,,,,False,,True
+138,2025-04-03,io_qa_pm,link,Tyler LamparterTyler Lamparter,Platform,Alok Gaira,Bug,P2,open,https://celigo.atlassian.net/browse/IO-121390,,Enigma (Platform),mappings,,No,,,No,,,,False,,False
+139,2025-04-07,io_qa_pm,link,Sree Vani Amara,UI,Harish Kumar Reddy,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-121725,,Eirene (UI),connection,,No,,,No,,,,False,13639.0,True
+140,2025-04-08,io_qa_pm,link,Tyler LamparterTyler Lamparter,UI,Chandra Sekhar Kusupati,Bug,P3,open,https://celigo.atlassian.net/browse/IO-122239,,Eirene (UI),UI,,No,,,No,,,,False,,False
+141,2025-04-08,io_qa_pm,link,"Scott Henderson
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P3,Pending released,https://celigo.atlassian.net/browse/IO-114166,,Hercules (UI),UI,,No,,,No,,,,False,,False
+142,2025-03-20,ui_ux,link,"Shaik Shakeer Basha
+",UI,Uyyala Kaushik Nandan,Bug,P2,closed,https://celigo.atlassian.net/browse/IO-118780,,Hercules (UI),help text,,No,,,No,,,,False,,False
+143,2025-04-08,ui_ux,link,"Scott Henderson
+ ",UI,Divjot Singh Rai,Enhancement,P3,Pending released,https://celigo.atlassian.net/browse/IO-40989,,Eirene (UI),help texts,,No,,,No,,,,False,,False
+144,2025-04-08,ui_ux,link,Tyler LamparterTyler Lamparter,UI,"
+Harish Kumar Reddy",Bug,P3,open,https://celigo.atlassian.net/browse/IO-122239,,Eirene (UI),UI,,No,,,No,,,,False,,False
+1,2023-01-03,io_qa_pm,link,"David Niederkofler
+ ",UI,Ladi Manish,Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-31768,,,UI,,NO,,,NO,,,,False,,False
+2,2023-01-05,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+sathwika rallabandi",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-24677,,,Error management (EM2.0),,NO,,,NO,,,,False,13598.0,True
+3,2023-01-06,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Gautham Raj Sykam",Enhancement,P1,Done / v8.12.1.0-R4MR release,https://celigo.atlassian.net/browse/IO-29659,,,signup ,,,,,NO,,,,False,,False
+4,2023-01-06,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2023.1.1 release,https://celigo.atlassian.net/browse/IO-31827,,,UI,,NO,,,NO,,,,False,,False
+5,2023-01-09,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Ladi Manish",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-31883,Would be resolved by fixing https://celigo.atlassian.net/browse/IO-17798,,HTTP,,NO,,,NO,,,,False,13514.0,True
+6,2023-01-12,io_qa_pm,link,"Pridhvi Kanth
+ ",Core,RAJARSHI BASU,Bug,P2,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-32033,,Chipmunks (Core),Endpoint license,,Yes,,,NO,,,,False,,False
+7,2023-01-18,io_qa_pm,link,"Amanjot Singh
+ ",Core,"
+Sukeerthi Sriram",Bug,P2,Released / 2023.1.1 release,https://celigo.atlassian.net/browse/IO-30619,,,Flow Cancellation,,Yes,,,NO,,,,False,13738.0,False
+8,2023-01-19,io_qa_pm,link,Ravi Singh,UI,"
+Venkata Akhil Bonthala",Bug,P2,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-31780,,,Connections,,Yes,,,NO,,,,False,,True
+9,2023-01-21,io_qa_pm,link,Scott Henderson,UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-32361,,,data loader,,Yes,,,NO,,,,False,,False
+10,2023-01-26,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Vikram Waman Thakre",Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-32834,,,File adaptors,,NO,,,NO,,,,False,,False
+11,2023-01-27,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Ladi Manish",Bug,P2,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-32463,,,UI,,NO,,,NO,,,,False,,False
+12,2023-02-10,io_qa_pm,link,"David Niederkofler
+ ",UI,Gurkawalbir Singh,Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-32937,,Helios (UI), IAF,,NO,,,NO,,,,False,13555.0,False
+13,2023-02-15,io_qa_pm,link,"David Niederkofler
+ ",UI,Gautham Raj Sykam,Bug,P3,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-34892,,Helios (UI),HTTP 2.0,,Yes,,,NO,,,,False,,True
+14,2023-02-18,io_qa_pm,link,"David Niederkofler
+ ",UI,Mahesh Nivrutti Sutar,Bug,P3,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-33291 https://celigo.atlassian.net/browse/IO-33292,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+15,2023-02-28,io_qa_pm,link,"Amanjot Singh
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-33703,,,MFA,,NO,,,NO,,,,False,13371.0,True
+16,2023-03-01,io_qa_pm,link,Scott Henderson,Platform,"
+Naveen Reddy G",Enhancement,P2,Released / v8.2.1.0-Q1 release,https://celigo.atlassian.net/browse/IO-23267,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+17,2023-03-03,io_qa_pm,link,"Tharuni Idupulapati
+ ",UI,"
+Divjot Singh Rai",Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-33666 https://celigo.atlassian.net/browse/IO-33821,,,"Flow Builder
+",,NO,,,NO,,,,False,13738.0,False
+18,2023-03-07,io_qa_pm,link,"Gautham S
+ ",UI,Gautham Raj Sykam,Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-33909,,,Sign up,,NO,,,NO,,,,False,,False
+19,2023-03-07,io_qa_pm,link,"Amanjot Singh
+ ",Core,Sai Kaivalya,Bug,P2,Released / v8.2.1.0-Q1 release,https://celigo.atlassian.net/browse/IO-30900 https://celigo.atlassian.net/browse/IO-34045 ,,,Agents ,,Yes,,,NO,,,,False,,True
+20,2023-03-15,io_qa_pm,link,"Bhavik Shah
+  ",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-30172,,(Deprecated) Core Microservices (Core),Flow Branching,,Yes,,,NO,,,,False,13526.0,False
+21,2023-03-21,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Sai Phanindra Godavarthi",Bug,P2,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-34410,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+22,2023-03-21,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Sowmya Bura,Bug,P1,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-34488 https://celigo.atlassian.net/browse/CS-6912,,Enigma (Platform),Netsuite,,NO,,,NO,,,,False,13462.0,False
+23,2023-03-21,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Muneswara Thotakura",Spike,P2,Done / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-34502,,Enigma (Platform),Netsuite,,NO,,,NO,,,,False,13462.0,False
+24,2023-03-28,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Sowmya Bura",Bug,P1,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-34864,,Enigma (Platform),Netsuite,,Yes,,,NO,,,,False,13462.0,False
+25,2023-04-06,io_qa_pm,link,Tyler Lamparter,Core,Akshit,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-35639,,Chipmunks (Core),HTTP 2.0,,NO,,,NO,,,,False,,True
+26,2023-04-06,io_qa_pm,link,"Pridhvi Kanth
+ ",UI,"
+G Abhinash",Bug,P2,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-35413,,Iris (UI),HTTP 2.0,,Yes,,,NO,,,,False,,True
+27,2023-04-12,io_qa_pm,link,"Scott Henderson
+ ",Platform,Shiva Sai Kiran Kadari,Bug,P1,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-29252 https://celigo.atlassian.net/browse/CLOUDOPS-71,,Indus (Platform),Handlebars,,Yes,,,NO,,,,False,,False
+28,2023-04-17,io_qa_pm,link,"Scott Henderson
+ ",Core,"
+G Abhinash",Bug,P2,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-36471,,Dexter(Core),FlowBranching,,Yes,,,NO,,,,False,13488.0,False
+29,2023-04-19,io_qa_pm,link,"Scott Henderson
+ ",Platform,Sujatha Kutcharlapati,Bug,P2,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-35972,,Zeta,snowflake,,Yes,,,NO,,,,False,13300.0,False
+30,2023-04-21,io_qa_pm,link,"Scott Henderson
+ ",Core,Sai Kaivalya,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-36578 https://celigo.atlassian.net/browse/IO-23096,,Dexter(Core),HTTP 2.0,,Yes,,,NO,,,,False,,True
+31,2023-04-21,io_qa_pm,link,David Niederkofler,UI,Gautham Raj Sykam,Bug,P3,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-36110,,, UI,,NO,,,NO,,,,False,,False
+32,2023-04-26,io_qa_pm,link,"
+David Niederkofler",UI,Mahesh Nivrutti Sutar,Bug,P3,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-36212     https://celigo.atlassian.net/browse/IO-36213,,,Listener,,Yes,,,NO,,,,False,,False
+33,2023-04-28,io_qa_pm,link,"
+Suresh Pandian
+ ",UI,Revathi Dasari,Bug,P2,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-36355,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+34,2023-05-11,io_qa_pm,link,"Tyler Lamparter
+  ",Platform,"
+Priya Vanteru",Enhancement,P2,Approved,https://celigo.atlassian.net/browse/IO-36890,,Apollo (Platform),AFE,,NO,,,NO,,,,False,,True
+35,2023-05-11,io_qa_pm,link,"Amanjot Singh
+",UI,Revathi Dasari,Bug,P3,Released / 2023.7.1 release,https://celigo.atlassian.net/browse/IO-36902,,,AFE,,Yes,,,NO,,,,False,,True
+36,2023-05-11,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Gautham Raj Sykam",Bug,P3,Released / 2023.7.1 release,https://celigo.atlassian.net/browse/IO-36885,,,UI,,Yes,,,NO,,,,False,,False
+37,2023-05-16,io_qa_pm,link,Tyler Lamparter,Platform,Sasidhar Gadepalli,Bug,P3,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-37210,,Apollo (Platform),mapper 2.0,,NO,,,NO,,,,False,,False
+38,2023-05-24,io_qa_pm,link,"Praveen Basani
+ ",PBI (Connectors),"
+sri priya vytla",Bug,P2,Released / 2023.7.1 release,https://celigo.atlassian.net/browse/CON-3883 https://celigo.atlassian.net/browse/IO-37545 ,,,Connections,,NO,,,NO,,,,False,,True
+39,2023-06-15,io_qa_pm,link,"David Niederkofler
+ ",UI,Revathi Dasari,Bug,P2,Released / 2023.7.1 release,https://celigo.atlassian.net/browse/IO-38540,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+40,2023-06-27,io_qa_pm,link,"Bhavik Shah
+  ",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-39108,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+41,2023-07-01,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Sai Phanindra Godavarthi",Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-39318,,Phoenix (UI),signup,,NO,,,NO,,,,False,,False
+42,2023-07-06,io_qa_pm,link,David Niederkofler,UI,"
+sagna.perala",Bug,P3,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-39919,,Helios (UI),SSO,,NO,,,NO,,,,False,13608.0,False
+43,2023-07-09,io_qa_pm,link,"Tyler Lamparter
+  ",UI,Harsh Kumar,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-40119,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+44,2023-07-09,io_qa_pm,link,"Tyler Lamparter
+ ",Core,Shubham Kumar Singh,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-40055,,Sudo (Deprecated),Snowflake,,NO,,,NO,,,,False,13300.0,False
+45,2023-07-15,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-40433,,Iris (UI),Webhook token,,NO,,,NO,,,,False,,False
+46,2023-07-17,io_qa_pm,link,"Gautham S
+ ",UI,"
+Gautham Raj Sykam",Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-40011,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+47,2023-07-17,io_qa_pm,link,"Amanjot Singh
+ ",Platform,"
+Sasidhar Gadepalli",Bug,P1,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-44760,,Apollo (Platform),Mapper2.0,,Yes,,,NO,,,,False,13692.0,False
+48,2023-07-18,io_qa_pm,link,"Om Mishra
+  ",UI,"
+sagna.perala",Bug,P2,Released / 2023.9.4 release,https://celigo.atlassian.net/browse/IO-40569,,Chloris (UI),FTP,,NO,,,NO,,,,False,13563.0,False
+49,2023-07-20,io_qa_pm,link,Bhavik Shah,UI,Vikram Waman Thakre,Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-40776,,Phoenix (UI),Connections,,NO,,,NO,,,,False,,True
+50,2023-07-25,io_qa_pm,link,"Sree Vani Amara
+ ",Core,"
+Abhigyan Kumar Tiwari",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-41159,,Chipmunks (Core),HTTP 2.0,,NO,,,NO,,,,False,,True
+51,2023-07-26,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+sagna.perala",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-47155,,Eirene (UI),Sign in ,,Yes,,,NO,,,,False,,False
+52,2023-07-27,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Nithin Gollapally",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-39640,,Enigma (Platform),Netsuite,,Yes,,,NO,,,,False,13462.0,False
+53,2023-07-28,io_qa_pm,link,"David Niederkofler
+ ",Platform,"
+Mahesh Nivrutti Sutar",Enhancement,P2,DONE,https://celigo.atlassian.net/browse/IO-39228,,Eirene (UI),Manage access,,NO,,,NO,,,,False,13215.0,True
+54,2023-08-02,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-41831,,Eirene (UI),Mock Response,,Yes,,,NO,,,,False,,False
+55,2023-08-02,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Sai Phanindra Godavarthi,Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-41981,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+56,2023-08-07,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Revathi Dasari",Bug,P3,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-36762,,Iris (UI),mapper2.0,,Yes,,,Yes,,,,False,13692.0,False
+57,2023-08-07,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+bhanu.prakash.reddy.adapala",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-42845,,Indus (Platform),AutoMapper,,NO,,,NO,,,,False,,False
+58,2023-08-08,io_qa_pm,link,"Deepak Jain
+ ",UI,"
+Deepak Jain",Bug,P1,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-40377,,Eirene (UI),Mock Response,,NO,,,NO,,,,False,,False
+59,2023-08-15,io_qa_pm,link,"Dan Claypool
+  ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43344,,Phoenix (UI),Manage Access,,Yes,,,NO,,,,False,13215.0,True
+60,2023-08-17,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Boreddy Shivakanth Reddy",Enhancement,P2,Ready for Devlopement,https://celigo.atlassian.net/browse/IO-37695 https://celigo.atlassian.net/browse/IO-41112 ,,Falcon (Platform),Handlebars,,NO,,,NO,,,,False,,False
+61,2023-08-17,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Mahesh Nivrutti Sutar,Bug,P3,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-42923,,Eirene (UI),helptext,,Yes,,,NO,,,,False,,False
+62,2023-08-20,io_qa_pm,link,"Nate Briant
+  ",UI,Revathi Dasari,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43058,,Iris (UI),mapper 2.0,,NO,,,NO,,,,False,,False
+63,2023-08-24,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43208,,Eirene (UI),Manage Access,,Yes,,,NO,,,,False,13215.0,True
+64,2023-08-25,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Divjot Singh Rai",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-43471,,Eirene (UI),SSO,,Yes,,,NO,,,,False,13608.0,False
+65,2023-08-30,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-38235,,Eirene (UI),Flow Debugger,,Yes,,,NO,,,,False,13738.0,False
+66,2023-09-01,io_qa_pm,link,"Amanjot Singh
+ ",UI,"
+Sai Phanindra Godavarthi",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43834,,Helios (UI),Transformation 2.0,,NO,,,NO,,,,False,,False
+67,2023-09-01,io_qa_pm,link,"Amanjot Singh
+ ",UI,Sasidhar Gadepalli,Bug,P1,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43557,,Helios (UI), Transformation2.0,,Yes,,,NO,,,,False,,False
+68,2023-09-01,io_qa_pm,link,"Amanjot Singh
+ ",UI,Sai Phanindra Godavarthi,Bug,P3,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43836 https://celigo.atlassian.net/browse/IO-43838 ,,Helios (UI),transformation 2.0,,NO,,,NO,,,,False,,False
+69,2023-09-02,io_qa_pm,link,"
+David Niederkofler
+ ",UI,"
+Vikram Waman Thakre",Bug,P3,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43878,,Phoenix (UI),Errors ,,NO,,,NO,,,,False,13247.0,True
+70,2023-09-12,io_qa_pm,link,"Ishita Rughani
+ ",Core,SAI SUSMITHA VUPPALA,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-41226,,Sudo (Deprecated),Snowflake,,Yes,,,NO,,,,False,13300.0,False
+71,2023-09-14,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43208,,Eirene (UI),Manage Access,,Yes,,,NO,,,,False,13215.0,True
+73,2023-09-15,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Mujtaba Ahmad,Spike,P2,Open,https://celigo.atlassian.net/browse/IO-45168,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+74,2023-09-16,io_qa_pm,link,"Youssef Zouhairi
+  ",Core,Rishi Raj Singh,Enhancement,P3,Open,https://celigo.atlassian.net/browse/IO-23709,,Falcon (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+75,2023-09-19,io_qa_pm,link,"Scott Henderson
+ ",Core,Deepak Jain,Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-45120,,Flow debugger (Core),FlowDebugger,,NO,,,NO,,,,False,13610.0,False
+76,2023-09-20,io_qa_pm,link,"Scott Henderson
+ ",Platform,"
+Shubhank Chandra",Bug,P2,Released / 2023.9.4 release,https://celigo.atlassian.net/browse/IO-45364,,Avengers,custom token,,NO,,,NO,,,,False,,False
+77,2023-09-25,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P3,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-45840,,Eirene (UI),HTTP 2.0,,Yes,,,NO,,,,False,,True
+78,2023-09-26,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Vikram Waman Thakre,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43704,,Iris (UI),EM2.0,,Yes,,,NO,,,,False,13598.0,False
+79,2023-09-27,io_qa_pm,link,"David Niederkofler
+ ",UI,Gurkawalbir Singh,Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-32937,,Helios (UI),IAF,,NO,,,NO,,,,False,13555.0,False
+80,2023-09-29,io_qa_pm,link,"
+Scott Henderson",Core,"
+Sai Charan Chinta",Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-46191,,Aliens,Errors / Dashboard,,NO,,,NO,,,,False,,True
+81,2023-09-30,io_qa_pm,link,"
+Scott Henderson",Core,"
+bhanu.prakash.reddy.adapala",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-46261  https://celigo.atlassian.net/browse/IO-48008 ,,Indus (Platform),Adaptor,,NO,,,NO,,,,False,13385.0,False
+82,2023-10-01,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Sai Phanindra Godavarthi",Bug,P2,Released / 2023.9.6 release,https://celigo.atlassian.net/browse/IO-46215,,Apollo (Platform),Errors / Dashboard,,Yes,,,NO,,,,False,,True
+83,2023-10-03,io_qa_pm,link,"Amanjot Singh
+",UI,"
+Ladi Manish",Bug,P1,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-46344,,Hercules (UI),Handlebars,,NO,,,NO,,,,False,,False
+84,2023-10-03,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Saurabh Kumar",Enhancement,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-47621,,Phoenix (UI),Manage access,,NO,,,NO,,,,False,13215.0,True
+85,2023-10-05,io_qa_pm,link,"Dan Claypool
+  ",Core,"
+Aryan Jasra",Enhancement,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-46504,, Core Microservices (Core),agents ,,NO,,,NO,,,,False,,True
+86,2023-10-06,io_qa_pm,link,"Tyler Lamparter
+",UI,"
+Raghuvamsi Chandrabhatla",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-46471 https://celigo.atlassian.net/browse/IO-23183 ,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+87,2023-10-07,io_qa_pm,link,"Scott Henderson
+ ",UI,Vikram Waman Thakre,Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-47644 https://celigo.atlassian.net/browse/IO-47753 ,,Aurora,IO listener,,NO,,,NO,,,,False,,False
+88,2023-10-09,io_qa_pm,link,"Scott Henderson
+ ",Core,"
+Sai Kaivalya",Bug,P1,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-46068 https://celigo.atlassian.net/browse/IO-46737 ,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+89,2023-10-09,io_qa_pm,link,"Tyler Lamparter
+ ",PBI (Connectors),sri priya vytla,Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/CON-4827,,Phi (PBI Connectors), CustomSettings ,,NO,,,NO,,,,False,,False
+90,2023-10-10,io_qa_pm,link,"Scott Henderson
+ ",UI,"
+Ladi Manish",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-46799,,Phoenix (UI), hookS,,NO,,,NO,,,,False,,False
+91,2023-10-11,io_qa_pm,link,"Tyler Lamparter
+",UI,"
+Sai Phanindra Godavarthi",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-46854,,Helios (UI),"Transformation2.0
+mapper2.0",,NO,,,NO,,,,False,13692.0,False
+92,2023-10-13,io_qa_pm,link,"Tyler Lamparter
+",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-47090,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+93,2023-10-17,io_qa_pm,link,Amanjot SinghAmanjot Singh,Platform,bhanu.prakash.reddy.adapala,Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-47369,,Apollo (Platform),Mapper2.0,,NO,,,NO,,,,False,13692.0,False
+94,2023-10-17,io_qa_pm,link,"David Niederkofler
+  ",UI,"
+Mahesh Nivrutti Sutar",Bug,P1,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-47224,,Eirene (UI),Flowbuilder ,,Yes,,,NO,,,,False,13475.0,False
+95,2023-10-18,io_qa_pm,link,"David Niederkofler
+  ",UI,"
+Mahesh Nivrutti Sutar",Bug,P1,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-47267,,Eirene (UI),UI,,Yes,,,NO,,,,False,,False
+96,2023-10-18,io_qa_pm,link,Tyler LamparterTyler Lamparter,PBI (Connectors),Hajra Parveen,Enhancement,P2,Open,https://celigo.atlassian.net/browse/CON-4950 https://celigo.atlassian.net/browse/CON-4891 ,,Phi (PBI Connectors),Connector,,NO,,,NO,,,,False,,False
+97,2023-10-18,io_qa_pm,link,"David Niederkofler
+ ",UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-47518,,Eirene (UI),HTTP 2.0,,Yes,,,NO,,,,False,,True
+98,2023-10-20,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P3,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-47636 https://celigo.atlassian.net/browse/IO-47639 https://celigo.atlassian.net/browse/IO-47645 ,,Phoenix (UI), errors,,Yes,,,NO,,,,False,13247.0,True
+99,2023-10-24,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Divjot Singh Rai",Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-47934,,Helios (UI),Flow Debugger,,Yes,,,NO,,,,False,13738.0,False
+100,2023-10-25,io_qa_pm,link,Divjot Singh Rai,UI,"
+Divjot Singh Rai",Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-47987,,Chloris (UI),UI,,Yes,,,NO,,,,False,,False
+101,2023-10-26,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-48112,,Eirene (UI),flow builder ,,NO,,,NO,,,,False,13738.0,False
+102,2023-10-28,io_qa_pm,link,"Bhavik Shah
+ ",Platform,Rohit Prasad,Enhancement,NAN,Open,https://celigo.atlassian.net/browse/IO-48826,,,File provider ,,NO,,,NO,,,,False,,False
+103,2023-10-29,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-48154,,Eirene (UI),flow builder,,Yes,,,NO,,,,False,13738.0,False
+104,2023-10-31,io_qa_pm,link,"Bhavik Shah
+  ",Platform,"
+Rohit Prasad",FRD,NAN,Released / 2024.1.1release,https://celigo.atlassian.net/browse/IO-48217,,,Connector - Databases,,NO,,,NO,,,,False,13339.0,True
+105,2023-11-03,io_qa_pm,link,"David Niederkofler
+",UI,Subarna Ghatak,Bug,P3,Released / 2024.1.1release,https://celigo.atlassian.net/browse/IO-48677 https://celigo.atlassian.net/browse/IO-49289 ,,Phoenix (UI),help text,,NO,,,NO,,,,False,,False
+106,2023-11-03,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-48757,,Iris (UI),Error ,,Yes,,,NO,,,,False,13541.0,True
+107,2023-11-03,io_qa_pm,link,"Youssef Zouhairi
+  ",UI,Divjot Singh Rai,Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-48794,,Helios (UI), Flow builder ,,Yes,,,NO,,,,False,13738.0,False
+108,2023-11-03,io_qa_pm,link,"David Niederkofler
+ ",UI,"
+Sai Phanindra Godavarthi",Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-48760,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+109,2023-11-07,io_qa_pm,link,"David Niederkofler
+ ",UI,Sai Phanindra Godavarthi,Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-50273,,Phoenix (UI), Handlebars,,NO,,,NO,,,,False,,False
+110,2023-11-08,io_qa_pm,link,"Tyler Lamparter
+",Platform,"
+SINDUJA GANDRA",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-46244 https://celigo.atlassian.net/browse/IO-60018  ,,Apollo (Platform), Transformations 2.0,,Yes,,,NO,,,,False,,False
+111,2023-11-08,io_qa_pm,link,"Tyler Lamparter
+",UI,Nandini Venkata Namepalli,Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-50155,,Iris (UI),AFE handlebars,,NO,,,NO,,,,False,,True
+112,2023-11-08,io_qa_pm,link,"Tyler Lamparter
+",Core,"
+Gayathri Mandala",Enhancement,P3,Open,https://celigo.atlassian.net/browse/IO-52437,,Zeta,Oracle ADW,,NO,,,jdbc-bridge,,,,False,,False
+113,2023-11-08,io_qa_pm,link,"Tyler Lamparter
+",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-48757,,Iris (UI),Error ,,Yes,,,NO,,,,False,13541.0,True
+114,2023-11-09,io_qa_pm,link,"Scott Henderson
+ ",PBI (Connectors),"
+Hajra Parveen",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/CON-5081,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+115,2023-11-09,io_qa_pm,link,"Scott Henderson
+ ",PBI (Connectors),"
+Hajra Parveen",Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/CON-5081,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+116,2023-11-09,io_qa_pm,link,"Scott Henderson
+ ",Platform,"
+Rohan Kothapalli",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-50937,,Transformers,HTTP 2.0,,NO,,,NO,,,,False,,True
+117,2023-11-09,io_qa_pm,link,"Scott Henderson
+ ",UI,"
+Revathi Dasari",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-50975,,Phoenix (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+118,2023-11-10,io_qa_pm,link,"Scott Henderson
+ ",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-51252,,Eirene (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+119,2023-11-10,io_qa_pm,link,"Scott Henderson
+ ",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-51445,,Iris (UI),Mapper 2.0,,NO,,,NO,,,,False,,False
+120,2023-11-10,io_qa_pm,link,"Nate Briant
+",UI,"
+sagna.perala",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-51323,,Hercules (UI),handle bars ,,NO,,,NO,,,,False,,False
+121,2023-11-10,io_qa_pm,link,"Scott Henderson
+ ",UI,Boreddy Shivakanth Reddy,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-51329,,Falcon (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+122,2023-11-14,io_qa_pm,link,"Scott Henderson
+ ",PBI (Connectors),"
+sri priya vytla",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/CON-5456,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+123,2023-11-15,io_qa_pm,link,"Tyler Lamparter
+ ",Core,SAI SUSMITHA VUPPALA,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-52424,,Zeta,Snowflake,,NO,,,NO,,,,False,13300.0,False
+124,2023-11-15,io_qa_pm,link,"Tyler Lamparter
+ ",Core,"
+Randeep Reddy Bazaru",Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-52431,,Zeta,NetSuite,,NO,,,NO,,,,False,13462.0,False
+125,2023-11-15,io_qa_pm,link,Scott Henderson,UI,"
+Revathi Dasari",Bug,P1,Released / 2023.11.5 release,https://celigo.atlassian.net/browse/IO-52137,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+126,2023-11-17,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Naveen Reddy G,Bug,P3,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-53132,,Chloris (UI),SSO,,NO,,,NO,,,,False,13608.0,False
+127,2023-11-20,io_qa_pm,link,"Bhavik Shah
+ ",Platform,"
+Raman Soni",Enhancement,P1,Done,https://celigo.atlassian.net/browse/IO-53203,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+128,2023-11-28,io_qa_pm,link,"Kat Queeman
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-55728,,Iris (UI),"
+UI",,NO,,,NO,,,,False,,False
+129,2023-12-01,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Randeep Reddy Bazaru,Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-52419,,Chloris (UI),MsSQL & MySQL,,NO,,,NO,,,,False,,False
+130,2023-12-05,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+sagna.perala",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-56207,,Phoenix (UI),AFE,,NO,,,NO,,,,False,,True
+131,2023-12-05,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Mayank Katare",Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-56736,,Apollo (Platform),AFE ,,NO,,,NO,,,,False,,True
+132,2023-12-05,io_qa_pm,link,"Tyler Lamparter
+ ",PBI (Connectors),Arun Kumar Pentam,Bug,P2,Closed,https://celigo.atlassian.net/browse/CON-6387,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+133,2023-12-08,io_qa_pm,link,"Kat Queeman
+ ",UI,Revathi Dasari,Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-57465,,Hercules (UI),mapper 2.0,,NO,,,NO,,,,False,,False
+134,2023-12-14,io_qa_pm,link,"Tyler Lamparter
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-57380,,Eirene (UI),handlebar,,NO,,,NO,,,,False,,False
+135,2023-12-14,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Divjot Singh Rai,Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-47934,,Helios (UI),Flow Debugger,,Yes,,,NO,,,,False,13738.0,False
+136,2023-12-14,io_qa_pm,link,"Tyler Lamparter
+ ",Platform,"
+Shiva Sai Kiran Kadari",Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-57408,,Stark (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+137,2023-12-14,io_qa_pm,link,"
+Bhavik Shah
+",UI,Revathi Dasari,Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-56176,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+138,2023-12-27,io_qa_pm,link,"Tyler Lamparter
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-58380,,Eirene (UI),Flow Group,,NO,,,NO,,,,False,13738.0,False
+139,2023-01-06,ui_ux,link,Vikram Thakre,Core,Venkata Akhil Bonthala,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-31818,,,Login ,,NO,,,NO,,,,False,,False
+140,2023-01-10,ui_ux,link,"Varun Batra
+ ",Core,"
+Venkata Akhil Bonthala",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-31818,,,Login,,NO,,,NO,,,,False,,False
+141,2023-01-19,ui_ux,link,"Dan Claypool
+  ",UI,"
+Ladi Manish",Enhancement,P3,Done / 2023.1.1 release,https://celigo.atlassian.net/browse/IO-27268,,,Scheduled flows,,NO,,,NO,,,,False,13315.0,False
+142,2023-02-06,ui_ux,link,"Rajiv Kada
+ ",Platform,"
+
+Raman Soni",FRD,P3,Open,https://celigo.atlassian.net/browse/IO-26063 https://celigo.atlassian.net/browse/IO-27659 ,,,transformation 2.0,,NO,,,NO,,,,False,,False
+143,2023-02-09,ui_ux,link,Vikram Thakre,UI,Gautham Raj Sykam,Enhancement,P3,Done / 2023.3.2 release,https://celigo.atlassian.net/browse/IO-33599,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+144,2023-03-23,ui_ux,link,"Raymond Fang
+",UI,"
+Pridhvi Kanth",Enhancement,P3,Closed,https://celigo.atlassian.net/browse/IO-34500,,UX,Flowgroup ,,NO,,,NO,,,,False,13555.0,False
+145,2023-05-30,ui_ux,link,"Nil Tapiador
+",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2023.5.4 release,https://celigo.atlassian.net/browse/IO-37590,,,Mock Response,,Yes,,,NO,,,,False,,False
+146,2023-06-12,ui_ux,link,Vikram Thakre,UI,Gautham Raj Sykam,Enhancement,P2,Released / 2023.3.2 release,https://celigo.atlassian.net/browse/IO-33269,,,UI,,NO,,,NO,,,,False,,False
+147,2023-06-17,ui_ux,link,"
+Scott Henderson
+",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-40651  https://celigo.atlassian.net/browse/IO-40653 ,,Chloris (UI),UI,,NO,,,NO,,,,False,,False
+148,2023-06-21,ui_ux,link,Minh Nguyen,UI,sagna.perala,Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-40939,,Iris (UI),Manage access,,NO,,,NO,,,,False,13215.0,True
+149,2023-06-22,ui_ux,link,"Tyler Lamparter
+ ",Core,"
+Naveen Reddy G",Bug,P3,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-40913,,Chipmunks (Core),Manage access,,Yes,,,NO,,,,False,13215.0,True
+150,2023-08-11,ui_ux,link,"Scott Henderson
+ ",Core,"
+Sai Phanindra Godavarthi",Enhancement,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-42788,,Helios (UI),UX,,NO,,,NO,,,,False,,False
+151,2023-08-11,ui_ux,link,"Scott Henderson
+ ",UI,"
+Swaraj Cheguri",Enhancement,P3,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-42789,,Helios (UI), UI,,NO,,,NO,,,,False,,False
+152,2023-08-19,ui_ux,link,"Norman Libres
+",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2023.8.3 release,https://celigo.atlassian.net/browse/IO-43038,,Iris (UI),UX,,Yes,,,NO,,,,False,,False
+153,2023-08-24,ui_ux,link,"Scott Henderson
+ ",Core,"
+Vinay Kumar",Enhancement,P1,Closed,https://celigo.atlassian.net/browse/IO-11764 https://celigo.atlassian.net/browse/IO-43502 ,,,SSO,,NO,,,NO,,,,False,13608.0,False
+154,2023-08-28,ui_ux,link,"Daryl Diaday
+ ",UI,"
+Simgamsetty Sai Srikar",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43781,,Vulcan (Platform),HTTP 2.0,,Yes,,,NO,,,,False,,True
+155,2023-09-04,ui_ux,link,"Mark Rublico
+ ",Platform,Sai Phanindra Godavarthi,FRD,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-42685,,Helios (UI),Sign-up page,,NO,,,NO,,,,False,,False
+156,2023-09-06,ui_ux,link,"Scott Henderson
+ ",UI,Vikram Waman Thakre,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-44218,,Iris (UI),Logo,,NO,,,NO,,,,False,,False
+157,2023-10-03,ui_ux,link,"Joe Hottinger
+ ",UI,Revathi Dasari,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-46366,,Aurora,UI,,NO,,,NO,,,,False,,False
+158,2023-10-07,ui_ux,link,"Norman Libres
+ ",UI,"
+Praveen Kumar Reddy Basani",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-47381,,Enigma (Platform),NetSuite,,NO,,,NO,,,,False,13462.0,False
+159,2023-10-12,ui_ux,link,"Tyler Lamparter
+ ",UI,"
+Sai Phanindra Godavarthi",Bug,P3,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-45997,,Eirene (UI),Flow_Builder,,NO,,,NO,,,,False,,False
+160,2023-10-20,ui_ux,link,"Tyler Lamparter
+ ",Core,Unassigned,Enhancement,P2,Open,https://celigo.atlassian.net/browse/IO-47683,,,UI,,NO,,,NO,,,,False,,False
+161,2023-10-27,ui_ux,link,"Bhavik Shah
+ ",Platform,"
+Shruti S",Enhancement,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-43691,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+162,2023-10-28,ui_ux,link,"Raymond Fang
+",UI,"
+Ladi Manish",Bug,P3,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-47135,,Chloris (UI),UI,,NO,,,NO,,,,False,,False
+163,2023-10-28,ui_ux,link,"Tyler Lamparter
+ ",UI,Vikram Waman Thakre,Bug,P1,Released / v8.9.1.2 release,https://celigo.atlassian.net/browse/IO-28505,,,Flow branching,,NO,,,NO,,,,False,13526.0,False
+164,2023-11-08,ui_ux,link,"Kelly Izer
+ ",UI,"
+sagna.perala",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-50942,,Phoenix (UI),handle bar ,,NO,,,NO,,,,False,,False
+165,2023-11-09,ui_ux,link,Tyler LamparterTyler Lamparter,UI,sagna.perala,Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-50904,,Phoenix (UI),handle bar,,NO,,,NO,,,,False,,False
+166,2023-11-21,ui_ux,link,"Youssef Zouhairi
+  ",Platform,"
+sushil patil",Enhancement,P3,Open,https://celigo.atlassian.net/browse/IO-52858,,,Marketplace,,NO,,,NO,,,,False,13646.0,True
+167,2023-12-01,ui_ux,link,"Selvakumar Thiyagarajan
+ ",Platform,"
+Harsh Kumar",Enhancement,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-40836,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+168,2023-12-01,ui_ux,link,"Divjot Singh Rai
+ ",UI,Harsh Kumar,Enhancement,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-46895 https://celigo.atlassian.net/browse/IO-40836 ,,Eirene (UI),connections ,,NO,,,NO,,,,False,,True
+169,2023-01-04,integrator,link,"Tim Heeter
+ ",Core,"
+Diksha Khatri",FRD,P3,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-20423,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+170,2023-01-10,integrator,link,"Rachel Abdul-Azim
+ ",UI,"
+Revathi Dasari",Bug,P2,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-31977,,,UI,,NO,,,NO,,,,False,,False
+171,2023-01-11,integrator,link,"McCabe Northup
+ ",Core,G Abhinash,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-29544,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+172,2023-01-11,integrator,link,"Alexandre Serre
+ ",UI,"
+Sandeep Kumar Gaddam",Enhancement,P1,Blocked,https://celigo.atlassian.net/browse/IO-23496,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+173,2023-01-19,integrator,link,Katarina Brunnestom,Core,"
+Anusha Jharupula",Bug,P1,Released / 2023.1.1 release,https://celigo.atlassian.net/browse/IO-32311,,,Errors / Dashboard,,NO,,,NO,,,,False,,True
+174,2023-01-21,integrator,link,"Katarina Brunnestom
+",Platform,"
+NISHITHA MADDATI",Bug,P1,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-32281,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+176,2023-01-23,integrator,link,"Akhilesh Deeti
+ ",Platform,"
+Sujatha Kutcharlapati",Bug,P1,Released / 2023.1.2 release,https://celigo.atlassian.net/browse/IO-32385,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+177,2023-01-23,integrator,link,"Murthy Narayanam
+  ",Platform,"
+Sujatha Kutcharlapati",Bug,P1,Released / 2023.1.2 release,https://celigo.atlassian.net/browse/IO-32385,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+178,2023-01-24,integrator,link,"Katarina Brunnestom
+",Core,"
+Anusha Jharupula",Bug,P1,Released / 2023.1.1 release,https://celigo.atlassian.net/browse/IO-32311,,,Errors / Dashboard,,NO,,,NO,,,,False,,True
+179,2023-01-25,integrator,link,Tim HeeterTim Heeter,UI,Gautham Raj Sykam,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-32432,,Phoenix (UI),API token,,NO,,,NO,,,,False,13446.0,True
+180,2023-01-27,integrator,link,"Lawrence Morales
+",UI,Sasidhar Gadepalli,Bug,P2,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-32468,,Apollo (Platform),Mapper 2.0,,Yes,,,NO,,,,False,,False
+181,2023-02-04,integrator,link,"Lan Reyes
+ ",PBI (Connectors),"
+Pavan Gujjari",Enhancement,P2,Done,https://celigo.atlassian.net/browse/CON-3191,, Phi (PBI Connectors),SAP Ariba templates,,NO,,,NO,,,,False,,False
+182,2023-02-04,integrator,link,"Akhilesh Deeti
+ ",Core,"
+Akshit",Enhancement,P2,Done,https://celigo.atlassian.net/browse/IO-32631,,Chipmunks (Core),kafka,,NO,,,NO,,,,False,,False
+183,2023-02-06,integrator,link,"Youssef Zouhairi
+  ",UI,Vikram Waman Thakre,Bug,P2,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-32542,,Dexter(Core),Flow branching,,Yes,,,NO,,,,False,13526.0,False
+184,2023-02-07,integrator,link,"
+Kelly Izer
+",Platform,"
+Kathyana Queeman",FRD,P2,Closed,https://celigo.atlassian.net/browse/DOCS-3247 https://celigo.atlassian.net/browse/IO-32984 ,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+185,2023-02-08,integrator,link,"Marian Wagner
+",UI,"
+Revathi Dasari",Bug,P2,Released / 2023.3.1 release,https://celigo.atlassian.net/browse/IO-31977,,,UI,,NO,,,NO,,,,False,,False
+186,2023-02-09,integrator,link,"Sam Sarnillo
+",UI,"
+Sai Kaivalya",Bug,P2,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-32456,,Chipmunks (Core),MFA,,Yes,,,NO,,,,False,13371.0,True
+187,2023-02-13,integrator,link,"Jason Steib
+ ",Platform,"
+Diksha Khatri",Enhancement,P3,Open,https://celigo.atlassian.net/browse/IO-32484,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+188,2023-02-22,integrator,link,"Tyler Ronan
+ ",UI,"
+Vikram Waman Thakre",Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-33434,,,SFNS ,,NO,,,NO,,,,False,,False
+189,2023-02-24,integrator,link,"Bernie San Pedro
+",Platform,Sukeerthi Sriram,Bug,P2,Released / 2023.3.1release,https://celigo.atlassian.net/browse/IO-24362,,Indus (Platform),HTTP 2.0,,Yes,,,NO,,,,False,,True
+190,2023-02-28,integrator,link,"Murthy Narayanam
+  ",Core,Vinay Kumar,Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-33668,,Chipmunks (Core),EM 2.0,,NO,,,NO,,,,False,,False
+191,2023-03-10,integrator,link,"Jake Bosak
+ ",Platform,"
+Diksha Khatri",Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-34048,,NetSuite SuiteApp,NetSuite ,,NO,,,NO,,,,False,13462.0,False
+192,2023-03-14,integrator,link,"Yonton Mehler
+ ",UI,"
+Ladi Manish",Bug,P1,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-32546,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+193,2023-03-16,integrator,link,"Alexandre Serre
+",Core,"
+Ramakrishna Grandhi",Enhancement,P1,Released / 2023.7.1 release,https://celigo.atlassian.net/browse/IO-29386 https://celigo.atlassian.net/browse/IO-26924 ,,Chipmunks (Core),Kafka,,NO,,,NO,,,,False,,False
+194,2023-03-27,integrator,link,"Lee Quach
+ ",UI,"
+Gautham Raj Sykam",Bug,P2,Released / 2023.1.1 release,https://celigo.atlassian.net/browse/IO-29564,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+195,2023-03-29,integrator,link,"Dave Chan
+ ",Core,"
+Diksha Khatri",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-34831,,,NetSuite ,,NO,,,NO,,,,False,13462.0,False
+196,2023-03-31,integrator,link,"Daryl Diaday
+ ",Platform,Dhilip Srinivasan,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-35019,,Indus (Platform),Transformation 2.0,,NO,,,NO,,,,False,,False
+197,2023-04-01,integrator,link,"Lan Reyes
+",Platform,Venkateswarlu Golla,CS (Customer support),P1,Closed,https://celigo.atlassian.net/browse/CS-7273 https://celigo.atlassian.net/browse/IO-26924 ,,,Kafka,,NO,,,NO,,,,False,,False
+198,2023-04-12,integrator,link,Nil Tapiador,Platform,Arpit Gupta,CS (Customer support),P2,Closed,https://celigo.atlassian.net/browse/CS-7105,,, Error,,NO,,,NO,,,,False,13541.0,True
+199,2023-04-14,integrator,link,"Daryl Diaday
+ ",Platform,"
+Shared",Bug,P1,Released / 2023.4.2 release,https://celigo.atlassian.net/browse/IO-35841,,,AS2,,Yes,,,NO,,,,False,,True
+200,2023-04-17,integrator,link,Simon Ding,PBI (Connectors),"
+Laya Kodam",FRD,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-34172,,,SFTP ,,NO,,,NO,,,,False,,False
+201,2023-04-20,integrator,link,"Youssef Zouhairi
+  ",UI,Vikram Waman Thakre,Enhancement,P3,Done,https://celigo.atlassian.net/browse/IO-27279,,,flowbranching ,,NO,,,NO,,,,False,13488.0,False
+202,2023-04-25,integrator,link,Armina Grajo,Platform,"
+Sowmya Bura",Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-36378,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+203,2023-04-25,integrator,link,"Tyler Lamparter
+ ",PBI (Connectors),"
+Laya Kodam",FRD,P2,Approved,https://celigo.atlassian.net/browse/IO-40874,,,File Providers ,,NO,,,NO,,,,False,,False
+204,2023-04-26,integrator,link,"Lan Reyes
+",Platform,"
+krishna.kishore.mothukuri",FRD,P1,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-35152,,Indus (Platform),NetSuite ,,NO,,,NO,,,,False,13462.0,False
+205,2023-04-26,integrator,link,"Nil Tapiador
+",Core,"
+Ravi Kumar D",Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-36168,,Zeta, preview,,NO,,,NO,,,,False,,False
+206,2023-04-28,integrator,link,"Yonton Mehler
+ ",UI,Harsh Kumar,Enhancement,P3,Released / 2023.5.1 release,https://celigo.atlassian.net/browse/IO-34921 https://celigo.atlassian.net/browse/IO-34896 ,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+207,2023-05-05,integrator,link,"Youssef Zouhairi
+ ",Core,Vamsi Rayapati,Enhancement,P3,Done,https://celigo.atlassian.net/browse/IO-33782,,Ganges (Platform),EDI,,NO,,,NO,,,,False,13720.0,False
+208,2023-05-08,integrator,link,"Balasubramanian Mahadevan
+ ",UI,Nandini Venkata Namepalli,Bug,P3,Released / 2023.4.1 release,https://celigo.atlassian.net/browse/IO-16738,,,error,,NO,,,NO,,,,False,13541.0,True
+209,2023-05-11,integrator,link,Murthy NarayanamMurthy Narayanam,Platform,Venkateswarlu Golla,CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-7375,,,error,,NO,,,NO,,,,False,13541.0,True
+210,2023-05-11,integrator,link,Swatantra Rout,Core,Gautham Raj Sykam,Bug,P1,Released / 2023.4.8 release,https://celigo.atlassian.net/browse/IO-36906,,, MFA,,NO,,,NO,,,,False,13371.0,True
+211,2023-05-19,integrator,link,"Norman Libres
+  ",PBI (Connectors),"
+Mallasarja Bapusaheb Desai",Enhancement,P2,Released / 2023.7.1 release,https://celigo.atlassian.net/browse/CON-3855,,Phi (PBI Connectors),ADP,,NO,,,NO,,,,False,,False
+212,2023-05-20,integrator,link,"Armina Grajo
+ ",PBI (Connectors),Naga Sri Hari Gonaboyina,Documentation,P2,Closed,https://celigo.atlassian.net/browse/DOCS-4282,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+213,2023-05-23,integrator,link,"Kelly Izer
+ ",PBI (Connectors),Vaidehi Maringanti,Bug,P2,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/PRE-12188,,IOTA (PBI),SFMSBC IA,,NO,,,NO,,,,False,,False
+214,2023-05-24,integrator,link,"Norman Libres
+ ",UI,Snigdha Rani Panigrahy,Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-37622,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+215,2023-05-24,integrator,link,"Dan Claypool
+  ",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2023.5.4 release,https://celigo.atlassian.net/browse/IO-37590,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+216,2023-05-25,integrator,link,"Jake Junia
+ ",UI,Kathyana Queeman,Documentation,P2,Closed,https://celigo.atlassian.net/browse/DOCS-3781,,,data loader,,NO,,,NO,,,,False,,False
+217,2023-05-25,integrator,link,"Dan Baker
+  ",Platform,"
+Diksha Khatri",Enhancement,P1,Closed,https://celigo.atlassian.net/browse/IO-23077,,Falcon (Platform),JWT Bearer Token,,NO,,,NO,,,,False,13615.0,False
+218,2023-05-26,integrator,link,"Daryl Diaday
+ ",PBI (Connectors),Swathi Gunda,Enhancement,P2,Released / 2023.11.4 release,https://celigo.atlassian.net/browse/CON-3405,,Omega (PBI WebileApps),HTTP 2.0,,NO,,,NO,,,,False,,True
+219,2023-05-29,integrator,link,Khutija Tasneem Mohammad,UI,"
+Divjot Singh Rai",Bug,P2,Released / 2023.5.4 release,https://celigo.atlassian.net/browse/IO-37590,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+220,2023-06-13,integrator,link,Nil Tapiador,Platform,"
+sathwika rallabandi",Bug,P1,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-38719,,Vulcan (Platform),HTTP 2.0,,Yes,,,NO,,,,False,,True
+221,2023-06-13,integrator,link,"Anirudh Sundaram
+ ",UI,"
+Suvarchala",Enhancement,P3,Done,https://celigo.atlassian.net/browse/IO-26103 https://celigo.atlassian.net/browse/IO-38436 ,,,FTP ,,NO,,,NO,,,,False,13563.0,False
+222,2023-06-16,integrator,link,"Aila Marie Villamor
+",UI,Raghuvamsi Chandrabhatla,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-38555,,Phoenix (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+223,2023-06-19,integrator,link,"Wayne Sisk
+ ",Core,"
+Sai Kaivalya",Bug,P2,Released / v8.12.1.0-R4MR release,https://celigo.atlassian.net/browse/IO-8372,,,Manage access,,Yes,,,NO,,,,False,13215.0,True
+224,2023-06-21,integrator,link,"Lan Reyes
+  ",Core,"
+Sai Kaivalya",Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-39543,,Dexter(Core),Flow Builder,,Yes,,,NO,,,,False,13738.0,False
+225,2023-06-30,integrator,link,"Youssef Zouhairi
+",Platform,Nithin Gollapally,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-39599,,Enigma (Platform),NetSuite ,,Yes,,,NO,,,,False,13462.0,False
+226,2023-06-30,integrator,link,"Anirudh Sundaram
+",Platform,"
+Nageshwar Dev Yadav",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-29907,,Falcon (Platform),Transforms and Filter,,NO,,,NO,,,,False,,True
+227,2023-07-05,integrator,link,"Sai Rachamalla
+ ",PBI (Connectors),"
+sri priya vytla",Enhancement,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/CON-3401,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+228,2023-07-07,integrator,link,"Balasubramanian Mahadevan
+ ",Platform,"
+Kathyana Queeman",Documentation,P3,Closed,https://celigo.atlassian.net/browse/DOCS-4449,,,FTP ,,NO,,,NO,,,,False,13563.0,False
+229,2023-07-11,integrator,link,"Balasubramanian Mahadevan
+ ",Platform,"
+Praveen Kumar Reddy Basani",FRD,P3,Open,https://celigo.atlassian.net/browse/IO-40170,,Enigma (Platform),Custom Settings,,NO,,,NO,,,,False,,False
+230,2023-07-13,integrator,link,"Daryl Diaday
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-40103,,Eirene (UI),HTTP 2.0,,Yes,,,NO,,,,False,,True
+232,2023-07-13,integrator,link,"Lan Reyes
+",Platform,"
+Praveen Kumar Reddy Basani",FRD,P2,Open,https://celigo.atlassian.net/browse/IO-40347,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+233,2023-07-13,integrator,link,"Sam Sarnillo
+ ",Core,"
+harpreetsingh.walia",Enhancement,P2,Released / 2023.7.1  release,https://celigo.atlassian.net/browse/IO-29858 https://celigo.atlassian.net/browse/DOCS-4367 ,,Dexter(Core),Flowbuilder,,NO,,,NO,,,,False,13475.0,False
+234,2023-07-15,integrator,link,"Lan Reyes
+",PBI (Connectors),"
+Swathi Gunda",Enhancement,P2,Released / 2023.8.1  release,https://celigo.atlassian.net/browse/CON-4185,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+235,2023-07-18,integrator,link,"Norman Libres
+",UI,"
+sagna.perala",Bug,P2,Released / 2023.9.4  release,https://celigo.atlassian.net/browse/IO-40569,,Chloris (UI),HTTP 2.0,,Yes,,,NO,,,,False,,True
+236,2023-07-29,integrator,link,"Daryl Diaday
+",Platform,"
+Yash Modi",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-41923,,Falcon (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+237,2023-08-01,integrator,link,"Patrick Barrett
+ ",Core,Pridhvi Kanth,Enhancement,P2,Open,https://celigo.atlassian.net/browse/IO-10489,,,FTPS ,,NO,,,NO,,,,False,,False
+238,2023-08-01,integrator,link,"Lan Reyes
+ ",Core,Prerana Chaduvu,Enhancement,P2,Released / 2023.11.1release,https://celigo.atlassian.net/browse/IO-42782,,Chipmunks (Core),webhook listener,,NO,,,NO,,,,False,,False
+239,2023-08-02,integrator,link,"Lan Reyes
+ ",Core,"
+Sai Kaivalya",Bug,P1,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-41290 https://celigo.atlassian.net/browse/IO-41256 https://celigo.atlassian.net/browse/IO-41256 ,,Vulcan (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+240,2023-08-02,integrator,link,Nil Tapiador,Platform,"
+Anitha Banothu",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-41443,,Titans (Platform),SF ,,Yes,,,NO,,,,False,,False
+241,2023-08-08,integrator,link,Nil Tapiador,Platform,"
+Nithin Gollapally",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-42599,,Enigma (Platform),File Transfer,,Yes,,,NO,,,,False,,False
+242,2023-08-19,integrator,link,"Nico Abbate
+ ",Core,anusha.badveeti,FRD,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-37553,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+243,2023-08-23,integrator,link,"Lan Reyes
+",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2023.8.4 release,https://celigo.atlassian.net/browse/IO-43105,,Iris (UI),SF Listener,,Yes,,,NO,,,,False,,False
+244,2023-08-24,integrator,link,"Cassaundra Caldwell
+ ",Core,"
+Revathi Dasari",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-43377,,Chipmunks (Core),error,,NO,,,NO,,,,False,13541.0,True
+245,2023-08-28,integrator,link,"Yonton Mehler
+ ",Core,"
+anusha.badveeti",Enhancement,P1,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-9293 https://celigo.atlassian.net/browse/IO-36578 ,,Gryffindor,HTTP 2.0,,NO,,,NO,,,,False,,True
+246,2023-08-29,integrator,link,"
+Cassaundra Caldwell
+ ",Core,"
+Sai Kaivalya",Bug,P1,Released / 2023.8.1 release,https://celigo.atlassian.net/browse/IO-41256,,Sudo (Deprecated),HTTP 2.0,,Yes,,,NO,,,,False,,True
+247,2023-08-30,integrator,link,"Nil Tapiador
+",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43704,,Iris (UI),EM2.0,,Yes,,,NO,,,,False,13598.0,False
+248,2023-09-01,integrator,link,"Pankaj Upadhyay
+ ",Platform,Sumit Singh,Bug,P1,Done,https://celigo.atlassian.net/browse/DEVOPS-1989 https://celigo.atlassian.net/browse/DEVOPS-1993 ,,,NS ,,NO,,,NO,,,,False,,False
+249,2023-09-06,integrator,link,"
+Patrick Rizzo
+ ",Platform,Charan Kammari,FRD,P2,On hold,https://celigo.atlassian.net/browse/PRE-2940,,,CAM for NetSuite IA,,NO,,,NO,,,,False,,False
+250,2023-09-08,integrator,link,"Cassaundra Caldwell
+ ",Core,Ramakrishna Gunupuru,FRD,P2,open,https://celigo.atlassian.net/browse/IO-31549,,UI,DIY,,NO,,,NO,,,,False,,False
+251,2023-09-12,integrator,link,"Alexandre Serre
+ ",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43704,,Iris (UI),EM2.0,,Yes,,,NO,,,,False,13598.0,False
+252,2023-09-18,integrator,link,"Rob Bunner
+",Core,akash deep sharma,Spike,P2,Done,https://celigo.atlassian.net/browse/IO-44963,,Indus (Platform),EMFILE,,NO,,,NO,,,,False,,False
+253,2023-09-19,integrator,link,"Lan Reyes
+ ",Core,"
+Praveen Kumar Reddy Basani",FRD,P2,open,https://celigo.atlassian.net/browse/IO-40170,,Enigma (Platform),Custom Settings,,NO,,,NO,,,,False,,False
+254,2023-09-22,integrator,link,"Marian Wagner
+ ",Platform,Unassigned,Enhancement,P1,Closed,https://celigo.atlassian.net/browse/IO-48200,,,Mapper 2.0,,NO,,,NO,,,,False,,False
+255,2023-09-27,integrator,link,"Nil Tapiador
+",Platform,"
+NISHITHA MADDATI",Bug,P1,Released / 2023.9.3 release,https://celigo.atlassian.net/browse/IO-46064,,Falcon (Platform), Handlebars,,Yes,,,NO,,,,False,,False
+256,2023-09-27,integrator,link,Katie Thorpe,Core,Sai Kaivalya,Bug,P1,Released / 2023.11.1 release,https://celigo.atlassian.net/browse/IO-46068,,,HTTP 2.0,,Yes,,,NO,,,,False,,True
+257,2023-09-28,integrator,link,"Balasubramanian Mahadevan
+ ",PBI (Connectors),Hajra Parveen,Enhancement,P2,open,https://celigo.atlassian.net/browse/CON-4734,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+258,2023-10-02,integrator,link,"Bernie San Pedro
+ ",Platform,Muneswara Thotakura,Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-42349,,Enigma (Platform), NetSuite,,NO,,,NO,,,,False,13462.0,False
+259,2023-10-09,integrator,link,"Youssef Zouhairi
+  ",Platform,"
+Sai Phanindra Godavarthi",Enhancement,P2,Released /2024.1.1 release,https://celigo.atlassian.net/browse/IO-38492,,Helios (UI),Manage access,,NO,,,NO,,,,False,13215.0,True
+300,2023-10-18,integrator,link,"Lan Reyes
+",Platform,Anusha Jharupula,Enhancement,P2,Done,https://celigo.atlassian.net/browse/IO-4579,,,Agents,,NO,,,NO,,,,False,,True
+301,2023-10-20,integrator,link,"David Bagosy
+ ",PBI (Connectors),"
+Sandeep Kumar Gaddam",FRD,P2,On hold,https://celigo.atlassian.net/browse/IO-30574,,Minions,File provider,,NO,,,NO,,,,False,,False
+302,2023-10-31,integrator,link,"Lan Reyes
+ ",Platform,"
+Nageshwar Dev Yadav",Bug,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-48040,,Indus (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+303,2023-10-31,integrator,link,Murthy NarayanamMurthy Narayanam,PBI (Connectors),"
+Swathi Gunda",Enhancement,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/CON-4972,,Phi (PBI Connectors),mappings,,NO,,,NO,,,,False,,False
+304,2023-11-01,integrator,link,Tyler Lamparter,UI,"
+Pridhvi Kanth",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-51376,,Helios (UI), SSO ,,NO,,,NO,,,,False,13608.0,False
+305,2023-11-03,integrator,link,"Julio Lemus
+ ",UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-43704,,Iris (UI),EM2.0,,Yes,,,NO,,,,False,13598.0,False
+306,2023-11-08,integrator,link,"Mike Flores
+ ",Core,"
+Randeep Reddy Bazaru",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-50054,,Zeta,filter,,NO,,,NO,,,,False,,False
+307,2023-11-14,integrator,link,"Bennett Van Soelen
+ ",UI,"
+Revathi Dasari",Bug,P1,Released / 2023.11.5 release,https://celigo.atlassian.net/browse/IO-52137,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+308,2023-11-17,integrator,link,"Lan Reyes
+",Core,"
+Shiva Alluri",Documentation,P2,Done,https://celigo.atlassian.net/browse/CLOUDOPS-878,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+310,2023-11-23,integrator,link,"Mike Flores
+",Core,"
+Shiva Alluri",Documentation,P2,Done,https://celigo.atlassian.net/browse/CLOUDOPS-913,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+311,2023-12-01,integrator,link,"Lan Reyes
+ ",UI,"
+sagna.perala",Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-55617,,Phoenix (UI),Manage access,,NO,,,NO,,,,False,13215.0,True
+312,2023-12-04,integrator,link,"Wayne Sisk
+ ",Core,"
+Saurabh Jain",Enhancement,P3,Done,https://celigo.atlassian.net/browse/IO-57791,,,SSO,,NO,,,NO,,,,False,13608.0,False
+313,2023-12-06,integrator,link,"Rob Bunner
+",UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2025.1.1 release,https://celigo.atlassian.net/browse/IO-105529,,Phoenix (UI),error,,NO,,,NO,,,,False,13541.0,True
+314,2023-12-07,integrator,link,"Bernie San Pedro
+ ",PBI (Connectors),"
+sri priya vytla",Enhancement,P2,Released / 2025.1.1 release,https://celigo.atlassian.net/browse/CON-2261,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+315,2023-12-07,integrator,link,"Kevin Shah
+",Core,"
+Amanjot Singh",FRD,P2,Open,https://celigo.atlassian.net/browse/IO-26302,,,"
+
+Async Helper ",,NO,,,NO,,,,False,,False
+316,2023-12-08,integrator,link,"Kethan Cherukuri
+ ",Platform,"
+Selvakumar Thiyagarajan",Documentation,P3,Ready for developement,https://celigo.atlassian.net/browse/IO-56975,,,Help text,,NO,,,NO,,,,False,,False
+317,2023-12-11,integrator,link,"Alexandre Serre
+ ",UI,Revathi Dasari,Bug,P1,Released / 2023.11.6 release,https://celigo.atlassian.net/browse/IO-57085,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+318,2023-12-11,integrator,link,"Kelly Izer
+",Platform,"
+Priya Vanteru",Enhancement,P2,on hold,https://celigo.atlassian.net/browse/IO-37388,,Falcon (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+319,2023-12-18,integrator,link,"Mike Flores
+  ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-58380,,Eirene (UI),Flow Group,,NO,,,NO,,,,False,13738.0,False
+320,2023-12-23,integrator,link,"Lan Reyes
+ ",PBI (Connectors),"
+Hajra Parveen",Enhancement,P2,Blocked,https://celigo.atlassian.net/browse/CON-4009,,Phi (PBI Connectors), API ,,NO,,,NO,,,,False,13446.0,True
+321,2023-12-26,integrator,link,"Lan Reyes
+ ",UI,Vikram Waman Thakre,Bug,P2,Released / v8.2.1.0-Q1 release,https://celigo.atlassian.net/browse/IO-23929,,,UI,,Yes,,,NO,,,,False,,False
+1,2024-01-03,io_qa_pm,Link,Tyler,Platform,Sowmya,Bug,P3,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-59836,,Enigma (Platform),lookups,,NO,,,No,,,,False,,False
+2,2024-01-04,integrator,Link,Bernie San Pedro,Platform,"
+Thirumalai Raj R",CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8034,,,SF,,NO,,,NO,,,,False,,False
+3,2024-01-05,io_qa_pm,Link,Tyler,Platform,Shashidhar Gadepalli,Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-60018,,Apollo (Platform),Transformations 2.0,,NO,,,NO,,,,False,,False
+4,2024-01-06,integrator,Link,"
+Lan Reyes
+ ",Platform,Thirumalai Raj R,CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8046,,,Amazon S3,,NO,,,NO,,,,False,,False
+5,2024-01-06,integrator,Link,"
+Lan Reyes
+ ",Platform,Sasidhar Gadepalli,Bug,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-28972,,Apollo (Platform),Mapper 2.0,,Yes,,,NO,,,,False,,False
+6,2024-01-08,io_qa_pm,Link,Tyler,Platform,Sai Phanindra Godavarthi,Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-50777,,Apollo (Platform),Transformations 2.0,,NO,,,NO,,,,False,,False
+7,2024-01-08,integrator,Link,"Alexandre Serre
+ ",Core,"
+Thirumalai Raj R",CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8049,,,NetSuite,,NO,,,NO,,,,False,13462.0,False
+8,2024-01-09,integrator,Link,"Daryl Diaday
+ ",Platform,"
+Ravi Singh
+ ",CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8044,,,error,,NO,,,NO,,,,False,13541.0,True
+9,2024-01-10,io_qa_pm,Link,Tyler,Platform,Nishitha MaddatiNishitha Maddati,Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-63034,,Falcon (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+10,2024-01-10,integrator,Link,Pau Cura,Platform,Sowmya Bura,Bug,P2,Released /2024.3.1 release,https://celigo.atlassian.net/browse/IO-60844,,Enigma (Platform),NetSuite,,NO,,,NO,,,,False,13462.0,False
+11,2024-01-11,io_qa_pm,Link,Mark RublicoMark Rublico,PBI (Connectors),"Hajra Parveen
+ ",Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-61475,,Phi (PBI Connectors),Mapper 2.0,,NO,,,NO,,,,False,,False
+12,2024-01-12,integrator,Link,Mark Rublico,PBI (Connectors),Swathi Gunda,Bug,P1,Released /2024.3.1 release,https://celigo.atlassian.net/browse/CON-6469,,Omega (PBI WebileApps),Connection,,NO,,,NO,,,,False,13639.0,True
+13,2024-01-13,integrator,Link,Norman Libres,Platform,Venkateswarlu Golla,CS (Customer support),NAN,,https://celigo.atlassian.net/browse/CS-8087,,,JWT,,NO,,,NO,,,,False,13615.0,False
+14,2024-01-14,io_qa_pm,Link,Amanjot SinghAmanjot Singh,Platform,Nil Tapiador,Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-72849,Would be fixing https://celigo.atlassian.net/browse/CS-8087,Indus (Platform),JWT,,NO,,,NO,,,,False,13615.0,False
+15,2024-01-16,io_qa_pm,Link,Amanjot SinghAmanjot Singh,UI,Sai Phanindra GodavarthiSai Phanindra Godavarthi,Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-61394,,Helios (UI),Mapper 2.0,,NO,,,NO,,,,False,,False
+16,2024-01-16,integrator,Link,Bennett Van Soelen,UI,Divjot Singh Rai,Bug,P2,Released / 2023.9.1 release,https://celigo.atlassian.net/browse/IO-40597,,Helios (UI),Flow Debugger,,yes,,,NO,,,,False,13738.0,False
+17,2024-01-16,integrator,Link,"Nel Patiga
+",Platform,"Praveen Basani
+ ",Enhancement,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-62848,,,Custome Settings,,NO,,,NO,,,,False,,False
+18,2024-01-18,integrator,Link,"Bernie San Pedro
+ ",UI,Rajat Bhavsar,Bug,P3,Open,https://celigo.atlassian.net/browse/IO-62990,,,Mapper 2.0,,NO,,,NO,,,,False,,False
+19,2024-01-23,ui_ux,link,"Nate Briant
+ ",UI,Divjot Singh Rai,Bug,P2,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-63511,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+20,2024-01-24,io_qa_pm,Link,Aila Marie VillamorAila Marie Villamor,Platform,Divjot Singh RaiDivjot Singh Rai,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-63631,,Ganges (Platform),Flow Debugger ,,NO,,,NO,,,,False,13738.0,False
+21,2024-01-24,ui_ux,Link,Anirudh SundaramAnirudh Sundaram,UI,sagna.perala,Enhancement,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-64825,,UI,AFE,,NO,,,NO,,,,False,,True
+22,2024-01-24,io_qa_pm,Link,Amanjot SinghAmanjot Singh,Core,Suman Dewangan,Bug,P1,Released / 2024.1.2 release,https://celigo.atlassian.net/browse/IO-62995,,Tintin,Manage access,,NO,,,NO,,,,False,13215.0,True
+23,2024-01-24,integrator,Link,"Norman Libres
+",UI,Saurabh Kumar,Enhancement,P2,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-47620 https://celigo.atlassian.net/browse/IO-63542,,Phoenix (UI),Mapper 2.0/transformation 2.0,,NO,,,NO,,,,False,,False
+24,2024-01-24,integrator,Link,"Armina Grajo
+ ",UI,"
+Revathi Dasari",Bug,P1,Released / 2024.1.4 release,https://celigo.atlassian.net/browse/IO-63706,,Phoenix (UI),Mapper 2.0,,NO,,,NO,,,,False,,False
+25,2024-01-24,integrator,Link,"Cody Richards
+",Core,Thirumalai Raj R,Bug,P3,Closed,https://celigo.atlassian.net/browse/CS-8085,,,Salesforce IA,,NO,,,NO,,,,False,,True
+26,2024-01-25,io_qa_pm,Link,Sree Vani AmaraSree Vani Amara,Core,Sudhanshu Kumar,Bug,P1,Released / 2024.3.3 release,https://celigo.atlassian.net/browse/IO-63696,,Velocity,Flow Debugger ,,NO,,,NO,,,,False,13738.0,True
+27,2024-01-25,io_qa_pm,Link,Nishant BaliNishant Bali,UI,Divjot Singh Rai,Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-63835,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+28,2024-01-25,integrator,Link,"Mike Flores
+ ",UI,"
+Revathi Dasari",Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-63688,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+29,2024-01-25,integrator,Link,"Lakhan Bhagnani
+ ",Velocity,"
+Sudhanshu Kumar",Bug,P1,Released / 2024.3.3 release,https://celigo.atlassian.net/browse/IO-63696,,Velocity,Flow Debugger ,,NO,,,NO,,,,False,13738.0,True
+30,2024-01-26,io_qa_pm,Link,Scott HendersonScott Henderson,UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-63771,,Phoenix (UI),drawer,,NO,,,NO,,,,False,,False
+31,2024-01-26,integrator,Link,"Yonton Mehler
+ ",PBI (Connectors),Hajra Parveen,Enhancement,P3,Open,https://celigo.atlassian.net/browse/CON-6748,,,connection,,NO,,,NO,,,,False,13639.0,True
+32,2024-01-29,io_qa_pm,Link,Bhavik ShahBhavik Shah,Core,Sandeep Kumar Gaddam,Enhancement,NAN,Open,https://celigo.atlassian.net/browse/IO-20882,,,data loader,,NO,,,NO,,,,False,,False
+33,2024-01-29,integrator,Link,"Bradley Hayes
+ ",UI,Sravan Dandra,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-44608,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+34,2024-01-30,io_qa_pm,Link,Tyler LamparterTyler Lamparter,Platform,Sai Phanindra Godavarthi,Bug,P1,Released / 2024.1.4 release,https://celigo.atlassian.net/browse/IO-64096,,Ganges (Platform),flow branching,,Yes,,,NO,,,,False,13526.0,False
+35,2024-01-31,integrator,Link,"Mark Rublico
+ ",Platform,Venkateswarlu Golla,CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-7957,,,FTP,,NO,,,NO,,,,False,13563.0,False
+36,2024-01-31,ui_ux,link,"Nel Patiga
+ ",Core,Sudhanshu Kumar,Bug,P2,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-64271,,Tintin,AI chatbot,,NO,,,NO,,,,False,,True
+37,2024-02-02,integrator,Link,"Brian Cajutol
+ ",Platform,"
+Sowmya Bura",Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-66086,,Enigma (Platform),NetSuite,,NO,,,NO,,,,False,13462.0,False
+38,2024-02-06,integrator,Link,"Lan Reyes
+ ",Core,Thirumalai Raj R,Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-67171,,Chipmunks (Core),Webhook,,NO,,,NO,,,,False,,False
+39,2024-02-06,ui_ux,link,Nil Tapiador,Core,Gautham Raj Sykam,Bug,P3,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-66013,,Skywalker (Core),errors,,NO,,,NO,,,,False,13247.0,True
+40,2024-02-07,io_qa_pm,Link,"Tyler Lamparter
+ ",Core,Geethika Mallampalli,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-72570,,Gryffindor,Headers,,NO,,,NO,,,,False,,False
+41,2024-02-07,integrator,Link,"Mark Rublico
+ ",PBI (Connectors),"
+Hajra Parveen",Enhancement,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/CON-6911,,Omega (PBI WebileApps),HTTP 2.0,,NO,,,NO,,,,False,,True
+42,2024-02-07,integrator,Link,Mark Rublico,Platform,Thirumalai Raj R,CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8128,,,Connection,,NO,,,NO,,,,False,13639.0,True
+43,2024-02-07,integrator,Link,"Lan Reyes
+ ",Platform,Thirumalai Raj R,CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8123,,,EDI,,NO,,,NO,,,,False,13720.0,False
+44,2024-02-08,integrator,Link,Armina Grajo,PBI (Connectors),"
+sri priya vytla",Enhancement,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/CON-2250,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+45,2024-02-08,integrator,Link,Norman Libres,Platform,Venkateswarlu Golla,CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8248,,,mapping,,NO,,,NO,,,,False,,False
+46,2024-02-09,io_qa_pm,Link,"Tyler Lamparter
+ ",workers,Sai Charan Chinta,Bug,P2,Released / 2024.1.5 release,https://celigo.atlassian.net/browse/IO-65655,,Aliens,Amazon S3,,NO,,,NO,,,,False,,False
+47,2024-02-10,io_qa_pm,Link,"Tyler Lamparter
+ ",Platform,Sasidhar Gadepalli,Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-66989,,Apollo (Platform),Transformation2.0.,,NO,,,NO,,,,False,,False
+48,2024-02-10,integrator,Link,Elaine Tolbo,Platform,"
+Thirumalai Raj R
+ ",CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8140,,,NetSuite.,,NO,,,NO,,,,False,13462.0,False
+49,2024-02-13,io_qa_pm,Link,Sree Vani AmaraSree Vani Amara,UI,Snigdha Rani Panigrahy,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-66524,,Iris (UI),FTP,,NO,,,NO,,,,False,13563.0,False
+50,2024-02-13,io_qa_pm,Link,Ravi Singh,UI,"
+Thirumalai Raj R",Bug,P2,Closed,https://celigo.atlassian.net/browse/CS-8176,,,MFA,,NO,,,NO,,,,False,13371.0,True
+51,2024-02-13,integrator,Link,Wade OlofernesWade Olofernes,Platform,"
+Thirumalai Raj R",CS (Customer support),P3,Closed,https://celigo.atlassian.net/browse/CS-8176,,,MFA,,NO,,,NO,,,,False,13371.0,True
+52,2024-02-13,ui_ux,link,"Tyler Lamparter
+ ",UI,Uyyala Kaushik Nandan,Enhancement,P3,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-62782,,Hercules (UI),AFE,,NO,,,NO,,,,False,,True
+53,2024-02-13,ui_ux,link,"Kelly Izer
+ ",UI,"
+Snigdha Rani Panigrahy",Bug,P2,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-66524,,Iris (UI),FTP,,NO,,,NO,,,,False,13563.0,False
+54,2024-02-14,io_qa_pm,Link,Sree Vani Amara,UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-66814,,Eirene (UI),Mapping,,NO,,,NO,,,,False,,False
+56,2024-02-16,integrator,Link,"Norman Libres
+ ",UI,Revathi,Bug,P1,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-67912,,Phoenix (UI),custom settings,,NO,,,NO,,,,False,,False
+57,2024-02-16,integrator,Link,Lan Reyes,Platform Extn,Khaisar,Bug,P2,Released / April Release,https://celigo.atlassian.net/browse/IO-72549,Would be resolved by fixing https://celigo.atlassian.net/browse/IO-57193,Transformers,Error,,NO,,,NO,,,,False,13541.0,True
+58,2024-02-16,ui_ux,link,"Jeremy Erwin
+ ",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-63511,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+59,2024-02-19,io_qa_pm,Link,Sree Vani Amara,UI,Revathi Dasari,Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-67912,,Phoenix (UI),custom settings,,NO,,,NO,,,,False,,False
+60,2024-02-21,io_qa_pm,Link,Om Mishra,Core,"Sashi Behera
+ ",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-66199,,Gryffindor,FTP,,NO,,,NO,,,,False,13563.0,False
+61,2024-02-21,io_qa_pm,Link,"Sree Vani Amara
+ ",UI,Divjot Singh Rai,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-68539,https://celigo-internal.slack.com/archives/C03RLLV2C/p1710962177255629,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+62,2024-02-22,io_qa_pm,Link,"Kat Queeman
+ ",Platform,Tharuni Sai Idupulapati,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-38579,,Falcon (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+63,2024-02-22,io_qa_pm,Link,"Tyler Lamparter
+  ",Platform,Sudhanshu Kumar,Bug,P1,Released / 2024.3.3 release,https://celigo.atlassian.net/browse/IO-63696,,Velocity,error,,NO,,,NO,,,,False,13541.0,True
+64,2024-02-22,io_qa_pm,Link,"Tyler Lamparter
+  ",Core,"
+sagna.perala",Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-68577,,Aliens,error,,NO,,,NO,,,,False,13541.0,True
+65,2024-02-22,io_qa_pm,Link,"Tyler Lamparter
+  ",UI,Uyyala Kaushik Nandan,Bug,P3,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-68610,,Hercules (UI),UI,,NO,,,NO,,,,False,,False
+66,2024-02-22,io_qa_pm,Link,"Lakhan Bhagnani
+ ",UI,Shruti S,Enhancement,P3,Released / 2024.1.1 release,https://celigo.atlassian.net/browse/IO-41556,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+67,2024-02-22,ui_ux,link,"Kevin Shah
+ ",UI,Sravan Dandra,Bug,P2,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-44608,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+68,2024-02-23,io_qa_pm,Link,"Tyler Lamparter
+ ",Platform,Shruti S,Bug,P1,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-68728,,Apollo (Platform),HTTP 2.0,,Yes,,,NO,,,,False,,True
+69,2024-02-23,io_qa_pm,Link,"Ravi Singh
+ ",UI,Shruti S,Bug,P2,Pending Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-68871,,Helios (UI),error ,,NO,,,NO,,,,False,13541.0,True
+70,2024-02-23,integrator,Link,Anirudh Sundaram,Platform,Shruti,Bug,P1,Released / April Release,https://celigo.atlassian.net/browse/IO-68728,,Apollo (Platform),HTTP 2.0,,Yes,,,NO,,,,False,,True
+71,2024-02-26,io_qa_pm,Link,"Ravi Singh
+ ",UI,Shruti S,Bug,P3,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-68903,,Helios (UI),drawer,,NO,,,NO,,,,False,,False
+72,2024-02-26,ui_ux,link,"Tyler Lamparter
+ ",UI,"
+sagna.perala",Bug,P2,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-69346,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+73,2024-02-28,ui_ux,link,"Rob Bunner
+ ",UI,Divjot Singh Rai,Bug,P2,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-63511,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+74,2024-02-28,ui_ux,link,"Thirumalai Raj R
+ ",UI,"
+Vikram Waman Thakre",Bug,P3,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-74280,,Phoenix (UI),drawer,,NO,,,NO,,,,False,,False
+75,2024-02-29,io_qa_pm,Link,"Scott Henderson
+ ",Platform,Nagesh Yadav,Bug,P2,Released / 2024.3.3 release,https://celigo.atlassian.net/browse/IO-60466,,Dexter(Core),autorecovery,,NO,,,NO,,,,False,,False
+76,2024-02-29,io_qa_pm,Link,Youssef Zouhairi,Core,Anand Yadav,Bug,P1,Closed,https://celigo.atlassian.net/browse/IO-70538,,Chipmunks (Core),webhook,,NO,,,NO,,,,False,,False
+77,2024-02-29,io_qa_pm,Link,Vikram Thakre,UI,"
+Ladi Manish",Bug,P2,Pending Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-69447,,Chloris (UI),connection,,NO,,,NO,,,,False,13639.0,True
+78,2024-02-29,integrator,Link,Aila Marie Villamor,Core,Vinay Kumar,Bug,NAN,Fixed,,,,,,,,,,,,Ticket not logged,False,,True
+79,2024-02-29,ui_ux,link,"Anirudh Sundaram
+ ",UI,"
+Pratham Singh",Enhancement,P2,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-64825,,Phoenix (UI),AFE,,NO,,,NO,,,,False,,True
+80,2024-02-29,ui_ux,link,"Tyler Lamparter
+ ",PBI (Connectors),"
+Laya Kodam",FRD,NAN,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/CON-7174,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+81,2024-03-02,io_qa_pm,Link,"Scott Henderson
+ ",UI,Revathi Dasari,Bug,P1,Released /2024.4.1 release,https://celigo.atlassian.net/browse/IO-67912,,Phoenix (UI), custom settings ,,NO,,,NO,,,,False,,False
+82,2024-03-04,ui_ux,link,Kelly Izer,UI,Ashu Gupta,Bug,P2,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-70317,,Phoenix (UI),flow builder,,NO,,,NO,,,,False,13738.0,False
+83,2024-03-08,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,"
+Sachin Gupta",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-70803,,Gryffindor,File Providers,,NO,,,NO,,,,False,,False
+84,2024-03-12,integrator,Link,Alexandre Serr,Platform,Kratika Singhal,Bug,P2,Blocked,https://celigo.atlassian.net/browse/IO-72860,,Apollo (Platform),preSavePage Hook,,NO,,,NO,,,,False,,False
+85,2024-03-13,integrator,Link,Lan Reyes,PBI (Connectors),Laya Kodam,Known Bug,NAN,Released / April Release,https://celigo.atlassian.net/browse/CON-6910,,Omega (PBI WebileApps),HTTP 2.0,,NO,,,NO,,,,False,,True
+86,2024-03-14,io_qa_pm,Link,"Tyler Lamparter
+ ",Core,Sudhanshu Kumar,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-71466,,Avengers,manage access,,NO,,,NO,,,,False,13215.0,True
+87,2024-03-14,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-71741,,Phoenix (UI),mapper 2.0 and transformation 2.0,,NO,,,NO,,,,False,,False
+88,2024-03-14,io_qa_pm,Link,"Katarina Brunnestom
+ ",PBI (Connectors),"Hajra Parveen
+ ",Enhancement,P2,Pending Released / 2024.11.1 release,https://celigo.atlassian.net/browse/CON-5502,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+89,2024-03-15,integrator,Link,Bradley Hayes,PBI (Connectors),Hajra Praveen,Bug,P2,Closed,https://celigo.atlassian.net/browse/CON-7333,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+90,2024-03-16,io_qa_pm,Link,Ritch Manulid,PBI (Connectors),"
+Arun Kumar Pentam",Enhancement,P2,Done ,https://celigo.atlassian.net/browse/CON-7330,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+91,2024-03-18,ui_ux,link,"Nate Briant
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-72269,,Iris (UI), Templates,,NO,,,NO,,,,False,,False
+92,2024-03-20,io_qa_pm,Link,"Youssef Zouhairi
+ ",Platform,"
+Rishi Raj Singh",Enhancement,P3,Open,https://celigo.atlassian.net/browse/IO-23709,,Falcon (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+93,2024-03-20,ui_ux,link,"Tyler Lamparter
+ ",UI,"
+sagna.perala",Bug,P3,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-72503,,Iris (UI),snowflake,,NO,,,NO,,,,False,13300.0,False
+94,2024-03-21,ui_ux,link,"
+Chris McCarthy
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-72269,,Iris (UI),Templates,,NO,,,NO,,,,False,,False
+95,2024-03-22,io_qa_pm,Link,"Scott Henderson
+ ",UI,Subarna Ghatak,Bug,P3,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-73018,,Phoenix (UI),Netsuite,,NO,,,NO,,,,False,13462.0,False
+96,2024-03-26,io_qa_pm,Link,Ritch Manulid,Core,Shubham Verma ,CS (Customer support),P4,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/CS-8255,,Gryffindor,FTP,,NO,,,NO,,,,False,13563.0,False
+97,2024-03-27,io_qa_pm,Link,"Amanjot Singh
+ ",UI,"
+Revathi Dasari ",Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-73449,,Phoenix (UI),Handle bar,,NO,,,NO,,,,False,,False
+98,2024-03-27,io_qa_pm,Link,"Om Mishra
+ ",UI,"
+Sudhanshu Kumar ",Bug,P2,Released / 2024.3.3 release,https://celigo.atlassian.net/browse/IO-63323,,Hercules (UI),manage access,,NO,,,NO,,,,False,13215.0,True
+99,2024-03-27,io_qa_pm,Link,"Sree Vani Amara
+ ",UI,Shruti S,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-73553,,,FTP,,NO,,,NO,,,,False,13563.0,False
+100,2024-03-27,ui_ux,link,"Malena Hernandez
+ ",PBI (Connectors),Hajra Parveen,Enhancement,P4,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/CON-7454,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+101,2024-03-28,io_qa_pm,Link,Tyler Lamparter,Platform,sathwika rallabandi,Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-76225,,Titans (Platform),SF,,NO,,,NO,,,,False,,False
+102,2024-03-28,io_qa_pm,Link,"Tracy Kroop
+ ",UI,"
+Vikram Waman Thakre",Bug,P3,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-74280,,Phoenix (UI),drawer,,NO,,,NO,,,,False,,False
+103,2024-04-03,integrator,Link,Lan Reyes,UI,Divjot,Bug,P1,Released / April Release,https://celigo.atlassian.net/browse/IO-74199,,Eirene (UI),webhooks,,NO,,,NO,,,,False,,False
+104,2024-04-03,ui_ux,link,"Om Mishra
+ ",UI,Revathi Dasari,Bug,P3,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-74223,,Iris (UI),Header,,NO,,,NO,,,,False,,False
+105,2024-04-03,ui_ux,link,"Anirudh Sundaram
+ ",UI,Subarna Ghatak,Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-74713,,Phoenix (UI),netsuite,,NO,,,NO,,,,False,13462.0,False
+106,2024-04-04,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Pending Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-74194,,Eirene (UI),Handlebars,,NO,,,NO,,,,False,,False
+107,2024-04-04,io_qa_pm,Link,"Om Mishra
+ ",Core,Vikram Waman Thakre,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-77783,,Tintin,token,,NO,,,NO,,,,False,13122.0,False
+108,2024-04-04,integrator,Link,Red Guiling,UI,Divjot,Bug,P2,Released / May Release,https://celigo.atlassian.net/browse/IO-75696,,Eirene (UI),Flowbuilder,,NO,,,NO,,,,False,13475.0,False
+109,2024-04-05,io_qa_pm,Link,"Tyler Lamparter
+ ",Avengers,Nirav Pranami,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-76333,,Avengers,connection,,NO,,,NO,,,,False,13639.0,True
+110,2024-04-05,io_qa_pm,Link,"Amanjot Singh
+  ",UI,"
+Revathi Dasari",Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-75079,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+111,2024-04-05,ui_ux,link,Scott Henderson,UI,Shruti S,Bug,P3,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-68903,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+112,2024-04-06,io_qa_pm,Link,"Amanjot Singh
+  ",Platform,"
+Gautham Raj Sykam",Bug,P1,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-74939,,Aliens,marketplace,,NO,,,NO,,,,False,13646.0,True
+113,2024-04-06,io_qa_pm,Link,Tyler Lamparter,UI,sagna.perala ,Bug,P1,Released / 2024.5.4 release,https://celigo.atlassian.net/browse/IO-80888,,Phoenix (UI),AFE,,NO,,,NO,,,,False,,True
+114,2024-04-10,ui_ux,link,"Kelly Izer
+  ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.4.1 Release,https://celigo.atlassian.net/browse/IO-72269,,Iris (UI),Templates,,NO,,,NO,,,,False,,False
+115,2024-04-12,io_qa_pm,Link,"Matt Graney
+ ",UI,Shruti S,Bug,P1,Released / 2024.4.3 release,https://celigo.atlassian.net/browse/IO-75567,,Eirene (UI),UI,,Yes,,,NO,,,,False,,False
+116,2024-04-15,io_qa_pm,Link,"Bhavik Shah
+ ",Core,"
+Gayathri Mandala",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-75827,,Zeta,RDBMS,,NO,,,NO,,,,False,,False
+117,2024-04-18,io_qa_pm,Link,"Katarina Brunnestom
+ ",UI,"
+Bhavani Vuppala",Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-76573,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+118,2024-04-18,integrator,Link,Jessica Davis,UI,Subarna Ghatak,Bug,P2,Released / May Release,https://celigo.atlassian.net/browse/IO-76541,,Phoenix (UI),connection,,NO,,,NO,,,,False,13639.0,True
+119,2024-04-19,io_qa_pm,Link,Katarina Brunnestom,Platform,"
+Scott Henderson",Enhancement,NAN,In-Progress,https://celigo.atlassian.net/browse/IO-42257,,,mock output,,NO,,,NO,,,,False,,False
+120,2024-04-19,io_qa_pm,Link,"Katarina Brunnestom
+ ",UI,Revathi Dasari,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-76623,,Iris (UI),Help text,,NO,,,NO,,,,False,,False
+121,2024-04-22,io_qa_pm,Link,"Ravi Singh
+ ",UI,"
+Praveen Kumar Reddy Basani ",Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-1178,,,Error Messages,,NO,,,NO,,,,False,13541.0,True
+122,2024-04-22,ui_ux,link,"Rohit Prasad
+",UI,"
+Divjot Singh Rai",Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-71366,,Eirene (UI),HTTP2.0,,Yes,,,NO,,,,False,13268.0,True
+124,2024-04-23,io_qa_pm,Link,"Priyanka Koundal
+ ",UI,sagna.perala,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-77054,,Phoenix (UI),AFE,,NO,,,NO,,,,False,,True
+125,2024-04-23,integrator,Link,Bernie San Pedro,Core,Anand Yadav,Bug,P1,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-76107,,Chipmunks (Core),kafka,,NO,,,NO,,,,False,,False
+126,2024-04-23,integrator,Link,Bernie San Pedro,UI,Revathi,Bug,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-76700,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+127,2024-04-24,io_qa_pm,Link,"Tyler Lamparter
+ ",Core,Shubham Kumar Singh,Bug,P2,Blocked,https://celigo.atlassian.net/browse/IO-77186,,Zeta,NSAW,,NO,,,NO,,,,False,13633.0,False
+128,2024-04-24,io_qa_pm,Link,"Tyler Lamparter
+ ",Platform Extn,KHAISAR AHMAD,Enhancement,P3,Released / 2024.7.1  release,https://celigo.atlassian.net/browse/IO-77865,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+129,2024-04-24,io_qa_pm,Link,Bennett Van Soelen,UI,Sai Phanindra Godavarthi,Bug,P2,Pending Released / 2024.7.1 release ,https://celigo.atlassian.net/browse/IO-82526,,Iris (UI),SSO,,NO,,,NO,,,,False,13608.0,False
+130,2024-04-24,io_qa_pm,Link,"Tyler Lamparter
+ ",Platform Extn,"
+KHAISAR AHMAD",Enhancement,P4,Approved,https://celigo.atlassian.net/browse/IO-77231,,Zeta,NSAW ,,NO,,,NO,,,,False,13633.0,False
+131,2024-04-24,integrator,Link,Kevin Pagtama,Platform,Nithin Gollapally,Bug,P2,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-78443,,Enigma (Platform),SS2.0,,NO,,,NO,,,,False,13307.0,False
+132,2024-04-26,integrator,Link,"Bernie San Pedro
+ ",Platform,"
+Muhammed Shafeek A",Bug,P1,Released / 2024.4.4 May Release,https://celigo.atlassian.net/browse/IO-77374,Would be resolved by fixing https://celigo.atlassian.net/browse/IO-74327,Indus (Platform),preview,,NO,,,NO,,,,False,,False
+133,2024-04-26,integrator,Link,"Norman Libres
+ ",PBI (Connectors),sri priya vytla,Bug,P2,Released / May Release,https://celigo.atlassian.net/browse/CON-8239,,Omega (PBI WebileApps),HTTP 2.0,,NO,,,NO,,,,False,,True
+134,2024-04-28,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,Gautham Raj Sykam,Bug,P1,Released / 2024.4.4 release,https://celigo.atlassian.net/browse/IO-76683,,Eirene (UI),connection,,NO,,,NO,,,,False,13639.0,True
+135,2024-04-29,ui_ux,link,"Tyler Lamparter
+ ",UI,Vikram Waman Thakre,Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-74280 https://celigo.atlassian.net/browse/IO-74933,,Phoenix (UI),drawer,,NO,,,NO,,,,False,,False
+136,2024-04-30,io_qa_pm,Link,"Youssef Zouhairi
+ ",Platform,Rahul Chowdhary Chalamarla,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-79089,,Indus (Platform),HTTP 2.0,,NO,,,NO,,,,False,,True
+137,2024-04-30,integrator,Link,"Lan Reyes
+ ",UI,Divjot Singh Rai,Bug,P2,Released / May Release,https://celigo.atlassian.net/browse/IO-71366,,Eirene (UI),HTTP2.0,,Yes,,,NO,,,,False,13268.0,True
+138,2024-05-01,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,"
+Vikram Waman Thakre",Bug,P2,Pending Released / 2024.7.1 release ,https://celigo.atlassian.net/browse/IO-81179,,Chloris (UI),mapper 2.0,,NO,,,NO,,,,False,,False
+139,2024-05-01,io_qa_pm,Link,"Tyler Lamparter
+ ",Core,Sachin Gupta,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-78721 https://celigo.atlassian.net/browse/IO-78751,,Gryffindor,s3,,NO,,,NO,,,,False,,False
+140,2024-05-01,io_qa_pm,Link,Scott Henderson,Platform,Shiva Sai Kiran Kadari,Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-78332,,Stark (Platform),hook,,NO,,,NO,,,,False,,False
+141,2024-05-01,io_qa_pm,Link,Scott Henderson,Platform,Arpit Gupta,Enhancement,P2,Done,https://celigo.atlassian.net/browse/IO-78757,,,HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+142,2024-05-02,io_qa_pm,Link,Amanjot Singh,PBI (Connectors),Swathi Gunda,Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/CON-8326,,Omega (PBI WebileApps),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+144,2024-05-02,ui_ux,link,"Rob Bunner
+ ",UI,Subarna Ghatak,Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-74713,,Phoenix (UI),netsuite,,NO,,,NO,,,,False,13462.0,False
+145,2024-05-02,ui_ux,link,"Tyler Lamparter
+ ",UI,"
+Subarna Ghatak",Bug,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-78505,,Eirene (UI),Mock output,,NO,,,NO,,,,False,,False
+146,2024-05-03,io_qa_pm,Link,"Tyler Lamparter
+ ",Platform,Sasidhar Gadepalli,Bug,P2,Released / 2024.8.1 release,https://celigo.atlassian.net/browse/IO-82898 https://celigo.atlassian.net/browse/IO-83148,,Apollo (Platform),Mapper2.0 and Trasformation2.0,,NO,,,NO,,,,False,13692.0,False
+147,2024-05-03,integrator,Link,"Tyler Lamparter
+ ",Platform,"
+Muhammed Shafeek A",Bug,P1,Released / April Release,https://celigo.atlassian.net/browse/IO-77374,,Indus (Platform),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+148,2024-05-03,ui_ux,link,"Kevin Gonzalez
+ ",UI,"
+Anitha Banothu",Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-74301,,Phoenix (UI),template,,NO,,,NO,,,,False,13249.0,False
+149,2024-05-04,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,Mohamed Yaser A,Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-80315,,Eirene (UI),drawer,,Yes,,,NO,,,,False,,False
+150,2024-05-04,io_qa_pm,Link,"Tyler Lamparter
+ ",PBI (Connectors),sri priya vytla,Enhancement,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/CON-2285,,Phi (PBI Connectors),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+151,2024-05-04,io_qa_pm,Link,"Tyler Lamparter
+ ",Aliens,Sai Charan Chinta,Bug,P3,Open,https://celigo.atlassian.net/browse/IO-79110,,Aliens,error,,NO,,,NO,,,,False,13541.0,True
+152,2024-05-04,ui_ux,link,Tyler Lamparter,UI,"
+Divjot Singh Rai",Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-71366,,Eirene (UI),HTTP2.0,,Yes,,,NO,,,,False,13268.0,True
+153,2024-05-07,io_qa_pm,Link,"Youssef Zouhairi
+ ",Platform,Rahul Chowdhary Chalamarla,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-79089,,Indus (Platform),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+154,2024-05-07,integrator,Link,"Malena Hernandez
+ ",Core,Vikram Waman Thakre,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-77783,Would be resolved by fixing https://celigo.atlassian.net/browse/IO-20149,Tintin,manage access,,NO,,,NO,,,,False,13215.0,True
+155,2024-05-07,integrator,Link,"Kelly Izer
+  ",Platform,"
+Santosh Kumar Samanthula",Enhancement,P4,Released / july Release,https://celigo.atlassian.net/browse/IO-82240,,Titans (Platform),Salesforce,,NO,,,NO,,,,False,,True
+156,2024-05-07,ui_ux,link,Sreenesh C,UI,"
+sagna.perala",Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-78033,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+157,2024-05-09,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.3.1 release,https://celigo.atlassian.net/browse/IO-57187,,Eirene (UI),custom forms,,Yes,,,NO,,,,False,,True
+158,2024-05-10,io_qa_pm,Link,"Bennett Van Soelen
+",UI,Vikram Waman Thakre,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-74280,,Phoenix (UI),connection,,NO,,,NO,,,,False,13639.0,True
+159,2024-05-10,ui_ux,link,Bennett Van Soelen,UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-79602,,Eirene (UI),manage access,,NO,,,NO,,,,False,13215.0,True
+160,2024-05-11,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,sagna.perala,Bug,P2,Released / 2024.5.1 release,https://celigo.atlassian.net/browse/IO-77054,,Phoenix (UI),AFE,,NO,,,NO,,,,False,,True
+161,2024-05-14,io_qa_pm,Link,"Amanjot Singh
+ ",UI,Sai Phanindra Godavarthi,Bug,P3,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-79589,,Iris (UI),transformation1.0 and transformation 2.0,,NO,,,NO,,,,False,,False
+162,2024-05-14,integrator,Link,"Mattie Mayfield
+ ",UI,"
+Anusha Jharupula",Enhancement,P2,Done / jan release 2019,https://celigo.atlassian.net/browse/IO-4334,,,Flowbuilder,,NO,,,NO,,,,False,13475.0,False
+163,2024-05-15,integrator,Link,"
+Jemaiah Kathlene Wakat
+ ",Platform,Adel Haider,Documentation,P4,In Dev review,https://celigo.atlassian.net/browse/DOCS-5777,,,SSO,,NO,,,NO,,,,False,13608.0,False
+164,2024-05-17,io_qa_pm,Link,"Scott Henderson
+ ",UI,Sravan Dandra,Bug,P2,Released / 2024.4.1 release,https://celigo.atlassian.net/browse/IO-44608,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+165,2024-05-17,io_qa_pm,Link,"Tyler Lamparter
+ ",PBI (Connectors),"
+Swathi Gunda",Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/CON-8564,,Omega (PBI WebileApps),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+166,2024-05-17,io_qa_pm,Link,"Tyler Lamparter
+ ",PBI (Connectors),Hajra Parveen,Enhancement,P2,Epic Breakedown,https://celigo.atlassian.net/browse/CON-8369,,Omega (PBI WebileApps),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+167,2024-05-17,io_qa_pm,Link,"Tyler Lamparter
+ ",PBI (Connectors),"
+Swathi Gunda",Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/CON-8377,,Omega (PBI WebileApps),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+168,2024-05-17,ui_ux,link,Mattie Mayfield,PBI (Connectors),"
+Swathi Gunda",Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/CON-8371,,Omega (PBI WebileApps),token,,NO,,,NO,,,,False,13122.0,False
+169,2024-05-21,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,Revathi Dasari,Bug,P1,Released / 2024.5.4 release,https://celigo.atlassian.net/browse/IO-81353,,Iris (UI),mappings,,NO,,,NO,,,,False,,False
+170,2024-05-21,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,"
+bhanu.prakash.reddy.adapala",Bug,P2,Released / 2024.8.1 release,https://celigo.atlassian.net/browse/IO-83108,,Chakra,AFE,,NO,,,NO,,,,False,,True
+171,2024-05-21,integrator,Link,"Tyler Lamparter
+ ",PBI (Connectors),Hajra Parveen,Enhancement,P1,Released / Sept Release,https://celigo.atlassian.net/browse/CON-8349,,Phi (PBI Connectors),connection,,NO,,,NO,,,,False,13639.0,True
+172,2024-05-21,integrator,Link,"Brent Ludwig
+ ",UI,"
+Apoorv Kautilya",Enhancement,P3,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-80882 https://celigo.atlassian.net/browse/IO-51028,,Iris (UI), filter,,NO,,,NO,,,,False,,False
+173,2024-05-21,integrator,Link,"Norman Libres
+ ",Core,SAI SUSMITHA VUPPALA,Bug,P3,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-52424,,Zeta,Snowflake,,NO,,,NO,,,,False,13300.0,False
+174,2024-05-22,integrator,Link,Yonton Mehler,Core,Suman Dewangan,Enhancement,P3,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-38108,,Echo (Core),Webhooks,,NO,,,NO,,,,False,,False
+175,2024-05-22,integrator,Link,Rob Bunner,Velocity,Subarna Ghatak,Bug,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-82166,,Velocity,knowledge bot,,NO,,,NO,,,,False,,False
+176,2024-05-23,integrator,Link,"Jake Connell
+ ",UI,Revathi Dasari,Bug,P1,Released / 2024.5.2 Release,https://celigo.atlassian.net/browse/IO-80265,,Iris (UI),SSL,,NO,,,NO,,,,False,,False
+177,2024-05-23,integrator,Link,"Matt Thomas
+ ",Platform,Kathyana Queeman,Documentation,P1,Closed,https://celigo.atlassian.net/browse/DOCS-5162,,,Agents,,NO,,,NO,,,,False,,True
+178,2024-05-24,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,Revathi Dasari,Enhancement,P2,Done,https://celigo.atlassian.net/browse/IO-81554,,Iris (UI),Form Builder,,NO,,,NO,,,,False,13738.0,False
+179,2024-05-28,io_qa_pm,Link,Bhavik Shah,UI,sagna.perala,Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-81923,,Iris (UI),MS SQL,,NO,,,NO,,,,False,,False
+180,2024-05-28,ui_ux,link,"Yonton Mehler
+ ",UI,"
+Vineeli Uppaluri",Bug,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-82124,,Helios (UI),sign in,,NO,,,NO,,,,False,,False
+181,2024-05-29,io_qa_pm,Link,Tyler Lamparter,UI,"
+Subarna Ghatak",Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-82222,,Hercules (UI),mapper 2.0,,NO,,,NO,,,,False,,False
+183,2024-05-29,io_qa_pm,Link,Tyler Lamparter,Core,"
+Harish Aseri",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-82181,,Velocity,Celigo AI,,NO,,,NO,,,,False,,True
+184,2024-05-29,integrator,Link,Dhazle de Vera,UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2024.1.1 Release,https://celigo.atlassian.net/browse/IO-26349,,,mappings,,NO,,,NO,,,,False,,False
+185,2024-05-30,io_qa_pm,Link,Tyler Lamparter,UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2024.8.1 release,https://celigo.atlassian.net/browse/IO-82476,,Phoenix (UI),JDBC,,NO,,,NO,,,,False,,False
+186,2024-05-30,io_qa_pm,Link,"Katarina Brunnestom
+ ",Core,Sai Kaivalya,Bug,P3,Released / 2024.5.2 release,https://celigo.atlassian.net/browse/IO-81580,,Chipmunks (Core),jwt token ,,NO,,,NO,,,,False,13615.0,False
+187,2024-05-31,io_qa_pm,Link,Tyler Lamparter,Platform,Boreddy Shivakanth Reddy,Bug,P2,Analysis,https://celigo.atlassian.net/browse/IO-51329,,Falcon (Platform),HTTP2.0,,NO,,,NO,,,,False,13268.0,True
+188,2024-06-04,integrator,Link,"Alexandre Serre
+ ",PBI (Connectors),"
+Om Mishra",Enhancement,NAN,Open,https://celigo.atlassian.net/browse/IO-82952,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+189,2024-06-05,io_qa_pm,Link,"Tyler Lamparter
+",UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-77601,,Eirene (UI),FIlters,,Yes,,,NO,,,,False,,False
+190,2024-06-05,io_qa_pm,Link,"Tyler Lamparter
+",Core,Dileep Krishna Sai Madamanchi,Bug,P2,In progress,https://celigo.atlassian.net/browse/IO-82793,,Avengers,Salesforce,,NO,,,NO,,,,False,,True
+191,2024-06-05,ui_ux,link,"Tyler Lamparter
+ ",PBI (Connectors),Hajra Parveen,Enhancement,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/CON-8639,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+192,2024-06-06,integrator,Link,Armina Grajo,Core,"
+Suman Dewangan",Bug,P2,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-84040,,Dexter(Core),Agents,,NO,,,NO,,,,False,,True
+193,2024-06-08,io_qa_pm,Link,"Tyler Lamparter
+",Platform,KHAISAR AHMAD,Bug,P2,Released / 2024.7.1 release,https://celigo.atlassian.net/browse/IO-82592,,Transformers,snowflake,,NO,,,NO,,,,False,13300.0,False
+194,2024-06-11,integrator,Link,Lan Reyes,Platform,Aditya Ajay,Spike,P3,Done,https://celigo.atlassian.net/browse/IO-83956,,Ganges (Platform), EDI ,,NO,,,NO,,,,False,13720.0,False
+195,2024-06-12,io_qa_pm,Link,"Tyler Lamparter
+ ",UI,"
+Revathi Dasari",Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-83739,,,Mapper2.0,,NO,,,NO,,,,False,13692.0,False
+196,2024-06-13,io_qa_pm,Link,"Amanjot Singh
+ ",Core,SHIVAM RAI,Enhancement,P2,Closed,https://celigo.atlassian.net/browse/IO-80181,,,RDBMS MS,,NO,,,NO,,,,False,,False
+197,2024-06-14,ui_ux,link,"Minh Nguyen
+ ",UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-84313,,Helios (UI),iClients,,NO,,,NO,,,,False,,False
+198,2024-06-15,integrator,Link,Mark Rublico,PBI (Connectors),"
+sri priya vytla",Enhancement,P2,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/CON-8805,,Omega (PBI WebileApps),baseURI,,NO,,,NO,,,,False,,False
+199,2024-06-17,integrator,Link,"Alexandre Serre
+ ",Platform,sathwika rallabandi,Bug,P3,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-84283,,Titans (Platform),Salesforce,,NO,,,NO,,,,False,,True
+200,2024-06-18,io_qa_pm,Link,"Tyler Lamparter
+ ",PBI (Connectors),Hajra Parveen,Enhancement,NAN,Open,https://celigo.atlassian.net/browse/CON-8781,,Phi (PBI Connectors),pagination,,NO,,,NO,,,,False,,False
+201,2024-06-26,io_qa_pm,Link,"Tyler Lamparter
+ ",Velocity,"
+Subarna Ghatak",Bug,P2,Released / 2024.11.1 releas,https://celigo.atlassian.net/browse/IO-75683,,Velocity,auto mapper 2.0,,NO,,,NO,,,,False,,False
+202,2024-06-26,integrator,Link,"Ishita Rughani
+ ",Core,Ankur Sachdeva,Bug,P2,Open,https://celigo.atlassian.net/browse/IO-85767,,Echo (Core),FTP,,NO,,,NO,,,,False,13563.0,False
+203,2024-06-26,integrator,Link,"Alexandre Serre
+ ",Platform,Nithin Gollapally,Bug,P1,Released / 2024.7.4 Release,https://celigo.atlassian.net/browse/IO-86107,,Enigma (Platform),NS,,NO,,,NO,,,,False,,False
+204,2024-06-27,io_qa_pm,Link,"Scott Henderson
+ ",Platform,"
+Raman Soni",Bug,P2,On-Hold,https://celigo.atlassian.net/browse/IO-85746,,Apollo (Platform),Handlebars,,NO,,,NO,,,,False,,False
+205,2024-06-27,integrator,Link,"Armina Grajo
+",Core,SAI SUSMITHA VUPPALA,Bug,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-79432,,Zeta,"mssql, mysql",,NO,,,NO,,,,False,,False
+206,2024-07-01,io_qa_pm,Link,"Tyler Lamparter
+ ",Core,Shubham Kumar Singh,Bug,P3,Blocked,https://celigo.atlassian.net/browse/IO-84157,,Zeta,snowflake,,NO,,,NO,,,,False,13300.0,False
+207,2024-07-03,integrator,Link,"Hunter Hodges
+ ",Platform,Pydichetti Sushma,Enhancement,P2,Released / 2024.7.1 Release,https://celigo.atlassian.net/browse/IO-71321,,Sudo (Deprecated),NSAW,,NO,,,NO,,,,False,13633.0,False
+208,2024-07-05,integrator,Link,"Jemaiah Kathlene Wakat
+ ",Core,Dileep Krishna Sai Madamanchi,Bug,P3,Released / 2024.9.1 Release,https://celigo.atlassian.net/browse/IO-87454,,Skywalker (Core),error,,NO,,,NO,,,,False,13541.0,True
+209,2024-07-11,integrator,link,Ivan Alaba,Core,"
+Prerana Chaduvu",Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-87694,,Tintin,Error Messages,,NO,,,NO,,,,False,13541.0,True
+210,2024-07-12,integrator,Link,Aila Marie Villamor,Platform,Ashwatha A M,Enhancement,P2,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-35199,,,Snowflake,,NO,,,NO,,,,False,13300.0,False
+211,2024-07-12,integrator,Link,"Neal Sean Quiambao
+ ",Core,"
+Praveen Kumar Reddy Basani",Enhancement,NAN,Open,https://celigo.atlassian.net/browse/IO-87909,,(Deprecated) Adaptor QA,Netsuite,,NO,,,NO,,,,False,13462.0,False
+212,2024-07-15,io_qa_pm,Link,"Scott Henderson
+ ",UI,"
+Mahesh Nivrutti Sutar",Bug,P3,Released / 2024.8.1 release,https://celigo.atlassian.net/browse/IO-87902,,Eirene (UI),UI,Yes,NO,,,NO,,,,False,,False
+213,2024-07-15,integrator,link,"Armina Grajo
+ ",PBI (Connectors),"
+Swathi Gunda",Enhancement,P4,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/CON-9073,,Omega (PBI WebileApps),HTTP 2.0,,NO,,,NO,,,,False,,True
+214,2024-07-15,integrator,Link,"Ivan Alaba
+  ",UI,"
+Subarna Ghatak",Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-87680,,Hercules (UI),Knowledge Bot,,NO,,,NO,,,,False,,False
+215,2024-07-16,integrator,Link,"Meng Dionisio
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-88376,,Iris (UI),error,Yes,NO,,,NO,,,,False,13541.0,True
+216,2024-07-17,io_qa_pm,Link,"Sreenesh C
+  ",UI,Sai Phanindra Godavarthi,Bug,P3,Pending Released / 2024.8.1 release,https://celigo.atlassian.net/browse/IO-84313,,Helios (UI),iClients,,NO,,,NO,,,,False,,False
+217,2024-07-17,ui_ux,link,Ritch Manulid,PBI (Connectors),Laya Kodam,Enhancement,P1,Closed,https://celigo.atlassian.net/browse/IO-87614,,Eirene (UI),UI,,NO,,,NO,,,,False,,False
+218,2024-07-18,integrator,Link,"Aila Marie Villamor
+ ",PBI (Connectors),"
+Hajra Parveen",Enhancement,P1,Released / 2024.9.1 Release,https://celigo.atlassian.net/browse/CON-8349,,Phi (PBI Connectors),connection,,NO,,,NO,,,,False,13639.0,True
+219,2024-07-19,io_qa_pm,Link,"Tyler Lamparter
+ ",Platform,"
+Laya Kodam",Enhancement,NAN,Approved,https://celigo.atlassian.net/browse/IO-88736,,,AFE,,NO,,,NO,,,,False,,True
+220,2024-07-19,integrator,Link,"Norman Libres
+ ",Core,Gautham Raj Sykam,Bug,P1,Released / 2024.7.3.1 Release,https://celigo.atlassian.net/browse/IO-88673,,,PostresponseMap,,NO,,,NO,,,,False,,False
+221,2024-07-20,io_qa_pm,Link,"Tyler Lamparter
+ ",Platform,"
+sathwika rallabandi",Bug,P2,Released / 2024.8.1 release,https://celigo.atlassian.net/browse/IO-88779,,Titans (Platform),Salesforce,,NO,,,NO,,,,False,,True
+222,2024-07-22,io_qa_pm,Link,"Scott Henderson
+ ",Platform,Diksha Khatri,Enhancement,P2,Released / 2024.8.1 release,https://celigo.atlassian.net/browse/IO-88982,,Enigma (Platform),AWS,,NO,,,NO,,,,False,,False
+223,2024-07-23,io_qa_pm,Link,"Naveen Venkatesh
+ ",Platform,"
+Sai Phanindra Godavarthi",Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-89142,,Chipmunks (Core),SSO,,NO,,,NO,,,,False,13608.0,False
+224,2024-07-23,io_qa_pm,Link,"Youssef Zouhairi
+ ",Core,Vishwas Sahu,Enhancement,P1,Done,https://celigo.atlassian.net/browse/IO-89217,,,UI,,NO,,,NO,,,,False,,False
+225,2024-07-24,integrator,Link,Matt Graney,UI,"
+Revathi Dasari",Enhancement,P2,Done / 2024.9.1 release,https://celigo.atlassian.net/browse/IO-89742,,,error message,,NO,,,NO,,,,False,13293.0,True
+226,2024-07-24,ui_ux,link,"Vikram Thakre
+ ",UI,Ashok Kumar Dantham,Bug,P3,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-89096,,Chloris (UI),SSO,,NO,,,NO,,,,False,13608.0,False
+227,2024-07-27,io_qa_pm,Link,"Youssef Zouhairi
+ ",UI,"
+Sreevani.amara",Bug,P3,Closed,https://celigo.atlassian.net/browse/IO-89628,,Chloris (UI),UI,,NO,,,NO,,,,False,,False
+228,2024-07-29,integrator,Link,"
+Johnny Crain
+",PBI (Connectors),"
+Arun Kumar Pentam",Enhancement,NAN,Done,https://celigo.atlassian.net/browse/CON-9641,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+229,2024-07-29,integrator,Link,"Armina Grajo
+ ",PBI (Connectors),"
+Om Mishra",Enhancement,P2,Open,https://celigo.atlassian.net/browse/IO-89829,,,HTTP 2.0,,NO,,,NO,,,,False,,True
+230,2024-07-30,integrator,Link,Jan Castro,UI,"
+Vikram Waman Thakre",Bug,P2,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-89665,,Chloris (UI),Salesforce,,NO,,,NO,,,,False,,True
+231,2024-08-01,io_qa_pm,Link,Tyler,UI,Sagna,By Design,NAN,,https://celigo.atlassian.net/browse/IO-56207,Metadata update,Phoenix (UI), AFE handlebars,,NO,,,NO,,,,False,,True
+232,2024-08-02,io_qa_pm,Link,Scott,UI,Phani,By Design,NAN,,,,,,,,,,,,,,False,,True
+233,2024-08-02,io_qa_pm,Link,Scott,UI,Revathi / Neel,Enhancement,NAN,Not planned,https://celigo.atlassian.net/browse/IO-34359,,,Flow Debugger,,NO,,,NO,,,,False,13738.0,False
+234,2024-08-02,integrator,Link,Aila Marie,UI,Mahesh,By Design,NAN,,,,,,,,,,,,,,False,,True
+235,2024-08-02,integrator,Link,Mark Rublico,UI,Lalit,Known Bug,P1,Released / Aug release,https://celigo.atlassian.net/browse/IO-88212,,Iris (UI),errors,,NO,,,NO,,,,False,13247.0,True
+236,2024-08-02,integrator,Link,"Mark Rublico
+ ",UI,"
+Vaidehi Maringanti",Bug,P1,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-88212,,Iris (UI),errors,,NO,,,NO,,,,False,13247.0,True
+237,2024-08-05,integrator,Link,"Norman Libres
+ ",UI,"
+sagna.perala",Bug,P4,Released / 2024.8.1 Release,https://celigo.atlassian.net/browse/IO-84179,,Phoenix (UI),UI,,NO,,,NO,,,,False,,False
+238,2024-08-09,io_qa_pm,Link,Tyler,UI,Subarna,By Design,P2,Closed,https://celigo.atlassian.net/browse/IO-91663,,Velocity,Celigo AI,,NO,,,NO,,,MS enablement issue,False,,True
+239,2024-08-10,io_qa_pm,Link,Ritch Manulid,UI,Revathi,Known Bug,P2,Released / Aug release,https://celigo.atlassian.net/browse/IO-84057,"Known issue - To be fixed in Sep release. This was happenig in prod, but not in test environments",Eirene (UI), connection,,NO,,,NO,,,,False,13639.0,True
+240,2024-08-12,integrator,Link,"Kelly Izer
+  ",Platform,Shiva Sai Kiran Kadari,Bug,P1,Released / 2024.9.1 Release,https://celigo.atlassian.net/browse/IO-91220,,Stark (Platform),pageProcessors,,NO,,,NO,,,,False,,False
+241,2024-08-13,io_qa_pm,Link,Ravi,UI,Divjot,By Design,NAN,,,,,,,,,,,,,,False,,True
+242,2024-08-13,io_qa_pm,Link,Sreevani,UI,Vikram,Bug,P2,Released / Sep release,https://celigo.atlassian.net/browse/IO-92137,This issue was happening for manage user,Iris (UI),flowBuilder,,NO,,,NO,,,,False,13475.0,False
+243,2024-08-13,ui_ux,Link,Vikram,UI,Rohit / Shaobo,Enhancement,NAN,Released / Sep release,https://celigo.atlassian.net/browse/IO-92142,,Chloris (UI),Connection,,NO,,,NO,,,,False,13639.0,True
+245,2024-08-14,io_qa_pm,Link,Rohit,UI,Lalit,Known Bug,P2,Released / Sep release,https://celigo.atlassian.net/browse/IO-81079,,Iris (UI),AFE,,NO,,,NO,,,,False,,True
+246,2024-08-17,io_qa_pm,Link,Tyler,UI,Saurabh,Enhancement,NAN,Released / Sep release,https://celigo.atlassian.net/browse/IO-86017,,Phoenix (UI),"AFE, hooks, filters",,NO,,,NO,,,,False,,True
+247,2024-08-17,io_qa_pm,Link,Tyler,UI,Subarna,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-93933,,Velocity,Handlebars,,NO,,,NO,,,,False,,False
+248,2024-08-17,io_qa_pm,Link,Tyler,UI,Mahesh,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-93972,,Chakra,Mock Response,,Yes,,,NO,,,,False,,False
+250,2024-08-22,integrator,link,Brent Creech,PBI (Connectors),samarth.mittal,Enhancement,NAN,blocked,https://celigo.atlassian.net/browse/CON-2460,,Phi (PBI Connectors),OAuth 2,,NO,,,NO,,,,False,13179.0,False
+251,2024-08-23,integrator,link,Manideep Komuravelly,Core,Naveen Reddy G,Bug,P1,Released / 2024.9.1 Release,https://celigo.atlassian.net/browse/IO-92904,,Chipmunks (Core),manage access ,,NO,,,NO,,,,False,13215.0,True
+252,2024-08-23,integrator,link,"Ritch Manulid
+ ",Platform,"
+Tom Santiago",Documentation,P2,Closed,https://celigo.atlassian.net/browse/DOCS-5811,,,errors,,NO,,,NO,,,,False,13247.0,True
+253,2024-08-26,io_qa_pm,Link,Scott,UI,Phani,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-93113,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+254,2024-08-27,io_qa_pm,Link,Scott,UI,Vikram,Bug,P2,Released / Sep release,https://celigo.atlassian.net/browse/IO-94754,this issue is happening for flow having 3 and more exports,Hercules (UI),error ,,NO,,,NO,,,,False,13541.0,True
+255,2024-08-28,io_qa_pm,Link,Scott,UI,Mahesh,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-93506,,Stark (Platform),JSRT,,NO,,,NO,,,,False,,False
+256,2024-08-28,io_qa_pm,Link,Tyler,UI,Mahesh,Bug,P2,Released / Sep release,https://celigo.atlassian.net/browse/IO-93745,,Iris (UI),mock output ,,Yes,,,NO,,,,False,,False
+257,2024-08-29,integrator,Link,Red Guiling,UI,Revathi,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-93922,,Apollo (Platform),mapper 2.0,,NO,,,NO,,,,False,,False
+258,2024-08-29,integrator,link,Red Guiling,Platform,Rajat Bhavsar,Bug,P2,on hold,https://celigo.atlassian.net/browse/IO-93922,,Apollo (Platform),mapper 2.0,,NO,,,NO,,,,False,,False
+259,2024-08-31,integrator,link,Nel Patiga,Platform,Deepak Jain,Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-86280,,Stark (Platform),JSRT MS,,NO,,,NO,,,,False,,False
+260,2024-09-04,integrator,Link,"John Collins
+ ",PBI (Connectors),"
+Hajra Parveen",Enhancement,P4,Scoping,https://celigo.atlassian.net/browse/CON-9940,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+261,2024-09-09,ui_ux,Link,Ravi,UI,Mahesh,Bug,P2,Blocked / Jan release,https://celigo.atlassian.net/browse/IO-95059,,Avengers,Headers,,Yes,,,NO,,,,False,,False
+262,2024-09-09,integrator,link,"Ivan Alaba
+ ",Core,Prerana Chaduvu,Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-87694,,Tintin,error,,Yes,,,NO,,,,False,13541.0,True
+263,2024-09-09,ui_ux,link,"Ravi Singh
+ ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2025.1.1 Release,https://celigo.atlassian.net/browse/IO-95059,,Avengers,Headers,,Yes,,,NO,,,,False,,False
+264,2024-09-10,integrator,link,"Mark Rublico
+ ",Core,"
+Deepak Jain",Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-97448,,Dexter(Core),error ,,NO,,,NO,,,,False,13541.0,True
+265,2024-09-10,ui_ux,link,"Malena Hernandez
+ ",PBI (Connectors),Naga Sri Hari Gonaboyina,Documentation,P2,Open,https://celigo.atlassian.net/browse/IO-95375,,,help text ,,NO,,,NO,,,,False,,False
+266,2024-09-12,ui_ux,Link,Tyler,UI,Ashok,Enhancement,NAN,Not planned,https://celigo.atlassian.net/browse/IO-96743,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+268,2024-09-19,ui_ux,Link,Youssef Zouhairi,UI,Mahesh,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-96481,,Eirene (UI),Template,,Yes,,,NO,,,,False,13249.0,False
+269,2024-09-19,ui_ux,Link,Scott,UI,Phani,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-96739,,Phoenix (UI),transformation 2.0,,NO,,,NO,,,,False,,False
+270,2024-09-19,ui_ux,Link,Scott,UI,Phani,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-96739,,Phoenix (UI),transformation 2.0,,NO,,,NO,,,,False,,False
+271,2024-09-19,integrator,link,"Armina Grajo
+ ",Core,Ashwini Jarupula,Bug,P2,Released / 2024.9.1 Release,https://celigo.atlassian.net/browse/IO-88377,,Sudo (Deprecated),Snowflake,,NO,,,NO,,,,False,13300.0,False
+272,2024-09-19,integrator,Link,"Katarina Brunnestom
+  ",UI,Mahesh Nivrutti Sutar,Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-96481,,Eirene (UI),Template,,Yes,,,NO,,,,False,13249.0,False
+273,2024-09-19,ui_ux,link,Youssef Zouhairi,UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 2025.1.1 Release,https://celigo.atlassian.net/browse/IO-96481,,Eirene (UI),Template,,Yes,,,NO,,,,False,13249.0,False
+274,2024-09-19,ui_ux,link,"Scott Henderson
+ ",UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-96739,,Phoenix (UI),transformation 2.0,,NO,,,NO,,,,False,,False
+275,2024-09-24,io_qa_pm,Link,Tyler,UI,Mahesh,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-97060,The issue is not specific to Cloning of resourse. This is occuring on updading the normal import as well. Seems like BE issue. ,Iris (UI),trace key template,,Yes,,,NO,,,,False,,False
+276,2024-09-24,ui_ux,Link,Mahesh,UI,Mahesh,Enhancement,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-97244,,Helios (UI),Marketplace,,NO,,,NO,,,,False,13646.0,True
+277,2024-09-24,ui_ux,link,"Vikram Thakre
+ ",UI,Shruti S,Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-97244,,Helios (UI),Marketplace,,NO,,,NO,,,,False,13646.0,True
+278,2024-09-25,io_qa_pm,Link,Tyler,UI,Revathi,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-98162,,Phoenix (UI),mapper 2.0,,NO,,,NO,,,,False,,False
+279,2024-09-25,integrator,link,"Tarun Singh
+ ",Core,Vikram Waman Thakre,Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-60789,,Skywalker (Core),MFA,,NO,,,NO,,,,False,13371.0,True
+280,2024-09-26,io_qa_pm,Link,Tyler,UI,Phani,Enhancement,P2,Released / Sep Patch,https://celigo.atlassian.net/browse/IO-97538,,Helios (UI),Ligatures,,NO,,,NO,,,,False,,False
+281,2024-09-26,integrator,link,"Aila Marie Villamor
+ ",Core,"
+Venkata Akhil Bonthala",Bug,P1,Released / 2024.9.1.2 Release,https://celigo.atlassian.net/browse/IO-97373,,Dexter(Core),HTTP 2.0,,NO,,,NO,,,,False,,True
+282,2024-09-26,integrator,link,"Aya Castro
+ ",Core,"
+Vikram Waman Thakre",Bug,P2,Released / 2024.5.1 Release,https://celigo.atlassian.net/browse/IO-60789,,Skywalker (Core),MFA,,NO,,,NO,,,,False,13371.0,True
+283,2024-09-27,io_qa_pm,Link,Katarina,UI,Divjot/Snigdha,Known Bug,P3,Not planned,https://celigo.atlassian.net/browse/IO-96743,,Iris (UI),HTTP 2.0,,NO,,,NO,,,,False,,True
+284,2024-09-27,integrator,link,"Alexandre Serre
+ ",Platform,"
+Anitha Abraham",Documentation,P2,on hold,https://celigo.atlassian.net/browse/DOCS-5902,,,mappings,,NO,,,NO,,,,False,,False
+285,2024-09-27,integrator,link,"Nel Patiga
+ ",Platform,Shaik Shakeer Basha,Bug,P1,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-97233,,Chakra, AS2 ,,NO,,,NO,,,,False,,True
+286,2024-09-28,io_qa_pm,Link,Matt Graney,UI,Mahesh,Bug,P3,Released / Nov release,https://celigo.atlassian.net/browse/IO-97912,,Eirene (UI),Help Text,,NO,,,NO,,,,False,,False
+287,2024-09-28,ui_ux,Link,Matt Graney,UI,Phani,Bug,P3,Released / Nov release,https://celigo.atlassian.net/browse/IO-97847,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+288,2024-09-28,ui_ux,Link,Matt Graney,UI,Phani,Bug,P3,Released / Nov release,https://celigo.atlassian.net/browse/IO-97850,,Helios (UI),Help Text,,NO,,,NO,,,,False,,False
+289,2024-09-28,ui_ux,Link,Tyler,UI,Phani,Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-98018,,Helios (UI),flow branching,,NO,,,NO,,,,False,13526.0,False
+291,2024-09-28,ui_ux,link,Matt Graney,UI,Sai Phanindra Godavarthi,Bug,P3,Released / 2024.9.1 Release,https://celigo.atlassian.net/browse/IO-97847 https://celigo.atlassian.net/browse/IO-97850,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+292,2024-09-30,ui_ux,link,Dhazle de Vera,UI,Yashveer Singh,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-99230,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+293,2024-10-02,ui_ux,Link,Dhazle de Vera,UI,Phani,By Design,P2,Closed,https://celigo.atlassian.net/browse/IO-99230,It has been automatically resolved due to an issue with the customer's browser.,Helios (UI),UI,,NO,,,NO,,,,False,,False
+294,2024-10-02,integrator,link,"Tyler Lamparter
+",Platform,Praveen Kumar Reddy Basani,Enhancement,NAN,Open,https://celigo.atlassian.net/browse/IO-101263,,,mappings,,NO,,,NO,,,,False,,False
+295,2024-10-02,integrator,link,"Nel Patiga
+  ",Platform,Anitha Banothu,Bug,P1,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-96449,,,NetSuite,,NO,,,NO,,,,False,13462.0,False
+296,2024-10-03,ui_ux,Link,Minh,UI,Mahesh,Bug,P3,Released / Nov release,https://celigo.atlassian.net/browse/IO-98334,,Eirene (UI),Help Text,,NO,,,NO,,,,False,,False
+298,2024-10-04,ui_ux,Link,Scott,UI,Mahesh,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-98373,,Skywalker (Core),UI,,NO,,,NO,,,,False,,False
+300,2024-10-04,integrator,link,"Mike Flores
+  ",PBI (Connectors),"
+Arun Kumar Pentam",Enhancement,P2,Open,https://celigo.atlassian.net/browse/CON-10260,,Phi (PBI Connectors),mappings,,NO,,,NO,,,,False,,False
+302,2024-10-08,Email,,Bas,UI,Phani,Bug,P3,Released / Nov release,https://celigo.atlassian.net/browse/IO-98874,,Eirene (UI),Help Text,,NO,,,NO,,,,False,,False
+303,2024-10-08,io_qa_pm,Link,Katarina,UI,Subarna,Enhancement,NAN,Not planned,,,,,,,,,,,,,False,,True
+304,2024-10-09,io_qa_pm,Link,Katarina,UI,Vikram/Hajra,Connector Issue,P2,Released / Nov release,https://celigo.atlassian.net/browse/CON-10703,,Phi (PBI Connectors),Salesforce,,NO,,,NO,,,,False,,True
+305,2024-10-10,io_qa_pm,Link,Scott,UI,Phani,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-99678,,Phoenix (UI),AFE,,NO,,,NO,,,,False,,True
+306,2024-10-10,ui_ux,Link,Vikram,UI,Vikram,Bug,P3,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-101605,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+307,2024-10-10,ui_ux,link,"Vikram Thakre
+ ",Core,Shruti Goyal,Bug,P3,Released / 2025.4.1 Release,https://celigo.atlassian.net/browse/IO-101605,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+308,2024-10-14,io_qa_pm,Link,Scott,UI,Mahesh,Bug,P2,In Progress / Jan release,"https://celigo.atlassian.net/browse/IO-100460 
+
+https://celigo.atlassian.net/browse/IO-100494",,Zeta,Snowflake,,NO,,,NO,,,,False,13300.0,False
+309,2024-10-16,io_qa_pm,Link,Praveen,UI,Phani,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-100391,,Hercules (UI),Transformation 2.0,,NO,,,NO,,,,False,,False
+310,2024-10-16,ui_ux,link,Matt Graney,Core,Naveen Reddy G,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-101187,,Tintin,SSO,,NO,,,NO,,,,False,13608.0,False
+311,2024-10-17,ui_ux,Link,Tyler,UI,Phani,Known Bug,P2,Released / Nov release,https://celigo.atlassian.net/browse/IO-98572,,Chloris (UI),UI,,NO,,,NO,,,,False,,False
+312,2024-10-17,ui_ux,link,"Tyler Lamparter
+ ",UI,Sai Phanindra Godavarthi,Bug,P2,Released / 2024.11.1 Release,https://celigo.atlassian.net/browse/IO-98572,,Chloris (UI),UI,,NO,,,NO,,,,False,,False
+313,2024-10-21,integrator,Link,Alexandre Serre,UI,Subarna,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-100682,,Velocity,Knowledge Bot,,NO,,,NO,,,,False,,False
+314,2024-10-21,ui_ux,Link,Kevin,UI,Phani,Known Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-102772,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+315,2024-10-21,integrator,link,"Alexandre Serre
+ ",Velocity,Subarna Ghatak,Bug,P2,on hold,https://celigo.atlassian.net/browse/IO-100682,,Velocity,Knowledge Bot,,NO,,,NO,,,,False,,False
+317,2024-10-23,io_qa_pm,Link,Tyler,UI,Mahesh,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-101362,,Avengers,Async Helper,,Yes,,,NO,,,,False,,False
+318,2024-10-25,io_qa_pm,Link,Adam,UI,Mahesh,Known Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-71446,,,filter ,,NO,,,NO,,,,False,,False
+319,2024-10-28,io_qa_pm,Link,Anirudh,UI,Mahesh,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-101707,,Velocity,GraphQL,,Yes,,,NO,,,,False,,False
+320,2024-10-30,integrator,link,Kaey Cantos,Platform,"
+sathwika rallabandi",Spike,P2,Done / 2025.1.1 release,https://celigo.atlassian.net/browse/IO-102015,,Titans (Platform),Salesforce ,,NO,,,NO,,,,False,,True
+321,2024-11-01,io_qa_pm,Link,Scott,UI,Phani/Swaraj,Bug,P2,Done / Jan Release,https://celigo.atlassian.net/browse/IO-103025,,Helios (UI),Handlebars,,NO,,,NO,,,,False,,False
+322,2024-11-02,integrator,link,"Jan Castro
+ ",Platform,Nithin Gollapally,Bug,P3,Released / 2023.7.4 Release,https://celigo.atlassian.net/browse/IO-40296,,Titans (Platform),Salesforce,,Yes,,,NO,,,,False,,True
+323,2024-11-04,ui_ux,link,"Naveen Venkatesh
+  ",Core,Prerana Chaduvu,Bug,P3,Released / 2025.1.1 Release,https://celigo.atlassian.net/browse/IO-102026,,Avengers,template,,NO,,,NO,,,,False,13249.0,False
+324,2024-11-05,io_qa_pm,Link,Scott,UI,Mahesh,Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-102210,,Phoenix (UI),UI,,Yes,,,NO,,,,False,,False
+325,2024-11-07,ui_ux,Link,Nate,UI,Vikram,Enhancement,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-78544,,,UI,,NO,,,NO,,,,False,,False
+327,2024-11-07,ui_ux,link,"Nate Briant
+ ",UI,"
+Nishant Bali",Enhancement,P2,Blocked,https://celigo.atlassian.net/browse/IO-78544,,,UI,,NO,,,NO,,,,False,,False
+328,2024-11-08,ui_ux,Link,Scott,UI,Subarna,Enhancement,NAN,Not planned,,,,,,,,,,,,,False,,True
+329,2024-11-08,integrator,link,Manideep Komuravelly,Core,"
+Rohan Kothapalli",Bug,P2,Open,https://celigo.atlassian.net/browse/IO-102976,,Zeta,Snowflake,,NO,,,NO,,,,False,13300.0,False
+330,2024-11-11,integrator,link,"Bernie San Pedro
+ ",Platform,"
+sathwika rallabandi",Bug,P2,Released / 2025.1.1 Release,https://celigo.atlassian.net/browse/IO-103080,,Titans (Platform),salesforce,,NO,,,NO,,,,False,,True
+331,2024-11-13,io_qa_pm,Link,Scott,UI,Vikram,Bug,P2,Done / Jan Release,https://celigo.atlassian.net/browse/IO-103501,,Hercules (UI),UI,,NO,,,NO,,,,False,,False
+332,2024-11-13,integrator,link,"Kethan Cherukuri
+  ",Core,"
+Aniket Purandare",Bug,P2,Released / 2024.11.1.5 Release,https://celigo.atlassian.net/browse/IO-103294,,Skywalker (Core),Flow Debugger,,NO,,,NO,,,,False,13738.0,False
+333,2024-11-14,integrator,Link,Armina Grajo,Platform,Sachin Godishela,Bug,P2,Closed,https://celigo.atlassian.net/browse/IO-103413,,Enigma (Platform),SS2.0,,NO,,,NO,,,,False,13307.0,False
+334,2024-11-14,ui_ux,link,"Vikram Thakre
+ ",UI,"
+RAJARSHI BASU",Enhancement,P1,Reviewed,https://celigo.atlassian.net/browse/IOAUT-16001,,,sign in,,NO,,,NO,,,,False,,False
+335,2024-11-15,io_qa_pm,Link,Scott,UI,Divjot,Bug,P2,Done / Jan Release,https://celigo.atlassian.net/browse/IO-103731,,Eirene (UI),Manages access,,NO,,,NO,,,,False,13215.0,False
+336,2024-11-19,integrator,Link,"Norman Libres
+ ",Platform,Sujatha Kutcharlapati,Bug,P1,Released / 2025.1.1 Release,https://celigo.atlassian.net/browse/IO-104285,,Falcon (Platform),Async helper,,NO,,,NO,,,,False,,False
+337,2024-11-21,ui_ux,link,"Meng Dionisio
+ ",UI,Sai Phanindra Godavarthi,Bug,P1,Released / 2024.11.2 Release,https://celigo.atlassian.net/browse/IO-102772,,Helios (UI),Help Text,,NO,,,NO,,,,False,,False
+338,2024-11-22,io_qa_pm,Link,Tyler,UI,Subarna,Bug,P2,Done / Jan Release,https://celigo.atlassian.net/browse/IO-104851,,Iris (UI),UI,,NO,,,NO,,,,False,,False
+339,2024-11-22,integrator,link,"Mark Rublico
+ ",PBI (Connectors),Kathyana Queeman,Documentation,P2,Signned off ,https://celigo.atlassian.net/browse/DOCS-6052,,Phi (PBI Connectors),HTTP 2.0,,NO,,,NO,,,,False,,True
+340,2024-11-26,ui_ux,Link,Tyler,UI,Vikram,Known Bug,P2,In Progress / Jan release,https://celigo.atlassian.net/browse/IO-78544,,,UI,,NO,,,NO,,,,False,,False
+341,2024-11-26,integrator,Link,Lan,UI,Phani,Bug,P2,Done / Jan Release,https://celigo.atlassian.net/browse/IO-105529,,Phoenix (UI),error,,NO,,,NO,,,,False,13541.0,True
+343,2024-11-28,io_qa_pm,Link,Tyler,UI,Mahesh,Bug,P2,Done / Jan Release,https://celigo.atlassian.net/browse/IO-105296,,,Connections,,Yes,,,NO,,,,False,,True
+344,2024-11-28,integrator,link,"Lakhan Bhagnani
+ ",Core,"
+Rahul Purohit",Enhancement,P2,Released / 2024.3.1 Release,https://celigo.atlassian.net/browse/IO-42227 https://celigo.atlassian.net/browse/IO-105342,,(Deprecated) Core Microservices (Core),Agents,,NO,,,NO,,,,False,,True
+345,2024-11-29,integrator,link,"Nel Patiga
+ ",Core,Shivam Pandey,Bug,P2,Released / 22025.1.1 Release,https://celigo.atlassian.net/browse/IO-105525,,Echo (Core),Webhook,,NO,,,NO,,,,False,,False
+347,2024-12-06,integrator,link,Aila Marie Villamor,UI,"
+Mahesh Nivrutti Sutar",Bug,P2,Released / 22025.1.1 Release,https://celigo.atlassian.net/browse/IO-105091,,Tintin,UI,,Yes,,,NO,,,,False,,False
+348,2024-12-14,io_qa_pm,Link,Tony,UI,Mahesh,Bug,P2,In Progress / Mar release,https://celigo.atlassian.net/browse/IO-108148,,Eirene (UI),Connections,,Yes,,,NO,,,,False,,True
+350,2024-12-14,ui_ux,link,"Charan Teja Kammari
+ ",UI,Sai Phanindra Godavarthi,Bug,P4,Released / 2025.1.1 Release,https://celigo.atlassian.net/browse/IO-107197,,Helios (UI),UI,,NO,,,NO,,,,False,,False
+351,2024-12-21,io_qa_pm,Link,Tyler,UI,Phani,Bug,P2,Done / Jan Release,https://celigo.atlassian.net/browse/IO-103025,,Helios (UI),Handlebars,,NO,,,NO,,,,False,,False
+352,2024-12-24,io_qa_pm,Link,Tyler,UI,Manish,Bug,P2,In Progress / Mar release,https://celigo.atlassian.net/browse/IO-108445,,Iris (UI),data loader,,NO,,,NO,,,,False,,False
+353,2024-12-27,io_qa_pm,Link,Tyler,UI,Vikram,Bug,P3,Done / Jan Release,https://celigo.atlassian.net/browse/IO-103168,,Helios (UI),Mapper 2.0,,NO,,,NO,,,,False,,False
+354,2024-12-27,io_qa_pm,Link,Tyler,UI,Subarna,Bug,P2,In Progress / Mar release,https://celigo.atlassian.net/browse/IO-108953,,Gryffindor,Handlebars,,NO,,,NO,,,,False,,False
+355,2024-12-30,io_qa_pm,Link,Tyler,UI,Vikram/Sree Vani,Known Bug,P2,On Hold / Mar release,https://celigo.atlassian.net/browse/IO-107114,,Eirene (UI),Async Helper ,,NO,,,NO,,,,False,,False
+356,2024-12-31,io_qa_pm,Link,Tyler,UI,Sagna,Bug,P2,In Progress / Mar release,https://celigo.atlassian.net/browse/IO-109206,,, AFE ,,NO,,,NO,,,,False,,True

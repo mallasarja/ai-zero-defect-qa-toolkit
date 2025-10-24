@@ -1,0 +1,969 @@
+{
+  "automation_coverage_percent": 100.0,
+  "coverage_by_module": [
+    {
+      "module": "Adaptor",
+      "total": 41,
+      "automated": 41,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "AI/ML - BE",
+      "total": 17,
+      "automated": 17,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "API (api.integrator.io)",
+      "total": 4,
+      "automated": 4,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "API management",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "AS2",
+      "total": 3,
+      "automated": 3,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Assistant Framework",
+      "total": 2,
+      "automated": 2,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Connector framework",
+      "total": 6,
+      "automated": 6,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Core",
+      "total": 98,
+      "automated": 98,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Core-API-Builder",
+      "total": 2,
+      "automated": 2,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Core-Workers",
+      "total": 3,
+      "automated": 3,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Dashboard",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "DB Adaptor",
+      "total": 52,
+      "automated": 52,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "DI",
+      "total": 17,
+      "automated": 17,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "EDI",
+      "total": 51,
+      "automated": 51,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Errors / Dashboard",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "File Adaptor",
+      "total": 25,
+      "automated": 25,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Files microservice",
+      "total": 3,
+      "automated": 3,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Flow Builder",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "FTP Bridge",
+      "total": 3,
+      "automated": 3,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "HTTP Adaptor",
+      "total": 14,
+      "automated": 14,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "JS Runtime",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Lookup MS",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "NetSuite Adaptor (Node.js)",
+      "total": 2,
+      "automated": 2,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "On-Premise Agent",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "QA",
+      "total": 146,
+      "automated": 146,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "QA Automation",
+      "total": 3,
+      "automated": 3,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Salesforce Adaptor (Apex)",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "Salesforce Adaptor (Node.js)",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "UI",
+      "total": 141,
+      "automated": 141,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "UI - AI/ML",
+      "total": 12,
+      "automated": 12,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "UI - Usability",
+      "total": 1,
+      "automated": 1,
+      "coverage_percent": 100.0
+    },
+    {
+      "module": "UX",
+      "total": 2,
+      "automated": 2,
+      "coverage_percent": 100.0
+    }
+  ],
+  "defects_missed": [
+    {
+      "issueKey": "IO-144249",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-144112",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-144066",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-144059",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-144005",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143879",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143840",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143839",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143828",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143819",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143709",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143701",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143691",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143689",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143662",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143634",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143615",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143580",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143545",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143481",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143456",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143436",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143419",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143370",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143354",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143302",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143099",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143077",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-143027",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-142693",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-142505",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-142277",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-142269",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-142265",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-142225",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141718",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141684",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141610",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141420",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141352",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141309",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141296",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141286",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141285",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141282",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141280",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141275",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141242",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141214",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141213",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141156",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141155",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141141",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141132",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141131",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141116",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141085",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-141074",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140969",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140957",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140867",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140860",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140814",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140805",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140576",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-140569",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-139530",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-139520",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-139377",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-139098",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-138941",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-138890",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-138852",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-138692",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-138586",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137968",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137920",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137693",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137588",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137419",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137373",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137367",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137308",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137241",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137222",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137208",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137180",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137144",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137097",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-137043",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-136914",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-136780",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-136659",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-136655",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-136381",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-135366",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-135248",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-135163",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-135124",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-135094",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-134799",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-134582",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-134561",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-134519",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-134313",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-134232",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-133606",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-133578",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-133528",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-133518",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-133380",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-133026",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-132794",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-132149",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-132086",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131972",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131953",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131842",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131654",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131573",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131478",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131461",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131382",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131268",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131230",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131104",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131103",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131025",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-131005",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130931",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130797",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130458",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130425",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130268",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130265",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130208",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130178",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130142",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-130007",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129865",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129810",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129808",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129746",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129648",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129643",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129628",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129593",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129577",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129574",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129526",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129518",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-129320",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-128766",
+      "module": "",
+      "reason": "No automated test mapped"
+    },
+    {
+      "issueKey": "IO-92671",
+      "module": "",
+      "reason": "No automated test mapped"
+    }
+  ]
+}

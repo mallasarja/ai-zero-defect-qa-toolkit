@@ -1,0 +1,235 @@
+Date,Time,Zendesk Ticket,Assignee,Initial analysis Resolution Comments,Caused due to this release ?,Type of ticket,UI / BE Side,Jira Id,Feature/Component,Is this Regression /Escape Bug,Is Test case available?,"If test case availble, reason for Miss?",Is Test Cases Added Now - Zephyr ID,Automation status,is_customer_issue
+,,https://celigosuccess.zendesk.com/agent/tickets/254003,Dhilip Srinivasan,"Its an config issue, not related to release",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254005,Yashwanth Thati,This is not related to the IO release,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254034,Yashwanth Thati,"This is not related to the July IO release, But need to check and address this (Shopify IA)",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254104,Dhilip Srinivasan,"Its an config issue, not related to release",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254101,Mallasarja Bapusaheb Desai,"Solved - This issue appears to be related to the mapper version being used, and we're currently awaiting the customer's confirmation to proceed with further analysis.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254094,E2E,solved,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254092,Ashwini Jarupula,"this is not releated to Release,this is an query",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254090,E2E,"closed,not releated to release",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254085,Yashwanth Thati,This is not related to the July release,No,NAN,,,,,,,,,False
+2025-07-15,3:10 PM,https://celigosuccess.zendesk.com/agent/tickets/254110,Ashwini Jarupula,this issue got resolved and closed.,,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254114,E2E,Bug got created for this issue.,No,BUG,BE Side,https://celigo.atlassian.net/browse/IO-138513,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254107,Ashwini Jarupula,"This issue got resolved now,this was releated to recent fix done for timestamp issue
+https://celigo.atlassian.net/browse/IO-92671. this got reverted back to stable version.",Yes,BUG,UI Side,,,,,,,,False
+2025-07-15,7:00 PM,https://celigosuccess.zendesk.com/agent/tickets/254117,Yashwanth Thati,Not related to the release,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254123,Mallasarja Bapusaheb Desai,"This is expected behavior as per Shopify’s current API Doc (https://shopify.dev/docs/api/admin-graphql/2025-10) and not a defect ,The error is due to the metafield no longer being recognized, and we just need to update the integration to align with Shopify’s supported schema.
+The error message:
+Variable $input of type ProductSetInput! was provided invalid value for nsshipping:packsize (Field is not defined on ProductSetInput)
+is being returned directly from Shopify’s API,This indicates that Shopify no longer recognizes nsshipping:packsize as a valid field in its product update input schema.
+The issue is not caused by a bug, but rather by a Shopify configuration change.
+Specifically:
+The metafield nsshipping:packsize may have been deleted, renamed, or is no longer linked to products in Shopify's custom data settings.
+Shopify expects all metafields to be either defined in the admin interface or updated through a specific metafields structure.
+so its the expected behavior , not an issue ",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254129,Ashwini Jarupula,"need more info.
+The issue got resolved",No,NAN,,,,,,,,,False
+2025-07-16,10:00 AM,https://celigosuccess.zendesk.com/agent/tickets/254136,Dhilip Srinivasan,"SFNSIA cloning issue to sandbox, there were bug created[https://celigo.atlassian.net/browse/IO-133578]",No,BUG,BE Side,https://celigo.atlassian.net/browse/IO-133578,Integration APP,Escape,yes,"Its a IA 1.0 cloning issue, its a general usecase and occuring for last 2months. not sure how its mentioned from IA end.",,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254137,Mallasarja Bapusaheb Desai,"Customer ran the flow and it is successful as well , thats the reason they got transactions on to dashboard. Issue here is the ISA number is not being captured properly from the EDI file , as this is not captured properly our code is setting it to all 0's , so the misconfiguration of FDR from customer side is causing this
+Customer has to update his FDR (File definition rules) in order to capture the ISA number correctly, support rep seems to have access to account right so they can verify the FDR and they can help customer to update their FDR crctly
+so its a Configuration issue not a bug",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254187,Sanjeev Mishra,Looking into this - not related to July release as email domain from NA region which was not deployed by the time issue was reported,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254185,Dhilip Srinivasan,"customer mentioned, by changing handlebar issue is resolved",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254177,Yashwanth Thati,This is a configuration issue. this is not related to current release.,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254174,Mallasarja Bapusaheb Desai,there is an already existing bug and  dev is looking into it https://celigo.atlassian.net/browse/IO-135163 https://celigo-internal.slack.com/archives/CTK3RBK1D/p1750977661630009,No,BUG,BE Side,https://celigo.atlassian.net/browse/IO-135163,VAN Import Flow Mappings / EDI,,NO,,,Not Automated / Not Mentioned,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254230,Dhilip Srinivasan,"Escalated  ticket for above ticket, need to followup
+
+We have released a hotfix for this issue[https://celigo.atlassian.net/browse/IO-136378]",No,BUG,BE Side,https://celigo.atlassian.net/browse/IO-136378,EDI,Existing design,No,Its existing behaviour from the VAN release. ,yes,Automation is not supported for VAN,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254173,Dhilip Srinivasan,"Config related issue, its resolved",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254172,Yashwanth Thati,Not related to current release. Looks like a config issue.,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254170,Sanjeev Mishra,"Looking into this
+Upon checking the flow, the last run was 07/16/2025 1:07:16 AM which is same as the flow schedule",No,NAN,,,,,,,,,False
+,,"https://celigosuccess.zendesk.com/agent/tickets/254150
+https://celigosuccess.zendesk.com/agent/tickets/254165
+",Dhilip Srinivasan,"its multipart issue - https://celigo.atlassian.net/browse/IO-137331, resolved now by releasing hotfix",Yes,BUG,BE Side,https://celigo.atlassian.net/browse/IO-137331,Adaptor,Escape,No,they havent covered this usecase ,yes,"they dont have perptual accunt to test, so they are trying to with mockserver",False
+,,https://celigosuccess.zendesk.com/agent/tickets/254164,Yashwanth Thati,"Target service is taking a long time to respond
+will continue to revisit/monitor for next flow runs",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254191,Yashwanth Thati,"Orders are now pushing normally, no further issues on the flows are observed",No,NAN,,,,,,,,,False
+2025-07-16,3:04 PM,https://celigosuccess.zendesk.com/agent/tickets/254239,Sanjeev Mishra,"Flow stuck issue at HTTP Import
+There was a confluent issue yesterday and messages were not processed for some time but issue was resolved yesterday only. Need to check.
+
+Flow id of the user 64d8947e093c3251c3c0f006. Related to confluent issue being down. ~20 hour lag for that queue. Some flows having lot of messages and taking all resources. Connection is shared with multiple flows. If connection shared with real time flow and normal flow - real time messages get more priority and other flows see lag.",No,NAN,,,,,,,,,False
+,7:08:32 PM,https://celigosuccess.zendesk.com/agent/tickets/254254,Mallasarja Bapusaheb Desai,"Seems like Config issue , not a bug — the issue seems to be with the vendor lookup step not returning results for some records during the flow run. This usually happens if the vendor name or code in the data doesn’t exactly match what’s in NetSuite (e.g., extra spaces, different casing, or missing filters). When the lookup fails, the vendor internal ID stays empty, and since it's required, the record gets silently skipped during import. Support team looking into it will check response from customer , will keep an eye on this for further analysis",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254255,Dhilip Srinivasan,"Its a config issue, customer changed their mappings and monitoring the flows. Its not a issue",No,NAN,,,,,,,,,True
+,,"https://celigosuccess.zendesk.com/agent/tickets/254262
+https://celigosuccess.zendesk.com/agent/tickets/254264 - same above ticket (Support escaltion)",Sanjeev Mishra,"Flow stuck Issue
+Same as earlier issue
+Potential stuck jobs seen between 7 to 7:30 PM (prod)
+Similar to previous analysed ticket - queue lag (likely from confluent connectivity issue yesterday), will ask customer to create new connection to resolve",No,NAN,,,,,,,,,True
+2025-07-17,10:00 AM,https://celigosuccess.zendesk.com/agent/tickets/254268,Yashwanth Thati,Not related to current release. require further data to monitor on this,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254283,Mallasarja Bapusaheb Desai,"As the Product team is already aware and actively working on a fix (currently in non-prod, with a production deployment planned by end of week), there is no need to raise a new bug for this case.
+
+We'll continue monitoring and will update the customer once the fix is live",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254286,Nithin/Mohan,Ticket already created for multipart issue,,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254324,Yashwanth Thati,"Customer deposits are not being created, might be a configuration issue. Nothing specific to release.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254320,Yashwanth Thati,"Ticket already created(need to followup)
+https://celigo.atlassian.net/browse/PRE-17855
+This was resolved by cleaning up the data from backend from product team.",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254314,Sanjeev Mishra,"Fix is already tested in our non-production environment. Issue happens while using multipart form data transfers.
+Deployment to prod is planned by the end of the week to ensure that all scenarios are thoroughly covered. 
+
+This is release now.",Yes,BUG,BE Side,https://celigo.atlassian.net/browse/IO-137331,HTTP Handlebars,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254285,Ashwini Jarupula,Config issue,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254298,Yashwanth Thati,"Configuration issue.
+Not related anything to current release.",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254333,E2E,Not related to the release,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254361,Yashwanth Thati,"Not related to the current release, IA side intermiittent issue/ issue on licensing.",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254356,Nithin/Mohan,Ticket already created for multipart issue,Yes,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254350,Dhilip Srinivasan,"Not related to the release, able to update FTP connection",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254349,Sanjeev Mishra,"Does not look like issue or blocker for 
+customer 
+Its a query on how connections got created",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254346,Ashwini Jarupula,"following up with the team,CS tracker got created for this issue
+https://celigo.atlassian.net/browse/CS-9505",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254344,Yashwanth Thati,Not related to the release.,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254341,Nithin/Mohan,Ticket already created for multipart issue,Yes,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254339,Shaik Shakeer Basha,"shakeer can you please once check this isse - i have the done  initial analysis , Based on initial analysis, the error appears related to license validation behavior where the system blocks custom AS2 connection creation despite the Trading Partner feature being enabled, and it requires further investigation by the dev  team. Based on initial analysis, the behavior is inconsistent with the expected license setup, suggesting a potential issue in license enforcement logic — further validation by the product team is needed to confirm if it’s a bug or not   shakeer response - We have already replied to support rep on this
+basically the behaviour is if As2 connection is used inside non EDI flow then they need separate TP license, if AS2 connection is used inside any EDI flow then separate TP license is not needed
+already conveyed same to support rep",No,NAN,,,,,,,,,False
+,3:02 PM,No major tickets,,,,NAN,,,,,,,,,False
+,7:03 PM,https://celigosuccess.zendesk.com/agent/tickets/254372,Sanjeev Mishra,"Requested for FlowID of user to analyze further
+Not related to July release
+
+Customer hasn’t encountered it again. Currently customer is not facing any issue. To monitor.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254377,Dhilip Srinivasan,its due to https://celigo.atlassian.net/browse/IO-137331,Yes,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254381,E2E,"needed more info.
+This ticket is resolved and closed.",No,NAN,,,,,,,,,False
+2025-07-18,11:00 AM,https://celigosuccess.zendesk.com/agent/tickets/254404,Mallasarja Bapusaheb Desai,"working fine from our end - No issue its config issue with  iClient details because the error says ""Unauthorized_client""?
+I have tried using our internal credentials, and it is working fine.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254405,E2E,"Bug already exists, related to SFNSIO clone issue
+https://celigo.atlassian.net/browse/IO-133578",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254425,Dhilip Srinivasan,Not related to release,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254419,E2E,Ticket already created for multipart issue,,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254457,E2E,Enhancement tracker got created.,No,FEATURE REQUEST,UI Side,https://celigo.atlassian.net/browse/IO-40170,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254488,Mallasarja Bapusaheb Desai,"It is caused by an unexpected closure of the connection to Azure Blob Storage, often due to timeouts, network interruptions, or high concurrency during large uploads.
+This is a recoverable, environment-related issue, and not a platform defect.",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254477,Sanjeev Mishra,"This is not an issue, we haven’t added support for those docTypes yet
+As interim solution, to ask customer to run their flows using Version 1 FDR, until support for additional docTypes is in place
+There was a long-standing bug where EDITransactions weren’t being created due to a licensing issue. This was addressed in the July release, and as a result, flows have now started attempting to create EDITransactions — which is leading to the current error
+
+PM team is currently researching what are all the docTypes they want
+once that is done, to raise a cloudops tracker to update env var
+
+
+
+
+
+",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254466,E2E,"Does not look like issue because of July release
+Less details are shared over ticket ",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254460,Dhilip Srinivasan,Not related to release,No,NAN,,,,,,,,,False
+,7:00 PM,https://celigosuccess.zendesk.com/agent/tickets/254502,E2E team,"Based on our initial analysis of the customer-reported issue , we observed that after the recent Celigo update, the SFTP file is not being generated when a preMap hook encounters a validation error, even though the flow completes with a ""Success"" status. This behavior is a regression, as the integration was functioning correctly for over a year prior to the update.
+
+Sujatha Kutcharlapati Please assign someone from the platform team to investigate this further, as it appears to be a platform-level bug affecting file generation logic.
+
+Not related to July release changes. Got introduced because of MS migration to enableFlowBranchingConversion for user.",No,NAN,,https://celigo.atlassian.net/browse/IO-138890,,,,,,,True
+2025-07-21,10:22 AM,https://celigosuccess.zendesk.com/agent/tickets/254532,Mallasarja Bapusaheb Desai,"this is expected behaviour, when version is 2 our code tries to create an EDI Transaction, and currently we dont support IB as docType , this support will be provided mostly in August release
+so to byPass the error for now, we suggest customers to run flow with version 1",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254528,Yashwanth Thati,"Shopify IA, Internal error on Flow",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254522,Dhilip Srinivasan,"Tried to reproduce, its working fine. it might be customer config related issue",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254602,Dhilip Srinivasan,"Tried to reproduce, its working fine. it might be customer account specific",No,NAN,,,,,,,,,True
+,3:00 PM,No issues observed,,,,NAN,,,,,,,,,False
+,6:30 PM,https://celigosuccess.zendesk.com/agent/tickets/254623,E2E team,"To check if any issue
+To check whether related to July release deployments
+
+Not related to July release changes",No,NAN,,,,,,,,,False
+,,"https://celigosuccess.zendesk.com/agent/tickets/254625
+https://celigosuccess.zendesk.com/agent/tickets/254626",E2E team,"To check if any issue
+To check whether related to July release deployments
+
+Not related to July release changes",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254630,Sanjeev Mishra,"To get userID and flowID
+Did not yet got the user details for further analysis - we have asked customer and waiting response
+This does not look like becaue of July release changes but need to analyze further if customer still facing the issue once they share the userID and flowID for further debugging. Also, requested for flow diagnostics. ",No,NAN,,,,,,,,,True
+2025-07-22,10:00 AM,https://celigosuccess.zendesk.com/agent/tickets/254662,Sanjeev Mishra,"Not an issue from July release changes.
+Single record or its lookup data exceeds 5MB, the payload still is large. Workaround is to remove unnecessary fields or consider updatingstep so that we can split payload into multiple pages.
+Workaround to avoid using the HTTP request as a lookup after the export. We can limit number of records retrieved using hooks or export filters.
+May be a current limitation of how lookup steps executed not an issue because of July release changes.
+
+Communited to user regarding the workaround. ",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254685,Sanjeev Mishra,"Flow not consistently sending EDI documents or not confirming delivery ack from HP. To check whether ns saved search issue or as2 acknowledgement issue or config issue.
+
+Looks like configuration issue as records are not reaching to TP",No,NAN,,,,,,,,,False
+,,"https://celigosuccess.zendesk.com/agent/tickets/254695
+https://celigosuccess.zendesk.com/agent/tickets/254758
+https://celigosuccess.zendesk.com/agent/tickets/254755
+https://celigosuccess.zendesk.com/agent/tickets/254747
+https://celigosuccess.zendesk.com/agent/tickets/254744
+https://celigosuccess.zendesk.com/agent/tickets/254799",Yashwanth Thati,"Looks like, based on intitial analysis the customers order data got updated for the field updated_at. (Looks some update happened from Shopify side)
+There is a service alert as well - https://celigo.atlassian.net/browse/CS-9511 (5 customers ticets added)
+Our IA will pick up if there is change/update based on updated_at field if it is selected on order settings.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254764,E2E,"Requested for userID and flowID of the user.
+Limited details over ticket.",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254746,Ashwini Jarupula,"need more info.config issue,the issue got resolved",No,NAN,,,,,,,,,False
+,6:30 PM,https://celigosuccess.zendesk.com/agent/tickets/254777,Sanjeev Mishra,"Its not a issue, but timeout issue is frequently faced by multiple customers. We can check it in details once we get more details.
+
+SSS_TIME_LIMIT_EXCEEDED from Celigo IO Restlet Runner - its an expected error when huge load flows are running and comes from NS. Not related to July release.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254792,E2E,"need more info
+This is being tracked as part of https://celigosuccess.zendesk.com/agent/tickets/254726",,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254789,Yashwanth Thati,"Most likely looks like related to same shopify issue, Unexpected orders are importing 
+Will revisit again, once we customer responds back ",No,NAN,,,,,,,,,True
+2025-07-23,10:00 AM,"https://celigosuccess.zendesk.com/agent/tickets/254802
+https://celigosuccess.zendesk.com/agent/tickets/254792",Mallasarja Bapusaheb Desai,"not related this release , seems like configration mismatch ,The customer reports that the NetSuite listener is receiving partial records starting around 3–4:15 PM CT yesterday in both Sandbox and Production. .A cloned flow with a NetSuite SQL lookup briefly returned full records, but the issue reoccurred. This may relate to listener timing, confirmation, or config behavior. Support is investigating.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254809,Yashwanth Thati,"Looks like issue is specific to customer config and data.
+Waiting for customer update on this, Checking internally as well.
+(Mostly this is not specific to the current IO/IA releases) - will keep an eye on this for further updates.
+This is not related to release.",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254868,Sanjeev Mishra,"This user is from latest batch of flow branching conversion which we migrated yesterday for given flow ID 623dd048bf23f93f607db5c1 and job ID 687ffa561d31ff077684306d
+
+This is not related to release, its related to worker MS migration
+Tracker raised to revert asyncHelper affected users back to orchestration
+
+This uses an async helper on each step to know when that flow is finished, before proceeding to the next step. Most of the time, the steps show “In Progress” indefinitely, yet still proceed to the next step. Checking the debug logs, the async helper is successfully checking the flow run status and once completed moves to the next step. Flows are scheduled to run every 5 minutes. ",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254810,Ashwini Jarupula,"need more info,and waiting for the customer response,team has requested for flow zip to debug more",,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/253525,Dhilip Srinivasan,its not related to release,No,NAN,,,,,,,,,False
+,6:30 PM,https://celigosuccess.zendesk.com/agent/tickets/254926,Dhilip Srinivasan,Waiting for further details,,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254929,Sanjeev Mishra,"Further inputs from user required
+https://integrator.io/integrationapps/AmazonNetSuite/619563ad1a728d17c5d333d0/child/1663619181661/flows/sections/Settlement/dataLoader/6328d0b0435ce975661c4327
+
+No further response from user 
+Connected with IA team on same - does not look this issue because of July release changes. Might be due to other parallel flows running.",No,NAN,,,,,,,,,False
+2025-07-23,10:00 AM,https://celigosuccess.zendesk.com/agent/tickets/254986,Sanjeev Mishra,"Looking into this
+There would be a small fix which will be sending to PROD today or tmrw
+Its an enhancement request 
+VAN is behaving like this since starting where we were defaulting PC flag to false, now customers are facing these kind of issues so we are enhancing behaviour",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/254991,Sanjeev Mishra,"Unexpected crash 
+Requested for flowID, userID ane job details for further debugging
+job id: 65a8233d12ce7c3529f7a0ac
+flow id: 67f02d7899ea21ac5eaab8a0
+user: 44796 Sport Squad
+
+No recurring errors on their Product flow
+User not getting issue now but need to investigate on cause
+RCA in progress. 
+Issue created: https://celigo.atlassian.net/browse/IO-139547",No,NAN,,https://celigo.atlassian.net/browse/IO-139547,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254992,Ashwini Jarupula,able to download audit logs with custom,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254969,Sanjeev Mishra,"Asked for further customer details on this - flowid, userID and diagnostics
+user ID 60cbde20e8802c73a492e14d  - ecommerceoperations@parachutehome.com
+Flow ID 6331b34d3848e931ce53aea6 - Geodis - Outbound_EDI_940_SalesOrder_MultipleShipmentPerOrder V2
+
+It is resolved now, we no longer see high queue
+
+
+
+
+
+",No,NAN,,,,,,,,,True
+,,https://celigosuccess.zendesk.com/agent/tickets/255003,Sanjeev Mishra,"Slowness issue 
+Looking into this
+Need further inputs from user",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/255002,Mallasarja Bapusaheb Desai,"not related to this release and This appears to be a configuration or environment-specific issue, not a bug but likely due to misconfiguration in the VAN (EC Grid) routing or 997 template parsing, as the issue could not be reproduced using the same 997 generator from another Celigo account, and debug logs plus EC Grid delivery reports are needed to confirm outbound transmission and inbound parsing behavio",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254466,Dhilip Srinivasan,Not related to july release ,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/255024,Sanjeev Mishra,"Not related to July Release
+Flow branching optimization in progress when a branch is not executed",No,NAN,,https://celigo.atlassian.net/browse/IO-133190,,,,,,,False
+,6:36 PM,https://celigosuccess.zendesk.com/agent/tickets/255036,Yashwanth Thati,This is not related to the July release.,No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/254726,Dhilip Srinivasan,"This ticket is duplicate of #254802, now its closed",,NAN,,,,,,,,,False
+2025-07-24,10:00 AM,https://celigosuccess.zendesk.com/agent/tickets/255052,Yashwanth Thati,"Verified, This is not related to release changes",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/255061,Mallasarja Bapusaheb Desai,"This is expected behavior, not a bug, because the Transformation Rules 2.0 engine was intentionally updated to return [null] for fields that are missing or have null values in the input payload, as part of a design change to standardize and unify null handling across transformations. This output accurately represents the state of the input data, and the transformation logic executed without errors or unexpected failures, confirming it operated as intended. The same payload that previously produced different results now returns [null], indicating a controlled change in logic rather than a misconfiguration or system defect. While this led to issues downstream—such as output filters ignoring records or scripts failing—it stemmed from pre-existing flows not handling [null], not from a malfunction in the transformation engine itself. Therefore, although the change introduced breaking behavior, it aligns with the new transformation design",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/255100,Sanjeev Mishra,"To have an eye on the ticket
+API call failed without properly communicating an error payload
+
+Need to check retry data once
+Maybe with some hook where they were not returing error message.",No,NAN,,,,,,,,,False
+,10:00 AM,https://celigosuccess.zendesk.com/agent/tickets/255161,Mallasarja Bapusaheb Desai,"this is not a issue but likely an intermittent issue caused by the remote server closing the connection (ECONNRESET) or a temporary OAuth token retrieval problem, possibly due to misconfiguration or instability in the remote server or token setup, rather than any defect in Celigo’s HTTP connector.",No,NAN,,,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/255236,Ashwini Jarupula,there is an enhanment tracker in backlog.,No,FEATURE REQUEST,,https://celigo.atlassian.net/browse/IO-47029,,,,,,,False
+,,https://celigosuccess.zendesk.com/agent/tickets/255221,Dhilip Srinivasan,Issue is not related to july release,No,NAN,,,,,,,,,False
