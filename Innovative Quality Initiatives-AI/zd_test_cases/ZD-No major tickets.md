@@ -1,0 +1,95 @@
+# Zendesk No major tickets — Test Cases
+- Ticket: No major tickets
+- Jira: 
+- Feature/Component: N/A
+- UI/BE Side: N/A
+- Context: 
+
+## Backend Layer
+- **Test Case ID:** No major tickets-Backend-REG-01
+- **Title/Description:** Regression: previously failing scenario does not reoccur
+- **Preconditions:
+  - Auth and configs valid; realistic data available
+  - Layer: Backend
+- **Test Steps:
+  - 1) Prepare environment and prerequisites
+  - 2) Execute action(s) per scenario
+  - 3) Observe outputs, logs, and side effects
+- **Test Data:
+  - API endpoint: provide URL and auth
+  - Payload: representative JSON with boundary conditions
+- **Expected Result:
+  - - Positive: behavior matches spec without errors
+  - - Negative: clear validation or bounded retry; no crash
+  - - Edge: policy-conformant handling of extremes
+- **Actual Result:** TBD
+- **Status:** Not Executed
+- **Postconditions:** System stable; resources cleaned
+- **Tags/Labels:** [regression, backend, escape=false, release=false]
+- **Test Type:** Regression
+
+- **Test Case ID:** No major tickets-Backend-EDGE-01
+- **Title/Description:** Edge: extreme payloads, special characters, concurrency
+- **Preconditions:
+  - Auth and configs valid; realistic data available
+  - Layer: Backend
+- **Test Steps:
+  - 1) Prepare environment and prerequisites
+  - 2) Execute action(s) per scenario
+  - 3) Observe outputs, logs, and side effects
+- **Test Data:
+  - API endpoint: provide URL and auth
+  - Payload: representative JSON with boundary conditions
+- **Expected Result:
+  - - Positive: behavior matches spec without errors
+  - - Negative: clear validation or bounded retry; no crash
+  - - Edge: policy-conformant handling of extremes
+- **Actual Result:** TBD
+- **Status:** Not Executed
+- **Postconditions:** System stable; resources cleaned
+- **Tags/Labels:** [regression, backend, escape=false, release=false]
+- **Test Type:** Edge
+
+- **Test Case ID:** No major tickets-Backend-ERR-01
+- **Title/Description:** Error handling: timeouts, 4xx/5xx, validation failures
+- **Preconditions:
+  - Auth and configs valid; realistic data available
+  - Layer: Backend
+- **Test Steps:
+  - 1) Prepare environment and prerequisites
+  - 2) Execute action(s) per scenario
+  - 3) Observe outputs, logs, and side effects
+- **Test Data:
+  - API endpoint: provide URL and auth
+  - Payload: representative JSON with boundary conditions
+- **Expected Result:
+  - - Positive: behavior matches spec without errors
+  - - Negative: clear validation or bounded retry; no crash
+  - - Edge: policy-conformant handling of extremes
+- **Actual Result:** TBD
+- **Status:** Not Executed
+- **Postconditions:** System stable; resources cleaned
+- **Tags/Labels:** [regression, backend, escape=false, release=false]
+- **Test Type:** Recovery
+
+- **Test Case ID:** No major tickets-Backend-FUNC-01
+- **Title/Description:** Functional: expected behavior for normal inputs
+- **Preconditions:
+  - Auth and configs valid; realistic data available
+  - Layer: Backend
+- **Test Steps:
+  - 1) Prepare environment and prerequisites
+  - 2) Execute action(s) per scenario
+  - 3) Observe outputs, logs, and side effects
+- **Test Data:
+  - API endpoint: provide URL and auth
+  - Payload: representative JSON with boundary conditions
+- **Expected Result:
+  - - Positive: behavior matches spec without errors
+  - - Negative: clear validation or bounded retry; no crash
+  - - Edge: policy-conformant handling of extremes
+- **Actual Result:** TBD
+- **Status:** Not Executed
+- **Postconditions:** System stable; resources cleaned
+- **Tags/Labels:** [regression, backend, escape=false, release=false]
+- **Test Type:** Functional

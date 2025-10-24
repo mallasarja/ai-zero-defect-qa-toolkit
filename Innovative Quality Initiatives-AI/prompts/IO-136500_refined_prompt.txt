@@ -1,0 +1,16 @@
+Goal: Generate BACKEND tests for IO-136500 with per-AC (AC-1, AC-2) or PR-IMPACT tags.
+
+Requirements:
+- Use executable BE verbs: publish to topic, inject 5xx/timeout, throttle QPS, SIGTERM pod, rotate key, mutate headers, kill pod, drop packet.
+- Must include across the suite:
+  - Idempotency via thread_id; duplicate suppression
+  - Retries with exponential backoff + jitter; circuit breaker OPEN→HALF_OPEN→CLOSED
+  - DLQ/poison queue handling and replay
+  - API contract: envelope `data:` lines, terminator, headers, error codes, unknown-field rejection
+  - Performance SLAs: TTFB and P95, CPU/memory regression checks on fallback path
+  - Security: RBAC scopes, secrets/PII redaction audits
+  - Observability: structured logs, metrics, traces, correlation IDs, alerts
+  - Feature flag off-state behavior for context_aware
+- Each test: Test Case ID, Title/Description, Preconditions, Test Steps, Test Data, Expected Result, Actual Result, Status, Postconditions, Tags/Labels, Test Type, AC Tag(s)
+- Separate sections: Functional, Regression, Negative, Integration, API, Performance/Stress/Load, Security, Data Integrity, Reliability/Recovery/Redundancy/Race, Compatibility, Error/Observability, Migration/Flags
+- No placeholders.

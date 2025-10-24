@@ -1,0 +1,5 @@
+Generate IO-style UI test cases for IO-141368 with explicit IO verbs (Create flow, Configure import/export, Set mappings, Run flow, Check dashboard status/logs, Inspect HTTP response/error payloads).
+Map each test to an AC tag (AC-1/AC-2/AC-3/AC-4).
+Cover: path-not-mandatory when batchSize>1; plain/text override shows & persists batchSize; 'First Record contains header' checkbox: present, default unchecked, optional, help text correct (BE field: import.http.response.hasHeader), visible only when batchSize>1.
+Add suites: Integration, API parity, Performance (batchSize>1), Security (RBAC), Recovery (save restart), E2E, Compatibility (batchSize<=1), Error handling, and a11y (keyboard, focus, roles/aria, contrast).
+Use realistic Test Data. Include negative & edge for each UI rule.

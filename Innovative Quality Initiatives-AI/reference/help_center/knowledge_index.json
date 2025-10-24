@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "id": "INDEX.md",
+      "title": "Celigo Knowledge Pack \u2014 Help Center Index",
+      "bullets": [
+        "Placeholder: Paste official guidance here.",
+        "Placeholder: Paste best practices, auth, retries, pagination, rate limits.",
+        "Placeholder: Paste mapping rules, transforms, data types, common pitfalls.",
+        "Placeholder: Paste dashboard widgets, statuses, log navigation, metrics.",
+        "Placeholder: Paste retry/backoff, circuit-breakers, error categories, RCA steps.",
+        "Placeholder: Paste roles, scopes, least-privilege, audit trails.",
+        "Placeholder: Paste WCAG AA checklist, keyboard nav, focus order, aria roles, contrast."
+      ],
+      "path": "/Users/mallasarja/cursor-api-demo/Innovative Quality Initiatives-AI/reference/help_center/INDEX.md"
+    }
+  ]
+}

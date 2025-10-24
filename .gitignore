@@ -1,0 +1,7 @@
+# Ignore env and build artifacts
+**/.env
+**/.env.*
+**/__pycache__/
+**/node_modules/
+**/.DS_Store
+.zdd_stash/

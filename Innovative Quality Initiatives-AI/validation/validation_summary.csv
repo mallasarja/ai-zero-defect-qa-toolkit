@@ -1,0 +1,4 @@
+Jira ID,Layer,AI Cases,Manual Cases,AI Score/30,Manual Score/30,AI Score %,Manual Score %,Missing in AI,Missing in Manual,Extra Useful AI,Extra Redundant AI,Service Realism (AI %),Service Realism (Manual %),Data Realism (AI %),Data Realism (Manual %)
+IO-141368,UI,16,16,23.67/30,23.67/30,78.9%,78.9%,9,10,10,3,61.54%,61.54%,75.0%,75.0%,Normalized v4 available
+IO-141368,UI,16,10,22.82/30,10.0/30,76.07%,33.33%,7,13,0,0,61.54%,0.0%,75.0%,0.0%
+IO-136500,BE,18,0,24/30,13/30,80.0%,43.3%,2,6,6,0,80.0%,50.0%,75.0%,40.0%,Normalized v4 available

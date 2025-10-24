@@ -1,0 +1,98 @@
+[
+  {
+    "sha": "9149d5ae4bb76d42b197a2bbf38757e752d53dd2",
+    "filename": "src/components/DynaForm/fields/DynaBatchSizeText.jsx",
+    "status": "removed",
+    "additions": 0,
+    "deletions": 31,
+    "changes": 31,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/b360fc263f456d2f88326464437d9359c1858f41/src%2Fcomponents%2FDynaForm%2Ffields%2FDynaBatchSizeText.jsx",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/b360fc263f456d2f88326464437d9359c1858f41/src%2Fcomponents%2FDynaForm%2Ffields%2FDynaBatchSizeText.jsx",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Fcomponents%2FDynaForm%2Ffields%2FDynaBatchSizeText.jsx?ref=b360fc263f456d2f88326464437d9359c1858f41",
+    "patch": "@@ -1,31 +0,0 @@\n-import React from 'react';\n-import { useSelector } from 'react-redux';\n-import PropTypes from 'prop-types';\n-import DynaText from './DynaText';\n-import useFormContext from '../../Form/FormContext';\n-import { selectors } from '../../../reducers';\n-import { emptyObject } from '../../../constants';\n-\n-export default function DynaBatchSizeText(props) {\n-  const { formKey } = props;\n-  const formValues = useFormContext(formKey)?.value;\n-\n-  const connectionid = formValues['/_connectionId'];\n-  const connection = useSelector(state => selectors.resource(state, 'connections', connectionid)) || emptyObject;\n-  const mediaType = connection?.http?.mediaType || '';\n-  const requestMediaType = formValues['/http/requestMediaType'];\n-\n-  if (requestMediaType === 'plaintext' || (mediaType === 'plaintext' && !requestMediaType)) {\n-    return null;\n-  }\n-\n-  return (\n-    <DynaText\n-      {...props}\n-    />\n-  );\n-}\n-\n-DynaBatchSizeText.propTypes = {\n-  formKey: PropTypes.string,\n-};"
+  },
+  {
+    "sha": "659b14aa213f32eaf970ee5c19cf4bf644dd5fd7",
+    "filename": "src/components/DynaForm/fields/DynaBatchSizeText.test.js",
+    "status": "removed",
+    "additions": 0,
+    "deletions": 102,
+    "changes": 102,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/b360fc263f456d2f88326464437d9359c1858f41/src%2Fcomponents%2FDynaForm%2Ffields%2FDynaBatchSizeText.test.js",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/b360fc263f456d2f88326464437d9359c1858f41/src%2Fcomponents%2FDynaForm%2Ffields%2FDynaBatchSizeText.test.js",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Fcomponents%2FDynaForm%2Ffields%2FDynaBatchSizeText.test.js?ref=b360fc263f456d2f88326464437d9359c1858f41",
+    "patch": "@@ -1,102 +0,0 @@\n-\n-import React from 'react';\n-import { MemoryRouter } from 'react-router-dom';\n-import { renderWithProviders, reduxStore, mutateStore} from '../../../test/test-utils';\n-import DynaBatchSizeText from './DynaBatchSizeText';\n-\n-jest.mock('../../LoadResources', () => ({\n-  __esModule: true,\n-  ...jest.requireActual('../../LoadResources'),\n-  default: props => (\n-    <div>{props.children}</div>\n-  ),\n-}));\n-\n-function initDynaMediaTypeForSuccessText({\n-  props = {},\n-  connectionId,\n-  requestMediaType,\n-}) {\n-  const initialStore = reduxStore;\n-\n-  mutateStore(initialStore, draft => {\n-    draft.data.resources.connections = [\n-      {\n-        _id: 'connId-1',\n-        name: 'Test connection with mediatype as plaintext',\n-        http: {\n-          mediaType: 'plaintext',\n-        },\n-      },\n-      {\n-        _id: 'connId-2',\n-        name: 'Test connection with mediatype as json',\n-        http: {\n-          mediaType: 'json',\n-        },\n-      },\n-    ];\n-    draft.session.form = {\n-      'formKey-1': {\n-        fields: {},\n-        value: {\n-          '/_connectionId': connectionId,\n-          '/http/requestMediaType': requestMediaType,\n-        },\n-      },\n-    };\n-  });\n-\n-  const ui = (\n-    <MemoryRouter>\n-      <DynaBatchSizeText {...props} />\n-    </MemoryRouter>\n-  );\n-\n-  return renderWithProviders(ui, { initialStore });\n-}\n-\n-const props = {\n-  formKey: 'formKey-1',\n-  resourceType: 'exports',\n-  id: 'http.batchSize',\n-};\n-\n-describe('DynaBatchSizeText UI test cases', () => {\n-  test('should return null when request media type is plaintext', () => {\n-    const {utils} = initDynaMediaTypeForSuccessText({\n-      props: {...props},\n-      connectionId: 'connId-2',\n-      requestMediaType: 'plaintext',\n-    });\n-\n-    expect(utils.container).toBeEmptyDOMElement();\n-  });\n-  test('should return null when connection media type is plaintext and requestMediaType is Do not override', () => {\n-    const {utils} = initDynaMediaTypeForSuccessText({\n-      props: {...props},\n-      connectionId: 'connId-1',\n-      requestMediaType: '',\n-    });\n-\n-    expect(utils.container).toBeEmptyDOMElement();\n-  });\n-  test('should not return null when connection media type is plaintext and requestMediaType is json', () => {\n-    const {utils} = initDynaMediaTypeForSuccessText({\n-      props: {...props},\n-      connectionId: 'connId-1',\n-      requestMediaType: 'json',\n-    });\n-\n-    expect(utils.container).not.toBeEmptyDOMElement();\n-  });\n-  test('should not return null when connection media type is not plaintext and requestMediaType is json', () => {\n-    const {utils} = initDynaMediaTypeForSuccessText({\n-      props: {...props},\n-      connectionId: 'connId-2',\n-      requestMediaType: 'json',\n-    });\n-\n-    expect(utils.container).not.toBeEmptyDOMElement();\n-  });\n-});"
+  },
+  {
+    "sha": "a0ec44c4d157f94f77177b38a81eef9ca3c3332b",
+    "filename": "src/components/DynaForm/fields/index.js",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 2,
+    "changes": 2,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fcomponents%2FDynaForm%2Ffields%2Findex.js",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fcomponents%2FDynaForm%2Ffields%2Findex.js",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Fcomponents%2FDynaForm%2Ffields%2Findex.js?ref=39e58cbfe50787a09b54b7a273fc3197a31568e5",
+    "patch": "@@ -207,7 +207,6 @@ import DynaTextWithTestResults from './DynaTextWithTestResults';\n import DynaAIGeneratedDescription from './DynaAIGeneratedDescription';\n import DynaCloneResourceRadioGroup from './radiogroup/DynaCloneResourceRadioGroup';\n import DynaMediaTypeForSuccessText from './DynaMediaTypeForSuccessText';\n-import DynaBatchSizeText from './DynaBatchSizeText';\n import DynaScope from './DynaScope';\n import DynaMultiSelectRemovable from './DynaMultiSelectRemovable';\n import DynaPreviewCache from './DynaPreviewCache';\n@@ -460,7 +459,6 @@ export default {\n   cloneResourceRadioGroup: DynaCloneResourceRadioGroup,\n   baseURI: DynaBaseURI,\n   mediaTypeForSuccessText: DynaMediaTypeForSuccessText,\n-  batchSizeText: DynaBatchSizeText,\n   scope: DynaScope,\n   hasHeaderCheckbox: DynaHasHeaderCheckbox,\n   previewCache: DynaPreviewCache,"
+  },
+  {
+    "sha": "8faf07baad03e4935c5e86ab49e2b4f43e86a7a3",
+    "filename": "src/components/Help/helpTextMap.js",
+    "status": "modified",
+    "additions": 1,
+    "deletions": 0,
+    "changes": 1,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fcomponents%2FHelp%2FhelpTextMap.js",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fcomponents%2FHelp%2FhelpTextMap.js",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Fcomponents%2FHelp%2FhelpTextMap.js?ref=39e58cbfe50787a09b54b7a273fc3197a31568e5",
+    "patch": "@@ -2964,4 +2964,5 @@ use the custom option.`,\n   'jdbc.workday.queryInput': t('enter-the-exact-sql-query-to-be-sent-to--2', {ns: 'commonComponents'}),\n   'connection.http.auth.jwt.isSecretBase64Encoded': t('is-secret-base64-encoded-help-text', {ns: 'commonComponents'}),\n   'iClient.jwt.isSecretBase64Encoded': t('is-secret-base64-encoded-help-text', {ns: 'commonComponents'}),\n+  'import.http.response.hasHeader': t('check-this-box-if-the-first-record-retur', {ns: 'commonComponents'}),\n };"
+  },
+  {
+    "sha": "35e9cec66bacbee7debf0eb85ee78d7cf1a2a708",
+    "filename": "src/forms/definitions/imports/http.js",
+    "status": "modified",
+    "additions": 7,
+    "deletions": 1,
+    "changes": 8,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fforms%2Fdefinitions%2Fimports%2Fhttp.js",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fforms%2Fdefinitions%2Fimports%2Fhttp.js",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Fforms%2Fdefinitions%2Fimports%2Fhttp.js?ref=39e58cbfe50787a09b54b7a273fc3197a31568e5",
+    "patch": "@@ -2,7 +2,7 @@ import {t} from '../../../i18n';\n import { HTTP_IMPORT_CREATE_FEED_RELATIVE_URI } from '../../../constants';\n import { safeParse } from '../../../utils/string';\n import { initializeHttpForm } from '../../metaDataUtils/httpConnectorUtils';\n-\n+import { isFinalMediaTypeJSON } from '../../../utils/resource';\n /* eslint-disable no-param-reassign */\n \n const setCreateAndUpdateFormValues = retValues => {\n@@ -413,6 +413,10 @@ export default {\n \n     retValues['/http/blobMethod'] = undefined;\n \n+    if (isFinalMediaTypeJSON(formValues, connection) === false || retValues['/http/batchSize'] < 2) {\n+      retValues['/http/response/hasHeader'] = undefined;\n+    }\n+\n     return {\n       ...retValues,\n     };\n@@ -551,6 +555,7 @@ export default {\n     },\n     'http.response.resourceIdPath': { fieldId: 'http.response.resourceIdPath' },\n     'http.response.resourcePath': { fieldId: 'http.response.resourcePath' },\n+    'http.response.hasHeader': { fieldId: 'http.response.hasHeader' },\n     'http.response.errorPath': { fieldId: 'http.response.errorPath' },\n     'http.batchSize': { fieldId: 'http.batchSize' },\n     'http.compositeMethodCreate': {\n@@ -1436,6 +1441,7 @@ export default {\n           {\n             fields: [\n               'http.response.resourcePath',\n+              'http.response.hasHeader',\n               'http.response.resourceIdPath',\n               'http.response.failPath',\n               'http.response.failValues',"
+  },
+  {
+    "sha": "f5a85b503fc545898515e6bc47f5d4b15a120b65",
+    "filename": "src/forms/fieldDefinitions/resources/imports/http.js",
+    "status": "modified",
+    "additions": 13,
+    "deletions": 2,
+    "changes": 15,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fforms%2FfieldDefinitions%2Fresources%2Fimports%2Fhttp.js",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fforms%2FfieldDefinitions%2Fresources%2Fimports%2Fhttp.js",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Fforms%2FfieldDefinitions%2Fresources%2Fimports%2Fhttp.js?ref=39e58cbfe50787a09b54b7a273fc3197a31568e5",
+    "patch": "@@ -323,7 +323,6 @@ export default {\n     delimiter: ',',\n     omitWhenHidden: true,\n     label: t('path-to-records-in-http-response-body', {ns: 'formsFieldDefinition'}),\n-    required: true,\n     visibleWhenAll: [\n       {\n         field: 'http.batchSize',\n@@ -335,6 +334,18 @@ export default {\n       },\n     ],\n   },\n+  'http.response.hasHeader': {\n+    type: 'hasHeaderCheckbox',\n+    isLoggable: true,\n+    label: t('first-record-contains-headers', {ns: 'formsDefinition'}),\n+    defaultValue: r => !!r.http?.response?.hasHeader,\n+    visibleWhen: [{\n+      field: 'http.batchSize',\n+      isNot: ['', '0', '1'],\n+    },\n+    ],\n+    omitWhenHidden: true,\n+  },\n   'http.response.errorPath': {\n     isLoggable: true,\n     type: 'mediaTypeForSuccessText',\n@@ -352,7 +363,7 @@ export default {\n   },\n   'http.batchSize': {\n     isLoggable: true,\n-    type: 'batchSizeText',\n+    type: 'text',\n     label: t('number-of-records-per-http-request', {ns: 'formsFieldDefinition'}),\n     defaultValue: r => r?.http?.batchSize || 1,\n     validWhen: {"
+  },
+  {
+    "sha": "e99c1f23fd23857111ce27ff89b75f7b925b6bc9",
+    "filename": "src/forms/formFactory/getResourceFromAssets/__snapshots__/loadingMeta.test.js.snap",
+    "status": "modified",
+    "additions": 4,
+    "deletions": 0,
+    "changes": 4,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fforms%2FformFactory%2FgetResourceFromAssets%2F__snapshots__%2FloadingMeta.test.js.snap",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Fforms%2FformFactory%2FgetResourceFromAssets%2F__snapshots__%2FloadingMeta.test.js.snap",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Fforms%2FformFactory%2FgetResourceFromAssets%2F__snapshots__%2FloadingMeta.test.js.snap?ref=39e58cbfe50787a09b54b7a273fc3197a31568e5",
+    "patch": "@@ -11687,6 +11687,9 @@ Object {\n         \"defaultValue\": [Function],\n         \"fieldId\": \"http.response.failValues\",\n       },\n+      \"http.response.hasHeader\": Object {\n+        \"fieldId\": \"http.response.hasHeader\",\n+      },\n       \"http.response.resourceIdPath\": Object {\n         \"fieldId\": \"http.response.resourceIdPath\",\n       },\n@@ -12003,6 +12006,7 @@ Object {\n                 Object {\n                   \"fields\": Array [\n                     \"http.response.resourcePath\",\n+                    \"http.response.hasHeader\",\n                     \"http.response.resourceIdPath\",\n                     \"http.response.failPath\",\n                     \"http.response.failValues\","
+  },
+  {
+    "sha": "c7c9fcf7b3ff51ba7662e2aab386977d47c38cbf",
+    "filename": "src/utils/resource.ts",
+    "status": "modified",
+    "additions": 6,
+    "deletions": 5,
+    "changes": 11,
+    "blob_url": "https://github.com/celigo/integrator-ui/blob/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Futils%2Fresource.ts",
+    "raw_url": "https://github.com/celigo/integrator-ui/raw/39e58cbfe50787a09b54b7a273fc3197a31568e5/src%2Futils%2Fresource.ts",
+    "contents_url": "https://api.github.com/repos/celigo/integrator-ui/contents/src%2Futils%2Fresource.ts?ref=39e58cbfe50787a09b54b7a273fc3197a31568e5",
+    "patch": "@@ -1379,17 +1379,18 @@ export const finalSuccessMediaTypeWithSuccessMediaType = (overridenSuccessMediaT\n };\n \n export const isFinalMediaTypeJSON = (formValues: any, connection: any, assistantLevelSuccessMediaType?: any) => {\n-  const exportSuccessMediaType: any = formValues?.['/http/successMediaType'] || formValues?.['/http']?.successMediaType || assistantLevelSuccessMediaType;\n+  // This is for http imports and exports\n+  const resourceSuccessMediaType: any = formValues?.['/http/successMediaType'] || formValues?.['/http']?.successMediaType || assistantLevelSuccessMediaType;\n   const connectionSuccessMediaType: any = connection?.http?.successMediaType;\n \n   // For REST based connections, Pick the mediaType from connection.rest\n   const connectionMediaType: any = connection?.rest?.mediaType || connection?.http?.mediaType;\n \n-  // EdgeCase: Select exportSuccessMediaType -> json, connectionMediaType -> json, then see the label of exportSuccessMediaType\n-  // changes to 'Do not Override' but if you save exportSuccessMediaType is still json in payload.\n+  // EdgeCase: Select resourceSuccessMediaType -> json, connectionMediaType -> json, then see the label of resourceSuccessMediaType\n+  // changes to 'Do not Override' but if you save resourceSuccessMediaType is still json in payload.\n   // User has selected json. This can only happen when conn media type is not json.\n-  if (exportSuccessMediaType === 'json' && connectionMediaType !== 'json') return true;\n-  if (exportSuccessMediaType !== 'json' && exportSuccessMediaType) return false;\n+  if (resourceSuccessMediaType === 'json' && connectionMediaType !== 'json') return true;\n+  if (resourceSuccessMediaType !== 'json' && resourceSuccessMediaType) return false;\n   if (connectionSuccessMediaType === 'json' && connectionMediaType !== 'json') return true;\n   if (connectionSuccessMediaType !== 'json' && connectionSuccessMediaType) return false;\n "
+  }
+]

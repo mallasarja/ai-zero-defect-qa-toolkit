@@ -1,0 +1,305 @@
+diff --git a/src/components/DynaForm/fields/DynaBatchSizeText.jsx b/src/components/DynaForm/fields/DynaBatchSizeText.jsx
+deleted file mode 100644
+index 9149d5ae4bb..00000000000
+--- a/src/components/DynaForm/fields/DynaBatchSizeText.jsx
++++ /dev/null
+@@ -1,31 +0,0 @@
+-import React from 'react';
+-import { useSelector } from 'react-redux';
+-import PropTypes from 'prop-types';
+-import DynaText from './DynaText';
+-import useFormContext from '../../Form/FormContext';
+-import { selectors } from '../../../reducers';
+-import { emptyObject } from '../../../constants';
+-
+-export default function DynaBatchSizeText(props) {
+-  const { formKey } = props;
+-  const formValues = useFormContext(formKey)?.value;
+-
+-  const connectionid = formValues['/_connectionId'];
+-  const connection = useSelector(state => selectors.resource(state, 'connections', connectionid)) || emptyObject;
+-  const mediaType = connection?.http?.mediaType || '';
+-  const requestMediaType = formValues['/http/requestMediaType'];
+-
+-  if (requestMediaType === 'plaintext' || (mediaType === 'plaintext' && !requestMediaType)) {
+-    return null;
+-  }
+-
+-  return (
+-    <DynaText
+-      {...props}
+-    />
+-  );
+-}
+-
+-DynaBatchSizeText.propTypes = {
+-  formKey: PropTypes.string,
+-};
+diff --git a/src/components/DynaForm/fields/DynaBatchSizeText.test.js b/src/components/DynaForm/fields/DynaBatchSizeText.test.js
+deleted file mode 100644
+index 659b14aa213..00000000000
+--- a/src/components/DynaForm/fields/DynaBatchSizeText.test.js
++++ /dev/null
+@@ -1,102 +0,0 @@
+-
+-import React from 'react';
+-import { MemoryRouter } from 'react-router-dom';
+-import { renderWithProviders, reduxStore, mutateStore} from '../../../test/test-utils';
+-import DynaBatchSizeText from './DynaBatchSizeText';
+-
+-jest.mock('../../LoadResources', () => ({
+-  __esModule: true,
+-  ...jest.requireActual('../../LoadResources'),
+-  default: props => (
+-    <div>{props.children}</div>
+-  ),
+-}));
+-
+-function initDynaMediaTypeForSuccessText({
+-  props = {},
+-  connectionId,
+-  requestMediaType,
+-}) {
+-  const initialStore = reduxStore;
+-
+-  mutateStore(initialStore, draft => {
+-    draft.data.resources.connections = [
+-      {
+-        _id: 'connId-1',
+-        name: 'Test connection with mediatype as plaintext',
+-        http: {
+-          mediaType: 'plaintext',
+-        },
+-      },
+-      {
+-        _id: 'connId-2',
+-        name: 'Test connection with mediatype as json',
+-        http: {
+-          mediaType: 'json',
+-        },
+-      },
+-    ];
+-    draft.session.form = {
+-      'formKey-1': {
+-        fields: {},
+-        value: {
+-          '/_connectionId': connectionId,
+-          '/http/requestMediaType': requestMediaType,
+-        },
+-      },
+-    };
+-  });
+-
+-  const ui = (
+-    <MemoryRouter>
+-      <DynaBatchSizeText {...props} />
+-    </MemoryRouter>
+-  );
+-
+-  return renderWithProviders(ui, { initialStore });
+-}
+-
+-const props = {
+-  formKey: 'formKey-1',
+-  resourceType: 'exports',
+-  id: 'http.batchSize',
+-};
+-
+-describe('DynaBatchSizeText UI test cases', () => {
+-  test('should return null when request media type is plaintext', () => {
+-    const {utils} = initDynaMediaTypeForSuccessText({
+-      props: {...props},
+-      connectionId: 'connId-2',
+-      requestMediaType: 'plaintext',
+-    });
+-
+-    expect(utils.container).toBeEmptyDOMElement();
+-  });
+-  test('should return null when connection media type is plaintext and requestMediaType is Do not override', () => {
+-    const {utils} = initDynaMediaTypeForSuccessText({
+-      props: {...props},
+-      connectionId: 'connId-1',
+-      requestMediaType: '',
+-    });
+-
+-    expect(utils.container).toBeEmptyDOMElement();
+-  });
+-  test('should not return null when connection media type is plaintext and requestMediaType is json', () => {
+-    const {utils} = initDynaMediaTypeForSuccessText({
+-      props: {...props},
+-      connectionId: 'connId-1',
+-      requestMediaType: 'json',
+-    });
+-
+-    expect(utils.container).not.toBeEmptyDOMElement();
+-  });
+-  test('should not return null when connection media type is not plaintext and requestMediaType is json', () => {
+-    const {utils} = initDynaMediaTypeForSuccessText({
+-      props: {...props},
+-      connectionId: 'connId-2',
+-      requestMediaType: 'json',
+-    });
+-
+-    expect(utils.container).not.toBeEmptyDOMElement();
+-  });
+-});
+diff --git a/src/components/DynaForm/fields/index.js b/src/components/DynaForm/fields/index.js
+index 3a0e8563f03..a0ec44c4d15 100644
+--- a/src/components/DynaForm/fields/index.js
++++ b/src/components/DynaForm/fields/index.js
+@@ -207,7 +207,6 @@ import DynaTextWithTestResults from './DynaTextWithTestResults';
+ import DynaAIGeneratedDescription from './DynaAIGeneratedDescription';
+ import DynaCloneResourceRadioGroup from './radiogroup/DynaCloneResourceRadioGroup';
+ import DynaMediaTypeForSuccessText from './DynaMediaTypeForSuccessText';
+-import DynaBatchSizeText from './DynaBatchSizeText';
+ import DynaScope from './DynaScope';
+ import DynaMultiSelectRemovable from './DynaMultiSelectRemovable';
+ import DynaPreviewCache from './DynaPreviewCache';
+@@ -460,7 +459,6 @@ export default {
+   cloneResourceRadioGroup: DynaCloneResourceRadioGroup,
+   baseURI: DynaBaseURI,
+   mediaTypeForSuccessText: DynaMediaTypeForSuccessText,
+-  batchSizeText: DynaBatchSizeText,
+   scope: DynaScope,
+   hasHeaderCheckbox: DynaHasHeaderCheckbox,
+   previewCache: DynaPreviewCache,
+diff --git a/src/components/Help/helpTextMap.js b/src/components/Help/helpTextMap.js
+index d02a8cd032f..8faf07baad0 100644
+--- a/src/components/Help/helpTextMap.js
++++ b/src/components/Help/helpTextMap.js
+@@ -2964,4 +2964,5 @@ use the custom option.`,
+   'jdbc.workday.queryInput': t('enter-the-exact-sql-query-to-be-sent-to--2', {ns: 'commonComponents'}),
+   'connection.http.auth.jwt.isSecretBase64Encoded': t('is-secret-base64-encoded-help-text', {ns: 'commonComponents'}),
+   'iClient.jwt.isSecretBase64Encoded': t('is-secret-base64-encoded-help-text', {ns: 'commonComponents'}),
++  'import.http.response.hasHeader': t('check-this-box-if-the-first-record-retur', {ns: 'commonComponents'}),
+ };
+diff --git a/src/forms/definitions/imports/http.js b/src/forms/definitions/imports/http.js
+index 81d6d6afeaa..35e9cec66ba 100644
+--- a/src/forms/definitions/imports/http.js
++++ b/src/forms/definitions/imports/http.js
+@@ -2,7 +2,7 @@ import {t} from '../../../i18n';
+ import { HTTP_IMPORT_CREATE_FEED_RELATIVE_URI } from '../../../constants';
+ import { safeParse } from '../../../utils/string';
+ import { initializeHttpForm } from '../../metaDataUtils/httpConnectorUtils';
+-
++import { isFinalMediaTypeJSON } from '../../../utils/resource';
+ /* eslint-disable no-param-reassign */
+ 
+ const setCreateAndUpdateFormValues = retValues => {
+@@ -413,6 +413,10 @@ export default {
+ 
+     retValues['/http/blobMethod'] = undefined;
+ 
++    if (isFinalMediaTypeJSON(formValues, connection) === false || retValues['/http/batchSize'] < 2) {
++      retValues['/http/response/hasHeader'] = undefined;
++    }
++
+     return {
+       ...retValues,
+     };
+@@ -551,6 +555,7 @@ export default {
+     },
+     'http.response.resourceIdPath': { fieldId: 'http.response.resourceIdPath' },
+     'http.response.resourcePath': { fieldId: 'http.response.resourcePath' },
++    'http.response.hasHeader': { fieldId: 'http.response.hasHeader' },
+     'http.response.errorPath': { fieldId: 'http.response.errorPath' },
+     'http.batchSize': { fieldId: 'http.batchSize' },
+     'http.compositeMethodCreate': {
+@@ -1436,6 +1441,7 @@ export default {
+           {
+             fields: [
+               'http.response.resourcePath',
++              'http.response.hasHeader',
+               'http.response.resourceIdPath',
+               'http.response.failPath',
+               'http.response.failValues',
+diff --git a/src/forms/fieldDefinitions/resources/imports/http.js b/src/forms/fieldDefinitions/resources/imports/http.js
+index 10ce94fa489..f5a85b503fc 100644
+--- a/src/forms/fieldDefinitions/resources/imports/http.js
++++ b/src/forms/fieldDefinitions/resources/imports/http.js
+@@ -323,7 +323,6 @@ export default {
+     delimiter: ',',
+     omitWhenHidden: true,
+     label: t('path-to-records-in-http-response-body', {ns: 'formsFieldDefinition'}),
+-    required: true,
+     visibleWhenAll: [
+       {
+         field: 'http.batchSize',
+@@ -335,6 +334,18 @@ export default {
+       },
+     ],
+   },
++  'http.response.hasHeader': {
++    type: 'hasHeaderCheckbox',
++    isLoggable: true,
++    label: t('first-record-contains-headers', {ns: 'formsDefinition'}),
++    defaultValue: r => !!r.http?.response?.hasHeader,
++    visibleWhen: [{
++      field: 'http.batchSize',
++      isNot: ['', '0', '1'],
++    },
++    ],
++    omitWhenHidden: true,
++  },
+   'http.response.errorPath': {
+     isLoggable: true,
+     type: 'mediaTypeForSuccessText',
+@@ -352,7 +363,7 @@ export default {
+   },
+   'http.batchSize': {
+     isLoggable: true,
+-    type: 'batchSizeText',
++    type: 'text',
+     label: t('number-of-records-per-http-request', {ns: 'formsFieldDefinition'}),
+     defaultValue: r => r?.http?.batchSize || 1,
+     validWhen: {
+diff --git a/src/forms/formFactory/getResourceFromAssets/__snapshots__/loadingMeta.test.js.snap b/src/forms/formFactory/getResourceFromAssets/__snapshots__/loadingMeta.test.js.snap
+index c3c795454a1..e99c1f23fd2 100644
+--- a/src/forms/formFactory/getResourceFromAssets/__snapshots__/loadingMeta.test.js.snap
++++ b/src/forms/formFactory/getResourceFromAssets/__snapshots__/loadingMeta.test.js.snap
+@@ -11687,6 +11687,9 @@ Object {
+         "defaultValue": [Function],
+         "fieldId": "http.response.failValues",
+       },
++      "http.response.hasHeader": Object {
++        "fieldId": "http.response.hasHeader",
++      },
+       "http.response.resourceIdPath": Object {
+         "fieldId": "http.response.resourceIdPath",
+       },
+@@ -12003,6 +12006,7 @@ Object {
+                 Object {
+                   "fields": Array [
+                     "http.response.resourcePath",
++                    "http.response.hasHeader",
+                     "http.response.resourceIdPath",
+                     "http.response.failPath",
+                     "http.response.failValues",
+diff --git a/src/utils/resource.ts b/src/utils/resource.ts
+index 473f67836f2..c7c9fcf7b3f 100644
+--- a/src/utils/resource.ts
++++ b/src/utils/resource.ts
+@@ -1379,17 +1379,18 @@ export const finalSuccessMediaTypeWithSuccessMediaType = (overridenSuccessMediaT
+ };
+ 
+ export const isFinalMediaTypeJSON = (formValues: any, connection: any, assistantLevelSuccessMediaType?: any) => {
+-  const exportSuccessMediaType: any = formValues?.['/http/successMediaType'] || formValues?.['/http']?.successMediaType || assistantLevelSuccessMediaType;
++  // This is for http imports and exports
++  const resourceSuccessMediaType: any = formValues?.['/http/successMediaType'] || formValues?.['/http']?.successMediaType || assistantLevelSuccessMediaType;
+   const connectionSuccessMediaType: any = connection?.http?.successMediaType;
+ 
+   // For REST based connections, Pick the mediaType from connection.rest
+   const connectionMediaType: any = connection?.rest?.mediaType || connection?.http?.mediaType;
+ 
+-  // EdgeCase: Select exportSuccessMediaType -> json, connectionMediaType -> json, then see the label of exportSuccessMediaType
+-  // changes to 'Do not Override' but if you save exportSuccessMediaType is still json in payload.
++  // EdgeCase: Select resourceSuccessMediaType -> json, connectionMediaType -> json, then see the label of resourceSuccessMediaType
++  // changes to 'Do not Override' but if you save resourceSuccessMediaType is still json in payload.
+   // User has selected json. This can only happen when conn media type is not json.
+-  if (exportSuccessMediaType === 'json' && connectionMediaType !== 'json') return true;
+-  if (exportSuccessMediaType !== 'json' && exportSuccessMediaType) return false;
++  if (resourceSuccessMediaType === 'json' && connectionMediaType !== 'json') return true;
++  if (resourceSuccessMediaType !== 'json' && resourceSuccessMediaType) return false;
+   if (connectionSuccessMediaType === 'json' && connectionMediaType !== 'json') return true;
+   if (connectionSuccessMediaType !== 'json' && connectionSuccessMediaType) return false;
+ 

@@ -1,0 +1,4 @@
+PR_NUMBER: 14192
+PR_TITLE: [QA]IO-143929 tests update
+PR_CREATED_AT: 2025-08-28T09:43:25Z
+PR_URL: https://github.com/celigo/celigo-qa-automation/pull/14192

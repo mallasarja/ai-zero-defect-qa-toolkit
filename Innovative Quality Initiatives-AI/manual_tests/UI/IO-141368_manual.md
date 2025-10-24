@@ -1,0 +1,240 @@
+## Normalized Manual UI Tests
+
+- **Test Case ID:** IO-T49188
+- **Title/Description:** Test to validate Path to records in HTTP response body field is not mandatory when Number of records per HTTP request > 1.
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - give value for Number of records per HTTP request > 1
+  - observe Path to records in HTTP response body field
+- **Test Data:**
+- **Expected Result:** user should be able to see that Path to records in HTTP response body field 
+is not mandatory
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** 
+- **Title/Description:** 
+- **Preconditions:** N/A
+- **Test Steps:**
+- **Test Data:**
+- **Expected Result:** 
+- **Actual Result:**
+- **Status:** 
+- **Postconditions:** 
+- **Tags/Labels:** 
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49189
+- **Title/Description:** Test to validate When “Override request media type” is set to plain text in the import, the “Number of records per HTTP request” should show and the value should be retained when saved and closed
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - select Override request media type as plain text
+  - save and close
+- **Test Data:**
+- **Expected Result:** user should see Number of records per HTTP request field and value should 
+be retained upon saving and closing.
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49190
+- **Title/Description:** Test to validate "First Record contains header" is added on the imports
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - navigate to non standard API response patterns section
+- **Test Data:**
+- **Expected Result:** user should see a check box with label first record contains header
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** 
+- **Title/Description:** 
+- **Preconditions:** N/A
+- **Test Steps:**
+- **Test Data:**
+- **Expected Result:** 
+- **Actual Result:**
+- **Status:** 
+- **Postconditions:** 
+- **Tags/Labels:** 
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49191
+- **Title/Description:** Test to validate the help text for "First Record contains header"
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - navigate to non standard API response patterns section
+  - click on helptext icon beside checkbox
+- **Test Data:**
+- **Expected Result:** user should see a helptext icon and when hit should see the valid helptext
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** 
+- **Title/Description:** 
+- **Preconditions:** N/A
+- **Test Steps:**
+- **Test Data:**
+- **Expected Result:** 
+- **Actual Result:**
+- **Status:** 
+- **Postconditions:** 
+- **Tags/Labels:** 
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49192
+- **Title/Description:** Test to validate "First Record contains header" checkbox is unchecked by default
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - navigate to non standard API response patterns section
+  - observe the checkbox
+- **Test Data:**
+- **Expected Result:** user should see that the checkbox should be unchekced by default
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** 
+- **Title/Description:** 
+- **Preconditions:** N/A
+- **Test Steps:**
+- **Test Data:**
+- **Expected Result:** 
+- **Actual Result:**
+- **Status:** 
+- **Postconditions:** 
+- **Tags/Labels:** 
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49193
+- **Title/Description:** Test to validate "First Record contains header" checkbox is optional
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - navigate to non standard API response patterns section
+  - observe the checkbox
+- **Test Data:**
+- **Expected Result:** user should see that the checbox should be optional and not mandatory
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** 
+- **Title/Description:** 
+- **Preconditions:** N/A
+- **Test Steps:**
+- **Test Data:**
+- **Expected Result:** 
+- **Actual Result:**
+- **Status:** 
+- **Postconditions:** 
+- **Tags/Labels:** 
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49194
+- **Title/Description:** Test to validate the path on helptext feilds "BE field: import.http.response.hasHeader"
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - navigate to non standard API response patterns section
+  - click on helptext icon beside checkbox
+- **Test Data:**
+- **Expected Result:** user should see correct field path
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** 
+- **Title/Description:** 
+- **Preconditions:** N/A
+- **Test Steps:**
+- **Test Data:**
+- **Expected Result:** 
+- **Actual Result:**
+- **Status:** 
+- **Postconditions:** 
+- **Tags/Labels:** 
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49195
+- **Title/Description:** Test to validate Path to records in HTTP response body feild is not visible when the Number of records per HTTP request is less than < or equal = to 1
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - give value for Number of records per HTTP request = 1
+  - observe Path to records in HTTP response body field
+- **Test Data:**
+- **Expected Result:** user should not see Path to records in HTTP response body
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
+
+- **Test Case ID:** 
+- **Title/Description:** 
+- **Preconditions:** N/A
+- **Test Steps:**
+- **Test Data:**
+- **Expected Result:** 
+- **Actual Result:**
+- **Status:** 
+- **Postconditions:** 
+- **Tags/Labels:** 
+- **Test Type:** Functional
+
+- **Test Case ID:** IO-T49196
+- **Title/Description:** Test to validate First record contains headers feild is visible only when the Number of records is >1
+- **Preconditions:** N/A
+- **Test Steps:
+  - Login to IO
+  - open HTTP import
+  - select any http method
+  - give value for Number of records per HTTP request > 1
+  - navigate to non standard API response patterns section
+- **Test Data:**
+- **Expected Result:** user should see first record checkbox only when Number of records per HTTP 
+request is >1
+- **Actual Result:**
+- **Status:** Done
+- **Postconditions:** 
+- **Tags/Labels:** UI, Playwright Automated
+- **Test Type:** Functional
