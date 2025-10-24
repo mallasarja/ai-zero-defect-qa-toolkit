@@ -3,7 +3,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: './zero-defect-dashboard/index.js',
+  entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -26,17 +26,7 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
-          {
-            loader: 'postcss-loader',
-            options: {
-              postcssOptions: {
-                plugins: [
-                  require('tailwindcss'),
-                  require('autoprefixer'),
-                ],
-              },
-            },
-          },
+          'postcss-loader',
         ],
       },
     ],
@@ -46,20 +36,20 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './zero-defect-dashboard/index.html',
+      template: './index.html',
     }),
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: 'zero-defect-dashboard/public',
-          to: 'public',
+          from: 'public',
+          to: '.',
         },
       ],
     }),
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, 'zero-defect-dashboard/public'),
+      directory: path.join(__dirname, 'public'),
     },
     port: 3000,
     open: true,
