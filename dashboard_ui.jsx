@@ -72,11 +72,19 @@ const DashboardUI = () => {
         }
         const csvText = await csvResponse.text();
 
-        // Helper to coerce escaped value
+        // Helpers to detect escaped defects from multiple possible fields
         const parseEscaped = (v) => {
           if (v === undefined || v === null) return false;
           const s = String(v).trim().toLowerCase();
-          return s === 'true' || s === 'yes' || s === '1';
+          return s === 'true' || s === 'yes' || s === '1' || s === 'y';
+        };
+        const isEscaped = (row) => {
+          if (parseEscaped(row['is_escaped_defect'])) return true;
+          const phase = String(row['Bug Detection Phase'] || row['bug_detection_phase'] || '').toLowerCase();
+          if (phase.includes('escaped') || phase.includes('production')) return true;
+          const labels = String(row['labels'] || '').toLowerCase();
+          if (labels.includes('prod')) return true;
+          return false;
         };
 
         // Parse CSV using PapaParse
@@ -85,26 +93,34 @@ const DashboardUI = () => {
           skipEmptyLines: true,
           complete: (results) => {
             // Transform rows
+            const getField = (row, keys) => {
+              for (const k of keys) {
+                const v = row[k];
+                if (v !== undefined && v !== null && String(v).trim() !== '') return v;
+              }
+              return '';
+            };
+
             const rows = results.data
               .filter(row => row['issueKey'])
               .map((row, index) => ({
                 id: index + 1,
                 bugId: row['issueKey'] || '',
-                title: row['summary'] || 'N/A',
+                title: getField(row, ['summary','Summary']) || 'N/A',
                 module: '-',
-                severity: row['severity'] || 'Unknown',
-                priority: row['priority'] || row['severity'] || 'Unknown',
-                linkedPrNumber: row['linked_pr_number'] || '',
-                isEscapedDefect: parseEscaped(row['is_escaped_defect']),
-                created: row['created'] || '',
-                resolved: row['resolved'] || '',
-                status: row['status'] || ''
+                severity: getField(row, ['severity','Severity']) || 'Unknown',
+                priority: getField(row, ['priority','Priority']) || getField(row, ['severity','Severity']) || 'Unknown',
+                linkedPrNumber: getField(row, ['linked_pr_number','Linked PR Number','linkedPrNumber']) || '',
+                isEscapedDefect: isEscaped(row),
+                created: getField(row, ['created','Created']) || '',
+                resolved: getField(row, ['resolved','Resolved','resolutiondate']) || '',
+                status: getField(row, ['status','Status']) || ''
               }));
 
             setBugData(rows);
             setFilteredBugData(rows);
 
-            // Compute metrics (used if JSON metrics are unavailable)
+        // Compute metrics (used if JSON metrics are unavailable)
             const total = rows.length;
             const escaped = rows.reduce((acc, r) => acc + (r.isEscapedDefect ? 1 : 0), 0);
             const prLinked = rows.reduce((acc, r) => acc + (String(r.linkedPrNumber || '').trim() !== '' ? 1 : 0), 0);
@@ -130,8 +146,19 @@ const DashboardUI = () => {
 
             setMetrics(computedMetrics);
 
-            // Zero-Defect monitor: high-priority bugs that escaped (approximation)
-            const zeroDefects = rows.filter(r => r.isEscapedDefect && ['P1','P2'].includes(String(r.priority || '').toUpperCase()));
+            // Zero-Defect monitor: escaped and high-priority (P1/P2 or S1/S2) by either priority or severity
+            const normalizeLevel = (val) => {
+              const s = String(val || '').trim().toUpperCase();
+              if (!s) return '';
+              const token = s.split(/[^A-Z0-9]/)[0]; // take first token before space or symbol
+              return token;
+            };
+            const isHighPriority = (r) => {
+              const p = normalizeLevel(r.priority);
+              const s = normalizeLevel(r.severity);
+              return ['P1','P2','S1','S2'].includes(p) || ['P1','P2','S1','S2'].includes(s);
+            };
+            const zeroDefects = rows.filter(r => r.isEscapedDefect && isHighPriority(r));
             // Show most recent by created date if available
             const zeroDefectsSorted = zeroDefects
               .map(r => ({
