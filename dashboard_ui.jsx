@@ -65,7 +65,7 @@ const DashboardUI = () => {
         // Try to load precomputed metrics JSON (fallback to computing from CSV)
         let metricsFromJson = null;
         try {
-          const metricsResp = await fetch('bug_metrics_dashboard.json');
+          const metricsResp = await fetch(`bug_metrics_dashboard.json?t=${Date.now()}`, { cache: 'no-store' });
           if (metricsResp.ok) {
             metricsFromJson = await metricsResp.json();
           }
@@ -74,7 +74,7 @@ const DashboardUI = () => {
         }
 
         // Fetch the enriched CSV file with PR links
-        const csvResponse = await fetch('bug_with_pr_link.csv');
+        const csvResponse = await fetch(`bug_with_pr_link.csv?t=${Date.now()}`, { cache: 'no-store' });
         if (!csvResponse.ok) {
           throw new Error(`Failed to fetch CSV: ${csvResponse.status}`);
         }
@@ -201,7 +201,7 @@ const DashboardUI = () => {
       // Removed: ai_testing_impact.json fetch
       // Removed: automation_coverage.json and customer_impact.json fetches
       try {
-        const priResp = await fetch('bug_priority_distribution.csv');
+        const priResp = await fetch(`bug_priority_distribution.csv?t=${Date.now()}`, { cache: 'no-store' });
         if (priResp.ok) {
           const text = await priResp.text();
           const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
@@ -212,7 +212,7 @@ const DashboardUI = () => {
         }
       } catch (_) {}
       try {
-        const relResp = await fetch('bug_trend_releasewise.csv');
+        const relResp = await fetch(`bug_trend_releasewise.csv?t=${Date.now()}`, { cache: 'no-store' });
         if (relResp.ok) {
           const text = await relResp.text();
           const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
@@ -244,7 +244,7 @@ const DashboardUI = () => {
         }
       } catch (_) {}
       try {
-        const escResp = await fetch('escaped_without_ai_tests.csv');
+        const escResp = await fetch(`escaped_without_ai_tests.csv?t=${Date.now()}`, { cache: 'no-store' });
         if (escResp.ok) {
           const text = await escResp.text();
           const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
