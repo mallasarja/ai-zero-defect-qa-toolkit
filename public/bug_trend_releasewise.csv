@@ -1,20 +1,26 @@
-Fix Versions,Severity,Priority,Bug Count
-Unknown,Not set,P1,4
-Unknown,Not set,P2,4
-Unknown,Not set,P3,14
-Unknown,Not set,P4,3
-Unknown,S1,P1,699
-Unknown,S1,P2,186
-Unknown,S1,P3,19
-Unknown,S1,P4,5
-Unknown,S2,P1,297
-Unknown,S2,P2,2467
-Unknown,S2,P3,252
-Unknown,S2,P4,76
-Unknown,S3,P1,19
-Unknown,S3,P2,239
-Unknown,S3,P3,711
-Unknown,S3,P4,56
-Unknown,S4,P2,7
-Unknown,S4,P3,19
-Unknown,S4,P4,42
+release,count
+2024-02,301
+2023-10,300
+2023-09,274
+2025-06,261
+2025-05,244
+2024-05,236
+2024-03,231
+2025-07,228
+2025-04,217
+2024-04,210
+2024-07,208
+2025-02,208
+2024-01,203
+2025-03,203
+2024-10,199
+2024-06,198
+2023-11,194
+2023-12,190
+2024-08,180
+2024-12,178
+2024-09,177
+2025-08,159
+2024-11,157
+2025-01,134
+2023-08,29
