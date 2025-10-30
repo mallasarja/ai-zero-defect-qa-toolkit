@@ -27,7 +27,7 @@ jobs:
 
       - name: Fetch merged PRs (last 90 days)
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python fetch_celigo_prs.py || true
           if [ -f github_prs.csv ]; then mv -f github_prs.csv public/github_prs.csv; fi
