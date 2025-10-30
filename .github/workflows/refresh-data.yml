@@ -1,6 +1,16 @@
 name: Refresh Zero-Defect Data
 
 on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'public/**'
+      - '.github/workflows/refresh-data.yml'
+      - 'fetch_*.py'
+      - 'join_bugs_with_prs.py'
+      - 'generate_kpis_from_join.py'
+      - 'update_data_daily.sh'
+      - 'trigger-refresh.txt'
   schedule:
     - cron: "*/15 * * * *"  # every 15 minutes
   workflow_dispatch:
