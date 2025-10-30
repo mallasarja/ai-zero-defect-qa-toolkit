@@ -20,6 +20,18 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Fetch merged PRs (last 90 days)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python fetch_celigo_prs.py || true
+          if [ -f github_prs.csv ]; then mv -f github_prs.csv public/github_prs.csv; fi
+
       - name: Refresh dashboard data
         run: bash ./update_data_daily.sh
 
