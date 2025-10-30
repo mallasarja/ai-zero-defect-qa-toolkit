@@ -64,18 +64,18 @@ jobs:
           echo "Rows in mcp_jira_bugs.csv:" && ( [ -f public/mcp_jira_bugs.csv ] && (wc -l < public/mcp_jira_bugs.csv) || echo 0 )
           echo "Rows in bug_with_pr_link.csv:" && ( [ -f public/bug_with_pr_link.csv ] && (wc -l < public/bug_with_pr_link.csv) || echo 0 )
           python - << 'PY'
-import csv, json
-from pathlib import Path
-p = Path('public/bug_with_pr_link.csv')
-if p.exists():
-    rows = list(csv.DictReader(p.open()))
-    total = len(rows)
-    escaped = sum(1 for r in rows if str(r.get('is_escaped_defect','')).strip().lower() in ('true','yes','1'))
-    pr_linked = sum(1 for r in rows if str(r.get('linked_pr_number','')).strip() != '')
-    print({"total_bugs": total, "escaped_bugs": escaped, "pr_linked_bugs": pr_linked})
-else:
-    print("bug_with_pr_link.csv not found")
-PY
+          import csv, json
+          from pathlib import Path
+          p = Path('public/bug_with_pr_link.csv')
+          if p.exists():
+              rows = list(csv.DictReader(p.open()))
+              total = len(rows)
+              escaped = sum(1 for r in rows if str(r.get('is_escaped_defect','')).strip().lower() in ('true','yes','1'))
+              pr_linked = sum(1 for r in rows if str(r.get('linked_pr_number','')).strip() != '')
+              print({"total_bugs": total, "escaped_bugs": escaped, "pr_linked_bugs": pr_linked})
+          else:
+              print("bug_with_pr_link.csv not found")
+          PY
 
       - name: Refresh dashboard data
         run: bash update_data_daily.sh
