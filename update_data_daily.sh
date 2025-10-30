@@ -3,10 +3,12 @@ set -euo pipefail
 
 # Resolve repo root in CI or local
 PROJECT_ROOT="${GITHUB_WORKSPACE:-$(cd "$(dirname "$0")"/.. && pwd)}"
-PUBLIC_DIR="$PROJECT_ROOT/zero-defect-dashboard/public"
+PUBLIC_DIR="$PROJECT_ROOT/public"
 LOG_FILE="$PUBLIC_DIR/update_last_run.log"
 
 TIMESTAMP() { date "+%Y-%m-%d %H:%M:%S"; }
+
+mkdir -p "$PUBLIC_DIR"
 
 {
   echo "[\"$(TIMESTAMP)\"] Starting Zero-Defect data refresh"
