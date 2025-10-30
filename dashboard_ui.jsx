@@ -62,16 +62,8 @@ const DashboardUI = () => {
       try {
         setLoading(true);
 
-        // Try to load precomputed metrics JSON (fallback to computing from CSV)
-        let metricsFromJson = null;
-        try {
-          const metricsResp = await fetch(`bug_metrics_dashboard.json?t=${Date.now()}`, { cache: 'no-store' });
-          if (metricsResp.ok) {
-            metricsFromJson = await metricsResp.json();
-          }
-        } catch (_) {
-          // ignore and fallback to compute from CSV
-        }
+        // Compute metrics from CSV to ensure summary matches details
+        // (JSON metrics, if present, can lag; so we prefer computed values.)
 
         // Fetch the enriched CSV file with PR links
         const csvResponse = await fetch(`bug_with_pr_link.csv?t=${Date.now()}`, { cache: 'no-store' });
@@ -136,7 +128,7 @@ const DashboardUI = () => {
               avg_mttr: avgMttr
             };
 
-            setMetrics(metricsFromJson || computedMetrics);
+            setMetrics(computedMetrics);
 
             // Zero-Defect monitor: high-priority bugs that escaped (approximation)
             const zeroDefects = rows.filter(r => r.isEscapedDefect && ['P1','P2'].includes(String(r.priority || '').toUpperCase()));
