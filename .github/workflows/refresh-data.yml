@@ -1,0 +1,36 @@
+name: Refresh Zero-Defect Data
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh dashboard data
+        run: bash ./update_data_daily.sh
+
+      - name: Commit refreshed data (if any)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add public/update_last_run.log || true
+          git add public || true
+          git commit -m "chore: refresh dashboard data [skip ci]" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push
