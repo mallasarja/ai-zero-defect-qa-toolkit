@@ -13,9 +13,6 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: zero-defect-dashboard
     env:
       JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
       JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
@@ -39,27 +36,27 @@ jobs:
       - name: Fetch Jira bugs (last 90 days)
         if: ${{ env.JIRA_BASE_URL != '' && env.JIRA_EMAIL != '' && env.JIRA_API_TOKEN != '' }}
         run: |
-          python fetch_jira_bugs.py
+          python zero-defect-dashboard/fetch_jira_bugs.py
 
       - name: Fetch merged PRs (last 90 days)
         run: |
-          python fetch_celigo_prs.py || true
-          if [ -f github_prs.csv ]; then mv -f github_prs.csv public/github_prs.csv; fi
+          python zero-defect-dashboard/fetch_celigo_prs.py || true
+          if [ -f zero-defect-dashboard/github_prs.csv ]; then mv -f zero-defect-dashboard/github_prs.csv zero-defect-dashboard/public/github_prs.csv; fi
 
       - name: Join bugs with PRs
         run: |
-          python join_bugs_with_prs.py
-          python generate_kpis_from_join.py
+          python zero-defect-dashboard/join_bugs_with_prs.py
+          python zero-defect-dashboard/generate_kpis_from_join.py
 
       - name: Refresh dashboard data
-        run: bash ./update_data_daily.sh
+        run: bash zero-defect-dashboard/update_data_daily.sh
 
       - name: Commit refreshed data (if any)
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add public/update_last_run.log || true
-          git add public || true
+          git add zero-defect-dashboard/public/update_last_run.log || true
+          git add zero-defect-dashboard/public || true
           git commit -m "chore: refresh dashboard data [skip ci]" || echo "No changes to commit"
 
       - name: Push changes
